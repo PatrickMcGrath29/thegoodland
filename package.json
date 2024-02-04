@@ -1,7 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "thegoodland",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -20,8 +23,6 @@
     "eslint": "^8.56.0",
     "nuxt": "^3.9.3",
     "nuxt-icon": "^0.6.8",
-    "typescript": "^5.3.3",
-    "vue": "^3.4.14",
-    "vue-router": "^4.2.5"
+    "typescript": "^5.3.3"
   }
 }
