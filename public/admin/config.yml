@@ -12,7 +12,7 @@ media_folder: public/uploads
 public_folder: /uploads
 
 collections:
-  - name: post
+  - name: posts
     label: Post
     folder: content/posts
     format: frontmatter
@@ -27,15 +27,15 @@ collections:
 
       - {label: Title, name: title, widget: text}
 
-      - label: Reference
+      - label: Author
         name: referenceId
         widget: relation
-        collection: references
-        search_fields: [referenceName, authorName]
+        collection: authors
+        search_fields: [authorName]
         value_field: uuid
-        display_fields: [referenceName, authorName]
+        display_fields: [authorName]
         required: false
-        hint: 'Optional, the reference associated with this quote (book, sermon). If the reference is not known leave this blank.'
+        hint: 'Optional, the author associated with this post.'
 
       - label: Categories
         name: categories
@@ -55,7 +55,7 @@ collections:
         widget: markdown
 
   - name: categories
-    label: Categories
+    label: Category
     folder: content/categories
     format: frontmatter
     create: true
@@ -68,7 +68,7 @@ collections:
       - {label: Unique ID, name: uuid, widget: uuid}
       - {label: Category Name, name: name, widget: string}
 
-  - name: author
+  - name: authors
     label: Author
     folder: content/authors
     format: frontmatter
