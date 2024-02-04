@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `Quotes - ${titleChunk}` : 'Quotes'
+    return titleChunk ? `The Good Land - ${titleChunk}` : 'The Good Land'
   },
   htmlAttrs: {
     lang: 'en',

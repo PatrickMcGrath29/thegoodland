@@ -1,4 +1,13 @@
 <template>
-  <li><a>Item 1</a></li>
-  <li><a>Item 2</a></li>
+  <li>
+    <NuxtLink to="/posts">
+      All Posts
+    </NuxtLink>
+  </li>
+  <li>
+    <NuxtLink to="/about">
+      About
+    </NuxtLink>
+  </li>
+  <li><a href="quotes.thegoodland.io">Quotes</a></li>
 </template>
