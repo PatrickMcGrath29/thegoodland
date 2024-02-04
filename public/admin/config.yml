@@ -1,0 +1,88 @@
+backend:
+  name: git-gateway
+  branch: main
+  repo: PatrickMcGrath29/thegoodland
+  squash_merges: true
+  use_graphql: true
+
+site_url: https://thegoodland.io
+display_url: https://thegoodland.io
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: post
+    label: Post
+    folder: content/posts
+    format: frontmatter
+    create: true
+    slug: '{{uuid}}-{{title}}'
+    summary: '{{title}}'
+    editor:
+      preview: false
+    identifier_field: uuid
+    fields:
+      - {label: Unique ID, name: uuid, widget: uuid}
+
+      - {label: Title, name: title, widget: text}
+
+      - label: Reference
+        name: referenceId
+        widget: relation
+        collection: references
+        search_fields: [referenceName, authorName]
+        value_field: uuid
+        display_fields: [referenceName, authorName]
+        required: false
+        hint: 'Optional, the reference associated with this quote (book, sermon). If the reference is not known leave this blank.'
+
+      - label: Categories
+        name: categories
+        widget: list
+        field:
+          label: Category
+          name: categories
+          widget: relation
+          collection: categories
+          search_fields: [name]
+          value_field: name
+          display_fields: [name]
+          required: false
+
+      - label: Content
+        name: body
+        widget: markdown
+
+  - name: categories
+    label: Categories
+    folder: content/categories
+    format: frontmatter
+    create: true
+    slug: '{{name}}-{{uuid}}'
+    identifier_field: uuid
+    summary: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - {label: Unique ID, name: uuid, widget: uuid}
+      - {label: Category Name, name: name, widget: string}
+
+  - name: author
+    label: Author
+    folder: content/authors
+    format: frontmatter
+    create: true
+    slug: '{{uuid}}-{{authorName}}'
+    summary: '{{authorName}}'
+    editor:
+      preview: false
+    fields:
+      - {label: Unique ID, name: uuid, widget: uuid}
+
+      - label: Author Name
+        name: authorName
+        widget: string
+        required: false
+
+local_backend: true
