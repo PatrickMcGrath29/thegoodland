@@ -24,9 +24,7 @@ collections:
     identifier_field: uuid
     fields:
       - {label: Unique ID, name: uuid, widget: uuid}
-
-      - {label: Title, name: title, widget: text}
-
+      - {label: Title, name: title, widget: string}
       - label: Author
         name: referenceId
         widget: relation
@@ -36,7 +34,6 @@ collections:
         display_fields: [authorName]
         required: false
         hint: 'Optional, the author associated with this post.'
-
       - label: Categories
         name: categories
         widget: list
@@ -49,10 +46,29 @@ collections:
           value_field: name
           display_fields: [name]
           required: false
-
       - label: Content
         name: body
         widget: markdown
+        preview: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        required: false
+        hint: 'Optional, a short description of the post.'
+      - label: Featured Image
+        name: featured_image
+        widget: image
+        allow_multiple: false
+        required: false
+        hint: 'Optional, the image associated with this post.'
+      - label: Created Date
+        name: created_date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        format: YYYY-MM-DD
+        picker_utc: true
+        hint: 'Optional, the date associated with this post.'
 
   - name: categories
     label: Category
