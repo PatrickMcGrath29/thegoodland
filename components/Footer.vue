@@ -1,7 +1,5 @@
 <template>
   <Container>
-    <div class="text-center">
-      Footer
-    </div>
+    <div class="text-center" />
   </Container>
 </template>

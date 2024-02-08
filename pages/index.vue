@@ -3,8 +3,6 @@
 
 <template>
   <Container>
-    <div class="text-center">
-      Test
-    </div>
+    <Hero />
   </Container>
 </template>

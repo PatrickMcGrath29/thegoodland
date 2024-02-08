@@ -9,5 +9,5 @@
       About
     </NuxtLink>
   </li>
-  <li><a href="quotes.thegoodland.io">Quotes</a></li>
+  <li><a href="https://quotes.thegoodland.io">Quotes</a></li>
 </template>
