@@ -1,20 +1,18 @@
 <script setup lang="ts">
-import type { Post } from '~/types'
-
 const route = useRoute()
 const post = await usePost(route.params.id as string)
 </script>
 
 <template>
-  <Container>
+  <ContainerSmall>
     <div class="my-10">
-      <div class="text-5xl text-medium">
+      <div class="text-4xl font-semibold">
         {{ post.title }}
       </div>
 
-      <div class="mt-10">
+      <div class="mt-10 text-lg">
         <ContentRenderer :value="post" />
       </div>
     </div>
-  </Container>
+  </ContainerSmall>
 </template>
