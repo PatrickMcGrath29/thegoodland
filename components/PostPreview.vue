@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PostPreview } from '@/types'
+import type { Post } from '@/types'
 
 const props = defineProps<{ post: Post }>()
 const postPath = `/posts/${props.post.uuid}`
