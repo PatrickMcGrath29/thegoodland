@@ -2,6 +2,15 @@
 uuid: ovezlmjlrk
 title: A Wholehearted Pursuit of God
 referenceId: p2o3rsynxk
+summary: >-
+  Right now we are in an age of religious complexity. The simplicity which is in
+  Christ is rarely found among us. In its stead are programs, methods,
+  organizations and a world of nervous activities which occupy time and
+  attention but can never satisfy the longing of the heart.
+
+  If we would find God amid all the religious externals we must first determine to find Him, and then proceed in the way of simplicity…
+featured_image: /uploads/hero.jpg
+created_date: 2024-02-08
 ---
 “Right now we are in an age of religious complexity. The simplicity which is in Christ is rarely found among us. In its stead are programs, methods, organizations and a world of nervous activities which occupy time and attention but can never satisfy the longing of the heart.”
 
