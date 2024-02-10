@@ -2,7 +2,7 @@
 uuid: v-ebgkpyy1
 title: Motives in Looking Unto Jesus
 referenceId: zqspjdxzjd
-excerpt: Come, let the proud man boast in his honor, and the mighty man is his
+summary: Come, let the proud man boast in his honor, and the mighty man is his
   valor, and the rich man in his wealth, but let the Christian pronounce himself
   happy, only happy, truly happy, fully happy in beholding Christ, enjoying
   Christ, having Christ, in looking unto Jesus.

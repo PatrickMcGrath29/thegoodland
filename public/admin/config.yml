@@ -50,8 +50,8 @@ collections:
         name: body
         widget: markdown
         preview: true
-      - label: Excerpt
-        name: excerpt
+      - label: Summary
+        name: summary
         widget: text
         required: false
         hint: 'Optional, a short description of the post.'
