@@ -12,7 +12,9 @@ const { data: posts } = await useAsyncData('all-posts', () => usePosts())
       <h2 class="text-3xl font-bold mb-10 text-center">
         Recent Posts
       </h2>
-      <PostPreview v-for="post in posts" :key="post.slug" :post="post" />
+      <div class="flex gap-16 flex-col">
+        <PostPreview v-for="post in posts" :key="post.slug" :post="post" />
+      </div>
     </div>
   </ContainerMedium>
 </template>

@@ -6,7 +6,7 @@ const postPath = `/posts/${props.post.uuid}`
 </script>
 
 <template>
-  <div class="flex gap-8 mt-10">
+  <div class="flex gap-8">
     <div class="basis-8/12">
       <h2 class="text-2xl font-semibold mb-4">
         {{ post.title }}
