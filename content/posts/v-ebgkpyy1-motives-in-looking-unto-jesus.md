@@ -9,7 +9,9 @@ summary: Come, let the proud man boast in his honor, and the mighty man is his
 featuredImage: /uploads/dsc_0254.jpeg
 createdDate: 2024-02-10
 ---
-The following text comes from the book Looking Unto Jesus, by Isaac Ambrose
+*The following text comes from the book Looking Unto Jesus, by Isaac Ambrose*
+
+- - -
 
 To quicken us to this duty; I shall put forward some moving considerations: ponder and weigh them with an impartial judgment. Who knows, but through the assistance of Christ, they may prove effectual with your hearts, and make you to resolve upon this excellent duty of looking unto Jesus.
 
