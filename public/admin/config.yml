@@ -56,13 +56,13 @@ collections:
         required: false
         hint: 'Optional, a short description of the post.'
       - label: Featured Image
-        name: featured_image
+        name: featuredImage
         widget: image
         allow_multiple: false
         required: false
         hint: 'Optional, the image associated with this post.'
       - label: Created Date
-        name: created_date
+        name: createdDate
         widget: datetime
         date_format: YYYY-MM-DD
         time_format: false

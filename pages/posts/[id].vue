@@ -1,6 +1,10 @@
 <script setup lang="ts">
-const route = useRoute()
-const post = await usePost(route.params.id as string)
+import type { Post } from '~/types'
+
+const { params: { id: postId } } = useRoute()
+const postData = await useAsyncData(`post/${postId}}`, () => usePost(postId as string))
+
+const post = postData.data as Ref<Post>
 </script>
 
 <template>
