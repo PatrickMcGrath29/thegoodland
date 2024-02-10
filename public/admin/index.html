@@ -48,11 +48,73 @@
         {
           id: forID,
           style: { fontFamily: "monospace", marginLeft: "1rem" },
-          //className: classNameWrapper
         },
         value
       );
     },
   });
   CMS.registerWidget("uuid", UuidWidget);
+
+  // https://lukasmurdock.com/custom-netlify-editor-component/
+  CMS.registerEditorComponent({
+    id: 'blockquote',
+    label: 'Blockquote',
+    fields: [
+      {
+        name: 'quote',
+        label: 'Quote',
+        widget: 'string',
+      },
+      {
+        name: 'author',
+        label: 'Author',
+        widget: 'string',
+      },
+    ],
+    pattern:
+      /^<blockquote>(.*)<footer>(.*)<\/footer><\/blockquote>/,
+    fromBlock: function (match) {
+      return {
+        quote: match[1],
+        author: match[2],
+      }
+    },
+    toBlock: function (obj) {
+      return (
+        '<blockquote>' +
+        obj.quote +
+        '<footer>' +
+        obj.author +
+        '</footer></blockquote>'
+      )
+    },
+    toPreview: function (obj) {
+      return (
+        '<blockquote>' +
+        obj.quote +
+        '<footer>' +
+        obj.author +
+        '</footer></blockquote>'
+      )
+    },
+  })
+
+  CMS.registerEditorComponent({
+    label: 'Horizontal rule',
+    id: 'separator',
+    summary: 'This is a separator line.',
+    collapsed: true,
+
+    pattern: /.^/,
+
+    toBlock(obj) {
+      return '---';
+    },
+
+    toPreview(obj) {
+      return '<hr>';
+    }
+  })
+
+
 </script>
