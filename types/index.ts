@@ -5,6 +5,6 @@ export interface Post extends ParsedContent {
   title: string
   summary: string
   featuredImage: string
-  referenceId: string
   createdDate: Date
+  author: string
 }

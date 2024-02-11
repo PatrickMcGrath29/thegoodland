@@ -1,4 +1,4 @@
 ---
 uuid: zqspjdxzjd
-authorName: Isaac Ambrose
+name: Isaac Ambrose
 ---

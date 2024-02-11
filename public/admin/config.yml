@@ -26,12 +26,12 @@ collections:
       - {label: Unique ID, name: uuid, widget: uuid}
       - {label: Title, name: title, widget: string}
       - label: Author
-        name: referenceId
+        name: author
         widget: relation
         collection: authors
-        search_fields: [authorName]
-        value_field: uuid
-        display_fields: [authorName]
+        search_fields: [name]
+        value_field: name
+        display_fields: [name]
         required: false
         hint: 'Optional, the author associated with this post.'
       - label: Categories
@@ -89,15 +89,14 @@ collections:
     folder: content/authors
     format: frontmatter
     create: true
-    slug: '{{uuid}}-{{authorName}}'
-    summary: '{{authorName}}'
+    slug: '{{uuid}}-{{name}}'
+    summary: '{{name}}'
     editor:
       preview: false
     fields:
       - {label: Unique ID, name: uuid, widget: uuid}
-
       - label: Author Name
-        name: authorName
+        name: name
         widget: string
         required: false
 

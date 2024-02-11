@@ -9,9 +9,13 @@ const post = postData.data as Ref<Post>
 
 <template>
   <ContainerSmall>
-    <div class="my-10">
+    <div class="my-10 mx-2">
       <div class="text-4xl font-semibold">
         {{ post.title }}
+      </div>
+      <div v-if="post.author" class="mt-2 flex gap-5">
+        <PostDetail icon-name="mdi:account" :text="post.author" />
+        <PostDetail icon-name="mdi:calendar" :text="new Date(post.createdDate).toLocaleDateString()" />
       </div>
 
       <div class="mt-10 text-lg">

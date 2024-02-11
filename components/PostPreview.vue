@@ -9,7 +9,9 @@ const postPath = `/posts/${props.post.uuid}`
   <div class="flex gap-8">
     <div class="basis-8/12">
       <h2 class="text-2xl font-semibold mb-4">
+        <NuxtLink :to="postPath">
         {{ post.title }}
+        </NuxtLink>
       </h2>
       <p>
         {{ post.summary }}

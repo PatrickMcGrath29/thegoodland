@@ -1,7 +1,7 @@
 ---
 uuid: ovezlmjlrk
 title: A Wholehearted Pursuit of God
-referenceId: p2o3rsynxk
+author: A.W. Tozer
 summary: >-
   Right now we are in an age of religious complexity. The simplicity which is in
   Christ is rarely found among us. In its stead are programs, methods,
