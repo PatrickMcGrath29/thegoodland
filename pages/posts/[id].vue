@@ -8,6 +8,11 @@ const post = postData.data as Ref<Post>
 </script>
 
 <template>
+  <Container>
+    <div class="my-5">
+      <img :src="post.featuredImage" class="w-full h-96 object-cover rounded-lg">
+    </div>
+  </Container>
   <ContainerSmall>
     <div class="my-10 mx-2">
       <div class="text-4xl font-semibold">

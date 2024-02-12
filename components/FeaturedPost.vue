@@ -6,8 +6,13 @@ const postPath = `/posts/${props.post.uuid}`
 </script>
 
 <template>
-  <div class="flex gap-8">
-    <div class="basis-8/12">
+  <div class="flex flex-col gap-8">
+    <div class="w-full">
+      <NuxtLink :to="postPath">
+        <img :src="post.featuredImage" class="w-full h-72 object-cover rounded-md">
+      </NuxtLink>
+    </div>
+    <div class="">
       <h2 class="text-2xl font-semibold mb-4">
         <NuxtLink :to="postPath">
           {{ post.title }}
@@ -21,11 +26,6 @@ const postPath = `/posts/${props.post.uuid}`
           Keep reading
         </NuxtLink>
       </div>
-    </div>
-    <div class="basis-4/12">
-      <NuxtLink :to="postPath">
-        <img :src="post.featuredImage" class="rounded-md">
-      </NuxtLink>
     </div>
   </div>
 </template>

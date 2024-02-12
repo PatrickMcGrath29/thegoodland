@@ -1,19 +1,24 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData('all-posts', () => usePosts())
+import type { Post } from '~/types'
+
+const postData = await useAsyncData('all-posts', () => usePosts())
+
+const posts = postData.data as Ref<Post[]>
+const [featuredPost, ...recentPosts] = posts.value
 </script>
 
 <template>
   <Container>
-    <Hero />
+    <Hero :featured-post="featuredPost" />
+    <div class="divider mt-10" />
   </Container>
-
   <ContainerMedium>
     <div class="my-10 gap-5">
-      <h2 class="text-3xl font-bold mb-10 text-center">
+      <h2 class="text-4xl font-bold mb-10 text-center">
         Recent Posts
       </h2>
-      <div class="flex gap-16 flex-col">
-        <PostPreview v-for="post in posts" :key="post.slug" :post="post" />
+      <div class="flex gap-24 flex-col">
+        <PostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
       </div>
     </div>
   </ContainerMedium>

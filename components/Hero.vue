@@ -1,22 +1,21 @@
+<script setup lang="ts">
+import type { Post } from '~/types'
+
+defineProps<{ featuredPost: Post }>()
+</script>
+
 <template>
-  <div class="hero">
-    <div class="hero-content flex-col lg:flex-row">
-      <div>
-        <div class="text-5xl font-semibold">
-          For the Lord your God is bringing you into a good land.
-        </div>
-        <div class="text-2xl mt-3">
-          Deuteronomy 8:7
-        </div>
-        <div class="mt-10 lg:mt-20 text-lg">
-          Posts from a community of Christians in Boston, MA, that highlight the unsearchable riches of Christ.
-        </div>
+  <div class="flex flex-col md:flex-row my-12 md:my-32 mx-2 space-between items-center gap-24">
+    <div class="basis-1/2">
+      <div class="text-5xl font-semibold text-pretty">
+        For the Lord your God is bringing you into a good land.
       </div>
-      <img
-        class="md:size-[300px] lg:size-[500px] lg:ml-20 rounded-lg shadow-lg"
-        src="/assets/hero.jpg"
-        alt="hero"
-      >
+      <div class="text-2xl mt-3">
+        Deuteronomy 8:7
+      </div>
+    </div>
+    <div class="basis-1/2">
+      <FeaturedPost :post="featuredPost" />
     </div>
   </div>
 </template>
