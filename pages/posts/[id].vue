@@ -5,6 +5,7 @@ const { params: { id: postId } } = useRoute()
 const postData = await useAsyncData(`post/${postId}}`, () => usePost(postId as string))
 
 const post = postData.data as Ref<Post>
+const postCreatedDate = new Date(post.value.createdDate).toLocaleDateString()
 </script>
 
 <template>
@@ -20,7 +21,7 @@ const post = postData.data as Ref<Post>
       </div>
       <div v-if="post.author" class="mt-2 flex gap-5">
         <PostDetail icon-name="mdi:account" :text="post.author" />
-        <PostDetail icon-name="mdi:calendar" :text="new Date(post.createdDate).toLocaleDateString()" />
+        <PostDetail icon-name="mdi:calendar" :text="postCreatedDate" />
       </div>
 
       <div class="mt-10 text-lg">
