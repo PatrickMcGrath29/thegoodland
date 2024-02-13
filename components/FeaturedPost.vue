@@ -22,7 +22,7 @@ const postPath = `/posts/${props.post.uuid}`
         {{ post.summary }}
       </p>
       <div class="mt-5">
-        <NuxtLink :to="postPath" class="btn btn-wide btn-primary">
+        <NuxtLink :to="postPath" class="btn btn-neutral btn-wide btn-primary">
           Keep reading
         </NuxtLink>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <header class="my-2">
     <Container>
-      <div class="navbar bg-neutral rounded-lg">
+      <div class="navbar bg-base-200 rounded-lg">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -9,7 +9,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content z-[1] mt-3 p-2 shadow bg-neutral rounded-box w-52"
+              class="menu menu-compact dropdown-content z-[1] mt-3 p-2 shadow bg-neutral-500 rounded-box w-52"
             >
               <HeaderItems />
             </ul>
