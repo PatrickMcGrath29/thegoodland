@@ -15,7 +15,6 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
@@ -28,6 +27,7 @@
     "eslint": "^8.56.0",
     "nuxt": "^3.10.1",
     "nuxt-icon": "^0.6.8",
+    "sharp": "^0.33.2",
     "typescript": "^5.3.3"
   }
 }
