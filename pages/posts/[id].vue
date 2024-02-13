@@ -10,7 +10,7 @@ const post = postData.data as Ref<Post>
 <template>
   <Container>
     <div class="my-5">
-      <img :src="post.featuredImage" class="w-full h-96 object-cover rounded-lg">
+      <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
     </div>
   </Container>
   <ContainerSmall>

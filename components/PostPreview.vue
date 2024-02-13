@@ -24,7 +24,7 @@ const postPath = `/posts/${props.post.uuid}`
     </div>
     <div class="basis-4/12">
       <NuxtLink :to="postPath">
-        <img :src="post.featuredImage" class="rounded-md">
+        <NuxtImg :src="post.featuredImage" height="300px" width="300px" class="rounded-md" />
       </NuxtLink>
     </div>
   </div>
