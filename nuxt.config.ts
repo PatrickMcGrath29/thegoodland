@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxt/content',
-    '@nuxtjs/seo',
   ],
   image: {
     quality: 80,
