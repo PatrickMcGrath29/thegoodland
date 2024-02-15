@@ -12,4 +12,7 @@ export default defineNuxtConfig({
     quality: 80,
     provider: 'ipx',
   },
+  build: {
+    transpile: ['sharp'],
+  },
 })
