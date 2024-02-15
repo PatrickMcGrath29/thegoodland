@@ -10,15 +10,15 @@ const postCreatedDate = new Date(post.value.createdDate).toLocaleDateString()
 
 <template>
   <Container>
-    <div class="my-5">
+    <div v-if="post.featuredImage" class="my-5">
       <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
     </div>
   </Container>
   <ContainerSmall>
     <div class="my-10 mx-2">
-      <div class="text-4xl font-semibold">
+      <h1 class="text-4xl font-semibold">
         {{ post.title }}
-      </div>
+      </h1>
       <div v-if="post.author" class="mt-2 flex gap-5">
         <PostDetail icon-name="mdi:account" :text="post.author" />
         <PostDetail icon-name="mdi:calendar" :text="postCreatedDate" />
