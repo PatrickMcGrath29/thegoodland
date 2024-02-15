@@ -8,7 +8,7 @@ const postPath = `/posts/${props.post.uuid}`
 <template>
   <div class="flex flex-col gap-8">
     <div class="w-full">
-      <NuxtLink :to="postPath">
+      <NuxtLink v-if="post.featuredImage" :to="postPath">
         <NuxtImg :src="post.featuredImage" width="500px" class="w-full h-72 rounded-md" />
       </NuxtLink>
     </div>

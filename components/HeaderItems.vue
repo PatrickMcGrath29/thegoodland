@@ -4,10 +4,5 @@
       All Posts
     </NuxtLink>
   </li>
-  <li>
-    <NuxtLink to="/about">
-      About
-    </NuxtLink>
-  </li>
   <li><a href="https://quotes.thegoodland.io">Quotes</a></li>
 </template>

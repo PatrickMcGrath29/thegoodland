@@ -4,6 +4,7 @@ title: Entering into the Good Land
 summary: The Good Land (perhaps otherwise known as the promise land) is a land
   of brooks of water, of milk and honey, vines and fig trees and pomegranates.
   It is a land of abundance, where those who dwell in it lack nothing.
+featuredImage: /uploads/entering_the_good_land.jpeg
 createdDate: 2021-08-23
 ---
 The Good Land (perhaps otherwise known as the promise land) is a land of brooks of water, of milk and honey, vines and fig trees and pomegranates. It is a land of abundance, where those who dwell in it lack nothing.

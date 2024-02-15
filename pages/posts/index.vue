@@ -9,7 +9,7 @@ const { data: posts } = await useAsyncData('all-posts', () => usePosts())
         All Posts
       </h1>
     </div>
-    <div class="mt-20 flex flex-col gap-24">
+    <div class="my-20 flex flex-col gap-24">
       <PostPreview v-for="post in posts" :key="post.slug" :post="post" />
     </div>
   </ContainerMedium>
