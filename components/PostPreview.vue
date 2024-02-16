@@ -14,7 +14,7 @@ const postPath = `/posts/${props.post.uuid}`
         </NuxtLink>
       </h2>
       <p>
-        {{ post.summary }}
+        {{ smartEllipsis(post.summary, 500) }}
       </p>
       <div class="mt-5">
         <NuxtLink :to="postPath" class="btn btn-neutral btn-wide btn-primary">
