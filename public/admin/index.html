@@ -66,8 +66,8 @@
         widget: 'string',
       },
       {
-        name: 'author',
-        label: 'Author',
+        name: 'reference',
+        label: 'Reference',
         widget: 'string',
       },
     ],
@@ -76,7 +76,7 @@
     fromBlock: function (match) {
       return {
         quote: match[1],
-        author: match[2],
+        reference: match[2],
       }
     },
     toBlock: function (obj) {
@@ -84,7 +84,7 @@
         '<blockquote>' +
         obj.quote +
         '<footer>' +
-        obj.author +
+        obj.reference +
         '</footer></blockquote>'
       )
     },
@@ -93,7 +93,7 @@
         '<blockquote>' +
         obj.quote +
         '<footer>' +
-        obj.author +
+        obj.reference +
         '</footer></blockquote>'
       )
     },
