@@ -1,4 +1,9 @@
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.DEPLOY_PRIME_URL || 'http://localhost:3000',
+    },
+  },
   devtools: { enabled: true },
   modules: [
     '@vueuse/nuxt',
