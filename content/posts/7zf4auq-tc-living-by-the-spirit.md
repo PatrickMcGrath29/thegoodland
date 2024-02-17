@@ -39,11 +39,11 @@ Some wealthy people have multiple houses. Some of those houses might only be use
 >
 > Romans 8:9-10
 
-Do we know this, that the Spirit of the living God dwells in us? Do we know this, that Christ is in us? The apostle Paul wasn't wishfully hoping that someday in the future the Spirit of God would enter into his life. It was a present reality for him that he was walking in. So it is for us who have received Christ into our life, it is a present reality! Christ is in us! 
+Do we know this, that the Spirit of the living God dwells in us? Do we know this, that Christ is in us? The apostle Paul wasn't wishfully hoping that someday in the future the Spirit of God would enter into his life. It was a present reality for him that he was walking in. So it is for us who have received Christ into our life, it is a present reality! Christ is in us!
 
 It may well be that our thoughts or experience lead us to think otherwise. "This seems too good to be true... is it really so?" we might ask. Or we might also say, "I don't feel like the Spirit of God dwells in me, so can I really believe this?"
 
-Well yes, it is true. God has said so, and I know Him to be entirely truthful. Reality isn't based on my thoughts or feelings, but rather on what God has done. God has made it so, He has established it in reality! Hallelujah! 
+Well yes, it is true. God has said so, and I know Him to be entirely truthful. Reality isn't based on my thoughts or feelings, but rather on what God has done. God has made it so, He has established it in reality! Hallelujah!
 
 I don't look forward to the day when the Spirit of God may enter my life. For I have already put my faith in the Lord Jesus and received Him into my life, and therefore upon this basis, I know with confidence that Christ dwells in me!
 
@@ -51,7 +51,7 @@ I don't look forward to the day when the Spirit of God may enter my life. For I 
 
 We now know that the indwelling of the Spirit is not a momentary experience reserved for a few, but rather a permanent reality for us. We know this by faith, for God has said it is so.
 
-This means then that the empowerment of the Spirit isn't for a select few times but for all of the moments of our daily life. Paul was therefore urging us to "live in the Spirit" and "walk in the Spirit". 
+This means then that the empowerment of the Spirit isn't for a select few times but for all of the moments of our daily life. Paul was therefore urging us to "live in the Spirit" and "walk in the Spirit".
 
 > If we live in the Spirit, let us also walk in the Spirit.
 >
@@ -63,14 +63,14 @@ The life of walking in the Spirit is the life that God intended for His people. 
 
 This is why we have titled this blog "The Good Land". It is in reference to the good land (or the promised land) that God had prepared for His people, for them to enter into. It was a rich land, with vines and fig trees and pomegranates. It was a land of abundance.  And it is a figure of the true Good Land that He cares to bring His people into, which is not a location on the earth that one can travel to, but rather a life that is found in Christ.
 
-There is much that has been said about walking in the Spirit, and rather than making a vain attempt at including all of that in this blog post, we would like to direct you to search for that yourself. Make it your aim in life to seek after Christ, to truly know Him, just as Paul himself had said (Philippians 3:10). Seek Him with all of your heart.  Pray to Him and ask Him to open up this life to you, for He waits to answer your prayer (John 15:7, John 14:13-14, James 1:5). 
+There is much that has been said about walking in the Spirit, and rather than making a vain attempt at including all of that in this blog post, we would like to direct you to search for that yourself. Make it your aim in life to seek after Christ, to truly know Him, just as Paul himself had said (Philippians 3:10). Seek Him with all of your heart.  Pray to Him and ask Him to open up this life to you, for He waits to answer your prayer (John 15:7, John 14:13-14, James 1:5).
 
 Be assured that this life offered to you in Christ, a life of walking in the Spirit, is incomparable in beauty and joy. It is unlike anything that this world can offer you. In this life is fullness of joy.
 
 We would also like to include some other literature that has been helpful to us.
 
 * [Abide in Christ, by Andrew Murray](/uploads/abide_in_christ.pdf)
-* Looking unto Jesus, by Theodore Monod  
-* [The Pursuit of God, by A.W. Tozer ](/uploads/the_pursuit_of_god.pdf) 
+* Looking unto Jesus, by Theodore Monod
+* [The Pursuit of God, by A.W. Tozer ](/uploads/the_pursuit_of_god.pdf)
 * [The Practice of the Presence of God, by Brother Lawrence](/uploads/the_practice_of_the_presence_of_god.pdf)
 * Sit, Walk, Stand, by Watchman Nee
