@@ -8,16 +8,16 @@ const postPath = `/posts/${props.post.uuid}`
 <template>
   <div class="flex flex-col gap-8">
     <div v-if="post.featuredImage" class="w-full relative">
-      <div class="absolute top-4 left-4">
-        <span class="bg-neutral-800 opacity-90 px-3 py-1.5 shadow-lg text-neutral-400 flex items-center rounded-sm">
-          <Icon
-            name="mdi:star-four-points-outline"
-            class="mr-1.5"
-          />
-          Featured
-        </span>
-      </div>
       <NuxtLink :to="postPath">
+        <div class="absolute top-4 left-4">
+          <span class="bg-neutral-800 opacity-90 px-3 py-1.5 shadow-lg text-neutral-400 flex items-center rounded-sm">
+            <Icon
+              name="mdi:star-four-points-outline"
+              class="mr-1.5"
+            />
+            Featured
+          </span>
+        </div>
         <NuxtImg :src="post.featuredImage" width="500px" class="w-full h-72 rounded-md object-cover" />
       </NuxtLink>
     </div>
