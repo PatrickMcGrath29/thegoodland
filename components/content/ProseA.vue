@@ -27,7 +27,7 @@ const fullUrl = computed(() => {
 </script>
 
 <template>
-  <NuxtLink :href="fullUrl" target="_blank">
+  <NuxtLink :href="fullUrl" target="_blank" class="link">
     <slot />
   </NuxtLink>
 </template>
