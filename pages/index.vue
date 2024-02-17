@@ -13,8 +13,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <Hero :featured-post="featuredPost" />
-    <div class="divider mt-10" />
+    <Hero :featured-post="featuredPost" class="my-6" />
   </Container>
   <ContainerMedium>
     <div class="my-10 mx-2 gap-5">
