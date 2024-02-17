@@ -12,7 +12,7 @@ const postPath = `/posts/${props.post.uuid}`
         <span class="bg-neutral-800 opacity-90 px-3 py-1.5 shadow-lg text-neutral-400 flex items-center rounded-sm">
           <Icon
             name="mdi:star-four-points-outline"
-            class="mr-1"
+            class="mr-1.5"
           />
           Featured
         </span>
