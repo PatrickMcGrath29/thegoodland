@@ -5,6 +5,10 @@ const postData = await useAsyncData('6-recent-posts', () => usePosts(6))
 
 const posts = postData.data as Ref<Post[]>
 const [featuredPost, ...recentPosts] = posts.value
+
+useSeoMeta({
+  ogImage: useSeoImage(featuredPost.featuredImage),
+})
 </script>
 
 <template>
@@ -13,7 +17,7 @@ const [featuredPost, ...recentPosts] = posts.value
     <div class="divider mt-10" />
   </Container>
   <ContainerMedium>
-    <div class="my-10 gap-5">
+    <div class="my-10 mx-2 gap-5">
       <h2 class="text-4xl font-bold mb-14 text-center">
         Recent Posts
       </h2>

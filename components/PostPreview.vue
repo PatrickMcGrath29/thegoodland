@@ -6,7 +6,7 @@ const postPath = `/posts/${props.post.uuid}`
 </script>
 
 <template>
-  <div class="flex gap-8">
+  <div class="flex items-center flex-col-reverse sm:flex-row gap-8">
     <div class="basis-8/12">
       <h2 class="text-2xl font-semibold mb-4">
         <NuxtLink :to="postPath">
