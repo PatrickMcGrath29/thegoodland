@@ -1,22 +1,40 @@
 <script setup lang="ts">
+import PostDetail from '~/components/PostDetail.vue'
 import type { Post } from '~/types'
 
 const { params: { id: postId } } = useRoute()
 const { public: { baseUrl } } = useRuntimeConfig()
+const img = useImage()
 
 const postData = await useAsyncData(`post/${postId}}`, () => usePost(postId as string))
 
 const post = postData.data as Ref<Post>
-const postCreatedDate = new Date(post.value.createdDate).toLocaleDateString()
+const postCreatedDate = computed(() => {
+  return new Date(post.value.createdDate).toLocaleDateString()
+})
 
-const postSeoDescripton = smartEllipsis(post.value.summary, 160)
+const postSeoDescripton = computed(() => {
+  return smartEllipsis(post.value.summary, 160)
+})
+
+function postSeoImage() {
+  if (!post.value.featuredImage)
+    return null
+
+  const formattedImagePath = img(
+    post.value.featuredImage,
+    { width: 1200, height: 630 },
+  )
+
+  return new URL(formattedImagePath, baseUrl).toString()
+}
 
 useSeoMeta({
   title: post.value.title,
   ogTitle: post.value.tile,
   description: postSeoDescripton,
   ogDescription: postSeoDescripton,
-  ogImage: new URL(post.value.featuredImage, baseUrl).href,
+  ogImage: postSeoImage(),
 })
 </script>
 
