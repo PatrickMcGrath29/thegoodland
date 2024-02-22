@@ -13,14 +13,14 @@ useSeoMeta({
 
 <template>
   <Container>
-    <Hero :featured-post="featuredPost" class="my-6" />
+    <Hero :featured-post="featuredPost" class="mt-6" />
   </Container>
   <ContainerMedium>
-    <div class="my-10 mx-2 gap-5">
-      <h2 class="text-4xl font-bold mb-14 text-center">
+    <div class="my-12 mx-2 gap-5">
+      <h2 class="text-4xl font-semibold mb-12 text-center">
         Recent Posts
       </h2>
-      <div class="flex gap-24 flex-col">
+      <div class="flex gap-8 md:gap-12 flex-col">
         <PostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
       </div>
     </div>

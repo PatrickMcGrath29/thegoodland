@@ -9,7 +9,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content z-[1] mt-3 p-2 shadow bg-neutral-500 rounded-box w-52"
+              class="menu menu-compact dropdown-content z-[1] mt-3 p-2 shadow bg-neutral-900 rounded-box w-52"
             >
               <HeaderItems />
             </ul>
