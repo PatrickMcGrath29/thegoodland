@@ -17,4 +17,7 @@ export default defineNuxtConfig({
     quality: 80,
     provider: 'ipx',
   },
+  routeRules: {
+    '/2024/02/09/motives-in-looking-unto-jesus': { redirect: '/posts/v-ebgkpyy1' },
+  },
 })
