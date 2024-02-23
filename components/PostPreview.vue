@@ -2,7 +2,7 @@
 import type { Post } from '@/types'
 
 const props = defineProps<{ post: Post }>()
-const postPath = `/posts/${props.post.uuid}`
+const postPath = `/posts/${props.post.path}`
 </script>
 
 <template>
