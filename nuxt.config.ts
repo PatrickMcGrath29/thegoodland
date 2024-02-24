@@ -17,6 +17,9 @@ export default defineNuxtConfig({
     quality: 80,
     provider: 'ipx',
   },
+  experimental: {
+    viewTransition: true,
+  },
   routeRules: {
     '/2021/08/23/entering-into-the-good-land': { redirect: '/posts/2021-08-23-entering-into-the-good-land' },
     '/2021/09/28/lord-shine-your-light': { redirect: '/posts/2021-09-28-lord-shine-your-light' },
