@@ -41,5 +41,8 @@ export default defineNuxtConfig({
     '/2023/11/04/our-approach-to-god-christ-our-way': { redirect: '/posts/2023-11-04-our-approach-to-god-the-work-of-christ' },
     '/2023/11/15/not-knowing-the-things-that-shall-befall-me': { redirect: '/posts/2023-11-15-not-knowing-the-things-that-shall-befall-me' },
     '/2024/02/09/motives-in-looking-unto-jesus': { redirect: '/posts/2024-02-10-motives-in-looking-unto-jesus' },
+    '/wp-content/uploads/2023/05/the_practice_of_the_presence_of_god.pdf': { redirect: '/uploads/the_practice_of_the_presence_of_god.pdf' },
+    '/wp-content/uploads/2023/05/abide_in_christ.pdf': { redirect: '/uploads/abide_in_christ.pdf' },
+    '/wp-content/uploads/2023/05/the_pursuit_of_god.pdf': { redirect: '/uploads/the_pursuit_of_god.pdf' },
   },
 })
