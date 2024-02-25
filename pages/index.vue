@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Post } from '~/types'
 
-const postData = await useAsyncData('6-recent-posts', () => usePosts(6))
+const postData = await useAsyncData('homePostSample', () => usePosts(6))
 
 const posts = postData.data as Ref<Post[]>
 const [featuredPost, ...recentPosts] = posts.value
@@ -22,6 +22,11 @@ useSeoMeta({
       </h2>
       <div class="flex gap-8 md:gap-12 flex-col">
         <PostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
+      </div>
+      <div class="text-center mt-10">
+        <NuxtLink to="/posts" class="btn btn-wide btn-outline">
+          View All Posts
+        </NuxtLink>
       </div>
     </div>
   </ContainerMedium>
