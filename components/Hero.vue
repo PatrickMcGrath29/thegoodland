@@ -14,6 +14,10 @@ defineProps<{ featuredPost: Post }>()
         <div class="text-2xl mt-3">
           Deuteronomy 8:7
         </div>
+
+        <div class="mt-24 text-xl italic text-pretty">
+          Literature that highlights the richness of life found in Jesus Christ.
+        </div>
       </div>
       <div class="basis-1/2">
         <FeaturedPost :post="featuredPost" />
