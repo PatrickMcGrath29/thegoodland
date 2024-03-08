@@ -7,6 +7,7 @@ summary: 'God extends a precious invitation to us. He says "everyone who
   there is but one condition: He writes only to those who are thirsty. Look into
   your heart and consider, are you thirsty for something more? Are you truly
   content with what you have found in the world thus far?'
+featuredImage: /uploads/sergey-pesterev-tmvub9se2uq-unsplash.jpg
 createdDate: 2024-03-07
 ---
 > Ho! Everyone who thirsts, Come to the waters; And you who have no money, Come, buy and eat. Yes, come, buy wine and milk without money and without price.
