@@ -24,7 +24,7 @@ const postPath = `/posts/${props.post.path}`
     </div>
     <div v-if="post.featuredImage" class="basis-4/12">
       <NuxtLink :to="postPath">
-        <NuxtImg :src="post.featuredImage" height="300px" width="300px" class="rounded-md" />
+        <NuxtImg :src="post.featuredImage" height="300px" width="300px" placeholder class="rounded-md" />
       </NuxtLink>
     </div>
   </div>

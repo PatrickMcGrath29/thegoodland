@@ -10,7 +10,7 @@ const postPath = `/posts/${props.post.path}`
     <div v-if="post.featuredImage" class="w-full relative">
       <NuxtLink :to="postPath">
         <div class="absolute top-4 left-4">
-          <span class="bg-neutral-800 opacity-90 px-3 py-1.5 shadow-lg text-neutral-400 flex items-center rounded-sm">
+          <span class="bg-neutral-800 opacity-90 px-3 py-1.5 border border-neutral-700 shadow-lg text-neutral-400 flex items-center rounded-md">
             <Icon
               name="mdi:star-four-points-outline"
               class="mr-1.5"
@@ -18,7 +18,7 @@ const postPath = `/posts/${props.post.path}`
             Featured
           </span>
         </div>
-        <NuxtImg :src="post.featuredImage" width="500px" class="w-full h-72 rounded-md object-cover" />
+        <NuxtImg :src="post.featuredImage" width="500px" placeholder class="w-full h-72 rounded-md object-cover" />
       </NuxtLink>
     </div>
     <div class="">
