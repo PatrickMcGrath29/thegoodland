@@ -1,4 +1,21 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      script: [
+        { src: 'https://www.statcounter.com/counter/counter.js', async: true, tagPosition: 'bodyClose' },
+        {
+          children: 'var sc_project=12970879;  var sc_invisible=1;  var sc_security=\'bf0a1ebf\'; ',
+          tagPosition: 'bodyClose',
+        },
+      ],
+      noscript: [
+        {
+          innerHTML: '<div class=\'statcounter\'><a title=\'Web Analytics Made Easy - Statcounter\' href=\'https://statcounter.com/\' target=\'_blank\'><img class=\'statcounter\' src=\'https://c.statcounter.com/12970879/0/bf0a1ebf/1/\' alt=\'Web Analytics Made Easy - Statcounter\' referrerPolicy=\'no-referrer-when-downgrade\'></a></div>',
+          tagPosition: 'bodyClose',
+        },
+      ],
+    },
+  },
   runtimeConfig: {
     public: {
       baseUrl: process.env.URL || 'http://localhost:3000',
