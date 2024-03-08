@@ -25,10 +25,6 @@ useHead({
     <Footer />
   </div>
   <noscript>
-    <div class='statcounter'>
-    <a title='StatCounter' href='https://statcounter.com/' target='_blank'>
     <img class='statcounter' :src='`https://c.statcounter.com/${scProject}/0/${scSecurity}/1/`' alt='Statcounter' referrerPolicy='no-referrer-when-downgrade'>
-    </a>
-    </div>
   </noscript>
 </template>
