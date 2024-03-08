@@ -1,5 +1,5 @@
 <template>
-  <blockquote class="border-l-2 border-neutral-400 pl-3 mb-7 custom-blockquote">
+  <blockquote class="border-l-[3px] border-neutral-400 pl-3 mb-7 custom-blockquote">
     <slot />
   </blockquote>
 </template>
