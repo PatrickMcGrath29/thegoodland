@@ -30,7 +30,7 @@ Our issue is that we look to things of this world, hoping to find in them someth
 
 ### And you who have no money, come, buy and eat
 
-This gift of life that is offered to us by God is in His great mercy provided to us at no cost. It is a free gift that He provides to us, and we must simply receive it. Up until now it might have been your experience that in order to gain something you must first satisfy a long list of requirements (late nights at work for the promotion, or otherwise). It is not so with what God offers us, though. There is no checklist or list of requirements that we must first complete. He simply says Come! Even now, come! His gift is provided to us at no cost.
+This gift of life that is offered to us by God is in His great mercy provided to us at no cost. It is a free gift that He provides to us, and we must simply receive it. Up until now it might have been your experience that in order to gain something you must first satisfy a long list of requirements (late nights at work for the promotion, for example). It is not so with what God offers us, though. There is no checklist or list of requirements that we must first complete. He simply says Come! Even now, come! His gift is provided to us at no cost.
 
 This is not to say that the gift is cheap though, for it came at a truly great cost. To purchase our redemption Jesus Christ bore upon Himself the punishment of our sin. He did for us what we were incapable of doing. It is only because of the self sacrificial work of the Lord Jesus that this gift is free to us.
 
@@ -42,7 +42,7 @@ May we be persuaded to no longer settle for these empty things. The Lord has pro
 
 ### Listen carefully to Me
 
-After asking us this question, God gives us a command. "Listen carefully to Me", He says, "and eat what is good, and let your soul delight itself in abundance". We will find that it will take care and diligence to walk on this path that God sets before us. "Difficult is the way that leads to life, and there are few who find it", the Lord Jesus tells us. Along this way of blessed communion with God we will find many distractions and temptations that will seek to divert our attention away from our Master. We will come across much food that, while looking attractive on the outside, will actually be rotten and poisonous. We must continue on in this path with great care, holding in our hearts the awareness that our Master is the only One who gives that which truly satisfies the soul.
+After asking us this question, God gives us a command. "Listen carefully to Me", He says, "and eat what is good, and let your soul delight itself in abundance". We will find that it will take care and diligence to walk on this path that God sets before us. "Difficult is the way that leads to life, and there are few who find it", the Lord Jesus tells us (Matthew 7:14). Along this way of blessed communion with God we will find many distractions and temptations that will seek to divert our attention away from our Master. We will come across much food that, while looking attractive on the outside, will actually be rotten and poisonous. We must continue on in this path with great care, holding in our hearts the awareness that our Master is the only One who gives that which truly satisfies the soul.
 
 ### Incline your ear, and come to Me
 
