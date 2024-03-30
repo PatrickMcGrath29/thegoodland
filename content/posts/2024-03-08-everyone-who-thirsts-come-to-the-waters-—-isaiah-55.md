@@ -20,7 +20,7 @@ createdDate: 2024-03-07
 
 ### Everyone who thirsts, come to the waters
 
-God extends a precious invitation to us. He says "everyone who thirsts, come to the waters". He promises that we will find waters that will quench the inner thirst within us. And His invitation is free indeed! For there is but one condition: He writes only to those who are thirsty. Look into your heart and consider, are you thirsty for something more? Are you truly content with what you have found in the world thus far?
+The living God, in His sincere love to us, extends to us a great invitation in His Word. He says "everyone who thirsts, come to the waters". Speaking to a thirsting people He promises that we will find waters that will quench the inner dryness within us. And His invitation is free indeed! For there is but one condition: He writes only to those who are thirsty. Look into your heart and consider, are you thirsty for something more? Are you truly content with what you have found in the world thus far?
 
 Living in a world that is oriented away from God, we have a tendency to occupy ourselves with things that don’t satisfy the depths of the human soul. We consume ourselves with endless streams of entertainment, we give ourselves to our jobs seeking to gain riches and the esteem of others, and we spoil ourselves with comfort and pleasures. And yet if we are honest with ourselves we will recognize that there is still something missing.
 
