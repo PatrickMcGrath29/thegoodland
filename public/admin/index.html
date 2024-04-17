@@ -99,6 +99,35 @@
     },
   })
 
+    CMS.registerEditorComponent({
+      id: 'pullquote',
+      label: 'Pull Quote',
+      fields: [
+        {
+          name: 'text',
+          label: 'Text',
+          widget: 'string',
+        },
+      ],
+      pattern:
+        /^::pullquote\n(.*)\n::/,
+      fromBlock: function (match) {
+        return {
+          text: match[1],
+        }
+      },
+      toBlock: function (obj) {
+        return (
+          '::pullquote\n' +
+          obj.text +
+          '\n::'
+        )
+      },
+      toPreview: function (obj) {
+        return obj.text
+      },
+    })
+
   CMS.registerEditorComponent({
     label: 'Horizontal rule',
     id: 'separator',
