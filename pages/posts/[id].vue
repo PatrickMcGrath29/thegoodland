@@ -32,20 +32,22 @@ useSeoMeta({
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
-    <ContainerSmall>
-      <div class="my-10 mx-2">
-        <h1 class="text-4xl font-semibold">
-          {{ post.title }}
-        </h1>
-        <div v-if="post.author || post.createdDate" class="mt-2 flex gap-x-5 gap-y-2 flex-wrap">
-          <PostDetail v-if="post.author" icon-name="mdi:account" :text="post.author" />
-          <PostDetail v-if="post.createdDate" icon-name="mdi:calendar" :text="postCreatedDate" />
+    <ContainerMedium>
+      <div class="my-10">
+        <div class="max-w-screen-md m-auto">
+          <h1 class="text-4xl font-semibold">
+            {{ post.title }}
+          </h1>
+          <div v-if="post.author || post.createdDate" class="mt-2 flex gap-x-5 gap-y-2 flex-wrap">
+            <PostDetail v-if="post.author" icon-name="mdi:account" :text="post.author" />
+            <PostDetail v-if="post.createdDate" icon-name="mdi:calendar" :text="postCreatedDate" />
+          </div>
         </div>
 
         <div class="mt-10 text-lg">
-          <ContentRenderer :value="post" />
+          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto" />
         </div>
       </div>
-    </ContainerSmall>
+    </ContainerMedium>
   </article>
 </template>
