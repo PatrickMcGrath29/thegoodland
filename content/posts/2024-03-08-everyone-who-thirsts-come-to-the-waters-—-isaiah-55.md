@@ -49,6 +49,10 @@ After asking us this question, God gives us a command. "Listen carefully to Me",
 
 Oh, would we heed the call of our loving Master and incline our ear to Him! He desires to speak to us. He desires to lead us through the ways of life. May we turn our hearts to Him and come! If He seems to be distant and far off, it will only be because we have thus far ignored His call to come to Him. Oh, I pray that with a lowly heart you might come to Him. He will receive you.
 
+::pullquote
+Our coming to Him is a daily action, a daily determination that we must make.
+::
+
 Do not think that this coming to Him is a duty that we perform but once. Our coming to Him is a daily action, a daily determination that we must make. It would not be reasonable to set out on a race, and then to give up shortly before the finish line. Set your eyes upon Him who is our prize — the Lord Jesus. Heed the words of our brethren and "run with endurance the race that is set before you, looking unto Jesus" (Hebrews 12:1-2). Pursue Him now, with your whole heart. When you pass through the finish line you will surely find that this labor was not in vain.
 
 ### Hear, and your soul shall live
