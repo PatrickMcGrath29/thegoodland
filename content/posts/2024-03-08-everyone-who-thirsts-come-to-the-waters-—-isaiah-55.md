@@ -25,6 +25,10 @@ The living God, in His sincere love for us, extends to us a great invitation. He
 
 Living in a world that is oriented away from God, we have a tendency to occupy ourselves with things that don’t satisfy the depths of the human soul. We consume ourselves with endless streams of entertainment, we give ourselves to our jobs seeking to gain riches and the esteem of others, and we spoil ourselves with comfort and pleasures. And yet if we are honest with ourselves we will recognize that there is still something missing.
 
+::pullquote
+Our coming to Him is a daily action, a daily determination that we must make.
+::
+
 We find within ourselves a void, and instead of rightly filling that void with God as He so intended, we try to find substitutes. But God cannot be replaced. There is no substitute that we may find in this world that will ever compare to the Creator Himself.
 
 Our issue is that we look to things of this world, hoping to find in them something that they were never intended to provide. God didn’t design us in such a way that these things would satisfy us. We are made by God to be filled with Him and to be in a great nearness with Him. Recognizing our hopeless condition, God lovingly speaks to us in His Word, urging us to come forth from ourselves and to give ourselves to Him, that we may find in Him true life, joy, and fulfillment.
@@ -50,7 +54,7 @@ After asking us this question, God gives us a command. "Listen carefully to Me",
 Oh, would we heed the call of our loving Master and incline our ear to Him! He desires to speak to us. He desires to lead us through the ways of life. May we turn our hearts to Him and come! If He seems to be distant and far off, it will only be because we have thus far ignored His call to come to Him. Oh, I pray that with a lowly heart you might come to Him. He will receive you.
 
 ::pullquote
-Our coming to Him is a daily action, a daily determination that we must make.
+We try to find substitutes, but God cannot be replaced.
 ::
 
 Do not think that this coming to Him is a duty that we perform but once. Our coming to Him is a daily action, a daily determination that we must make. It would not be reasonable to set out on a race, and then to give up shortly before the finish line. Set your eyes upon Him who is our prize — the Lord Jesus. Heed the words of our brethren and "run with endurance the race that is set before you, looking unto Jesus" (Hebrews 12:1-2). Pursue Him now, with your whole heart. When you pass through the finish line you will surely find that this labor was not in vain.
