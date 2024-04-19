@@ -1,6 +1,6 @@
 ---
 uuid: jue6yrkajy
-title: Rediscovering Christ - Part 1
+title: Rediscovering Christ — Part 1
 author: Major Ian Thomas
 summary: So the Lord Jesus now had another pair of hands. He had another mouth
   to speak with, another heart to love with, another mind to think, two more
