@@ -6,6 +6,9 @@ export default defineNuxtConfig({
       scSecurity: process.env.SC_SECURITY || '000000',
     },
   },
+  gtm: {
+    id: 'GTM-TV5LN2J2',
+  },
   devtools: { enabled: true },
   modules: [
     '@vueuse/nuxt',
@@ -14,6 +17,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxt/content',
+    '@zadigetvoltaire/nuxt-gtm',
   ],
   image: {
     quality: 80,
