@@ -2,20 +2,19 @@
 uuid: jue6yrkajy
 title: Rediscovering Christ — Part 1
 author: Major Ian Thomas
-summary: So the Lord Jesus now had another pair of hands. He had another mouth
-  to speak with, another heart to love with, another mind to think, two more
-  eyes to see with, and two more ears to hear with. Added to the Lord, a new
-  living member of the living body of the living Christ. This was their concept
-  of a convert. This was the one thing that preoccupied all their concerns, that
-  people might be added to that body corporate, that fellowship of redeemed
-  sinners worldwide, through which the Lord Jesus now was to continue to do and
-  to teach.
+summary: Although the book is described as the Acts of the Apostles, in many
+  senses, it's a misnomer because it isn't really the record of the Acts of the
+  Apostles; it's a record of the continued acts of Jesus Christ. "I've written
+  one book," says Luke, "about all that the Lord Jesus began to do and to teach;
+  now," he said, "I'm going to put on record in this second book all that He
+  continued to do and to teach." The only difference being the humanity that He
+  used with which to do it and teach it.
 featuredImage: /uploads/rediscovering_christ.jpg
 createdDate: 2024-04-18
 ---
-The following is a transcript of a message that Major Ian Thomas delivered, on the topic of rediscovering Jesus Christ. The original video can be found here.
+The following is a transcript of a message that Major Ian Thomas delivered, on the topic of rediscovering Jesus Christ. The original video can be found [here](https://www.youtube.com/watch?v=GiuOogv2YZE).
 
----
+- - -
 
 Turn with me to the fifth chapter of the book of Acts, and we'll begin our exploration at that point. It's always an exciting thing to turn to Acts, as you have no doubt on many, many occasions been reminded.
 
