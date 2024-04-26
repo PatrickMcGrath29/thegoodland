@@ -13,6 +13,10 @@
 </html>
 
 <script>
+  function slugify(str) {
+      return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
+  }
+
   // https://github.com/ai/nanoid
   function nanoid(t = 10) {
     const nanoId = crypto
@@ -144,6 +148,25 @@
       return '<hr>';
     }
   })
+
+  CMS.registerEventListener({
+    name: 'preSave',
+    handler: ({ entry }) => {
+      const slugFields = entry.get('data').get('slugFields')
+
+      if (slugFields === undefined) {
+        return
+      }
+
+      const parts = slugFields.map((field) => entry.get('data').get(field))
+      const slug = slugify(parts.join(' '))
+
+      const existingSlug = entry.get('data').get('slug')
+      if (existingSlug === undefined || existingSlug === '') {
+        return entry.get('data').set('slug', slug)
+      }
+    },
+  });
 
 
 </script>

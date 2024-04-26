@@ -1,18 +1,23 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: kcpma313yw
 title: The Great God, Entertainment
+isBlogPost: true
 author: A.W. Tozer
 summary: The present inordinate attachment to every form of entertainment is
   evidence that the inner life of modern man is in serious decline. The average
   man has no central core of moral assurance, no spring within his own breast,
   no inner strength to place him above the need for repeated psychological shots
   to give him the courage to go on living.
+slug: 2023-03-26-the-great-god-entertainment
 featuredImage: /uploads/the_great_god_entertainment.jpeg
 createdDate: 2023-03-26
 ---
 The following was written by A.W. Tozer in 1955, in his book The Root of the Righteous. Following this excerpt are some reflections on what he had written.
 
----
+- - -
 
 A German philosopher many years ago said something to the effect that the more a man has in his own heart, the less he will require from the outside; excessive need for support from without is proof of the bankruptcy of the inner man.
 
@@ -30,7 +35,7 @@ And the ominous thing is that its power is almost exclusively evil, rotting the 
 
 For this she got herself abused roundly by the sons of this world. But of late she has become tired of the abuse and has given over the struggle. She appears to have decided that if she cannot conquer the great god Entertainment she may as well join forces with him and make what use she can of his powers.
 
----
+- - -
 
 A.W. Tozer wrote these words almost 70 years ago. How much more relevant are they now, though? One could only imagine what he might say if he saw the overwhelming obsession with entertainment that exists in our society now. We live with endless distractions available to us at our fingertips.Televisions are in virtually every home, and are continually streaming carefully crafted content to masses. People spend hours endlessly scrolling through FaceBook, Instagram, and TikTok posts, hoping that it'll bring some temporary excitement or distraction to life.
 

@@ -1,17 +1,22 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: jczqmxtzl9
 title: Not Knowing The Things That Shall Befall Me
+isBlogPost: true
 author: Mary Gardiner Brainard
 summary: |-
   I know not what will befall me: God hangs a mist o’er my eyes;
   And thus, each step of my onward path, He makes new scenes arise,
   And every joy He sends to me comes like a sweet surprise.
+slug: 2023-11-15-not-knowing-the-things-that-shall-befall-me
 featuredImage: /uploads/not_knowing_the_things_that_shall_befall_me.jpeg
 createdDate: 2023-11-15
 ---
 This poem was written by Mary Gardiner Brainard (1837-1905).
 
----
+- - -
 
 > "... not knowing the things that shall befall me there."
 >

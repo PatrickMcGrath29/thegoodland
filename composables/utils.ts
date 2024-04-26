@@ -20,3 +20,7 @@ export function useSeoImage(imagePath: string | null) {
 
   return new URL(formattedImagePath, baseUrl).toString()
 }
+
+export function getPath(record: any): string {
+  return record._path.split('/').at(-1) as string
+}

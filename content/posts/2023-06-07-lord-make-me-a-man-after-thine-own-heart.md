@@ -1,12 +1,17 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: mk4xmtpcbu
 title: Lord, Make Me a Man after Thine Own Heart!
+isBlogPost: true
 author: Oswald J. Smith
 summary: 'On November 8, 1927, my thirty-eighth birthday, I prayed this prayer:
   "Lord, make me a man after Thine Own heart." Work faded out of sight; things
   that before seemed important disappeared; everything in which I was interested
   took a secondary place; and my own inner life before God was all that
   mattered, all that was really worthwhile.'
+slug: 2023-06-07-lord-make-me-a-man-after-thine-own-heart
 featuredImage: /uploads/lord_make_me_a_man_after_thine_heart.jpeg
 createdDate: 2023-06-07
 ---

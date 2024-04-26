@@ -13,6 +13,9 @@ const postCreatedDate = computed(() => {
 })
 
 const postSeoDescripton = computed(() => {
+  if (!post.value.summary)
+    return ''
+
   return smartEllipsis(post.value.summary, 160)
 })
 

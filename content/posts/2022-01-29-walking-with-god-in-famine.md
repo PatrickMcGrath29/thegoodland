@@ -1,5 +1,7 @@
 ---
-uuid: 0_wmyve2-z
+slugFields:
+  - createdDate
+  - title
 title: Walking with God in Famine
 summary: There is no pursuit more worthwhile than seeking after God. There is no
   other pursuit that will yield greater rewards than seeking after God — for
@@ -9,6 +11,9 @@ summary: There is no pursuit more worthwhile than seeking after God. There is no
   reason why we can set out to seek after God in the first place with an
   assurance of success is because the Creator of life greatly desires to reveal
   Himself to us.
+slug: 2022-01-29-walking-with-god-in-famine
+uuid: 0_wmyve2-z
+isBlogPost: true
 featuredImage: /uploads/walking_with_god_in_famine.jpeg
 createdDate: 2022-01-29
 ---

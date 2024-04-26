@@ -1,5 +1,7 @@
 ---
-uuid: hmldode9ht
+slugFields:
+  - createdDate
+  - title
 title: Opening to the Lord
 summary: Many times we come to God in prayer and ask God to reveal Himself more
   to us, we ask Him to speak to us, and for that we do well. But we meanwhile
@@ -8,6 +10,9 @@ summary: Many times we come to God in prayer and ask God to reveal Himself more
   has but a few minutes before we lose focus and turn to other distractions. Our
   schedules are so packed, and so God only has the 15 minutes we give Him in the
   morning.
+slug: 2022-01-05-opening-to-the-lord
+uuid: hmldode9ht
+isBlogPost: true
 featuredImage: /uploads/opening_to_the_lord.jpeg
 createdDate: 2022-01-05
 ---

@@ -1,10 +1,15 @@
 ---
-uuid: ndbk1lnbfx
+slugFields:
+  - createdDate
+  - title
 title: Advice on Reading the Bible
 summary: God, in His love towards us, gave us His Word so that we may come to
   know Him. God didn’t care to be inseparably distanced from those He created,
   but desired that His creation would know Him and be in a relationship with
   Him.
+slug: 2022-12-02-advice-on-reading-the-bible
+uuid: ndbk1lnbfx
+isBlogPost: true
 featuredImage: /uploads/advice_on_reading_the_bible.jpeg
 createdDate: 2022-12-02
 ---

@@ -1,11 +1,16 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: oj11e0xqab
 title: Looking Unto Jesus
+isBlogPost: true
 author: Theodore Monod
 summary: '"looking unto Jesus, the author and finisher of our faith..." Only
   three words, but in these three words is the whole secret of spiritual life.
   Look unto Jesus in the Scriptures—to learn there... what He is, what He has
   done, what He gives, what He desires.'
+slug: 2022-12-28-looking-unto-jesus
 featuredImage: /uploads/hero.jpg
 createdDate: 2022-12-28
 ---

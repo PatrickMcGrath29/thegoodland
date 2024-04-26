@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Post } from '~/types'
 
-const postData = await useAsyncData('homePostSample', () => usePosts(6))
+const postData = await useAsyncData('homePostSample', () => useBlogPosts(6))
 
 const posts = postData.data as Ref<Post[]>
 const [featuredPost, ...recentPosts] = posts.value

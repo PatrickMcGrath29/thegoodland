@@ -1,9 +1,5 @@
-import type { ParsedContent } from '@nuxt/content/types'
+import { getPath } from './utils'
 import type { Post } from '~/types'
-
-function getPath(record: any): string {
-  return record._path.split('/').at(-1) as string
-}
 
 function toPost(record: any): Post {
   return {
@@ -13,8 +9,8 @@ function toPost(record: any): Post {
   }
 }
 
-export async function usePosts(limit: number | null = null): Promise<Post[]> {
-  const query = queryContent<Post>('posts').sort({ createdDate: -1, $numeric: true })
+export async function useBlogPosts(limit: number | null = null): Promise<Post[]> {
+  const query = queryContent<Post>('posts').where({ isBlogPost: true }).sort({ createdDate: -1, $numeric: true })
 
   if (limit !== null)
     query.limit(limit)
@@ -27,4 +23,10 @@ export async function usePost(postPath: string): Promise<Post> {
   const post = await queryContent<Post>('posts').where({ _path: `/posts/${postPath}` }).findOne()
 
   return toPost(post)
+}
+
+export async function usePostsById(ids: string[]): Promise<Post[]> {
+  const posts = await queryContent<Post>('posts').where({ uuid: { $in: ids } }).find()
+
+  return posts.map(toPost)
 }

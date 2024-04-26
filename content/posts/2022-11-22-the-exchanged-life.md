@@ -1,5 +1,7 @@
 ---
-uuid: 5gabga1gau
+slugFields:
+  - createdDate
+  - title
 title: The Exchanged Life
 summary: >
   As I thought of the Vine and the branches, what light the blessed Spirit
@@ -12,12 +14,15 @@ summary: >
   really one with a risen and exalted Saviour; to be a member of Christ! Think
   what it involves. Can Christ be rich and I poor? Can your right hand be rich
   and the left poor? or your head be well fed while your body starves?
+slug: 2022-11-22-the-exchanged-life
+uuid: 5gabga1gau
+isBlogPost: true
 featuredImage: /uploads/exchanged_life.jpeg
 createdDate: 2022-11-22
 ---
 The following letter was written by Hudson Taylor to his sister in October of 1869. May the Lord open to us the wonder of our union with Christ, just as He had done for Hudson Taylor.
 
----
+- - -
 
 My own dear Sister—
 
