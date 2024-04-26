@@ -33,7 +33,7 @@ const parsedUrl = computed(() => {
 </script>
 
 <template>
-  <a v-if="isAnchor" :href="parsedUrl" class="link">
+  <a v-if="isAnchor" :href="parsedUrl" class="link text-blue-500">
     <slot />
   </a>
   <NuxtLink v-else :to="parsedUrl" target="_blank" class="link">
