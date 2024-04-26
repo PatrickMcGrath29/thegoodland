@@ -17,7 +17,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxt/content',
-    '@zadigetvoltaire/nuxt-gtm',
   ],
   image: {
     quality: 80,
