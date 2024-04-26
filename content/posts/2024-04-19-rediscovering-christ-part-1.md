@@ -13,7 +13,7 @@ summary: Although the book is described as the Acts of the Apostles, in many
   now," he said, "I'm going to put on record in this second book all that He
   continued to do and to teach." The only difference being the humanity that He
   used with which to do it and teach it.
-slug: 2024-04-18-rediscovering-christ-part-1
+slug: 2024-04-19-rediscovering-christ-part-1
 featuredImage: /uploads/rediscovering_christ.jpg
 createdDate: 2024-04-18
 ---

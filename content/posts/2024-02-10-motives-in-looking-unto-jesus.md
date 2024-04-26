@@ -10,7 +10,7 @@ summary: Come, let the proud man boast in his honor, and the mighty man is his
   valor, and the rich man in his wealth, but let the Christian pronounce himself
   happy, only happy, truly happy, fully happy in beholding Christ, enjoying
   Christ, having Christ, in looking unto Jesus.
-slug: 2024-02-10-a-call-to-looking-unto-jesus
+slug: 2024-02-10-motives-in-looking-unto-jesus
 featuredImage: /uploads/dsc_0254.jpeg
 createdDate: 2024-02-10
 ---

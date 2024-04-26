@@ -14,7 +14,7 @@ summary: Once we have made the discovery of the fact that we are the dwelling
   others have not, but that some know His indwelling and others do not, and that
   consequently some recognize the Divine ownership of their lives while others
   are still their own masters.
-slug: 2023-05-07-the-indwelling-and-lordship-of-christ-excerpts-from-the-normal-christian-life
+slug: 2023-05-07-the-indwelling-and-lordship-of-christ
 featuredImage: /uploads/lordship_of_christ.jpeg
 createdDate: 2023-05-07
 ---

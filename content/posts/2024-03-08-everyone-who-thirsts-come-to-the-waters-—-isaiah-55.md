@@ -10,7 +10,7 @@ summary: 'The living God, in His sincere love for us, extends to us a great
   one condition: He writes only to those who are thirsty. Look into your heart
   and consider, are you thirsty for something more? Are you truly content with
   what you have found in the world thus far?'
-slug: 2024-03-07-everyone-who-thirsts-come-to-the-waters
+slug: 2024-03-08-everyone-who-thirsts-come-to-the-waters-isaiah-55
 uuid: uxyxtv34jr
 isBlogPost: true
 featuredImage: /uploads/everyone_who_thirsts.jpg

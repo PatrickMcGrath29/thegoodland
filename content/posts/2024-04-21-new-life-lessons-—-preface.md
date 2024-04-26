@@ -3,11 +3,12 @@ slugFields:
   - createdDate
   - title
 uuid: j713hrj-ex
-title: "New Life Lessons — 0: Preface"
-postType: featured
 author: Andrew Murray
-createdDate: 2024-04-20
 slug: 2024-04-20-new-life-lessons-0-preface
+title: "New Life Lessons — 0: Preface"
+featuredImage: /uploads/hero.jpg
+createdDate: 2024-04-20
+postType: featured
 ---
 In conversations with young converts, I have very frequently longed for a suitable book in which the most important truths that they have need of for the New Life should be briefly and simply set forth.  I could not find anything that entirely corresponded to what I desired.  During the services in which, since Whitsuntide 1884, I have been permitted to take part, and in which I have been enabled to speak with so many who professed to have found the Lord, and who were, nevertheless, still very weak in knowledge and faith, this want was felt by me still more keenly.  In the course of my journey, I felt myself pressed to take the pen in hand.  Under a vivid impression of the infirmities and the perverted thoughts concerning the New Life, with which, as was manifest to me from conversations I had with them, almost all young Christians have to wrestle, I wished, in some words of instruction and encouragement, to let them see what a glorious life of power and joy is prepared for them in their Lord Jesus, and how simple the way is to enjoy all this blessing.
 
