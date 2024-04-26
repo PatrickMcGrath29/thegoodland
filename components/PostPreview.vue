@@ -13,7 +13,7 @@ const postPath = `/posts/${props.post.path}`
           {{ post.title }}
         </NuxtLink>
       </h2>
-      <p>
+      <p v-if="post.summary">
         {{ smartEllipsis(post.summary, 500) }}
       </p>
       <div class="mt-5">

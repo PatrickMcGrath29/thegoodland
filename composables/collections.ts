@@ -3,7 +3,7 @@ import type { Collection } from '~/types'
 function toCollection(record: any): Collection {
   return {
     ...record,
-    path: getPath(record),
+    posts: record.posts.map(({ post }: any) => post),
   }
 }
 

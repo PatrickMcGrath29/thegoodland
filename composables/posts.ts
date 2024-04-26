@@ -25,8 +25,11 @@ export async function usePost(postPath: string): Promise<Post> {
   return toPost(post)
 }
 
-export async function usePostsById(ids: string[]): Promise<Post[]> {
-  const posts = await queryContent<Post>('posts').where({ uuid: { $in: ids } }).find()
+export async function usePostsBySlug(slugs: string[]): Promise<Post[]> {
+  const posts = await queryContent<Post>('posts').where({ slug: { $in: slugs } }).find()
+
+  // Reorder posts based on the ordering of slugs in the slugs argument
+  posts.sort((a, b) => slugs.indexOf(a.slug) - slugs.indexOf(b.slug))
 
   return posts.map(toPost)
 }

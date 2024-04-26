@@ -42,7 +42,7 @@ collections:
             widget: relation
             collection: posts
             search_fields: [title]
-            value_field: uuid
+            value_field: slug
             display_fields: [title]
             required: false
             hint: 'Optional, the posts associated with this collection.'
