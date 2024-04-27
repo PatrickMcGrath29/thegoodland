@@ -19,5 +19,6 @@ summary: >-
 posts:
   - post: 2024-04-20-new-life-lessons-0-preface
   - post: 2024-04-20-new-life-lessons-1-the-new-life
+  - post: 2024-04-27-new-life-lessons-2-the-milk-of-the-word
 featuredImage: /uploads/hero.jpg
 ---
