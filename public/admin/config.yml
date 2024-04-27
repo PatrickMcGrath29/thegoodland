@@ -33,6 +33,11 @@ collections:
         display_fields: [name]
         required: false
         hint: 'Optional, the author associated with this collection.'
+      - label: Summary
+        name: summary
+        widget: text
+        required: true
+        hint: 'Optional, a short description of the collection.'
       - label: Posts
         name: posts
         widget: list
@@ -46,6 +51,12 @@ collections:
             display_fields: [title]
             required: false
             hint: 'Optional, the posts associated with this collection.'
+      - label: Featured Image
+        name: featuredImage
+        widget: image
+        allow_multiple: false
+        required: false
+        hint: 'Optional, the image associated with this post.'
 
   - name: posts
     label: Post

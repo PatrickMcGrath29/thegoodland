@@ -4,7 +4,6 @@ import type { Post } from '~/types'
 function toPost(record: any): Post {
   return {
     ...record,
-    path: getPath(record),
     createdDate: new Date(record.createdDate),
   }
 }
@@ -19,8 +18,8 @@ export async function useBlogPosts(limit: number | null = null): Promise<Post[]>
   return posts.map(toPost)
 }
 
-export async function usePost(postPath: string): Promise<Post> {
-  const post = await queryContent<Post>('posts').where({ _path: `/posts/${postPath}` }).findOne()
+export async function usePost(slug: string): Promise<Post> {
+  const post = await queryContent<Post>('posts').where({ slug }).findOne()
 
   return toPost(post)
 }
