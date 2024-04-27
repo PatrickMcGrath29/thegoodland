@@ -4,7 +4,7 @@ const { data: collections } = await useAsyncData('allCollections', () => useColl
 
 <template>
   <div v-for="(collection, idx) in collections" :key="idx">
-    <NuxtLink :to="`/collections/${collection.path}`">
+    <NuxtLink :to="`/collections/${collection.slug}`">
       {{ collection.name }}
     </NuxtLink>
   </div>

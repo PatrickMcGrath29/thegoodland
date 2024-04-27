@@ -75,7 +75,7 @@ Be assured that this life offered to you in Christ, a life of walking in the Spi
 We would also like to include some other literature that has been helpful to us.
 
 * [Abide in Christ, by Andrew Murray](/uploads/abide_in_christ.pdf)
-* [Looking unto Jesus, by Theodore Monod](/posts/oj11e0xqab)
+* [Looking unto Jesus, by Theodore Monod](/posts/2022-12-28-looking-unto-jesus)
 * [The Pursuit of God, by A.W. Tozer ](/uploads/the_pursuit_of_god.pdf)
 * [The Practice of the Presence of God, by Brother Lawrence](/uploads/the_practice_of_the_presence_of_god.pdf)
 * Sit, Walk, Stand, by Watchman Nee
