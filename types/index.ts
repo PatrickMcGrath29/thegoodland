@@ -17,4 +17,5 @@ export interface Collection extends ParsedContent {
   author: string
   summary: string
   posts: string[]
+  featuredImage: string
 }
