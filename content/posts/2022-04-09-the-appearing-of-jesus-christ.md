@@ -1,11 +1,16 @@
 ---
-uuid: 27goctvgle
+slugFields:
+  - createdDate
+  - title
 title: The Appearing of Jesus Christ
 summary: Jesus Christ’s first appearing two thousand years ago brought about the
   end of death and the beginning of life and immortality, for all who put their
   trust in Him. In His final appearing, He will bring about an end to sin and to
   pain, and all things will be made new. In between these two points in time
   though, He still desires to appear to us who love and obey Him.
+slug: 2022-04-09-the-appearing-of-jesus-christ
+uuid: 27goctvgle
+isBlogPost: true
 featuredImage: /uploads/the_appearing_of_christ.jpeg
 createdDate: 2022-04-09
 ---

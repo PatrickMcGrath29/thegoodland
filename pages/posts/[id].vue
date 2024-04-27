@@ -2,17 +2,19 @@
 import PostDetail from '~/components/PostDetail.vue'
 import type { Post } from '~/types'
 
-const { params: { id: postId } } = useRoute()
+const { params: { id: slug } } = useRoute()
 
-const postData = await useAsyncData(`post/${postId}}`, () => usePost(postId as string))
+const postData = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
 
 const post = postData.data as Ref<Post>
 const postCreatedDate = computed(() => {
-  const date = new Date(post.value.createdDate)
-  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+  return post.value.createdDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
 })
 
 const postSeoDescripton = computed(() => {
+  if (!post.value.summary)
+    return ''
+
   return smartEllipsis(post.value.summary, 160)
 })
 

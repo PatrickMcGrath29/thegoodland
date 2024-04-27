@@ -2,6 +2,6 @@
 slugFields:
   - createdDate
   - title
-uuid: yurgjetrvj
-name: Oswald J. Smith
+uuid: fjsgqceb_p
+name: Andrew Murray
 ---

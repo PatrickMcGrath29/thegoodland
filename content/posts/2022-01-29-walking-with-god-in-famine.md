@@ -1,5 +1,7 @@
 ---
-uuid: 0_wmyve2-z
+slugFields:
+  - createdDate
+  - title
 title: Walking with God in Famine
 summary: There is no pursuit more worthwhile than seeking after God. There is no
   other pursuit that will yield greater rewards than seeking after God — for
@@ -9,6 +11,9 @@ summary: There is no pursuit more worthwhile than seeking after God. There is no
   reason why we can set out to seek after God in the first place with an
   assurance of success is because the Creator of life greatly desires to reveal
   Himself to us.
+slug: 2022-01-29-walking-with-god-in-famine
+uuid: 0_wmyve2-z
+isBlogPost: true
 featuredImage: /uploads/walking_with_god_in_famine.jpeg
 createdDate: 2022-01-29
 ---
@@ -20,7 +25,7 @@ There are many things that can be learned from looking at how Abram responded to
 
 Instead, Abram established his own plans. He knew that the land in Egypt was well watered by the river Nile, suggesting that soil would be fertile, which in turn likely produced sufficient food. Abram, without consulting God, decided to leave the land that God had called him into, to go to Egypt. Since Abram had departed from trusting in God, the ground in his heart was ripe for anxiety and fear to continue to breed. We see that as Abram was approaching Egypt he became afraid, thinking that the Egyptians would see the exceeding beauty of his wife and be jealous, which would lead them to kill him. Again, instead of trusting in God he devised a lie and said that Sarai, his wife, was actually his sister. When Pharaoh was drawn by her beauty he invited her into his house, believing she was not yet married. Because of this God brought a curse upon Egypt until Abram and Sarai were reunited and sent back to Canaan (Genesis 12:10-17).
 
-Is this what it looks like to walk with God? Should we only walk with God in times of prosperity, and forsake Him when our circumstances become challenging? Many times the moments of hardship lead us to turn to our own strength and wisdom because we feel as though immediate action on our part is necessary in order to respond to the situation. But the truth is that these moments of hardship are usually the times when we need the peace, direction, and strength of God the most. 
+Is this what it looks like to walk with God? Should we only walk with God in times of prosperity, and forsake Him when our circumstances become challenging? Many times the moments of hardship lead us to turn to our own strength and wisdom because we feel as though immediate action on our part is necessary in order to respond to the situation. But the truth is that these moments of hardship are usually the times when we need the peace, direction, and strength of God the most.
 
 ### Who is our God?
 

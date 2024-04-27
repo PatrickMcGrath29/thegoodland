@@ -12,6 +12,52 @@ media_folder: public/uploads
 public_folder: /uploads
 
 collections:
+  - name: collections
+    label: Collections
+    folder: content/collections
+    format: frontmatter
+    create: true
+    slug: '{{name}}-{{author}}'
+    summary: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - {label: Slug Fields, name: slugFields, widget: hidden, default: [name, author]}
+      - {label: Collection Name, name: name, widget: string}
+      - label: Author
+        name: author
+        widget: relation
+        collection: authors
+        search_fields: [name]
+        value_field: name
+        display_fields: [name]
+        required: false
+        hint: 'Optional, the author associated with this collection.'
+      - label: Summary
+        name: summary
+        widget: text
+        required: true
+        hint: 'Optional, a short description of the collection.'
+      - label: Posts
+        name: posts
+        widget: list
+        fields:
+          - label: Post
+            name: post
+            widget: relation
+            collection: posts
+            search_fields: [title]
+            value_field: slug
+            display_fields: [title]
+            required: false
+            hint: 'Optional, the posts associated with this collection.'
+      - label: Featured Image
+        name: featuredImage
+        widget: image
+        allow_multiple: false
+        required: false
+        hint: 'Optional, the image associated with this post.'
+
   - name: posts
     label: Post
     folder: content/posts
@@ -23,8 +69,10 @@ collections:
       preview: false
     identifier_field: uuid
     fields:
+      - {label: Slug Fields, name: slugFields, widget: hidden, default: [createdDate, title]}
       - {label: Unique ID, name: uuid, widget: uuid}
       - {label: Title, name: title, widget: string}
+      - {label: Blog Post, name: isBlogPost, widget: boolean, default: true, required: false}
       - label: Author
         name: author
         widget: relation

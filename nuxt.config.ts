@@ -6,6 +6,9 @@ export default defineNuxtConfig({
       scSecurity: process.env.SC_SECURITY || '000000',
     },
   },
+  gtm: {
+    id: 'GTM-TV5LN2J2',
+  },
   devtools: { enabled: true },
   modules: [
     '@vueuse/nuxt',

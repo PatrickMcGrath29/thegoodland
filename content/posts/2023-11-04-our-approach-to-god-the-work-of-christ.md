@@ -1,17 +1,22 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: 3u68ohleq5
 title: "Our Approach to God: The Work of Christ"
+isBlogPost: true
 author: Watchman Nee
 summary: We must have a basic knowledge of the fact of the death of the Lord
   Jesus as our Substitute upon the Cross, and a clear apprehension of the
   efficacy of His Blood for our sins, for without this we cannot be said to have
   started upon our road.
+slug: 2023-11-04-our-approach-to-god-the-work-of-christ
 featuredImage: /uploads/our_approach_to_god.jpeg
 createdDate: 2023-11-04
 ---
 The following text is an except from the book The Normal Christian Life by Watchman Nee. The full chapter can be read [here](https://ccel.org/ccel/nee/normal/normal.v.vi.html) (as well as the remainder of the book).
 
----
+- - -
 
 > And every priest stands ministering daily and offering repeatedly the same sacrifices, which can never take away sins. But this Man, after He had offered one sacrifice for sins forever, sat down at the right hand of God... For by one offering He has perfected forever those who are being sanctified.
 >

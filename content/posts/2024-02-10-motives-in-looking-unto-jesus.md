@@ -1,17 +1,22 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: v-ebgkpyy1
 title: A Call to Looking Unto Jesus
+isBlogPost: true
 author: Isaac Ambrose
 summary: Come, let the proud man boast in his honor, and the mighty man is his
   valor, and the rich man in his wealth, but let the Christian pronounce himself
   happy, only happy, truly happy, fully happy in beholding Christ, enjoying
   Christ, having Christ, in looking unto Jesus.
+slug: 2024-02-10-motives-in-looking-unto-jesus
 featuredImage: /uploads/dsc_0254.jpeg
 createdDate: 2024-02-10
 ---
 The following text comes from the book Looking Unto Jesus, by Isaac Ambrose.
 
----
+- - -
 
 To quicken us to this duty; I shall put forward some moving considerations: ponder and weigh them with an impartial judgment. Who knows, but through the assistance of Christ, they may prove effectual with your hearts, and make you to resolve upon this excellent duty of looking unto Jesus.
 

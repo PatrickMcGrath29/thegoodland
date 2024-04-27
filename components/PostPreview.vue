@@ -2,7 +2,7 @@
 import type { Post } from '@/types'
 
 const props = defineProps<{ post: Post }>()
-const postPath = `/posts/${props.post.path}`
+const postPath = `/posts/${props.post.slug}`
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const postPath = `/posts/${props.post.path}`
           {{ post.title }}
         </NuxtLink>
       </h2>
-      <p>
+      <p v-if="post.summary">
         {{ smartEllipsis(post.summary, 500) }}
       </p>
       <div class="mt-5">

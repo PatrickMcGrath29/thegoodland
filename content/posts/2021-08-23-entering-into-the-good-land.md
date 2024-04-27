@@ -1,9 +1,14 @@
 ---
-uuid: rjg3ugt4ds
+slugFields:
+  - createdDate
+  - title
 title: Entering into the Good Land
 summary: The Good Land (perhaps otherwise known as the promise land) is a land
   of brooks of water, of milk and honey, vines and fig trees and pomegranates.
   It is a land of abundance, where those who dwell in it lack nothing.
+slug: 2021-08-23-entering-into-the-good-land
+uuid: rjg3ugt4ds
+isBlogPost: true
 featuredImage: /uploads/entering_the_good_land.jpeg
 createdDate: 2021-08-23
 ---
@@ -17,17 +22,15 @@ This story represents something more than just historical events. The journey of
 
 ### Christ, our Good Land
 
-The Bible shows us that the true Good Land isn’t a geographical area in the Middle East, but it is actually Jesus Christ Himself. He is the Land of abundance, the rich Land that supplies for all of the needs of those who dwell in Him, just like the good land did for the Israelites. 
+The Bible shows us that the true Good Land isn’t a geographical area in the Middle East, but it is actually Jesus Christ Himself. He is the Land of abundance, the rich Land that supplies for all of the needs of those who dwell in Him, just like the good land did for the Israelites.
 
 <blockquote>I will put My Spirit within you and cause you to walk in My statutes, and you will keep My judgments and do them. Then you shall dwell in the land that I gave to your fathers; you shall be My people, and I will be your God.<footer>Ezekiel 36:27–28</footer></blockquote>
 
-
-
 <blockquote>I came that they may have life, and may have it abundantly.<footer>Jesus, in John 10:10</footer></blockquote>
 
-The Israelites were coming into the good land from the desert, which was a place that lacked the basic things needed for life like food or water. But as they entered into the good land they found it to be a land of abundance. The soil was fertile, and growing in this soil were pomegranate trees, grape vines, and olive trees. There was an abundance of food there, for them to enjoy. And they were able to eat and be filled by that food. 
+The Israelites were coming into the good land from the desert, which was a place that lacked the basic things needed for life like food or water. But as they entered into the good land they found it to be a land of abundance. The soil was fertile, and growing in this soil were pomegranate trees, grape vines, and olive trees. There was an abundance of food there, for them to enjoy. And they were able to eat and be filled by that food.
 
-Our Good Land, Christ Himself, is to be the source of our food, the spiritual food that we need that satisfies the deepest longings of our soul. Jesus called Himself the "bread of life". It was His earnest desire that people would come to Him and be filled and satisfied by Him. 
+Our Good Land, Christ Himself, is to be the source of our food, the spiritual food that we need that satisfies the deepest longings of our soul. Jesus called Himself the "bread of life". It was His earnest desire that people would come to Him and be filled and satisfied by Him.
 
 <blockquote>And Jesus said to them, “I am the bread of life. He who comes to Me shall never hunger, and he who believes in Me shall never thirst."<footer>John 6:35</footer></blockquote>
 
@@ -35,17 +38,15 @@ A starving boy wouldn't simply touch or analyze food that is presented to him, b
 
 <blockquote>Your words were found, and I ate them, And Your word was to me the joy and rejoicing of my heart...<footer>Jeremiah 15:16</footer></blockquote>
 
-As the Israelites had to take possession of the good land that God was calling them into, so we need to take possession of Christ. Jesus shouldn't just be a Savior, He needs to be my Savior. He shouldn't just be a source of strength and joy, but He needs to be my strength and my joy. We need to take possession of Christ and make His objective realities our own personal experience. 
+As the Israelites had to take possession of the good land that God was calling them into, so we need to take possession of Christ. Jesus shouldn't just be a Savior, He needs to be my Savior. He shouldn't just be a source of strength and joy, but He needs to be my strength and my joy. We need to take possession of Christ and make His objective realities our own personal experience.
 
 ### Everlasting Riches
 
-When speaking of the land of abundance where there is no lack, I do not speak about an abundance of physical possessions or riches in this world. Jesus said before He was crucified that His kingdom is not of this world (John 18:36). That means that the true riches of His kingdom are also not of this world. 
+When speaking of the land of abundance where there is no lack, I do not speak about an abundance of physical possessions or riches in this world. Jesus said before He was crucified that His kingdom is not of this world (John 18:36). That means that the true riches of His kingdom are also not of this world.
 
 The riches in the Good Land, in Jesus Christ, don't compare to anything in this world. They give a fullness of joy (Psalm 16:11), while the riches of this world leave us empty. The riches in Jesus are enduring and only become more enjoyable to us with time (Psalm 139:17–18), while the riches of this world lose their value with time, and leave us searching for more.
 
 The Israelites were made to dwell in the good land -- not in Egypt in captivity or in the dry and weary desert. It is my hope that God would open our eyes to see that this is what we were made for, to be in a living relationship with Jesus, daily walking with Him, resting in Him, and really dwelling in Him.
-
-
 
 ### Entering In
 

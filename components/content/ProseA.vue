@@ -13,11 +13,17 @@ const props = defineProps({
 
 const { public: { baseUrl } } = useRuntimeConfig()
 
-const fullUrl = computed(() => {
+const isAnchor = computed(() => props.href.startsWith('#'))
+
+const parsedUrl = computed(() => {
   let href = props.href
 
-  if (props.href.startsWith('http'))
-    return props.href
+  // A link to an anchor on the same page
+  if (isAnchor)
+    return href
+
+  if (href.startsWith('http'))
+    return href
 
   if (href.startsWith('/public'))
     href = href.replace('/public', '')
@@ -27,7 +33,10 @@ const fullUrl = computed(() => {
 </script>
 
 <template>
-  <NuxtLink :href="fullUrl" target="_blank" class="link">
+  <a v-if="isAnchor" :href="parsedUrl" class="link text-blue-500">
+    <slot />
+  </a>
+  <NuxtLink v-else :to="parsedUrl" target="_blank" class="link">
     <slot />
   </NuxtLink>
 </template>

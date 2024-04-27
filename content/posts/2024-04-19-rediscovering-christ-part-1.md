@@ -1,6 +1,10 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: jue6yrkajy
 title: Rediscovering Christ — Part 1
+isBlogPost: true
 author: Major Ian Thomas
 summary: Although the book is described as the Acts of the Apostles, in many
   senses, it's a misnomer because it isn't really the record of the Acts of the
@@ -9,6 +13,7 @@ summary: Although the book is described as the Acts of the Apostles, in many
   now," he said, "I'm going to put on record in this second book all that He
   continued to do and to teach." The only difference being the humanity that He
   used with which to do it and teach it.
+slug: 2024-04-19-rediscovering-christ-part-1
 featuredImage: /uploads/rediscovering_christ.jpg
 createdDate: 2024-04-18
 ---

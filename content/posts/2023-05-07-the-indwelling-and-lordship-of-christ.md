@@ -1,6 +1,10 @@
 ---
+slugFields:
+  - createdDate
+  - title
 uuid: q_q5-eotpm
 title: The Indwelling and Lordship of Christ - Excerpts from The Normal Christian Life
+isBlogPost: true
 author: Watchman Nee
 summary: Once we have made the discovery of the fact that we are the dwelling
   place of God, then a full surrender of ourselves to God must follow. When we
@@ -10,6 +14,7 @@ summary: Once we have made the discovery of the fact that we are the dwelling
   others have not, but that some know His indwelling and others do not, and that
   consequently some recognize the Divine ownership of their lives while others
   are still their own masters.
+slug: 2023-05-07-the-indwelling-and-lordship-of-christ
 featuredImage: /uploads/lordship_of_christ.jpeg
 createdDate: 2023-05-07
 ---
@@ -17,7 +22,7 @@ In 1 Corinthians 6 the apostle Paul wrote to the Corinthian believers saying, "d
 
 The following passage opens up this wonderful reality to us even more, and speaks of the truly great significance of being indwelled by the living God. This is taken from The Normal Christian Life, written by Watchman Nee. The whole book may be found [here](https://ccel.org/ccel/nee/normal/normal).
 
----
+- - -
 
 ### The Treasure in the Vessel
 

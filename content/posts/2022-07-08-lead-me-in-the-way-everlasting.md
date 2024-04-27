@@ -1,5 +1,7 @@
 ---
-uuid: bxccwdec0f
+slugFields:
+  - createdDate
+  - title
 title: Lead Me in the Way Everlasting
 summary: >+
   Our Father cares for us dearly and desires to accomplish this work in our
@@ -10,6 +12,9 @@ summary: >+
   dealings in our life are dealt out of tender love for us.
 
 
+slug: 2022-07-08-lead-me-in-the-way-everlasting
+uuid: bxccwdec0f
+isBlogPost: true
 featuredImage: /uploads/lead_me_in_the_way_everlasting.jpeg
 createdDate: 2022-07-08
 ---

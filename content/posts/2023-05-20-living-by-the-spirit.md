@@ -1,11 +1,16 @@
 ---
-uuid: 7zf4auq-tc
+slugFields:
+  - createdDate
+  - title
 title: Living by the Spirit
 summary: In the Old Testament when the Spirit of God came upon someone it was an
   exception. The Spirit of God came upon a select few people, and only then for
   a limited amount of time. It is altogether different for us though, in Christ.
   We have this assurance that through faith in Christ, He comes into our lives
   to dwell permanently in us.
+slug: 2023-05-20-living-by-the-spirit
+uuid: 7zf4auq-tc
+isBlogPost: true
 featuredImage: /uploads/living_by_the_spirit.jpeg
 createdDate: 2023-05-20
 ---

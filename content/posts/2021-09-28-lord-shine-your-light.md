@@ -1,5 +1,7 @@
 ---
-uuid: x13rkiaeo-
+slugFields:
+  - createdDate
+  - title
 title: Lord, Shine Your Light
 summary: “Search me, O God, and know my heart; try me, and know my thoughts...”
   (Psalm 139:23-24). We read this prayer of the psalmist David, and deep within
@@ -7,6 +9,9 @@ summary: “Search me, O God, and know my heart; try me, and know my thoughts...
   heart should be the earnest desire of every Christian. Yet, often times we
   forget the cost of what it means for Him to “try me,” “test me”, and for Him
   to “see if there is any wicked way in me”.
+slug: 2021-09-28-lord-shine-your-light
+uuid: x13rkiaeo-
+isBlogPost: true
 featuredImage: /uploads/shine_your_light.jpeg
 createdDate: 2021-09-28
 ---

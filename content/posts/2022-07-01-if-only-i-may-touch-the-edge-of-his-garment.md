@@ -1,5 +1,7 @@
 ---
-uuid: e6majbib3o
+slugFields:
+  - createdDate
+  - title
 title: If only I may touch the edge of His garment
 summary: Sometimes we become so overwhelmed by our circumstances or the
   situations of our daily life that we question whether there in fact is hope
@@ -9,6 +11,9 @@ summary: Sometimes we become so overwhelmed by our circumstances or the
   through just one encounter with Jesus Christ. Would we remember that this same
   Christ invites us to Himself, to come into His presence and experience the
   same transformation that this woman found.  
+slug: 2022-07-01-if-only-i-may-touch-the-edge-of-his-garment
+uuid: e6majbib3o
+isBlogPost: true
 featuredImage: /uploads/touch_the_edge_of_his_garment.jpeg
 createdDate: 2022-07-01
 ---
