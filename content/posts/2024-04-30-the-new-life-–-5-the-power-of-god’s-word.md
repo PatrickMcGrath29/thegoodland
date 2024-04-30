@@ -9,8 +9,6 @@ author: Andrew Murray
 createdDate: 2024-04-30
 slug: 2024-04-30-the-new-life-5-the-power-of-gods-word
 ---
-
-
 > *Faith cometh by hearing, and hearing by the word of God (Romans 10:17)*
 >
 > *Receive with meekness the implanted word, which is able to save your souls (James 1:21)*
@@ -41,26 +39,21 @@ Therefore, my young disciples in Christ, learn to receive God’s Word trustfull
 
 ### Prayer
 
-Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen.
-
- 
+Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen. 
 
 ### Points to remember
 
 1. Do not forget that it is one and the same to believe in the Word, or in the person who speaks the Word, or in the thing which is promised in the Word. The very same faith that receives the promises also receives the Father who promises, and the Son with the salvation that is given in the promises. Please see to it that you never separate the Word and the living God from each other.
-
 2. Also, see to it that you thoroughly understand the distinction between the reception of the Word as the “word of man” and as the “Word of God, which works in you that believe.”
-
 3. I think you now know what is necessary to become strong in faith. Exercise as much faith as you have. Take a promise of God. Say to yourself that it is certainly true. Go to God and say to Him that you rely on Him for the fulfillment. Ponder the promise, and cleave to it in conversation with God. Rely on Him to do for you what He says. He will surely do it.
-
 4. The Spirit and the Word always go together. I can be sure concerning all of what the Word says that I must do it and can do it through the Spirit. I must receive the Word, and also the command, in the confidence that it is the living Word of the living God which works in us who believe.
 
- 
+    
 
-[^1] Luke 17:5,6; Rom. 10:6-8
+[^1]: Luke 17:5,6; Rom. 10:6-8
 
-[^2] I Thess. 2:13; Jas. 1:21; 1 Pet. 1:23
+[^2]: I Thess. 2:13; Jas. 1:21; 1 Pet. 1:23
 
-[^3] Deut. 32:46,47; Josh. 1:7,9
+[^3]: Deut. 32:46,47; Josh. 1:7,9
 
-[^4] Gal. 6:6; 1 Thess. 1:3; Jas. 1:21
+[^4]: Gal. 6:6; 1 Thess. 1:3; Jas. 1:21
