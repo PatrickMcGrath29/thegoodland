@@ -45,6 +45,8 @@ Teach me, through the Holy Spirit and the Word, to walk and converse everyday in
 5. Choose for yourselves what you consider one of the most glorious promises about making progress and becoming strong, and learn it by heart. Repeat it continually as the language of your positive expectation.
 6. Have you learned to understand well what the great means for growth in grace is?
 
+    
+
 [^1]: 1 Pet. 1:23; 2:2,10,25
 
 [^2]: Rom. 8:16; 1 Cor. 3:1,16; Gal. 4:6,7; 1 John 3:2,14,24; 4:13; 5:10,13 .
