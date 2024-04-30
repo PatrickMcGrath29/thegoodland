@@ -42,12 +42,10 @@ Father, Your child thanks You for this blessed life of faith in which we have to
 ### Points to remember
 
 1. The Christian must read and search the Scriptures to increase his knowledge. For this reason, he reads one or more principal passages daily. He reads the Scriptures to also strengthen his faith. To achieve this he must take one or two verses and make them the subject of special reflection.
-
 2. Do not allow yourselves to be led astray by those who speak of faith as something great and unintelligible. Faith is nothing more than the certainty that God speaks the truth. Take some promises of God and say to Him, “I know for certain that this promise is truth, and that You will fulfill it.” He will do it.
-
 3. Never mourn over unbelief as if it were a weakness which you cannot help. As God’s child, however weak you may be, you have the power to believe because the Spirit of God is in you. Keep this in mind--no one understands anything unless he has the power to believe. He must simply begin and continue to say to the Lord that he is sure that His Word is truth. He must securely hold the promise and trust God for the fulfillment.
 
- 
+    
 
 [^1]: 2 Chron.20:20; Mark 9:23; Heb. 11:33,35; 1 John 5:4,5
 
