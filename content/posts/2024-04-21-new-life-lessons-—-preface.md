@@ -5,7 +5,7 @@ slugFields:
 uuid: j713hrj-ex
 author: Andrew Murray
 slug: 2024-04-20-new-life-lessons-0-preface
-title: "New Life Lessons — 0: Preface"
+title: New Life Lessons – Preface
 featuredImage: /uploads/hero.jpg
 createdDate: 2024-04-20
 postType: featured
