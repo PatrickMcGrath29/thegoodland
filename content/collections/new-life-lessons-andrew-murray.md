@@ -3,19 +3,16 @@ name: New Life Lessons
 author: Andrew Murray
 slug: new-life-lessons-andrew-murray
 summary: >-
-  The New Life aids Christians in their examination of the scripture and offers
-  valuable information to believers who want to overcome sin and live the
-  Christian life. While Murray's book is specifically designed for young
-  converts, the text is useful to all Christians. Murray's chapters cover a
-  variety of different topics that Christians, particularly those new to the
-  faith, will find remarkably helpful. Murray discusses how Christians should
-  approach the tasks of missionary work, prayer, confession, and baptism. The
-  text also provides practical guidance regarding money, self-denial,
-  discretion, and the temptations of worldly evil.
+  Andrew Murray was born in 1828 in South Africa, where he lived most of his
+  life. A faithful servant of God, he was greatly used by the Lord, not only
+  during his life but even until now through his writings. As a young believer,
+  Watchman Nee was greatly helped by Murray’s books and recommended them.
 
 
+  These short lessons were written by Andrew Murray for new disciples of Jesus. They are simple, basic but VERY important. Whether we are new in the Lord’s path or we’ve been there for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
 
-  New Life is a personal devotional, but it is also a resourceful tool for large congregations, small groups, and prayer meetings. The text is simply and easy to understand, and while each individual entry is rather short, Murray supplies substantial scriptural reference for further exploration.
+
+  Some of the lessons are more basic, some are more advanced. The language is simple and easy to understand, and while each lesson is rather short, there are substantial Scripture references for further study. Let each reader receive according to their capacity and growth level, as the Lord confirms His truths in the heart. He is  our Good Shepherd, and He knows how to give us our “portion of food at the proper time”.
 posts:
   - post: 2024-04-20-new-life-lessons-0-preface
   - post: 2024-04-20-new-life-lessons-1-the-new-life
