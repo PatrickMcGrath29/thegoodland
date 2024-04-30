@@ -10,7 +10,7 @@ isBlogPost: false
 featuredImage: /uploads/opening_to_the_lord.jpeg
 createdDate: 2024-04-27
 ---
-> As newborn babes, desire the sincere milk of the word, that ye may grow thereby unto salvation\
+\> As newborn babes, desire the sincere milk of the word, that ye may grow thereby unto salvation\
 > \
 > 1 Peter 2:2.
 
