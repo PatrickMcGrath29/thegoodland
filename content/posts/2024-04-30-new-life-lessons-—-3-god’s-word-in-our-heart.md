@@ -13,9 +13,9 @@ slug: 2024-04-30-new-life-lessons-3-gods-word-in-our-heart
 >
 > *Son of man, all My words that I shall speak unto thee receive in thine heart (Ezekiel 3:10)*
 >
-> *Thy* word *have I hid in mine heart, that I might not sin against Thee (Psalm 119:11)*
+> Thy word have I hid in mine heart, that I might not sin against Thee (Psalm 119:11)
 
-“As newborn babes, desire the sincere milk of the word, that ye may grow thereby” (1 Peter 2:2). Every young Christian is taught that he must receive the Word of God as milk--as the living participation of the life and vine of God--if he is to grow. On this account it is of great importance to know how we must deal with the Word. The Lord says that we must receive it and lay it up in our heart. [^1] The Word must possess and fill the heart. What does that mean?
+As newborn babes, desire the sincere milk of the word, that ye may grow thereby” (1 Peter 2:2). Every young Christian is taught that he must receive the Word of God as milk--as the living participation of the life and vine of God--if he is to grow. On this account it is of great importance to know how we must deal with the Word. The Lord says that we must receive it and lay it up in our heart. [^1] The Word must possess and fill the heart. What does that mean?
 
 The heart is the temple of God. In the temple there was an outer court and an inner sanctuary. So it is in the heart. The gate of the court is understanding. What I do not understand cannot enter into the heart. The Word enters into the court through the outer gate of understanding. [^2] There it is kept by memory and reflection. [^3] Still it is not properly in the heart. From the court there is an entrance into the innermost sanctuary. The entrance of the door is faith. What I believe, that will I receive into my heart. [^4] Here it becomes secure in love and in the surrender of the will. Where this takes place, there the heart becomes the sanctuary of God. His law is there, as in the ark, and the soul cries out, “Thy law is within my heart.” [^5]
 
