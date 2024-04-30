@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: 6r9e0dbgtq
 title: "New Life Lessons — 3: God’s Word In Our Heart"
-isBlogPost: true
+isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
 slug: 2024-04-30-new-life-lessons-3-gods-word-in-our-heart
@@ -31,18 +31,18 @@ My Father who has said to me, “My son, give Me your heart,” I will give You 
 
 Footnotes:
 
-[^1] Deut.30:14; Ps.1:2; 119:34,36; Isa. 51:7; John 5:38; 8:31; 15:7; Rom.10:8,9; Col. 3:16
+[^1]: Deut.30:14; Ps.1:2; 119:34,36; Isa. 51:7; John 5:38; 8:31; 15:7; Rom.10:8,9; Col. 3:16
 
-[^2] Ps. 119:34; Matt. 13:19; Acts 8:30
+[^2]: Ps. 119:34; Matt. 13:19; Acts 8:30
 
-[^3] Ps. 119:15,16
+[^3]: Ps. 119:15,16
 
-[^4] John 5:38; Acts 8:37; Rom. 10:10,17
-[^5] Ex. 25:16; Ps. 37:31; 40:8; Col. 3:16
-[^6] Gen. 21:1; Josh. 23:14
-[^7] Deut. 11:10; 28:1,2; Ps.1:2,3;119:14,45,98,165; John 17:6,8,17
-[^8] Ps. 119:69; John 15:3,7; 17:6,8,17
-[^9] John 14:21,23; 1 John 2:14,24; Rev. 3:8,10
+[^4]: John 5:38; Acts 8:37; Rom. 10:10,17
+[^5]: Ex. 25:16; Ps. 37:31; 40:8; Col. 3:16
+[^6]: Gen. 21:1; Josh. 23:14
+[^7]: Deut. 11:10; 28:1,2; Ps.1:2,3;119:14,45,98,165; John 17:6,8,17
+[^8]: Ps. 119:69; John 15:3,7; 17:6,8,17
+[^9]: John 14:21,23; 1 John 2:14,24; Rev. 3:8,10
 
 Notes:
 
