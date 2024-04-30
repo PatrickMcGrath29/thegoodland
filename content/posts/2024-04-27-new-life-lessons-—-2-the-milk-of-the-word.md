@@ -14,9 +14,17 @@ createdDate: 2024-04-27
 
 Beloved young Christians, hear what your Father has to say in this word. You have just recently given yourselves to the Lord and have believed that He has received you. You have received the new life from God. You are now as newborn infants. He will teach you in this word what is necessary so that you may grow strong.
 
+::pullquote
+A Christian, however young and weak, must know that he is God's child.
+::
+
 The first point is: you must know that you are God's children. Hear how distinctly Peter says this to those just converted: "You have been born again," "you are newborn infants," "you are now converted," "you are now the people of God." [^1] A Christian, however young and weak, must know that he is God's child. Only then can he have the courage to believe that he will make progress and the boldness to use the food provided in the Word. All Scripture teaches us that we must know and can know that we are children of God. [^2] The assurance of faith is indispensable for a healthy, powerful growth in the Lord. [^3]
 
 The second point which this word teaches you is: you are still very weak, weak as newborn children. The joy and love which a new convert sometimes experiences do indeed make him think that he is very strong. He runs the risk of exalting himself and of trusting in what he experiences. He should nevertheless learn much about how he should become strong in his Lord Jesus. Endeavor to deeply feel that you are still young and weak. [^4] Out of this sense of weakness comes the humility which has nothing in itself. [^5] It therefore expects all from its Lord. [^6]
+
+::pullquote
+The young Christian must not remain weak. He must make progress and become strong.
+::
 
 The third lesson is: the young Christian must not remain weak. He must make progress and become strong. He must grow and increase in grace. God lays it upon us as a command. Concerning this point, His Word gives us the most glorious promises. It lies in the nature of the thing--a child of God must and can make progress. The new life is a life that is healthy and strong. When a disciple surrenders himself to it, the growth certainly follows. [^7]
 
@@ -28,11 +36,11 @@ Even so, the very life and power of God is found in His Word. [^9] Through the W
 
 Dear young Christians, would you continue standing, would you become strong, would you always live for the Lord? Then hear this day the voice of your Father: "As newborn babes, desire the sincere milk of the Word." Receive this Word into your heart and hold it firmly as the voice of your Father. Your spiritual life will depend on your use of the Word of God. Let the Word of God be precious to you above everything. [^12]
 
-Above all, do not forget, the Word is the milk. The sucking or drinking on the part of the little child is the inner, living, blessed fellowship with the mother's love. Through the Holy Spirit, your use of the milk of the Word can become warm, living fellowship with the living love of your God. Long very eagerly for the milk. Do not consider the Word something hard and troublesome to understand-in that way you lose all delight in it. Receive it with trust in the love of the living God. With a tender motherly love, the Spirit of God will teach and help you in your weakness. Always believe that the Spirit will make the Word in you life and joy — a blessed fellowship with your God.
-
 ::pullquote
 Through the Holy Spirit, your use of the milk of the Word can become warm, living fellowship with the living love of your God.
 ::
+
+Above all, do not forget, the Word is the milk. The sucking or drinking on the part of the little child is the inner, living, blessed fellowship with the mother's love. Through the Holy Spirit, your use of the milk of the Word can become warm, living fellowship with the living love of your God. Long very eagerly for the milk. Do not consider the Word something hard and troublesome to understand-in that way you lose all delight in it. Receive it with trust in the love of the living God. With a tender motherly love, the Spirit of God will teach and help you in your weakness. Always believe that the Spirit will make the Word in you life and joy — a blessed fellowship with your God.
 
 ### Prayer
 
