@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: 6r9e0dbgtq
-title: New Life Lessons<br> – 3. God’s Word In Our Heart
+title: New Life Lessons – 3. God’s Word In Our Heart
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
