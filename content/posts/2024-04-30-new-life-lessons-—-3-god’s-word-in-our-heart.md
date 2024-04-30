@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: 6r9e0dbgtq
-title: "New Life Lessons — 3: God’s Word In Our Heart"
+title: New Life Lessons – 3. God’s Word In Our Heart
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
@@ -29,13 +29,9 @@ How I wish that I could bring all young Christians to simply receive that Word o
 
 Dear Christian, read once again the words at the beginning of this section. Receive them as God's Word to you--the Word of the Father who has received you as a child, of Jesus who has made you God's child. God asks of you, as His child, that you give your heart to become filled with His Word. Will you do this? What do you say? In this manner of power, the Lord Jesus will complete His holy work in you. [^9] Let your answer be distinct and continuous, “Thy word have I hid in mine heart.” “How love I Thy law! it is my meditation all the day” (Psalm 119:97). Even if it appears difficult for you to understand the Word, continue to read it. The Father has promised to make it a blessing in your heart. But you must take it into your heart first. Believe that God will then, by the Holy Spirit, make the Word living and powerful in you.
 
-
-
-**Prayer**
+### **Prayer**
 
 My Father, to You Who said to me, “My son, give Me your heart,” I will give You my heart. Now that You charge me to lay up and keep Your Word in that heart, I answer, “I keep Your commands with my whole heart. “ Father, teach me to receive Your Word in my heart everyday so that it can exercise its blessed influence there. Strengthen me in the deep conviction that even though I do not yet fully understand its meaning and power, I can still depend on You to make the Word living and powerful in me. Amen.
-
-
 
 [^1]: Deut.30:14; Ps.1:2; 119:34,36; Isa. 51:7; John 5:38; 8:31; 15:7; Rom.10:8,9; Col. 3:16
 
@@ -50,7 +46,7 @@ My Father, to You Who said to me, “My son, give Me your heart,” I will give 
 [^8]: Ps. 119:69; John 15:3,7; 17:6,8,17
 [^9]: John 14:21,23; 1 John 2:14,24; Rev. 3:8,10
 
-**Notes**
+### **Points to remember**
 
 1. What is the difference between the reading of the Word to increase knowledge and the receiving of it in faith?
 2. The Word is as a seed. Seed requires time before it springs up. During this time it must be kept silently and constantly in the earth. I must not only read God's Word, but ponder it and reflect on it. Then it will work in me. The Word must be with me the whole day, must abide in me, must live in me.
