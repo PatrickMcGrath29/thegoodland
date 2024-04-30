@@ -14,6 +14,7 @@ summary: >-
 
 
 
+
   Some of the lessons are more basic, some are more advanced. The language is simple and easy to understand, and while each lesson is rather short, there are substantial Scripture references for further study. Let each reader receive according to their capacity and growth level, as the Lord confirms His truths in the heart. He is  our Good Shepherd, and He knows how to give us our “portion of food at the proper time”.
 posts:
   - post: 2024-04-20-new-life-lessons-0-preface
