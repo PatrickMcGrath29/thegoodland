@@ -26,19 +26,19 @@ See what a charming parable the Lord has given us here in the mother's milk. Out
 
 Even so, the very life and power of God is found in His Word. [^9] Through the Word, His tender love will receive us into the gentlest and most intimate fellowship with Himself. [^10] From the Word, His love will give us what is needed for our weakness. Let no one suppose that the Word is too high or too hard for him. For the disciple who receives the Word and trustfully relies on Jesus to teach him by the Spirit, the Word of God will prove to be as gentle, sweet milk for newborn infants. [^11]
 
-Dear young Christians, would you continue standing, would you become strong, would you always live for the Lord? Then hear this day the voice of your Father-"As newborn babes, desire the sincere milk of the Word." Receive this Word into your heart and hold it firmly as the voice of your Father. Your spiritual life will depend on your use of the Word of God. Let the Word of God be precious to you above everything. [^12]
+Dear young Christians, would you continue standing, would you become strong, would you always live for the Lord? Then hear this day the voice of your Father: "As newborn babes, desire the sincere milk of the Word." Receive this Word into your heart and hold it firmly as the voice of your Father. Your spiritual life will depend on your use of the Word of God. Let the Word of God be precious to you above everything. [^12]
 
 Above all, do not forget, the Word is the milk. The sucking or drinking on the part of the little child is the inner, living, blessed fellowship with the mother's love. Through the Holy Spirit, your use of the milk of the Word can become warm, living fellowship with the living love of your God. Long very eagerly for the milk. Do not consider the Word something hard and troublesome to understand-in that way you lose all delight in it. Receive it with trust in the love of the living God. With a tender motherly love, the Spirit of God will teach and help you in your weakness. Always believe that the Spirit will make the Word in you life and joy — a blessed fellowship with your God.
 
- 
+::pullquote
+Through the Holy Spirit, your use of the milk of the Word can become warm, living fellowship with the living love of your God.
+::
 
 ### Prayer
 
 Precious Savior, You have taught me to believe Your Word, and You have made me a child of God by that faith. Through that Word, as the milk of the newborn babes, You will also feed me. Lord, for this milk I will be very eager. I will long after it everyday.
 
 Teach me, through the Holy Spirit and the Word, to walk and converse everyday in living fellowship with the love of the Father. Teach me to always believe that the Spirit has been given to me with the Word. Amen.
-
- 
 
 ### Points to remember
 
@@ -48,8 +48,6 @@ Teach me, through the Holy Spirit and the Word, to walk and converse everyday in
 4. One verse chosen to meet our needs, read ten times and then laid up in the heart, is better than ten verses read once. Only as much of the Word as I actually receive and inwardly appropriate for myself is food for my soul.
 5. Choose for yourselves what you consider one of the most glorious promises about making progress and becoming strong, and learn it by heart. Repeat it continually as the language of your positive expectation.
 6. Have you learned to understand well what the great means for growth in grace is?
-
-    
 
 [^1]: 1 Pet. 1:23; 2:2,10,25
 
