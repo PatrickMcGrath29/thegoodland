@@ -13,9 +13,11 @@ slug: 2024-04-30-new-life-lessons-3-gods-word-in-our-heart
 >
 > *Son of man, all My words that I shall speak unto thee receive in thine heart (Ezekiel 3:10)*
 >
-> Thy word have I hid in mine heart, that I might not sin against Thee (Psalm 119:11)
+> *Thy word have I hid in mine heart, that I might not sin against Thee (Psalm 119:11)*
+>
+> *As newborn babes, desire the sincere milk of the word, that ye may grow thereby” (1 Peter 2:2)*
 
-As newborn babes, desire the sincere milk of the word, that ye may grow thereby” (1 Peter 2:2). Every young Christian is taught that he must receive the Word of God as milk--as the living participation of the life and vine of God--if he is to grow. On this account it is of great importance to know how we must deal with the Word. The Lord says that we must receive it and lay it up in our heart. [^1] The Word must possess and fill the heart. What does that mean?
+Every young Christian is taught that he must receive the Word of God as milk--as the living participation of the life and vine of God--if he is to grow. On this account it is of great importance to know how we must deal with the Word. The Lord says that we must receive it and lay it up in our heart. [^1] The Word must possess and fill the heart. What does that mean?
 
 The heart is the temple of God. In the temple there was an outer court and an inner sanctuary. So it is in the heart. The gate of the court is understanding. What I do not understand cannot enter into the heart. The Word enters into the court through the outer gate of understanding. [^2] There it is kept by memory and reflection. [^3] Still it is not properly in the heart. From the court there is an entrance into the innermost sanctuary. The entrance of the door is faith. What I believe, that will I receive into my heart. [^4] Here it becomes secure in love and in the surrender of the will. Where this takes place, there the heart becomes the sanctuary of God. His law is there, as in the ark, and the soul cries out, “Thy law is within my heart.” [^5]
 
@@ -27,9 +29,13 @@ How I wish that I could bring all young Christians to simply receive that Word o
 
 Dear Christian, read once again the words at the beginning of this section. Receive them as God's Word to you--the Word of the Father who has received you as a child, of Jesus who has made you God's child. God asks of you, as His child, that you give your heart to become filled with His Word. Will you do this? What do you say? In this manner of power, the Lord Jesus will complete His holy work in you. [^9] Let your answer be distinct and continuous, “Thy word have I hid in mine heart.” “How love I Thy law! it is my meditation all the day” (Psalm 119:97). Even if it appears difficult for you to understand the Word, continue to read it. The Father has promised to make it a blessing in your heart. But you must take it into your heart first. Believe that God will then, by the Holy Spirit, make the Word living and powerful in you.
 
-My Father who has said to me, “My son, give Me your heart,” I will give You my heart. Now that You charge me to lay up and keep Your Word in that heart, I answer, “I keep Your commands with my whole heart. “ Father, teach me to receive Your Word in my heart everyday so that it can exercise its blessed influence there. Strengthen me in the deep conviction that even though I do not yet fully understand its meaning and power, I can still depend on You to make the Word living and powerful in me. Amen.
 
-Footnotes:
+
+**Prayer**
+
+My Father, to You Who said to me, “My son, give Me your heart,” I will give You my heart. Now that You charge me to lay up and keep Your Word in that heart, I answer, “I keep Your commands with my whole heart. “ Father, teach me to receive Your Word in my heart everyday so that it can exercise its blessed influence there. Strengthen me in the deep conviction that even though I do not yet fully understand its meaning and power, I can still depend on You to make the Word living and powerful in me. Amen.
+
+
 
 [^1]: Deut.30:14; Ps.1:2; 119:34,36; Isa. 51:7; John 5:38; 8:31; 15:7; Rom.10:8,9; Col. 3:16
 
@@ -44,7 +50,7 @@ Footnotes:
 [^8]: Ps. 119:69; John 15:3,7; 17:6,8,17
 [^9]: John 14:21,23; 1 John 2:14,24; Rev. 3:8,10
 
-Notes:
+**Notes**
 
 1. What is the difference between the reading of the Word to increase knowledge and the receiving of it in faith?
 2. The Word is as a seed. Seed requires time before it springs up. During this time it must be kept silently and constantly in the earth. I must not only read God's Word, but ponder it and reflect on it. Then it will work in me. The Word must be with me the whole day, must abide in me, must live in me.
