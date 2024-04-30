@@ -43,18 +43,18 @@ Lord Jesus, today and every day, I take You. In all Your fullness and in all You
 
     
 
-[^1] John 1:14,16; 14:23; Rom. 5:8; 8:32,34; Eph. 1:22; 3:17; Col. 2:9,10; Heb. 7:24,26; 1 John 4:9,10
+[^1]: John 1:14,16; 14:23; Rom. 5:8; 8:32,34; Eph. 1:22; 3:17; Col. 2:9,10; Heb. 7:24,26; 1 John 4:9,10
 
-[^2] Matt. 11:27; John 17:23,25; Rom. 8:38,39; Heb. 2:11,Tim. 1:12
+[^2]: Matt. 11:27; John 17:23,25; Rom. 8:38,39; Heb. 2:11,Tim. 1:12
 
-[^3] Psalms 73:24; 142:6; John 20:28; Heb. 3:14
+[^3]: Psalms 73:24; 142:6; John 20:28; Heb. 3:14
 
-[^4] John 1:12; 2 Cor. 3:5; Col. 2:6; 1 John 5:12
+[^4]: John 1:12; 2 Cor. 3:5; Col. 2:6; 1 John 5:12
 
-[^5] John 15:5; Rom. 8:37; I Cor. 1:30; Eph. 1:3,2:10; Phil. 4:13
+[^5]: John 15:5; Rom. 8:37; I Cor. 1:30; Eph. 1:3,2:10; Phil. 4:13
 
-[^6] John 1:12; 1 John 5:9,13
+[^6]: John 1:12; 1 John 5:9,13
 
-[^7] 1 John 4:4,19
+[^7]: 1 John 4:4,19
 
-[^8] 2 Cor. 5:15; Phil. 3:8
+[^8]: 2 Cor. 5:15; Phil. 3:8
