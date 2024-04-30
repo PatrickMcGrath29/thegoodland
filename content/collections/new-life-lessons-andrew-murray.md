@@ -18,5 +18,7 @@ posts:
   - post: 2024-04-20-new-life-lessons-1-the-new-life
   - post: 2024-04-27-new-life-lessons-2-the-milk-of-the-word
   - post: 2024-04-30-new-life-lessons-3-gods-word-in-our-heart
+  - post: 2024-04-30-the-new-life-4-faith
+  - post: 2024-04-30-the-new-life-5-the-power-of-gods-word
 featuredImage: /uploads/hero.jpg
 ---
