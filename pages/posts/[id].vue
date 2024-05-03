@@ -25,6 +25,8 @@ useSeoMeta({
   ogDescription: postSeoDescripton,
   ogImage: useSeoImage(post.value.featuredImage),
 })
+
+const postElementRef = ref<HTMLElement>()
 </script>
 
 <template>
@@ -34,6 +36,7 @@ useSeoMeta({
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
+    <RefTagger />
     <ContainerMedium>
       <div class="my-10">
         <div class="max-w-screen-md m-auto">
@@ -46,8 +49,8 @@ useSeoMeta({
           </div>
         </div>
 
-        <div class="mt-10 text-lg">
-          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto" />
+        <div ref="postElementRef" class="mt-10 text-lg">
+          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10" />
         </div>
       </div>
     </ContainerMedium>

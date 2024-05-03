@@ -2,7 +2,7 @@
 slugFields:
   - createdDate
   - title
-title: New Life Lessons – 2. The Milk of the Word
+title: The New Life – 2. The Milk of the Word
 author: Andrew Murray
 slug: 2024-04-27-new-life-lessons-2-the-milk-of-the-word
 uuid: s7ysjprt5n

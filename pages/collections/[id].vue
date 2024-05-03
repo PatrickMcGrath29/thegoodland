@@ -30,10 +30,10 @@ const { data: posts } = await useAsyncData(
       <div>
         {{ collection.summary }}
       </div>
-      <div class="gap-2 flex columns-md">
+      <div class="gap-4 columns-xs">
         <NuxtLink
           v-for="(post, idx) in posts" :key="idx" :to="`/posts/${post.slug}`"
-          class=" p-3 bg-base-200 hover:bg-base-300 rounded w-full"
+          class="p-3 block bg-base-200 hover:bg-base-300 rounded mb-4"
         >
           {{ post.title }}
         </NuxtLink>
