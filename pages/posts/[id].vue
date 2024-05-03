@@ -25,6 +25,38 @@ useSeoMeta({
   ogDescription: postSeoDescripton,
   ogImage: useSeoImage(post.value.featuredImage),
 })
+
+useScript(
+  'https://api.reftagger.com/v2/RefTagger.js',
+  { bundle: true },
+)
+
+onMounted(() => {
+  window.refTagger = {
+    settings: {
+      bibleReader: 'bible.faithlife',
+      bibleVersion: 'NKJV',
+      tooltipStyle: 'dark',
+      customStyle: {
+        body: {
+          fontSize: '18px',
+        },
+      },
+      noSearchTagNames: ['blockquote'],
+      roundCorners: true,
+      socialSharing: [],
+    },
+  }
+})
+
+const postElementRef = ref<HTMLElement>()
+
+useScript('https://api.reftagger.com/v2/RefTagger.js', {
+  trigger: useElementScriptTrigger({
+    trigger: 'visible',
+    el: postElementRef,
+  }),
+})
 </script>
 
 <template>
@@ -34,6 +66,7 @@ useSeoMeta({
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
+
     <ContainerMedium>
       <div class="my-10">
         <div class="max-w-screen-md m-auto">
@@ -46,8 +79,8 @@ useSeoMeta({
           </div>
         </div>
 
-        <div class="mt-10 text-lg">
-          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto" />
+        <div ref="postElementRef" class="mt-10 text-lg">
+          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10" />
         </div>
       </div>
     </ContainerMedium>
