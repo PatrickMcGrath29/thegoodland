@@ -26,37 +26,7 @@ useSeoMeta({
   ogImage: useSeoImage(post.value.featuredImage),
 })
 
-useScript(
-  'https://api.reftagger.com/v2/RefTagger.js',
-  { bundle: true },
-)
-
-onMounted(() => {
-  window.refTagger = {
-    settings: {
-      bibleReader: 'bible.faithlife',
-      bibleVersion: 'NKJV',
-      tooltipStyle: 'dark',
-      customStyle: {
-        body: {
-          fontSize: '18px',
-        },
-      },
-      noSearchTagNames: ['blockquote'],
-      roundCorners: true,
-      socialSharing: [],
-    },
-  }
-})
-
 const postElementRef = ref<HTMLElement>()
-
-useScript('https://api.reftagger.com/v2/RefTagger.js', {
-  trigger: useElementScriptTrigger({
-    trigger: 'visible',
-    el: postElementRef,
-  }),
-})
 </script>
 
 <template>
@@ -66,7 +36,7 @@ useScript('https://api.reftagger.com/v2/RefTagger.js', {
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
-
+    <RefTagger />
     <ContainerMedium>
       <div class="my-10">
         <div class="max-w-screen-md m-auto">
