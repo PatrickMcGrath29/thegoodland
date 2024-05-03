@@ -12,10 +12,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     'nuxt-icon',
-    'nuxt-primevue',
     '@nuxt/image',
     '@nuxt/content',
-    '@nuxt/scripts',
   ],
   image: {
     quality: 80,
