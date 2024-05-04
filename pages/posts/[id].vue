@@ -59,6 +59,6 @@ const postElementRef = ref<HTMLElement>()
 
 <style>
 svg {
-  display: block;
+  display: inline !important;
 }
 </style>
