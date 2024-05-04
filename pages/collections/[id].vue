@@ -27,7 +27,7 @@ const { data: posts } = await useAsyncData(
       </h2>
     </div>
     <div class="gap-10 mt-10 card">
-      <div>
+      <div class="whitespace-pre-line">
         {{ collection.summary }}
       </div>
       <div class="gap-4 columns-xs">
