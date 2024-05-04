@@ -68,7 +68,7 @@ The life of walking in the Spirit is the life that God intended for His people. 
 
 This is why we have titled this blog "The Good Land". It is in reference to the good land (or the promised land) that God had prepared for His people, for them to enter into. It was a rich land, with vines and fig trees and pomegranates. It was a land of abundance.  And it is a figure of the true Good Land that He cares to bring His people into, which is not a location on the earth that one can travel to, but rather a life that is found in Christ.
 
-There is much that has been said about walking in the Spirit, and rather than making a vain attempt at including all of that in this blog post, we would like to direct you to search for that yourself. Make it your aim in life to seek after Christ, to truly know Him, just as Paul himself had said (Philippians 3:10). Seek Him with all of your heart.  Pray to Him and ask Him to open up this life to you, for He waits to answer your prayer (John 15:7, John 14:13-14, James 1:5).
+There is much that has been said about walking in the Spirit, and rather than making a vain attempt at including all of that in this blog post, we would like to direct you to search for that yourself. Make it your aim in life to seek after Christ, to truly know Him, just as Paul himself had said (Philippians 3:10). Seek Him with all of your heart. Pray to Him and ask Him to open up this life to you, for He waits to answer your prayer (John 15:7, John 14:13-14, James 1:5).
 
 Be assured that this life offered to you in Christ, a life of walking in the Spirit, is incomparable in beauty and joy. It is unlike anything that this world can offer you. In this life is fullness of joy.
 
@@ -76,6 +76,6 @@ We would also like to include some other literature that has been helpful to us.
 
 * [Abide in Christ, by Andrew Murray](/uploads/abide_in_christ.pdf)
 * [Looking unto Jesus, by Theodore Monod](/posts/2022-12-28-looking-unto-jesus)
-* [The Pursuit of God, by A.W. Tozer ](/uploads/the_pursuit_of_god.pdf)
+* [The Pursuit of God, by A.W. Tozer](/uploads/the_pursuit_of_god.pdf)
 * [The Practice of the Presence of God, by Brother Lawrence](/uploads/the_practice_of_the_presence_of_god.pdf)
 * Sit, Walk, Stand, by Watchman Nee
