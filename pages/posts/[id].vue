@@ -56,3 +56,9 @@ const postElementRef = ref<HTMLElement>()
     </ContainerMedium>
   </article>
 </template>
+
+<style>
+svg {
+  display: inline !important;
+}
+</style>
