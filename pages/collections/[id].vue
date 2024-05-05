@@ -26,7 +26,7 @@ const { data: posts } = await useAsyncData(
         by {{ collection.author }}
       </h2>
     </div>
-    <div class="gap-10 mt-10 card">
+    <div class="gap-10 my-10 card">
       <div class="whitespace-pre-line">
         {{ collection.summary }}
       </div>
