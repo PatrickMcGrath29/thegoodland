@@ -16,8 +16,12 @@ slug: 2024-05-04-waiting-on-god-for-his-light-in-the-heart
 featuredImage: /uploads/waiting_on_god_for_his_light.jpg
 createdDate: 2024-05-04
 ---
-> I wait for the LORD, my soul waits, And in His word I do hope. My soul waits for the Lord More than those who watch for the morning— Yes, more than those who watch for the morning.
->
+The following passage comes from the book Waiting on God, by Andrew Murray. The full book can be found online [here](/uploads/waiting_on_god.pdf)[](waiting_on_god.pdf).
+
+---
+
+> I wait for the LORD, my soul waits, And in His word I do hope. My soul waits for the Lord More than those who watch for the morning— Yes, more than those who watch for the morning.\
+> \
 > Psalm 130:5–6
 
 With what intense longing the morning light is often waited for. By the mariners in a shipwrecked vessel; by a benighted traveler in a dangerous country; by an army that finds itself surrounded by an enemy. The morning light will show what hope of escape there may be. The morning may bring life and liberty. And so the saints of God in darkness have longed for the light of His countenance, more than watchmen for the morning. They have said, 'More than watchmen for the morning, my soul waiteth for the Lord.' Can we say that too? Our waiting on God can have no higher object than simply having His light shine on us, and in us, and through us, all the day.
