@@ -50,7 +50,7 @@ const postElementRef = ref<HTMLElement>()
         </div>
 
         <div ref="postElementRef" class="mt-10 text-lg">
-          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10" />
+          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10 [&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2" />
         </div>
       </div>
     </ContainerMedium>

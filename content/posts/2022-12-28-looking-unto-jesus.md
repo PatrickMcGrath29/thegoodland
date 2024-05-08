@@ -51,6 +51,10 @@ Only three words, but in these three words is the whole secret of spiritual life
 
 **Looking unto Jesus**—Who gives repentance as well as forgiveness of sins (Acts 5:31) because He gives us the grace to recognize, to lament, to confess, and to forsake our transgressions.
 
+::pullquote
+Patience, active with His activity, loving with His love; never asking 'What am I able for?' but rather: 'What is He not able for?'
+::
+
 **Looking unto Jesus**—to receive from Him the task and the cross for each day, with the grace which is sufficient to carry the cross and to accomplish the task; the grace that enables us to be patient with His patience, active with His activity, loving with His love; never asking "What am I able for?" but rather: "What is He not able for?" and waiting for His strength which is made perfect in our weakness (2 Corinthians 12:9).
 
 **Looking unto Jesus**—to go forth from ourselves and to forget ourselves—so that our darkness may flee away before the brightness of His face; so that our joys may be holy, and our sorrow restrained; that He may cast us down, and that He may raise us up; that He may afflict us, and that He may comfort us; that He may despoil us, and that He may enrich us; that He may teach us to pray, and that He may answer our prayers; that while leaving us in the world, He may separate us from it, our life being hidden with Him in God, and our behavior bearing witness to Him before men.
@@ -77,6 +81,10 @@ Only three words, but in these three words is the whole secret of spiritual life
 
 **Looking unto Jesus**—and not to our brethren, not even to the best among them and the best beloved. In following a man—we run the risk of losing our way. In following Jesus—we are sure of never losing our way. Besides, in putting a man between Jesus and ourselves, it will come to pass that insensibly the man will increase, and Jesus will decrease; and soon we no longer know how to find Jesus when we cannot find the man, and if he fails us, all fails.
 
+::pullquote
+In following a man—we run the risk of losing our way. In following Jesus—we are sure of never losing our way. 
+::
+
 On the contrary, if Jesus is kept between us and our closest friend, our attachment to the person will be at the same time less enthralling, and more deep; less passionate, and more tender; less necessary, and more useful; an instrument of rich blessing in the hands of God, when He is pleased to make use of him; and whose absence will be a further blessing, when it may please God to dispense with him, to draw us even nearer to the only Friend who can be separated from us by "neither death nor life" (Romans 8:38, 39).
 
 **Looking unto Jesus**—and not at His enemies or at our own. In place of hating them and fearing them—we shall then know how to love them and to overcome them.
@@ -99,7 +107,11 @@ On the contrary, if Jesus is kept between us and our closest friend, our attachm
 
 **Looking unto Jesus**—and not at our sins, neither at the source from which they come (Matthew 15:19) nor the chastisement which they deserve. Let us look at ourselves, only to recognize how much need we have of looking to Him; and looking to Him, certainly not as if we were sinless; but on the contrary, because we are sinners, measuring the very greatness of the offence by the greatness of the sacrifice which has atoned for it and of the grace which pardons it. "For every one look at ourselves," said an eminent servant of God (Robert McCheyne), "take ten looks at Jesus!"
 
-"If it is very sure," said Vinet, "that one will not lose sight of his wretched state by looking at Jesus Christ crucified—because this wretched state is, as it were, engraved upon the cross. It is also very sure that in looking at one's wretchedness, one can lose sight of Jesus Christ; because the cross is not naturally engraved upon the image of one's wretchedness." And he adds, "Look at yourselves—but only in the presence of the cross, only through Jesus Christ." Looking at the sin, only gives death. Looking at Jesus, gives life. That which healed the Israelite in the wilderness, was not considering his wounds—but raising his eyes to the brazen serpent (Numbers 21:9).
+::pullquote
+Looking at the sin only gives death. Looking at Jesus gives life. That which healed the Israelite in the wilderness was not considering his wounds—but raising his eyes to the brazen serpent.
+::
+
+"If it is very sure," said Vinet, "that one will not lose sight of his wretched state by looking at Jesus Christ crucified—because this wretched state is, as it were, engraved upon the cross—it is also very sure that in looking at one's wretchedness, one can lose sight of Jesus Christ; because the cross is not naturally engraved upon the image of one's wretchedness." And he adds, "Look at yourselves—but only in the presence of the cross, only through Jesus Christ." Looking at the sin, only gives death. Looking at Jesus, gives life. That which healed the Israelite in the wilderness, was not considering his wounds—but raising his eyes to the brazen serpent (Numbers 21:9).
 
 **Looking unto Jesus**—and not—do we need to say it?—at our pretense of righteousness. Ill above all who are ill, is he who believes himself in health. Blind above all who are blind, is he who thinks that he sees (John 9:41). It is dangerous to look long at our wretchedness, which is, alas! too real. It is much more dangerous, to rest complacently on imaginary merits.
 
@@ -108,6 +120,10 @@ On the contrary, if Jesus is kept between us and our closest friend, our attachm
 **Looking unto Jesus**—and not at what we are doing for Him. Too much occupied with our work, we can forget our Master. It is possible to have the hands full—and the heart empty. When occupied with our Master, we cannot forget our work. If the heart is filled with His love, how can the hands fail to be active in His service?
 
 **Looking unto Jesus**—and not to the apparent success of our efforts. The apparent success is not the measure of the real success; and besides, God has not told us to succeed, but to be faithful in our work. It is faithfulness in our work that He requires an account, and not of our success—why then concern ourselves with success? It is for us to scatter the seed—and for God to gather the fruit. If not today, then it will be tomorrow. If He does not employ us to gather it, then He will employ others.
+
+::pullquote
+God has not told us to succeed, but to be faithful in our work. It is faithfulness in our work that He requires an account, and not of our success—why then concern ourselves with success?
+::
 
 Even when success is granted to us, it is always dangerous to fix our attention on it. On the one hand, we are tempted to take some of the credit of it to ourselves. On the other hand, we thus accustom ourselves to abate our zeal when we cease to perceive its result—that is to say, at the very time when we should redouble our energy. To look at the success—is to walk by sight. To look at Jesus, and to persevere in following Him and serving Him, in spite of all discouragements—is to walk by faith.
 
