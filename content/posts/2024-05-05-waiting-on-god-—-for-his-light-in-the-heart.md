@@ -26,19 +26,15 @@ The following passage comes from the book Waiting on God, by Andrew Murray. The 
 
 With what intense longing the morning light is often waited for. By the mariners in a shipwrecked vessel; by a benighted traveler in a dangerous country; by an army that finds itself surrounded by an enemy. The morning light will show what hope of escape there may be. The morning may bring life and liberty. And so the saints of God in darkness have longed for the light of His countenance, more than watchmen for the morning. They have said, 'More than watchmen for the morning, my soul waiteth for the Lord.' Can we say that too? Our waiting on God can have no higher object than simply having His light shine on us, and in us, and through us, all the day.
 
-::pullquote
-Just as the sun shines its beautiful, life-giving light on and into our earth, so God shines into our hearts the light of His glory, of His love, in Christ His Son.
-::
-
 God is Light. God is a Sun. Paul says: 'God has shined in our hearts to give the light.' What light? 'The light of the glory of God, in the face of Jesus Christ.' Just as the sun shines its beautiful, life-giving light on and into our earth, so God shines into our hearts the light of His glory, of His love, in Christ His Son. Our heart is meant to have that light filling and gladdening it all the day. It can have it, because God is our sun, and it is written, 'Your sun shall no more go down forever.' God's love shines on us without ceasing.
+
+::pullquote
+ Is it only the light of the sun that is to bring such continual beauty and joy? And is there no provision for the light of God being just as much an unceasing source of joy and gladness?
+::
 
 But can we indeed enjoy it all the day? We can. And how can we? Let nature give us the answer. Those beautiful trees and flowers, with all this green grass, what do they do to keep the sun shining on them? They do nothing; they simply bask in the sunshine, when it comes. The sun is millions of miles away, but over all that distance it sends its own light and joy; and the tiniest flower that lifts its little head upwards is met by the same exuberance of light and blessing as flood the widest landscape. We have not to care for the light we need for our day's work; the sun cares, and provides and shines the light around us all the day. We simply count upon it, and receive it, and enjoy it.
 
 The only difference between nature and grace is this, that what the trees and the flowers do unconsciously, as they drink in the blessing of the light, is to be with us a voluntary and a loving acceptance. Faith, simple faith in God's word and love, is to be the opening of the eyes, the opening of the heart, to receive and enjoy the unspeakable glory of His grace. And even as the trees, day by day, and month by month, stand and grow into beauty and fruitfulness, just welcoming whatever sunshine the sun may give, so it is the very highest exercise of our Christian life just to abide in the light of God, and let it, and let Him, fill us with the life and the brightness it brings.
-
-::pullquote
-Is it only the light of the sun that is to bring such continual beauty and joy? And is there no provision for the light of God being just as much an unceasing source of joy and gladness?
-::
 
 And if you ask, but can it really be, that even as naturally and heartily as I recognize and rejoice in the beauty of a bright sunny morning, I can rejoice in God's light all the day? It can, indeed. From my breakfast-table I look out on a beautiful valley, with trees and vineyards and mountains. In our spring and autumn months the light in the morning is exquisite, and almost involuntarily we say, How beautiful! And the question comes, Is it only the light of the sun that is to bring such continual beauty and joy? And is there no provision for the light of God being just as much an unceasing source of joy and gladness? There is, indeed, if the soul will but be still and wait on Him, will only let God shine.
 
