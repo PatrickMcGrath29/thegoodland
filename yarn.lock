@@ -1788,7 +1788,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.11.2, @nuxt/kit@npm:^3.10.2, @nuxt/kit@npm:^3.10.3, @nuxt/kit@npm:^3.11.1, @nuxt/kit@npm:^3.11.2, @nuxt/kit@npm:^3.5.0, @nuxt/kit@npm:^3.5.1":
+"@nuxt/kit@npm:3.11.2, @nuxt/kit@npm:^3.10.2, @nuxt/kit@npm:^3.10.3, @nuxt/kit@npm:^3.11.1, @nuxt/kit@npm:^3.11.2, @nuxt/kit@npm:^3.5.0, @nuxt/kit@npm:^3.5.1, @nuxt/kit@npm:^3.7.3":
   version: 3.11.2
   resolution: "@nuxt/kit@npm:3.11.2"
   dependencies:
@@ -9493,6 +9493,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nuxt-primevue@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "nuxt-primevue@npm:0.3.1"
+  dependencies:
+    "@nuxt/kit": "npm:^3.7.3"
+    primevue: "npm:~3.49.1"
+  checksum: 10c0/4ef65089b826603f60bad58d26256f586ed72f56f916ca183f73410d91b12a113aeedfefdfb860f0562e5c5f13bd6acdb5cd9dbb0d53a99ad7f72a94dd982340
+  languageName: node
+  linkType: hard
+
 "nuxt@npm:^3.11.2":
   version: 3.11.2
   resolution: "nuxt@npm:3.11.2"
@@ -10521,6 +10531,24 @@ __metadata:
   version: 6.1.1
   resolution: "pretty-bytes@npm:6.1.1"
   checksum: 10c0/c7a660b933355f3b4587ad3f001c266a8dd6afd17db9f89ebc50812354bb142df4b9600396ba5999bdb1f9717300387dc311df91895c5f0f2a1780e22495b5f8
+  languageName: node
+  linkType: hard
+
+"primevue@npm:^3.52.0":
+  version: 3.52.0
+  resolution: "primevue@npm:3.52.0"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 10c0/1af8701d58105f5263daee9f0f64af2a6fd10525de4d05d35da774750d55fedb6398ff4005a67b505c4917cd2d5a3e5a75923d19a4222ac4d8ed95b003557752
+  languageName: node
+  linkType: hard
+
+"primevue@npm:~3.49.1":
+  version: 3.49.1
+  resolution: "primevue@npm:3.49.1"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 10c0/f1211a8f6204b0a9c7b453f81b917223b0c185b337a513e6e3625163d4212ca4e78272812a1af74b9520023b57e67ca2ce462d9edaecd98b11c92b8741fd2349
   languageName: node
   linkType: hard
 
@@ -12156,6 +12184,8 @@ __metadata:
     eslint: "npm:^8.57.0"
     nuxt: "npm:^3.11.2"
     nuxt-icon: "npm:^0.6.8"
+    nuxt-primevue: "npm:^0.3.1"
+    primevue: "npm:^3.52.0"
     sass: "npm:^1.70.0"
     sharp: "npm:^0.33.2"
     typescript: "npm:^5.3.3"
