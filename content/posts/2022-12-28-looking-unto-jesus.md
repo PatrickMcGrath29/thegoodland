@@ -107,11 +107,11 @@ On the contrary, if Jesus is kept between us and our closest friend, our attachm
 
 **Looking unto Jesus**—and not at our sins, neither at the source from which they come (Matthew 15:19) nor the chastisement which they deserve. Let us look at ourselves, only to recognize how much need we have of looking to Him; and looking to Him, certainly not as if we were sinless; but on the contrary, because we are sinners, measuring the very greatness of the offence by the greatness of the sacrifice which has atoned for it and of the grace which pardons it. "For every one look at ourselves," said an eminent servant of God (Robert McCheyne), "take ten looks at Jesus!"
 
-::pullquote
-Looking at the sin only gives death. Looking at Jesus gives life. That which healed the Israelite in the wilderness was not considering his wounds—but raising his eyes to the brazen serpent.
-::
-
 "If it is very sure," said Vinet, "that one will not lose sight of his wretched state by looking at Jesus Christ crucified—because this wretched state is, as it were, engraved upon the cross—it is also very sure that in looking at one's wretchedness, one can lose sight of Jesus Christ; because the cross is not naturally engraved upon the image of one's wretchedness." And he adds, "Look at yourselves—but only in the presence of the cross, only through Jesus Christ." Looking at the sin, only gives death. Looking at Jesus, gives life. That which healed the Israelite in the wilderness, was not considering his wounds—but raising his eyes to the brazen serpent (Numbers 21:9).
+
+::pullquote
+Looking at the sin, only gives death. Looking at Jesus, gives life. That which healed the Israelite in the wilderness, was not considering his wounds—but raising his eyes to the brazen serpent.
+::
 
 **Looking unto Jesus**—and not—do we need to say it?—at our pretense of righteousness. Ill above all who are ill, is he who believes himself in health. Blind above all who are blind, is he who thinks that he sees (John 9:41). It is dangerous to look long at our wretchedness, which is, alas! too real. It is much more dangerous, to rest complacently on imaginary merits.
 
