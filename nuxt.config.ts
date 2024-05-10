@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxt/content',
+    'nuxt-primevue',
   ],
   image: {
     quality: 80,
