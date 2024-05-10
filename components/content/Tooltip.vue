@@ -2,11 +2,10 @@
 defineProps<{ text: string, content: string }>()
 
 const overlayRef = ref()
-
 const buttonRef = ref()
 const tooltipRef = ref()
 
-const isOpen = ref(false)
+const isTooltipOpen = ref(false)
 
 const isButtonHovered = useElementHover(buttonRef)
 const isOverlayHovered = useElementHover(tooltipRef)
@@ -17,34 +16,38 @@ const isTooltipHovered = computed(() => {
 
 function mouseEnter(event: Event) {
   overlayRef.value.show(event)
-  isOpen.value = true
+  isTooltipOpen.value = true
+}
+
+function shouldCloseTooltip() {
+  return isTooltipOpen.value && !isTooltipHovered.value && !isBibleTooltipOpen()
+}
+
+function mouseLeave() {
+  setTimeout(() => {
+    if (shouldCloseTooltip()) {
+      overlayRef.value.hide()
+      isTooltipOpen.value = false
+    }
+    else if (isTooltipOpen.value && !isTooltipHovered.value) {
+      const interval = setInterval(() => {
+        if (shouldCloseTooltip()) {
+          overlayRef.value.hide()
+          isTooltipOpen.value = false
+          clearInterval(interval)
+        }
+      }, 500)
+    }
+  }, 500)
 }
 
 function isBibleTooltipOpen() {
   return document.querySelectorAll('div.rtTooltip').length > 0
 }
-
-function mouseLeave() {
-  setTimeout(() => {
-    if (!isTooltipHovered.value && !isBibleTooltipOpen()) {
-      overlayRef.value.hide()
-      isOpen.value = false
-    }
-  }, 750)
-}
-
-onMounted(() => {
-  setInterval(() => {
-    if (isOpen.value && !isTooltipHovered.value && !isBibleTooltipOpen()) {
-      overlayRef.value.hide()
-      isOpen.value = false
-    }
-  }, 750)
-})
 </script>
 
 <template>
-  <button ref="buttonRef" @mouseenter="mouseEnter" @mouseleave="mouseLeave">
+  <button ref="buttonRef" class="p-0.5" @mouseenter="mouseEnter" @mouseleave="mouseLeave">
     <sup class="text-blue-500 underline">
       {{ text }}
     </sup>
