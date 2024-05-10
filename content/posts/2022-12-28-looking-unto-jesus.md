@@ -51,11 +51,11 @@ Only three words, but in these three words is the whole secret of spiritual life
 
 **Looking unto Jesus**—Who gives repentance as well as forgiveness of sins (Acts 5:31) because He gives us the grace to recognize, to lament, to confess, and to forsake our transgressions.
 
-::pullquote
-Patience, active with His activity, loving with His love; never asking 'What am I able for?' but rather: 'What is He not able for?'
-::
-
 **Looking unto Jesus**—to receive from Him the task and the cross for each day, with the grace which is sufficient to carry the cross and to accomplish the task; the grace that enables us to be patient with His patience, active with His activity, loving with His love; never asking "What am I able for?" but rather: "What is He not able for?" and waiting for His strength which is made perfect in our weakness (2 Corinthians 12:9).
+
+::pullquote
+Looking unto Jesus—to receive from Him the task and the cross for each day, with the grace which is sufficient to carry the cross and to accomplish the task
+::
 
 **Looking unto Jesus**—to go forth from ourselves and to forget ourselves—so that our darkness may flee away before the brightness of His face; so that our joys may be holy, and our sorrow restrained; that He may cast us down, and that He may raise us up; that He may afflict us, and that He may comfort us; that He may despoil us, and that He may enrich us; that He may teach us to pray, and that He may answer our prayers; that while leaving us in the world, He may separate us from it, our life being hidden with Him in God, and our behavior bearing witness to Him before men.
 
