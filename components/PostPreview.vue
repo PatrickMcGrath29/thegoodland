@@ -14,7 +14,7 @@ const postPath = `/posts/${props.post.slug}`
         </NuxtLink>
       </h2>
       <p v-if="post.summary">
-        {{ smartEllipsis(post.summary, 500) }}
+        {{ smartEllipsis(post.summary, 220) }}
       </p>
       <div class="mt-5">
         <NuxtLink :to="postPath" class="btn btn-neutral btn-wide btn-primary">

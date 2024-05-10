@@ -6,7 +6,7 @@ const postPath = `/posts/${props.post.slug}`
 </script>
 
 <template>
-  <div class="flex flex-col gap-8">
+  <div class="flex flex-col gap-8 bg-base-200 border border-base-300 rounded">
     <div v-if="post.featuredImage" class="w-full relative">
       <NuxtLink :to="postPath">
         <div class="absolute top-4 left-4">
@@ -18,17 +18,17 @@ const postPath = `/posts/${props.post.slug}`
             Featured
           </span>
         </div>
-        <NuxtImg :src="post.featuredImage" width="500px" placeholder class="w-full h-72 rounded-md object-cover" />
+        <NuxtImg :src="post.featuredImage" width="500px" placeholder class="w-full max-h-72 object-cover rounded-t" />
       </NuxtLink>
     </div>
-    <div class="">
+    <div class="p-6 pt-0">
       <h2 class="text-2xl font-semibold mb-4">
         <NuxtLink :to="postPath">
           {{ post.title }}
         </NuxtLink>
       </h2>
       <p v-if="post.summary">
-        {{ smartEllipsis(post.summary, 500) }}
+        {{ smartEllipsis(post.summary, 220) }}
       </p>
       <div class="mt-5">
         <NuxtLink :to="postPath" class="btn btn-neutral btn-wide btn-primary">
