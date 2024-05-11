@@ -21,5 +21,6 @@ posts:
   - post: 2024-04-30-the-new-life-4-faith
   - post: 2024-04-30-the-new-life-5-the-power-of-gods-word
   - post: 2024-04-30-the-new-life-6-gods-gift-of-his-son
+  - post: 2024-05-10-the-new-life-7-jesus-surrender-of-himself
 featuredImage: /uploads/hero.jpg
 ---
