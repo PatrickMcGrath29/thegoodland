@@ -25,16 +25,9 @@ And how do I come to the full enjoyment of this blessed life? “I live by the f
 
 Lord Jesus, what wonderful grace is this, that You gave Yourself for me. In You there is eternal life. You are the life, and You give Yourself to be all that I need in my life. You purify me, sanctify me, and make me zealous in good works. You take me wholly for Yourself and give Yourself wholly for me. Yes, my Lord, in all You are my life. Make me rightly understand this. Amen.
 
-Footnotes:
-
-1. Gal. 1:4; 2:20; Eph. 5:2,25; I Tim. 2:6; Titus 2:14
-2. Eph. 1:4; 5:27; Col. 1:22; I Thess. 2:10; 3:13; 5:23,24
-3. Exodus 19:4,5; Deut. 26:7,18; Isa. 41:9,10; I Cor. 6:19,20; I Peter 2:10
-4. John 6:29,35; 7:38; 10:10,38
-5. Matt. 8:10; 9:2,22; Mark 11:24; Luke 7:50; 8:48; 17:19; 18:42; Rom. 4:20,21;
 
 ### Points to remember
 
-1. It was in His great love that the Father gave the Son. It was out of love that Jesus gave Himself (Rom. 3:16; Eph. 5:26). The taking, the having of Jesus, is the entrance into a life in the love of God. This is the highest life (John 14:21,28; 17:23,26; Eph. 3:17,18). Through faith we must press into love and live there (1 John 4:16-18).
+1. It was in His great love that the Father gave the Son. It was out of love that Jesus gave Himself (Rom. 3:16; Eph. 5:26). The taking, the having of Jesus, is the entrance into a life in the love of God. This is the highest life (John 14:21,23; 17:23,26; Eph. 3:17,18). Through faith we must press into love and live there (1 John 4:16-18).
 2. Do you think that you have now learned all the lesson and how to begin every day with a childlike trust? I take Jesus this day to be my life and to do all for me.
 3. Understand that to take and to have Jesus presupposes a personal communion with Him. To have pleasure in Him, to gladly hold conversation with Him, to rejoice in Him as my friend and in His love--this leads to the faith that truly takes Him.
