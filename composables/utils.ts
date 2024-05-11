@@ -24,3 +24,7 @@ export function useSeoImage(imagePath: string | null) {
 export function getPath(record: any): string {
   return record._path.split('/').at(-1) as string
 }
+
+export function useFormattedDate(dateValue: Date) {
+  return dateValue.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+}

@@ -8,7 +8,7 @@ const postData = await useAsyncData(`post/${slug}}`, () => usePost(slug as strin
 
 const post = postData.data as Ref<Post>
 const postCreatedDate = computed(() => {
-  return post.value.createdDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+  return useFormattedDate(post.value.createdDate)
 })
 
 const postSeoDescripton = computed(() => {

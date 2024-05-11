@@ -26,6 +26,9 @@ const postPath = `/posts/${props.post.slug}`
           {{ post.title }}
         </NuxtLink>
       </h2>
+      <div v-if="post.author" class="mb-3 text-sm font-semibold text-neutral-500">
+        by {{ post.author }}
+      </div>
       <p v-if="post.summary">
         {{ smartEllipsis(post.summary, 220) }}
       </p>
