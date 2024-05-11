@@ -20,7 +20,7 @@ defineProps<{ featuredPost: Post }>()
         </div>
       </div>
       <div class="basis-1/2">
-        <FeaturedPost :post="featuredPost" />
+        <VerticalPostPreview :post="featuredPost" is-featured />
       </div>
     </div>
   </div>
