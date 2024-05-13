@@ -19,7 +19,7 @@ useSeoMeta({
   <Container class="my-6">
     <div class=" px-5">
       <div class="my-12 mx-2 gap-5 ">
-        <h2 class="text-4xl font-semibold mb-12 text-center">
+        <h2 class="text-4xl font-semibold mb-12">
           Recent Posts
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">

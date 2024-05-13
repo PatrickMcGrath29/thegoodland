@@ -15,9 +15,10 @@ function toggleOverlay(event: Event) {
     </sup>
   </button>
   <OverlayPanel ref="overlayRef">
-    <RefTagger />
-    <div class="p-4 bg-neutral-900 max-w-[500px] rounded border border-neutral-600">
-      {{ content }}
-    </div>
+    <RefTagger>
+      <div class="p-4 bg-neutral-900 max-w-[500px] rounded border border-neutral-600">
+        {{ content }}
+      </div>
+    </RefTagger>
   </OverlayPanel>
 </template>

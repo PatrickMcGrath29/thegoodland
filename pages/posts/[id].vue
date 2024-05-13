@@ -36,7 +36,7 @@ const postElementRef = ref<HTMLElement>()
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
-    <RefTagger />
+
     <ContainerMedium>
       <div class="my-10">
         <div class="max-w-screen-md m-auto">
@@ -50,7 +50,12 @@ const postElementRef = ref<HTMLElement>()
         </div>
 
         <div ref="postElementRef" class="mt-10 text-lg">
-          <ContentRenderer :value="post" class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10 [&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2" />
+          <RefTagger>
+            <ContentRenderer
+              :value="post"
+              class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10 [&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2"
+            />
+          </RefTagger>
         </div>
       </div>
     </ContainerMedium>

@@ -21,6 +21,9 @@ const REFTAGGER_SETTINGS = {
   socialSharing: [],
 }
 
+const slotRef = ref<HTMLElement>()
+const slots = useSlots()
+
 const scriptAdded = ref(false)
 
 function maybeAddScript() {
@@ -52,11 +55,16 @@ onMounted(() => {
   if (window && !window.refTagger)
     addRefTagger(REFTAGGER_SETTINGS)
 
-  if (window.refTagger && window.refTagger.tag)
-    window.refTagger.tag()
+  if (window.refTagger && window.refTagger.tag) {
+    if (slots.default)
+      window.refTagger.tag(slotRef.value)
+    else window.refTagger.tag()
+  }
 })
 </script>
 
 <template>
-  <div />
+  <div ref="slotRef">
+    <slot />
+  </div>
 </template>
