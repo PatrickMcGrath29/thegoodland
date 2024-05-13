@@ -9,7 +9,7 @@ author: Andrew Murray
 createdDate: 2024-05-13
 slug: 2024-05-13-the-new-life-8-children-of-god
 ---
-“As many as received Him, to them gave He the power to become children of God, even to them that believe on His name” (John 1:12)
+> *“As many as received Him, to them gave He the power to become children of God, even to them that believe on His name” (John 1:12)*
 
 What is given must be received, otherwise it does not profit. If the first great deed of God's love is the gift of His Son, then the first work of man must be to receive this Son. And if all the blessings of God's love come to us only in the ever-new, ever-living Son of the Father, then all these blessings enter into us daily through the always new, always continuing reception of the Son.
 
