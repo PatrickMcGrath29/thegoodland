@@ -1,13 +1,44 @@
 <script setup lang="ts">
+declare global {
+  interface Window {
+    refTagger: any
+  }
+}
+
+const REFTAGGER_SCRIPT_ID = 'reftagger-source'
+const REFTAGGER_SCRIPT_URL = 'https://api.reftagger.com/v2/RefTagger.js'
+const REFTAGGER_SETTINGS = {
+  bibleReader: 'bible.faithlife',
+  bibleVersion: 'NKJV',
+  tooltipStyle: 'dark',
+  customStyle: {
+    body: {
+      fontSize: '18px',
+    },
+  },
+  noSearchTagNames: ['blockquote'],
+  roundCorners: true,
+  socialSharing: [],
+}
+
 const scriptAdded = ref(false)
 
-function addScript() {
+function maybeAddScript() {
+  if (scriptAdded.value)
+    return
+
+  if (document.getElementById(REFTAGGER_SCRIPT_ID)) {
+    scriptAdded.value = true
+    return
+  }
+
   scriptAdded.value = true
 
   const el = document.createElement('script')
   el.type = 'text/javascript'
   el.async = true
-  el.src = `https://api.reftagger.com/v2/RefTagger.js`
+  el.src = REFTAGGER_SCRIPT_URL
+  el.id = REFTAGGER_SCRIPT_ID
   document.getElementsByTagName('body')[0].appendChild(el)
 }
 
@@ -16,24 +47,10 @@ function addRefTagger(settings: any): void {
 }
 
 onMounted(() => {
-  if (!scriptAdded.value)
-    addScript()
+  maybeAddScript()
 
-  if (window && !window.refTagger) {
-    addRefTagger({
-      bibleReader: 'bible.faithlife',
-      bibleVersion: 'NKJV',
-      tooltipStyle: 'dark',
-      customStyle: {
-        body: {
-          fontSize: '18px',
-        },
-      },
-      noSearchTagNames: ['blockquote'],
-      roundCorners: true,
-      socialSharing: [],
-    })
-  }
+  if (window && !window.refTagger)
+    addRefTagger(REFTAGGER_SETTINGS)
 
   if (window.refTagger && window.refTagger.tag)
     window.refTagger.tag()
