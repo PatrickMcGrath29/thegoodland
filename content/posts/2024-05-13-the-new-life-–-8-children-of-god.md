@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: srqijroim_
-title: The New Life  – 8. Children Of God
+title: The New Life – 8. Children Of God
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
