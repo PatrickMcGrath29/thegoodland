@@ -13,7 +13,7 @@ slug: 2024-05-13-the-new-life-9-our-surrender-to-jesus
 
 The chief element of what Jesus has done for me--always does for me--lies in His surrender of Himself for me. I have the main element of what He would have me do in my surrender to Him. For young Christians who have given themselves to Jesus, it is of great importance to always hold fast--to confirm and renew this surrender. This is the special life of faith which says again every day, “I have given myself to Him. I will follow and serve Him. :tooltip{text="verses" content="Matt. 4:22; 10:24,25,37,38; Luke 18:22; John 12:25,26; 2 Cor. 5:15"} He has taken me. I am His and entirely at His service. :tooltip{text="verses" content="Matt. 28:20"}
 
-Young Christian, hold firm your surrender and continue to make it firmer. When a stumbling or a sin recurs after you have surrendered yourself, do not think that the surrender was insincere. No, the surrender to Jesus does not make us perfect at once. You have sinned because you were not thoroughly or firmly enough in His arms. Adhere to this, even though it is with shame, “Lord, You know I have given myself to You, and I am Yours. tooltip{text="verses" content="John 21:17; Gal. 6:1; 1 Thess. 5:24; 2 Tim. 2:13; 1 John 5:16"} Confirm this surrender again. Say to Him that you now begin to see better how complete the surrender to Him must be. Every day, renew the voluntary, entire, and undivided offering up of yourselves to Him. :tooltip{text="verses" content="Luke 18:28; Phil. 3:7,8"}
+Young Christian, hold firm your surrender and continue to make it firmer. When a stumbling or a sin recurs after you have surrendered yourself, do not think that the surrender was insincere. No, the surrender to Jesus does not make us perfect at once. You have sinned because you were not thoroughly or firmly enough in His arms. Adhere to this, even though it is with shame, “Lord, You know I have given myself to You, and I am Yours. :tooltip{text="verses" content="John 21:17; Gal. 6:1; 1 Thess. 5:24; 2 Tim. 2:13; 1 John 5:16"} Confirm this surrender again. Say to Him that you now begin to see better how complete the surrender to Him must be. Every day, renew the voluntary, entire, and undivided offering up of yourselves to Him. :tooltip{text="verses" content="Luke 18:28; Phil. 3:7,8"}
 
 ::pullquote
 The longer we continue as Christians, the deeper our insight into God’s Word will lead us to surrender to Jesus. 
@@ -25,13 +25,9 @@ That is the language of trustful dedication. It is on the Word of the Lord--whic
 
 Therefore, every day let this be the childlike joyful activity of your life of faith. Surrender yourselves continually to Jesus, and you are safe in the certainty that He, in His love, takes and holds you securely. His answer to your giving is the renewed and always deeper surrender of Himself to you.
 
- 
-
 ### Prayer
 
 According to Your Word, my Lord and King, I am Yours, and all that I have. Every day, this day, I will confirm it. I am not my own, but am my Lord’s. Fervently I implore You to take full possession of Your property so that no one may doubt whose I am. Amen.
-
- 
 
 ### Points to remember
 
