@@ -23,5 +23,6 @@ posts:
   - post: 2024-04-30-the-new-life-6-gods-gift-of-his-son
   - post: 2024-05-10-the-new-life-7-jesus-surrender-of-himself
   - post: 2024-05-13-the-new-life-8-children-of-god
+  - post: 2024-05-13-the-new-life-9-our-surrender-to-jesus
 featuredImage: /uploads/hero.jpg
 ---
