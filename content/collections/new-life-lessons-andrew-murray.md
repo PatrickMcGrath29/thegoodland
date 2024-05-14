@@ -27,5 +27,7 @@ posts:
   - post: 2024-05-13-the-new-life-10-a-saviour-from-sin
   - post: 2024-05-13-the-new-life-11-the-confession-of-sin
   - post: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
+  - post: 2024-05-13-the-new-life-13-the-cleansing-of-sin
+  - post: 2024-05-13-the-new-life-14-holiness
 featuredImage: /uploads/hero.jpg
 ---
