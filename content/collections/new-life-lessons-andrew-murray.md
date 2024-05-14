@@ -29,5 +29,6 @@ posts:
   - post: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
   - post: 2024-05-13-the-new-life-13-the-cleansing-of-sin
   - post: 2024-05-13-the-new-life-14-holiness
+  - post: 2024-05-13-the-new-life-15-righteousness
 featuredImage: /uploads/hero.jpg
 ---
