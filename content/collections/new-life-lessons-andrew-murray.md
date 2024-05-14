@@ -25,5 +25,6 @@ posts:
   - post: 2024-05-13-the-new-life-8-children-of-god
   - post: 2024-05-13-the-new-life-9-our-surrender-to-jesus
   - post: 2024-05-13-the-new-life-10-a-saviour-from-sin
+  - post: 2024-05-13-the-new-life-11-the-confession-of-sin
 featuredImage: /uploads/hero.jpg
 ---
