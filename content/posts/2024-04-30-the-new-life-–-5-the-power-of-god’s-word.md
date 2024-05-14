@@ -21,11 +21,11 @@ The new life of a child of God depends so much on the correct usage of God’s W
 
 It is a great thing when the Christian realizes that he can receive and accomplish all only through faith. He has to believe. God will look to the fulfilling of what is promised. Every morning the Christian must trust in Jesus and in the new life given to him. Jesus will see to it that the new life works in him.
 
-But now he runs the risk of another error. He thinks that the faith that does such great things must be something great--that he must have a great power in order to exercise such a great faith. :tooltip{text="verses" content="Luke 17:5,6; Rom. 10:6-8"} And, because he does not feel this power, he thinks that he cannot believe as he should. This error may prove to be a loss to him throughout his life.
+But now he runs the risk of another error. He thinks that the faith that does such great things must be something great—that he must have a great power in order to exercise such a great faith. :tooltip{text="verses" content="Luke 17:5,6; Rom. 10:6-8"} And, because he does not feel this power, he thinks that he cannot believe as he should. This error may prove to be a loss to him throughout his life.
 
 Hear how distorted this thought is. You must not bring this mighty faith to get the Word fulfilled. Instead, the Word comes and brings you this faith which you must have. “The word is quick and powerful.” The Word works faith in you. The Scripture says, “Faith is by the word.”
 
-Think on what we have said of the heart as a temple-of its two divisions. There is the outer court, with understanding as its gate or entrance. There is the innermost sanctuary, with the faith of the heart as its entrance. There is a natural faith--the historic faith-which every man has. It is with this that I must first receive the Word into my keeping and my consideration. I must say to myself, “The Word of God is certainly true. I can stand upon it.” In this way, I bring the Word into the outer court. From within the heart, desire reaches out to the Word, seeking to receive it into the heart. The Word now exercises its divine power of life. It begins to grow and shoot out roots. As a seed in the earth sends forth roots and presses still deeper into the soil, the Word presses inwardly into the holy place. The Word thus works true saving faith. :tooltip{text="verses" content="I Thess. 2:13; Jas. 1:21; 1 Pet. 1:23"}
+Think on what we have said of the heart as a temple-of its two divisions. There is the outer court, with understanding as its gate or entrance. There is the innermost sanctuary, with the faith of the heart as its entrance. There is a natural faith—the historic faith-which every man has. It is with this that I must first receive the Word into my keeping and my consideration. I must say to myself, “The Word of God is certainly true. I can stand upon it.” In this way, I bring the Word into the outer court. From within the heart, desire reaches out to the Word, seeking to receive it into the heart. The Word now exercises its divine power of life. It begins to grow and shoot out roots. As a seed in the earth sends forth roots and presses still deeper into the soil, the Word presses inwardly into the holy place. The Word thus works true saving faith. :tooltip{text="verses" content="I Thess. 2:13; Jas. 1:21; 1 Pet. 1:23"}
 
 ::pullquote
 It is a great thing when the Christian realizes that he can receive and accomplish all only through faith.
@@ -41,7 +41,7 @@ Therefore, my young disciples in Christ, learn to receive God’s Word trustfull
 
 ### Prayer
 
-Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen. 
+Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen.
 
 ### Points to remember
 
