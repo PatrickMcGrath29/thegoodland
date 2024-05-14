@@ -9,11 +9,11 @@ author: Andrew Murray
 createdDate: 2024-04-30
 slug: 2024-04-30-the-new-life-4-faith
 ---
-> Blessed is she that believed; for there shall be a performance of the things which were told her from the Lord (Luke 1:45)
+> *Blessed is she that believed; for there shall be a performance of the things which were told her from the Lord (Luke 1:45)*
 >
-> I believe God, that it shall be even as it was told me (Acts 27:25)
+> *I believe God, that it shall be even as it was told me (Acts 27:25)*
 >
-> Abraham was strong in faith, being fully persuaded that what He had promised, He was able also to perform  (Romans 4:20,21)
+> *Abraham was strong in faith, being fully persuaded that what He had promised, He was able also to perform  (Romans 4:20,21)*
 
 God has asked you to take and lay up His Word in your heart. The Word is taken and received into the innermost depths of your heart through the avenue of faith. Let the young Christian take pains to better understand what faith is. He will, then gain an insight into the reasons why such great things are connected to faith. He will have a perfect belief in the idea that full salvation is dependent upon faith. [^1]
 
@@ -31,21 +31,15 @@ It is written in the Word about Paul, “I believe God, that it shall be even as
 
 Young disciples in Christ, the new and eternal life in you is a life of faith. And do you not see how simple and blessed that life of faith is? Every day I go to the Word and hear what God has said that He has done and will do. [^7] I take time to house in my heart the Word in which God says that. I hold it firmly, entirely assured that what God has promised He is able to perform. And then, in a childlike spirit, I await the fulfillment of all the promises of His Word. And my soul experiences--Blessed is she that believed, for the things that have been spoken to her from the Lord will be fulfilled. God promises-I believe-God fulfills. That is the secret of the new life.
 
- 
-
 ### Prayer
 
 Father, Your child thanks You for this blessed life of faith in which we have to walk. I can do nothing, but You can do all. All that You can do has been spoken in Your Word. Every Word that I take and trustfully bring to You is fulfilled. Father, in this life of faith, so simple, so glorious, I will walk with You. Amen.
-
- 
 
 ### Points to remember
 
 1. The Christian must read and search the Scriptures to increase his knowledge. For this reason, he reads one or more principal passages daily. He reads the Scriptures to also strengthen his faith. To achieve this he must take one or two verses and make them the subject of special reflection.
 2. Do not allow yourselves to be led astray by those who speak of faith as something great and unintelligible. Faith is nothing more than the certainty that God speaks the truth. Take some promises of God and say to Him, “I know for certain that this promise is truth, and that You will fulfill it.” He will do it.
 3. Never mourn over unbelief as if it were a weakness which you cannot help. As God’s child, however weak you may be, you have the power to believe because the Spirit of God is in you. Keep this in mind--no one understands anything unless he has the power to believe. He must simply begin and continue to say to the Lord that he is sure that His Word is truth. He must securely hold the promise and trust God for the fulfillment.
-
-    
 
 [^1]: 2 Chron.20:20; Mark 9:23; Heb. 11:33,35; 1 John 5:4,5
 
