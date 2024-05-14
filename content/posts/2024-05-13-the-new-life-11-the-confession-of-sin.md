@@ -21,35 +21,23 @@ For this end, let your confession be a precise one. :tooltip{text="verses" conte
 
 Let the confession be a righteous one. :tooltip{text="verses" content="Prov. 28:13; Lev. 26:40,41; Jer. 31:18,19"} Deliver up the sinful deed to be laid aside. Deliver up the sinful feeling with trust in the Lord. Confession implies renunciation--the putting off of sin. Give up sin to God, who forgives you of it, and cleanses you from it. Do not confess, if you are not prepared, or if you do not heartily desire to be freed from it. Confession has value only if it is a giving up of sin to God.
 
-Let the confession be one of trust.7 Depend entirely on God to actually forgive you, and to cleanse you from sin. Continue in confession by casting the sin you desire to be rid of into the fire of God’s holiness until your soul has the firm confidence that God takes it on His own account to forgive and to cleanse. It is this faith which truly overcomes the world and sin. It is the faith that God, in Jesus, actually frees us from sin.8
+Let the confession be one of trust. :tooltip{text="verses" content="2 Sam. 12:13; Ps. 32:5; Isa. 55:7"} Depend entirely on God to actually forgive you, and to cleanse you from sin. Continue in confession by casting the sin you desire to be rid of into the fire of God’s holiness until your soul has the firm confidence that God takes it on His own account to forgive and to cleanse. It is this faith which truly overcomes the world and sin. It is the faith that God, in Jesus, actually frees us from sin. :tooltip{text="verses" content="1 John 5:5"}
 
 Brothers and sisters, do you understand it now? What must you do with sin, with every sin? Bring it in confession to God, and give it to God. God alone takes away sin.
 
+### Prayer
+
 Lord God, what thanks I will express for this unspeakable blessing-that I may come to You with sin. It is known to You, Lord, how sin before Your holiness causes terror and flight. It is known to You how it is our deepest thought, first to have sin covered, and then to come to You with our desire and endeavour for good. Lord, teach me to come to You with sin-every sin-and in confession to lay it down before You and give it up to You. Amen.
 
-Footnotes:
 
-1. :tooltip{text="verses" content="Gen. 6:5,6; Isa. 43:24; Ezek. 33:6; Rev. 6:16,l7"}
-2. :tooltip{text="verses" content="Judg. 10:10,15,16; Ezra 9:6; Neh. 9:2,33; Jer. 3:21,25; Dan. 9:4,5,20"}
-3. :tooltip{text="verses" content="Lev. 6:21; Num. 5:7; 2 Sam. 12:13; Ps. 32:5; 38:18; 51:5,19"}
-4. :tooltip{text="verses" content="Gen. 3:12; Ex. 32:22,24; Isa. 1:11,5; Luke 13:26"}
-5. :tooltip{text="verses" content="Num. 12:11; 21:7; 2 Sam. 24:10,17; Isa. 59:12,13; Luke 23:41;Acts 19:18,19; 22:19,20; 1 Tim. 1:13,15"}
-6. :tooltip{text="verses" content="Prov. 28:13; Lev. 26:40,41; Jer. 31:18,19"}
-7. :tooltip{text="verses" content="2 Sam. 12:13; Ps. 32:5; Isa. 55:7"}
-8. :tooltip{text="verses" content="1 John 5:5"}
 
-Notes
+### Points to remember
 
 1. What is the distinction between the covering of sin by God and by man? How does man do it? How does God do it?
-2. What are the great hindrances in the way of the confession of sin?
-
-\-Ignorance about sin,
-
-\-Fear to come with sin to the Holy Father,
-
-\-The endeavour to come to God with something good,
-
-\-Unbelief in the power of the blood of Jesus and in the riches of grace.
-
+2. What are the great hindrances in the way of the confession of sin?\
+   -Ignorance about sin,\
+   -Fear to come with sin to the Holy Father,\
+   -The endeavour to come to God with something good,\
+   -Unbelief in the power of the blood of Jesus and in the riches of grace.
 3. Must I immediately confess an oath or a lie or a wrong word, or wait until my feeling has first cooled and become correctly disposed? Confess it immediately; come in full sinfulness to God, without first desiring to make it less!
 4. Is it also necessary to confess before man? It is indispensable if our sin has been against man. Also, we must be careful, for it is often easier to acknowledge a wrong before God than before man (Jas. 5:16).
