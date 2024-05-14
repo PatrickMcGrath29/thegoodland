@@ -33,19 +33,12 @@ Lord God, this is the wonder of Your grace--that You are a forgiving God. Teach 
 ### Points to remember
 
 1. Forgiveness is one with justification. Forgiveness is the word that looks more to the relation of God as Father. Justification looks more to His acquittal as Judge. Forgiveness is a word that is more easily understood by the young Christian. But he must also endeavour to understand the word justification and to become familiar with all that the Scriptures teach about it.
-
-2. About justification we must understand:
-
-\-That man in himself is totally unrighteous;
-
-\-That he cannot be justified by works, that is, pronounced righteous before the judgement seat of the Father;
-
-\-That Christ Jesus has brought righteousness for our sake. His obedience is our righteousness;
-
-\-That we, through faith, receive Him, are united with Him, and then are pronounced righteous before God;
-
-\-That we, through faith, have the certainty of this, and, as justified, draw near to God;
-
-\-That union with Jesus is a life by which we are not only pronounced righteous, but are truly righteous and act righteously.
+2. About justification we must understand:\
+   -That man in himself is totally unrighteous;\
+   -That he cannot be justified by works, that is, pronounced righteous before the judgement seat of the Father;\
+   -That Christ Jesus has brought righteousness for our sake. His obedience is our righteousness;\
+   -That we, through faith, receive Him, are united with Him, and then are pronounced righteous before God;\
+   -That we, through faith, have the certainty of this, and, as justified, draw near to God;\
+   -That union with Jesus is a life by which we are not only pronounced righteous, but are truly righteous and act righteously.
 
 3. Let the certainty of your part in justification, in the full forgiveness of your sins, and full restoration to the love of God, be your confidence in drawing near to God every day.
