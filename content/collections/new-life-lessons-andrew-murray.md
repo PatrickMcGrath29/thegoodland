@@ -26,5 +26,6 @@ posts:
   - post: 2024-05-13-the-new-life-9-our-surrender-to-jesus
   - post: 2024-05-13-the-new-life-10-a-saviour-from-sin
   - post: 2024-05-13-the-new-life-11-the-confession-of-sin
+  - post: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
 featuredImage: /uploads/hero.jpg
 ---
