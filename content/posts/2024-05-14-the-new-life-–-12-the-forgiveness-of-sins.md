@@ -8,13 +8,17 @@ isBlogPost: false
 createdDate: 2024-05-13
 slug: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
 ---
-> Blessed is he whose transgression is forgiven, whose sin is covered (Psalm 32:1)
+> *Blessed is he whose transgression is forgiven, whose sin is covered (Psalm 32:1)*
 >
-> Bless the Lord, O my soul....who forgiveth all thine iniquities (Psalm 103:2,3)
+> *Bless the Lord, O my soul....who forgiveth all thine iniquities (Psalm 103:2,3)*
 
  In connection with surrender to the Lord, it was said that the first great blessing of the grace of God was this--the free, complete, everlasting forgiveness of all your sins. For the young Christian, it is of great importance that he should stand firm in this forgiveness of his sins. He should always carry the certainty of it about with him. For this reason, he must especially consider the following truths.
 
 The forgiveness of our sin is a complete forgiveness. :tooltip{text="verses" content="Ps. 103:12; Isa. 38:17; 55:7; Mic. 7:18,19; Heb. 10:16-18"} God does not partially forgive. Even with man, we believe that half forgiveness is not true forgiveness. The love of God is so great, and the atonement in the blood of Jesus so complete and powerful, that God always forgives completely. Take time with God’s Word so that you may fully understand that your guilt has been blotted out completely. God absolutely thinks no more about your sins. “I will forgive their iniquity, and I will remember their sin no more.” :tooltip{text="verses" content="Jer. 31:34; Heb. 8:12; 10:17"}
+
+::pullquote
+The forgiveness of our sin restores us entirely again to the love of God. Not only does God no longer attribute us with sin, but He also restores us to the righteousness of Jesus.
+::
 
 The forgiveness of our sin restores us entirely again to the love of God. :tooltip{text="verses" content="Hos. 14:5; Luke 15:22; Acts 26:18; Rom. 5:1,5"} Not only does God no longer attribute us with sin, but He also restores us to the righteousness of Jesus--for His sake we are as dear to God as He is. Not only is wrath turned away from us, but the fullness of love now rests upon us. “I will love them freely: for mine anger is turned away from him” (Hosea 14:4). Forgiveness is the access to all of God’s love. On this account, forgiveness is also an introduction to all the other blessings of redemption.
 
