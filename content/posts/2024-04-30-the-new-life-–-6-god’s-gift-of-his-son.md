@@ -20,6 +20,10 @@ Nothing less than His Son Himself. This is the love of God. It is not that He gi
 
 What do we have to do? To take Him, to receive and to take possession of the gift--to enjoy Jesus as our own. This is eternal life. “He that hath the Son hath life.” :tooltip{text="verses" content="John 1:12; 2 Cor. 3:5; Col. 2:6; 1 John 5:12"}
 
+::pullquote
+What do we have to do? To take Him, to receive and to take possession of the gift--to enjoy Jesus as our own.
+::
+
 How I wish that all young Christians would understand this. The one great work of God’s love for us is, He gives us His Son. In Him we have all. Therefore, the one great work of our heart must be to receive this Jesus who has been given to us, and to consider and use Him as ours. I must begin every day anew with the thought, l have Jesus to do all for me. :tooltip{text="verses" content="John 15:5; Rom. 8:37; I Cor. 1:30; Eph. 1:3,2:10; Phil. 4:13"} In all weakness or darkness or danger--in the case of every desire or need--let your first thought always be, I have Jesus to make everything right for me. God has given Him to me for this purpose. Whether your need is forgiveness, consolation, or confirmation, remember, the Father gave you Jesus to care for you. Whether you have fallen, or are tempted to fall, into danger, remember, Jesus has been given to you for your care. Whether you do not know the will of God in one matter or another, or whether you are unsure of your strength and courage to do His will, remember, Jesus will care for you.
 
 For this reason, rely every day on this gift from God. It has been presented to you in the Word. Appropriate the Son by faith in the Word. Take Him again every day. Through faith you have the Son. :tooltip{text="verses" content="John 1:12; 1 John 5:9,13"} The love of God has given the Son. Take Him and hold Him steadily in the love of your heart. :tooltip{text="verses" content="1 John 4:4,19"} It is to bring life, eternal life, to you that God has given Jesus. Take Him up into your life. Let your heart and tongue and whole walk be under the might and guidance of Jesus. :tooltip{text="verses" content="2 Cor. 5:15; Phil. 3:8"}
