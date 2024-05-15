@@ -1608,7 +1608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/content@npm:^2.12.0":
+"@nuxt/content@npm:^2.12.1":
   version: 2.12.1
   resolution: "@nuxt/content@npm:2.12.1"
   dependencies:
@@ -12173,7 +12173,7 @@ __metadata:
   resolution: "thegoodland@workspace:."
   dependencies:
     "@antfu/eslint-config": "npm:^2.8.0"
-    "@nuxt/content": "npm:^2.12.0"
+    "@nuxt/content": "npm:^2.12.1"
     "@nuxt/image": "npm:^1.4.0"
     "@nuxt/scripts": "npm:^0.3.3"
     "@nuxtjs/tailwindcss": "npm:^6.11.4"

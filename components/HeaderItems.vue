@@ -19,5 +19,9 @@ const { data: collections } = await useAsyncData('collections', () => useCollect
     </NuxtLink>
   </li>
   <li><a href="https://quotes.thegoodland.io">Quotes</a></li>
-  <Search />
+  <Search>
+    <template #activator="{ clickFn }">
+      <li><a @click="clickFn">Search</a></li>
+    </template>
+  </Search>
 </template>

@@ -55,6 +55,7 @@ watch(searchString, () => {
 
 watch(modalVisibile, (v) => {
   if (v) {
+    searchString.value = ''
     nextTick(() => {
       searchInput.value?.focus()
     })
@@ -85,29 +86,18 @@ onKeyStroke('Enter', () => {
     navigateTo(`/quote/${matchingPosts.value[activePostIdx.value].uuid}`)
   }
 })
-
-onKeyStroke('Escape', (e) => {
-  if (modalVisibile.value) {
-    modalVisibile.value = false
-    e.preventDefault()
-  }
-})
 </script>
 
 <template>
-  <div class="text-center">
-    <button class="btn btn-ghost" @click="modalVisibile = true">
-      <span>Search</span>
-    </button>
-  </div>
+  <slot name="activator" :click-fn="() => modalVisibile = true" />
   <Dialog
-    v-model:visible="modalVisibile" :modal="true" :pt="{
-      root: 'border-none',
+    v-model:visible="modalVisibile"
+    :show-header="false" :modal="true" :pt="{
       mask: {
         style: 'backdrop-filter: blur(2px)',
       },
     }"
-    class="modal-box max-w-2xl flex flex-col h-full overflow-hidden max-md:w-full max-md:max-h-full max-md:rounded-none"
+    class="p-6 bg-base-300 w-full max-w-2xl h-full"
   >
     <div class="mt-1 mb-4 text-center flex justify-center gap-1 space-x-2">
       <input
@@ -132,18 +122,21 @@ onKeyStroke('Escape', (e) => {
       </div>
     </div>
 
-    <div class="overflow-y-auto scrollbar-thin scrollbar-thumb-primary  max-h-screen divide-y divide-slate-700">
+    <div class="overflow-y-auto max-h-screen divide-y divide-slate-700">
       <NuxtLink
         v-for="(post, idx) in matchingPosts" :key="post.uuid"
-        class="card py-5 px-3 rounded-none hover:bg-gray-900" :to="`/posts/${post.slug}`"
-        :class="{ 'bg-gray-900': idx === activePostIdx }" @click="modalVisibile = false"
+        class="card py-5 px-3 rounded-none hover:bg-base-100" :to="`/posts/${post.slug}`"
+        :class="{ 'bg-base-100': idx === activePostIdx }" @click="modalVisibile = false"
       >
         <div class="flex flex-col">
           <div class="mb-2 text-lg">
             {{ post.title }}
           </div>
-          <h5 class="text-sm ">
-            by {{ post.author || "Anonymous" }}
+          <h5 class="text-sm text-neutral-400 font-semibold">
+            {{ useFormattedDate(post.createdDate) }}
+          </h5>
+          <h5 v-if="post.author" class="text-sm mt-1">
+            by {{ post.author }}
           </h5>
         </div>
       </NuxtLink>
