@@ -29,17 +29,7 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 
 > Beloved Savior, I see more clearly that the whole new life is a life in love. You yourself are the Son of God's love, the gift of His love, who came to introduce us into His love and to give us a dwelling there. And the Holy Spirit is given to spread the love of God in our hearts, to open a spring from which love for You and for the other believers and for all humanity will flow. Lord, here I am, one redeemed by love, to live for it and in its power to love all. Amen.
 
-Footnotes
-
-1. :tooltip{text="verses" content="Matt. 5:6,17,20; 6:33"}
-2. :tooltip{text="verses" content="Rom. 5:5; Gal. 5:22; 1 Thess. 4:9; 1 John 4:11; John 13:34"}
-3. :tooltip{text="verses" content="Rom. 5:5; 1 John 4:19"}
-4. :tooltip{text="verses" content="Eph. 4:2,6; 5:1,2; 1 John 3:1; 4:7,20; 5:1"}
-5. :tooltip{text="verses" content="Matt. 5:44,45; Gal. 2:20; 1 Thess. 3:12,13; 5:24; Phil. 4:13; 1 Pet. 1:22"}
-6. :tooltip{text="verses" content="Luke 22:26,27; John 13:14,15,34; Col. 2:13"}
-7. :tooltip{text="verses" content="Matt. 12:50; 25:40; Rom. 13:10; 1 Cor. 7:19; Gal. 5:6; Jas. 2:15,16; 1 John 3:16,17,18"}
-8. :tooltip{text="verses" content="Gal. 5:22; Eph. 4:2,32; Phil. 2:2,3; Col. 3:12; 2 Thess. 1:3"}
-9. :tooltip{text="verses" content="Luke 6:32,35; 1 Pet. 1:22; 2 Pet. 1:7"}
+ 
 
 ### Notes
 
@@ -49,4 +39,4 @@ Footnotes
 
    ___
 
-[<<Chapter 15](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness) - [Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray) - Chapter 17>>
+[<< Chapter 15](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness) - [Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray) - Chapter 17 >>
