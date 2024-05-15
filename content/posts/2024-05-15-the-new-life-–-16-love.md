@@ -29,14 +29,16 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 
 > Beloved Savior, I see more clearly that the whole new life is a life in love. You yourself are the Son of God's love, the gift of His love, who came to introduce us into His love and to give us a dwelling there. And the Holy Spirit is given to spread the love of God in our hearts, to open a spring from which love for You and for the other believers and for all humanity will flow. Lord, here I am, one redeemed by love, to live for it and in its power to love all. Amen.
 
- 
-
 ### Notes
 
 1. Those who reject the Word of God sometimes say that it is of no importance what we believe if we but have love, and so they are for making love the one condition of salvation. In their zeal against this view, the orthodox party have sometimes presented faith in justification, as if love were not of so much importance. This is likely to be very dangerous. God is love. His Son is the gift, the bringer, of His love to us. The Spirit sheds the love of God in the heart. The new life is a life in love. Love is the greatest thing. Let it be the chief element in our life--true love which is known in the keeping of God's commandments (see 1 John 3:10,23,24; 5:2).
 2. Do not wonder why I have said that you must love even though you do not feel the least bit of love. Not the feeling, but the will, is your power. It is not in your feeling, but in your faith, that the Spirit in you is the power of your will to work in you all that the Father bids you. Therefore, although you feel absolutely no love for your enemy, say in the obedience of faith, "Father, I love him; in faith in the hidden working of the Spirit in my heart, I do love him.
 3. Do not think that this is love, if you wish no evil to anyone, or if you should be willing to help, if he were in need. No, love is much more. Love is His love. Love is the disposition with which God addressed you when you were His enemy, and afterward ran to you with tender longing to caress you.
 
-   ___
+ 
+
+---
+
+ 
 
 [<< Chapter 15](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness) - [Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray) - Chapter 17 >>
