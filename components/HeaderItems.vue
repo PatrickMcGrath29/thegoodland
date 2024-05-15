@@ -19,4 +19,5 @@ const { data: collections } = await useAsyncData('collections', () => useCollect
     </NuxtLink>
   </li>
   <li><a href="https://quotes.thegoodland.io">Quotes</a></li>
+  <Search />
 </template>
