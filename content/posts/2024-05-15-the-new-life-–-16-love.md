@@ -9,11 +9,11 @@ author: Andrew Murray
 createdDate: 2024-05-15
 slug: 2024-05-15-the-new-life-16-love
 ---
-> A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. By this shall all men know that ye are My disciples, if ye have love one to another (John 13:34,35)
+> *A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. By this shall all men know that ye are My disciples, if ye have love one to another (John 13:34,35)*
 >
-> Love worketh no ill to his neighbour: therefore love is the fulfilling of the law (Romans 13:10)
+> *Love worketh no ill to his neighbour: therefore love is the fulfilling of the law (Romans 13:10)*
 >
-> Beloved, if God so loved us, we ought also to love one another. If we love one another, God dwelleth in us, and His love is perfected in us (1 John 4:11,12)
+> *Beloved, if God so loved us, we ought also to love one another. If we love one another, God dwelleth in us, and His love is perfected in us (1 John 4:11,12)*
 
 In the word of Micah, in the previous section, righteousness is the first thing which God demands. To love mercy is the second. Righteousness stood more in the foreground in the Old Testament. Love is first seen as supreme in the New Testament. Passages to this effect are not difficult to find. In the advent of Jesus, the love of God is first revealed, the new, eternal life is first given, and we become children of the Father and kindred to each other. On this ground the Lord can then, for the first time, speak of the New Commandment--the commandment of brotherly love. Righteousness is not required less in the New Testament than in the Old. :tooltip{text="verses" content="Matt. 5:6,17,20; 6:33"} Yet the burden of the New Testament is that we have been given a power for love which was unattainable in the early days. :tooltip{text="verses" content="Rom. 5:5; Gal. 5:22; 1 Thess. 4:9; 1 John 4:11; John 13:34"}
 
@@ -35,10 +35,6 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 2. Do not wonder why I have said that you must love even though you do not feel the least bit of love. Not the feeling, but the will, is your power. It is not in your feeling, but in your faith, that the Spirit in you is the power of your will to work in you all that the Father bids you. Therefore, although you feel absolutely no love for your enemy, say in the obedience of faith, "Father, I love him; in faith in the hidden working of the Spirit in my heart, I do love him.
 3. Do not think that this is love, if you wish no evil to anyone, or if you should be willing to help, if he were in need. No, love is much more. Love is His love. Love is the disposition with which God addressed you when you were His enemy, and afterward ran to you with tender longing to caress you.
 
- 
-
----
-
- 
+- - -
 
 [<< Chapter 15](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness) - [Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray) - Chapter 17 >>
