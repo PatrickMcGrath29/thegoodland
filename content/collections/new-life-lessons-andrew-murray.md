@@ -9,15 +9,21 @@ summary: >-
   Watchman Nee was greatly helped by Murray’s books and recommended them.
 
 
-  These short lessons were written by Andrew Murray for new disciples of Jesus. They are simple and basic but VERY important. Whether we are new in the Lord’s path or we’ve been there for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
+  Andrew Murray wrote these short lessons for new disciples of Jesus. They are simple but very important. Whether we are new with Lord or we have been on His path for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
 
 
-  Some of the lessons are more basic, some are more advanced. The language is simple and easy to understand, and while each lesson is rather short, there are substantial Scripture references for further study. Let each reader receive according to their capacity and growth level, as the Lord confirms His truths in the heart. He is  our Good Shepherd, and He knows how to give us our “portion of food at the proper time”.
+  The original language of these lessons contained some older english words and expressions. Some of the language has been updated but not all the text
+
+
+  While the lessons are short, there are substantial Scripture references for further study. On this implementation the references are dynamic; when you point the cursor on the word "verses" whenever it appears, a list of related verse references is shown. Then, by clicking on each reference you can see the verse. 
+
+
+  May the Good Shepherd give each one the proper "portion of food at the proper time” (Luke 12:42).
 posts:
-  - post: the-new-life-0-preface
-  - post: the-new-life-1-the-new-life
-  - post: the-new-life-2-the-milk-of-the-word
-  - post: the-new-life-3-gods-word-in-our-heart
+  - post: new-life-lessons-0-preface
+  - post: new-life-lessons-1-the-new-life
+  - post: new-life-lessons-2-the-milk-of-the-word
+  - post: new-life-lessons-3-gods-word-in-our-heart
   - post: the-new-life-4-faith
   - post: the-new-life-5-the-power-of-gods-word
   - post: the-new-life-6-gods-gift-of-his-son
