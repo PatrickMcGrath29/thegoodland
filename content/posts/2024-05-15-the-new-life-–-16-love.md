@@ -35,6 +35,8 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 2. Do not wonder why I have said that you must love even though you do not feel the least bit of love. Not the feeling, but the will, is your power. It is not in your feeling, but in your faith, that the Spirit in you is the power of your will to work in you all that the Father bids you. Therefore, although you feel absolutely no love for your enemy, say in the obedience of faith, "Father, I love him; in faith in the hidden working of the Spirit in my heart, I do love him.
 3. Do not think that this is love, if you wish no evil to anyone, or if you should be willing to help, if he were in need. No, love is much more. Love is His love. Love is the disposition with which God addressed you when you were His enemy, and afterward ran to you with tender longing to caress you.
 
+    
+
 - - -
 
-[<< Chapter 15](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness) - [Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray) - Chapter 17 >>
+[](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness)[Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray)
