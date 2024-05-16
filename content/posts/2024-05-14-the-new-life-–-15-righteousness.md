@@ -41,8 +41,6 @@ Consider, further, the promises of blessing and joy which God has for the righte
 
 > O Lord, You have said, "There is no God else beside Me: a just God and a Saviour" (Isaiah 45:21).You are my God. It is as a righteous God that You are my Saviour and have redeemed me in Your Son. As a righteous God, You make me righteous also, and say to me that the righteous will live by faith. Lord, let the new life in me be the life of faith, the life of a righteous man. Amen.
 
-###  
-
 ### Notes
 
 1. Observe the connection between the doing of righteousness and sanctification in Romans 6:19,22 - "Yield your members servants to righteousness unto holiness." "Having become servants to God, ye have your fruit unto sanctification." The doing of righteousness, righteousness in conduct and action, is the way to holiness. Obedience is the way to become filled with the Holy Spirit. And the indwelling of God through the Spirit is holiness.
