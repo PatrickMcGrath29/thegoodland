@@ -4,7 +4,7 @@ slugFields:
   - title
 title: The New Life – 2. The Milk of the Word
 author: Andrew Murray
-slug: new-life-lessons-2-the-milk-of-the-word
+slug: the-new-life-2-the-milk-of-the-word
 uuid: s7ysjprt5n
 isBlogPost: false
 featuredImage: /uploads/opening_to_the_lord.jpeg

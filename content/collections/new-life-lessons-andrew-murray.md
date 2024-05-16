@@ -14,10 +14,10 @@ summary: >-
 
   Some of the lessons are more basic, some are more advanced. The language is simple and easy to understand, and while each lesson is rather short, there are substantial Scripture references for further study. Let each reader receive according to their capacity and growth level, as the Lord confirms His truths in the heart. He is  our Good Shepherd, and He knows how to give us our “portion of food at the proper time”.
 posts:
-  - post: new-life-lessons-0-preface
-  - post: new-life-lessons-1-the-new-life
-  - post: new-life-lessons-2-the-milk-of-the-word
-  - post: new-life-lessons-3-gods-word-in-our-heart
+  - post: the-new-life-0-preface
+  - post: the-new-life-1-the-new-life
+  - post: the-new-life-2-the-milk-of-the-word
+  - post: the-new-life-3-gods-word-in-our-heart
   - post: the-new-life-4-faith
   - post: the-new-life-5-the-power-of-gods-word
   - post: the-new-life-6-gods-gift-of-his-son

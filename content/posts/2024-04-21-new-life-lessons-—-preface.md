@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: j713hrj-ex
 author: Andrew Murray
-slug: new-life-lessons-0-preface
+slug: the-new-life-0-preface
 title: The New Life – Preface
 featuredImage: /uploads/hero.jpg
 createdDate: 2024-04-20

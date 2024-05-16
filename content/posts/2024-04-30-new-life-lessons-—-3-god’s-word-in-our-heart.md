@@ -7,7 +7,7 @@ title: The New Life – 3. God’s Word In Our Heart
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
-slug: new-life-lessons-3-gods-word-in-our-heart
+slug: the-new-life-3-gods-word-in-our-heart
 ---
 > *Therefore shall ye lay up these My words in your heart and in your soul (Deuteronomy 11:18)*
 >
