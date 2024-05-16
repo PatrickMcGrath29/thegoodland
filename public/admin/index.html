@@ -152,10 +152,18 @@
   CMS.registerEventListener({
     name: 'preSave',
     handler: ({ entry }) => {
-      const slugFields = entry.get('data').get('slugFields')
+      let slugFields = entry.get('data').get('slugFields')
 
       if (slugFields === undefined) {
         return
+      }
+
+      // A hack
+      if (entry.get('collection') === 'posts') {
+        const isBlogPost = entry.get('data').get('isBlogPost')
+        if (isBlogPost === false) {
+          slugFields = slugFields.filter((field) => field !== 'createdDate')
+        }
       }
 
       const parts = slugFields.map((field) => entry.get('data').get(field))
