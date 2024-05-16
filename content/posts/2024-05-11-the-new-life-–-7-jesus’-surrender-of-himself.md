@@ -7,7 +7,7 @@ title: The New Life – 7. Jesus’ Surrender of Himself
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-10
-slug: 2024-05-10-the-new-life-7-jesus-surrender-of-himself
+slug: the-new-life-7-jesus-surrender-of-himself
 ---
 > *“Christ also loved the Church, and gave Himself for it; that He might sanctify and cleanse it; that He might present it to Himself a glorious Church, not having spot or wrinkle; but that it should be holy and without blemish” (Ephesians 5:25-27)*
 

@@ -7,7 +7,7 @@ title: The New Life – 11. The Confession of Sin
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-11-the-confession-of-sin
+slug: the-new-life-11-the-confession-of-sin
 ---
 > *If we confess our sins, He is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness (1 John 1:9*)
 

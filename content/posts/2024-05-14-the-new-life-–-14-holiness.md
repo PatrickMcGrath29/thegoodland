@@ -7,7 +7,7 @@ title: The New Life – 14. Holiness
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-14-holiness
+slug: the-new-life-14-holiness
 ---
 > *But as He which hath called you is holy, so be ye holy in all manner of conversation: because it is written, Be ye holy; for I am holy (1 Peter 1:15,16)*
 >

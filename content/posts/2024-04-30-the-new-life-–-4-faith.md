@@ -7,7 +7,7 @@ title: The New Life – 4. Faith
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
-slug: 2024-04-30-the-new-life-4-faith
+slug: the-new-life-4-faith
 ---
 > *Blessed is she that believed; for there shall be a performance of the things which were told her from the Lord (Luke 1:45)*
 >

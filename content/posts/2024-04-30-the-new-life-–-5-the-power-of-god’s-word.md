@@ -7,7 +7,7 @@ title: The New Life – 5. The Power Of God’s Word
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-04-30
-slug: 2024-04-30-the-new-life-5-the-power-of-gods-word
+slug: the-new-life-5-the-power-of-gods-word
 ---
 > *Faith cometh by hearing, and hearing by the word of God (Romans 10:17)*
 >

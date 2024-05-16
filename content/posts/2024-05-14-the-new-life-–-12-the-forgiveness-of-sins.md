@@ -6,7 +6,7 @@ uuid: hr03ju-1xy
 title: "The New Life – 12. The Forgiveness of Sins  "
 isBlogPost: false
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
+slug: the-new-life-12-the-forgiveness-of-sins
 ---
 > *Blessed is he whose transgression is forgiven, whose sin is covered (Psalm 32:1)*
 >

@@ -7,7 +7,7 @@ title: The New Life – 15. Righteousness
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-15-righteousness
+slug: the-new-life-15-righteousness
 ---
 > *He hath showed thee, O man, what is good; and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God? (Micah 6:8)*
 >
@@ -18,7 +18,7 @@ The word of Micah teaches us that the fruit of the salvation of God is chiefly s
 Scripture teaches us that no man is righteous before God, or has any righteousness that can stand before God. :tooltip{text="verses" content="Ps. 14:3; 143:2; Rom. 3:10,20"} It says that man receives the rightness or righteousness of Christ for nothing, and that by this righteousness--received in faith--he is justified before God. :tooltip{text="verses" content="Rom. 3:22,24; 10:3,10; 1 Cor. 1:30; 2 Cor. 5:21; Gal. 2:16; Phil. 3:9"} This righteous sentence of God is something binding by which the life of righteousness is implanted in man, and he learns to live a righteous life. :tooltip{text="verses" content="Rom. 5:17,18; 6:13,18,19; 8:3; Tit. 1:3; 2:12; 1 John 2:29; 3:9,10"} Being right with God is followed by doing right. "The just shall live by faith" a righteous life (Galatians 3:11).
 
 ::pullquote
-Scripture teaches us that no man is righteous before God, or has any righteousness that can stand before God. It says that man receives the rightness or righteousness of Christ for nothing, and that by this righteousness, received in faith, he is justified before God. 
+Scripture teaches us that no man is righteous before God, or has any righteousness that can stand before God. It says that man receives the rightness or righteousness of Christ for nothing, and that by this righteousness, received in faith, he is justified before God.
 ::
 
 It is to be feared that this is not always understood. One sometimes thinks more of justification than of righteousness in life and walk. To understand the will and the thoughts of God, let us trace what the Scriptures teach us on this point. We will be convinced that the man who is clothed in a divine righteousness before God must also walk before God and man in a divine righteousness.

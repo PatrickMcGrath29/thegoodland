@@ -7,7 +7,7 @@ title: The New Life – 8. Children Of God
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-8-children-of-god
+slug: the-new-life-8-children-of-god
 ---
 > *“As many as received Him, to them gave He the power to become children of God, even to them that believe on His name” (John 1:12)*
 

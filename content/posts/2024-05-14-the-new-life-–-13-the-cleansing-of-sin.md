@@ -6,7 +6,7 @@ uuid: dv2ecq5fys
 title: The New Life – 13. The Cleansing of Sin
 isBlogPost: false
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-13-the-cleansing-of-sin
+slug: the-new-life-13-the-cleansing-of-sin
 author: Andrew Murray
 ---
 > If we walk in the light, the blood of Jesus His Son cleanseth us from all sin. If we confess our sins, He is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness (1 John 1:7,9)

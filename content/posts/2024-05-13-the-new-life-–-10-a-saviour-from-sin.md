@@ -7,7 +7,7 @@ title: The New Life – 10. A Saviour From Sin
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-10-a-saviour-from-sin
+slug: the-new-life-10-a-saviour-from-sin
 ---
 > *Thou shalt call His name Jesus; for He shall save His people from their sins. (Matthew 1:21)*
 >

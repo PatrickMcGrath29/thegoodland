@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: sv17svd6-u
 author: Andrew Murray
-slug: 2024-04-30-the-new-life-6-gods-gift-of-his-son
+slug: the-new-life-6-gods-gift-of-his-son
 title: The New Life – 6. God’s Gift of His Son
 isBlogPost: false
 categories: []

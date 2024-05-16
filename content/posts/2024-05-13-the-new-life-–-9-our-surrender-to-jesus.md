@@ -7,7 +7,7 @@ title: The New Life – 9. Our Surrender To Jesus
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-13
-slug: 2024-05-13-the-new-life-9-our-surrender-to-jesus
+slug: the-new-life-9-our-surrender-to-jesus
 ---
 > *“They gave their own selves to the Lord” (2 Corinthians 8:5)*
 

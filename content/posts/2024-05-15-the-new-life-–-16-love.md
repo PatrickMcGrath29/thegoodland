@@ -7,7 +7,7 @@ title: The New Life – 16. Love
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2024-05-15
-slug: 2024-05-15-the-new-life-16-love
+slug: the-new-life-16-love
 ---
 > *A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another. By this shall all men know that ye are My disciples, if ye have love one to another (John 13:34,35)*
 >
