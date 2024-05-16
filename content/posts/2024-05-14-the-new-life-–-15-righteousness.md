@@ -37,11 +37,11 @@ Scripture will also teach you what this righteousness is. It is a life in accord
 
 Consider, further, the promises of blessing and joy which God has for the righteous. Then live as one who--in friendship with God, and clothed with the righteousness of His Son through faith--has no alternative but to do righteousness.
 
-### Prayer
+ 
 
-O Lord, You have said, "There is no God else beside Me: a just God and a Saviour" (Isaiah 45:21).You are my God. It is as a righteous God that You are my Saviour and have redeemed me in Your Son. As a righteous God, You make me righteous also, and say to me that the righteous will live by faith. Lord, let the new life in me be the life of faith, the life of a righteous man. Amen.
+> O Lord, You have said, "There is no God else beside Me: a just God and a Saviour" (Isaiah 45:21).You are my God. It is as a righteous God that You are my Saviour and have redeemed me in Your Son. As a righteous God, You make me righteous also, and say to me that the righteous will live by faith. Lord, let the new life in me be the life of faith, the life of a righteous man. Amen.
 
-
+###  
 
 ### Notes
 
