@@ -18,7 +18,7 @@ summary: >-
   While the lessons are short, there are substantial Scripture references for further study. On this implementation the references are dynamic; when you point the cursor on the word "verses" whenever it appears, a list of related verse references is shown. Then, by clicking on each reference you can see the verse. 
 
 
-  May the Good Shepherd give each one the proper "portion of food at the proper time” (Luke 12:42).
+  May the Good Shepherd give each one the proper "portion of food at the proper time” (Luke 12:42). 
 posts:
   - post: new-life-lessons-0-preface
   - post: new-life-lessons-1-the-new-life
