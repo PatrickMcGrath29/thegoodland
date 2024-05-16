@@ -15,15 +15,15 @@ summary: >-
   The original language of these lessons contained some older english words and expressions. Some of the language has been updated but not all the text
 
 
-  While the lessons are short, there are substantial Scripture references for further study. On this implementation the references are dynamic; when you point the cursor on the word "verses" whenever it appears, a list of related verse references is shown. Then, by clicking on each reference you can see the verse. 
+  While the lessons are short, there are substantial Scripture references for further study. On this implementation the references are dynamic; when you point the cursor on the word "verses" whenever it appears, a list of related verse references is shown. Then, by clicking on each reference you can see the verse.
 
 
-  May the Good Shepherd give each one the needed "portion of food at the proper time” (Luke 12:42). 
+  May the Good Shepherd give each one the needed "portion of food at the proper time” (Luke 12:42).
 posts:
-  - post: new-life-lessons-0-preface
-  - post: new-life-lessons-1-the-new-life
-  - post: new-life-lessons-2-the-milk-of-the-word
-  - post: new-life-lessons-3-gods-word-in-our-heart
+  - post: the-new-life-0-preface
+  - post: the-new-life-1-the-new-life
+  - post: the-new-life-2-the-milk-of-the-word
+  - post: the-new-life-3-gods-word-in-our-heart
   - post: the-new-life-4-faith
   - post: the-new-life-5-the-power-of-gods-word
   - post: the-new-life-6-gods-gift-of-his-son
