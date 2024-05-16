@@ -14,22 +14,22 @@ summary: >-
 
   Some of the lessons are more basic, some are more advanced. The language is simple and easy to understand, and while each lesson is rather short, there are substantial Scripture references for further study. Let each reader receive according to their capacity and growth level, as the Lord confirms His truths in the heart. He is  our Good Shepherd, and He knows how to give us our “portion of food at the proper time”.
 posts:
-  - post: 2024-04-20-new-life-lessons-0-preface
-  - post: 2024-04-20-new-life-lessons-1-the-new-life
-  - post: 2024-04-27-new-life-lessons-2-the-milk-of-the-word
-  - post: 2024-04-30-new-life-lessons-3-gods-word-in-our-heart
-  - post: 2024-04-30-the-new-life-4-faith
-  - post: 2024-04-30-the-new-life-5-the-power-of-gods-word
-  - post: 2024-04-30-the-new-life-6-gods-gift-of-his-son
-  - post: 2024-05-10-the-new-life-7-jesus-surrender-of-himself
-  - post: 2024-05-13-the-new-life-8-children-of-god
-  - post: 2024-05-13-the-new-life-9-our-surrender-to-jesus
-  - post: 2024-05-13-the-new-life-10-a-saviour-from-sin
-  - post: 2024-05-13-the-new-life-11-the-confession-of-sin
-  - post: 2024-05-13-the-new-life-12-the-forgiveness-of-sins
-  - post: 2024-05-13-the-new-life-13-the-cleansing-of-sin
-  - post: 2024-05-13-the-new-life-14-holiness
-  - post: 2024-05-13-the-new-life-15-righteousness
-  - post: 2024-05-15-the-new-life-16-love
+  - post: new-life-lessons-0-preface
+  - post: new-life-lessons-1-the-new-life
+  - post: new-life-lessons-2-the-milk-of-the-word
+  - post: new-life-lessons-3-gods-word-in-our-heart
+  - post: the-new-life-4-faith
+  - post: the-new-life-5-the-power-of-gods-word
+  - post: the-new-life-6-gods-gift-of-his-son
+  - post: the-new-life-7-jesus-surrender-of-himself
+  - post: the-new-life-8-children-of-god
+  - post: the-new-life-9-our-surrender-to-jesus
+  - post: the-new-life-10-a-saviour-from-sin
+  - post: the-new-life-11-the-confession-of-sin
+  - post: the-new-life-12-the-forgiveness-of-sins
+  - post: the-new-life-13-the-cleansing-of-sin
+  - post: the-new-life-14-holiness
+  - post: the-new-life-15-righteousness
+  - post: the-new-life-16-love
 featuredImage: /uploads/hero.jpg
 ---
