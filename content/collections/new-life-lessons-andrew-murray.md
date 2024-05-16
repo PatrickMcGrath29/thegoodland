@@ -15,7 +15,7 @@ summary: >-
   The original language of these lessons contained some older english words and expressions. Some of the language has been updated but not all the text
 
 
-  While the lessons are short, there are substantial Scripture references for further study. On this implementation the references are dynamic; when you point the cursor on the word "verses" whenever it appears, a list of related verse references is shown. Then, by clicking on each reference you can see the verse.
+  While the lessons are short, there are substantial Scripture references for further study. When you click on the word "verses" whenever it appears, a list of related verse references is shown. Then, by hovering over each reference you can see the verse.
 
 
   May the Good Shepherd give each one the needed "portion of food at the proper time” (Luke 12:42).
