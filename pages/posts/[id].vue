@@ -45,7 +45,7 @@ const postElementRef = ref<HTMLElement>()
           </h1>
           <div v-if="post.author || post.createdDate" class="mt-2 flex gap-x-5 gap-y-2 flex-wrap">
             <PostDetail v-if="post.author" icon-name="mdi:account" :text="post.author" />
-            <PostDetail v-if="post.createdDate" icon-name="mdi:calendar" :text="postCreatedDate" />
+            <PostDetail v-if="post.isBlogPost && post.createdDate" icon-name="mdi:calendar" :text="postCreatedDate" />
           </div>
         </div>
 

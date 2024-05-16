@@ -72,7 +72,12 @@ collections:
       - {label: Slug Fields, name: slugFields, widget: hidden, default: [createdDate, title]}
       - {label: Unique ID, name: uuid, widget: uuid}
       - {label: Title, name: title, widget: string}
-      - {label: Blog Post, name: isBlogPost, widget: boolean, default: true, required: false}
+      - label: Blog Post
+        name: isBlogPost
+        widget: boolean
+        default: true
+        required: false
+        hint: Blog posts show up in the 'Blog Post' tab and on the homepage. If something isn't a blog post we will also hide the created date.
       - label: Author
         name: author
         widget: relation
@@ -116,7 +121,7 @@ collections:
         time_format: false
         format: YYYY-MM-DD
         picker_utc: true
-        hint: 'Optional, the date associated with this post.'
+        hint: The date associated with this post.
 
   - name: categories
     label: Category

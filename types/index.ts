@@ -4,6 +4,7 @@ export interface Post extends ParsedContent {
   uuid: string
   slug: string
   title: string
+  isBlogPost: boolean
   summary?: string
   featuredImage: string
   createdDate: Date
