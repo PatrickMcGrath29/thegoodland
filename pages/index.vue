@@ -13,12 +13,9 @@ useSeoMeta({
 
 <template>
   <Container>
-    <Hero :featured-post="featuredPost" class="mt-6" />
-  </Container>
-
-  <Container class="my-6">
-    <div class=" px-5">
-      <div class="my-12 mx-2 gap-5 ">
+    <div class="px-2 md:px-8">
+      <Hero :featured-post="featuredPost" class="my-8" />
+      <div class="my-12 gap-5 ">
         <h2 class="text-4xl font-semibold mb-12">
           Recent Posts
         </h2>
