@@ -30,11 +30,13 @@ For this reason, rely every day on this gift from God. It has been presented to 
 
 Young Christian, so weak and so sinful, please listen to that word. God has given you Jesus. He is yours. Taking is nothing else but the fruit of faith. The gift is for you. He will do all for you.
 
-### Prayer
+###  
 
-Lord Jesus, today and every day, I take You. In all Your fullness and in all Your relations, without ceasing, I take You for myself. You are my Wisdom, my Light, my Leader. I take You as my Prophet. You, who perfectly reconciles me and brings me near to God, who purifies and sanctifies me and prays for me, I take as my Priest. You, who guides and keeps and blesses me, I take as my King. You, Lord, are all, and You are wholly mine. Thanks be to God for His unspeakable gift. Amen.
+> Lord Jesus, today and every day, I take You. In all Your fullness and in all Your relations, without ceasing, I take You for myself. You are my Wisdom, my Light, my Leader. I take You as my Prophet. You, who perfectly reconciles me and brings me near to God, who purifies and sanctifies me and prays for me, I take as my Priest. You, who guides and keeps and blesses me, I take as my King. You, Lord, are all, and You are wholly mine. Thanks be to God for His unspeakable gift. Amen.
 
-### Points to remember
+###  
+
+### Notes
 
 1. Often ponder the word “give.” God gives in a wonderful way—from the heart, completely and for nothing—to the unworthy. And He gives effectively. What He gives He will truly make our possession, inwardly and entirely. Believe this, and you will have the certainty that Jesus will come into your possession with all that He brings.
 2. Also ponder the word “take.” Our great work is to take Jesus, to hold Him firmly, and to appropriate Him when received. That taking is nothing but trusting. He is mine with all that He has. The secret of the life of faith is to take Jesus—the full Jesus-as yours every day.
