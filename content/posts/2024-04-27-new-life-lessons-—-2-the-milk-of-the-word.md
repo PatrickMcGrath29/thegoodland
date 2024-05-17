@@ -44,11 +44,13 @@ Above all, do not forget, the Word is the milk. The sucking or drinking on the p
 
 ### Prayer
 
-Precious Savior, You have taught me to believe Your Word, and You have made me a child of God by that faith. Through that Word, as the milk of the newborn babes, You will also feed me. Lord, for this milk I will be very eager. I will long after it everyday.
+> Precious Savior, You have taught me to believe Your Word, and You have made me a child of God by that faith. Through that Word, as the milk of the newborn babes, You will also feed me. Lord, for this milk I will be very eager. I will long after it everyday.
+>
+> Teach me, through the Holy Spirit and the Word, to walk and converse everyday in living fellowship with the love of the Father. Teach me to always believe that the Spirit has been given to me with the Word. Amen.
 
-Teach me, through the Holy Spirit and the Word, to walk and converse everyday in living fellowship with the love of the Father. Teach me to always believe that the Spirit has been given to me with the Word. Amen.
+###   
 
-### Points to remember
+### Notes
 
 1. What texts do you consider the best for proving that the Scriptures teach us that we must know we are children of God?
 2. What are the three points in which the sucking child is to us an example of the young child in Christ in his dealing with the Word?
