@@ -35,11 +35,13 @@ It is written in the Word about Paul, “I believe God, that it shall be even as
 
 Young disciples in Christ, the new and eternal life in you is a life of faith. And do you not see how simple and blessed that life of faith is? Every day I go to the Word and hear what God has said that He has done and will do. :tooltip{text="verses" content="Gal. 2:20; 3:2,5; 5:5,6, Heb. 10:35; 1 Pet. 1:3"} I take time to house in my heart the Word in which God says that. I hold it firmly, entirely assured that what God has promised He is able to perform. And then, in a childlike spirit, I await the fulfillment of all the promises of His Word. And my soul experiences—Blessed is she that believed, for the things that have been spoken to her from the Lord will be fulfilled. God promises-I believe-God fulfills. That is the secret of the new life.
 
-### Prayer
+###  
 
-Father, Your child thanks You for this blessed life of faith in which we have to walk. I can do nothing, but You can do all. All that You can do has been spoken in Your Word. Every Word that I take and trustfully bring to You is fulfilled. Father, in this life of faith, so simple, so glorious, I will walk with You. Amen.
+> Father, Your child thanks You for this blessed life of faith in which we have to walk. I can do nothing, but You can do all. All that You can do has been spoken in Your Word. Every Word that I take and trustfully bring to You is fulfilled. Father, in this life of faith, so simple, so glorious, I will walk with You. Amen.
 
-### Points to remember
+###  
+
+### Notes
 
 1. The Christian must read and search the Scriptures to increase his knowledge. For this reason, he reads one or more principal passages daily. He reads the Scriptures to also strengthen his faith. To achieve this he must take one or two verses and make them the subject of special reflection.
 2. Do not allow yourselves to be led astray by those who speak of faith as something great and unintelligible. Faith is nothing more than the certainty that God speaks the truth. Take some promises of God and say to Him, “I know for certain that this promise is truth, and that You will fulfill it.” He will do it.
