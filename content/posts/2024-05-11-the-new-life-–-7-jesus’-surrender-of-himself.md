@@ -25,11 +25,13 @@ Jesus gave Himself in order to prepare for Himself a pure people, a people of Hi
 
 And how do I come to the full enjoyment of this blessed life? “I live by the faith of the Son of God, who loved me and gave Himself for me” (Galatians 2:20). :tooltip{text="verses" content="John 6:29,35; 7:38; 10:10,38"} Through faith, I reflect on and contemplate His surrender to me as sure and glorious. Through faith, I believe it. Through faith, I trust in Jesus to confirm this surrender, to communicate Himself to me, and to reveal Himself within me. Through faith, I await—with certainty-for the full experience of salvation which comes from having Jesus as mine, to do all for me. Through faith, I live in Jesus who loved me and gave Himself for me. And I say, “No longer do I live, but Christ liveth in me” (Galatians 2:20). Christian, please believe with your whole heart that Jesus gives Himself for you. He is wholly yours. He will do all for you. :tooltip{text="verses" content="Matt. 8:10; 9:2,22; Mark 11:24; Luke 7:50; 8:48; 17:19; 18:42; Rom. 4:20,21"}
 
-### Prayer
+###  
 
-Lord Jesus, what wonderful grace is this, that You gave Yourself for me. In You there is eternal life. You are the life, and You give Yourself to be all that I need in my life. You purify me, sanctify me, and make me zealous in good works. You take me wholly for Yourself and give Yourself wholly for me. Yes, my Lord, in all You are my life. Make me rightly understand this. Amen.
+> Lord Jesus, what wonderful grace is this, that You gave Yourself for me. In You there is eternal life. You are the life, and You give Yourself to be all that I need in my life. You purify me, sanctify me, and make me zealous in good works. You take me wholly for Yourself and give Yourself wholly for me. Yes, my Lord, in all You are my life. Make me rightly understand this. Amen.
 
-### Points to remember
+###  
+
+### Notes
 
 1. It was in His great love that the Father gave the Son. It was out of love that Jesus gave Himself (Rom. 3:16; Eph. 5:26). The taking, the having of Jesus, is the entrance into a life in the love of God. This is the highest life (John 14:21,23; 17:23,26; Eph. 3:17,18). Through faith we must press into love and live there (1 John 4:16-18).
 2. Do you think that you have now learned all the lesson and how to begin every day with a childlike trust? I take Jesus this day to be my life and to do all for me.
