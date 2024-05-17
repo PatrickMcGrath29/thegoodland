@@ -33,15 +33,13 @@ See how Paul, who announces most of the doctrine of justification by faith alone
 See how John names righteousness along with love as the two indispensable marks of the children of God. :tooltip{text="verses" content="1 John 2:4, 11, 29; 3:10; 5:2"}\
 When you put all these facts together, it must be very evident to you that a true Christian is a man who does righteousness in all things, even as God is righteous.
 
-Scripture will also teach you what this righteousness is. It is a life in accordance with the commands of God, in all their depth and profoundness. The righteous man does what is right in the eyes of the Lord. :tooltip{text="verses" content="Ps. 119:166, 168; Luke 1:6,75; 1 Thess. 2:10"} He does not obey the rules of human action--he does not ask what man considers lawful. A man who stands right with God, who walks uprightly with God, dreads, above all things, even the least unrighteousness. He is afraid, above all, of being partial to himself and of doing any wrong to his neighbour for the sake of his own advantage. In great and little things alike, he takes the Scriptures as his measure and line. As an ally of God, he knows that the way of righteousness is the way of blessing and life and joy.
+Scripture will also teach you what this righteousness is. It is a life in accordance with the commands of God, in all their depth and profoundness. The righteous man does what is right in the eyes of the Lord. :tooltip{text="verses" content="Ps. 119:166, 168; Luke 1:6,75; 1 Thess. 2:10"} He does not obey the rules of human action--he does not ask what man considers lawful. A man who stands right with God, who walks uprightly with God, dreads, above all things, even the least unrighteousness. He is afraid, above all, of being partial to himself and of doing any wrong to his neighbor for the sake of his own advantage. In great and little things alike, he takes the Scriptures as his measure and line. As an ally of God, he knows that the way of righteousness is the way of blessing and life and joy.
 
-Consider, further, the promises of blessing and joy which God has for the righteous. Then live as one who--in friendship with God, and clothed with the righteousness of His Son through faith--has no alternative but to do righteousness.
+Consider, further, the promises of blessing and joy which God has for the righteous. Then live as one who--in friendship with God, and clothed with the righteousness of His Son through faith--has no alternative but to do righteousness. 
 
  
 
 > O Lord, You have said, "There is no God else beside Me: a just God and a Savior" (Isaiah 45:21).You are my God. It is as a righteous God that You are my Savior and have redeemed me in Your Son. As a righteous God, You make me righteous also, and say to me that the righteous will live by faith. Lord, let the new life in me be the life of faith, the life of a righteous man. Amen.
-
-###  
 
 ### Notes
 
