@@ -38,7 +38,7 @@ const postElementRef = ref<HTMLElement>()
     </Container>
 
     <ContainerMedium>
-      <div class="my-10">
+      <div class="my-10 px-2">
         <div class="max-w-screen-md m-auto">
           <h1 class="text-4xl font-semibold">
             {{ post.title }}
