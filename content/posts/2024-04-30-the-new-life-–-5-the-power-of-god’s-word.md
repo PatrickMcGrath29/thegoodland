@@ -21,7 +21,7 @@ The new life of a child of God depends so much on the correct usage of God’s W
 
 It is a great thing when the Christian realizes that he can receive and accomplish all only through faith. He has to believe. God will look to the fulfilling of what is promised. Every morning the Christian must trust in Jesus and in the new life given to him. Jesus will see to it that the new life works in him.
 
-But now he runs the risk of another error. He thinks that the faith that does such great things must be something great—that he must have a great power in order to exercise such a great faith. :tooltip{text="verses" content="Luke 17:5,6; Rom. 10:6-8"} And, because he does not feel this power, he thinks that he cannot believe as he should. This error may prove to be a loss to him throughout his life.
+But now he runs the risk of another error. He thinks that the faith that does such great things must be something great—that he must have a great power in order to exercise such a great faith. :tooltip{text="verses" content="Luke 17:5, 6; Rom. 10:6-8"} And, because he does not feel this power, he thinks that he cannot believe as he should. This error may prove to be a loss to him throughout his life.
 
 Hear how distorted this thought is. You must not bring this mighty faith to get the Word fulfilled. Instead, the Word comes and brings you this faith which you must have. “The word is quick and powerful.” The Word works faith in you. The Scripture says, “Faith is by the word.”
 
@@ -33,17 +33,13 @@ It is a great thing when the Christian realizes that he can receive and accompli
 
 Young Christian, please understand this: The Word is living and powerful. Through the Word you are born again. The Word works faith in you. Through the Word comes faith. Receive the Word simply, with the thought that it will work in you. Keep yourselves occupied with the Word and give it time. The Word has a divine life in itself. Carry it in your innermost parts, and it will work life in you. It will work in you a strong faith, able for anything.
 
-Be resolved never to say, I cannot believe. You can believe. You have the Spirit of God in you. Even the natural man can say, “This Word of God is certainly true or certainly not true.” If, with desire in your soul, you say, “It is true. I will believe it,” the living Spirit, through whom the Word is living and powerful, will work this living faith. Besides, the Spirit is not only in the Word, but is also in you. Although you do not feel as if you were believing, know for certain that you can believe. :tooltip{text="verses" content="Deut. 32:46,47; Josh. 1:7,9"} Begin to actually receive the Word. It will work a mighty faith in you. Depend on God’s Word, it can surely be trusted to work faith in you as you receive it.
+Be resolved never to say, I cannot believe. You can believe. You have the Spirit of God in you. Even the natural man can say, “This Word of God is certainly true or certainly not true.” If, with desire in your soul, you say, “It is true. I will believe it,” the living Spirit, through whom the Word is living and powerful, will work this living faith. Besides, the Spirit is not only in the Word, but is also in you. Although you do not feel as if you were believing, know for certain that you can believe. :tooltip{text="verses" content="Deut. 32:46, 47; Josh. 1:7, 9"} Begin to actually receive the Word. It will work a mighty faith in you. Depend on God’s Word, it can surely be trusted to work faith in you as you receive it.
 
 And not only the promises, but also the commands, have this living power. When I first receive a command from God, I do not feel the power to accomplish it. If I simply receive the Word as God’s Word, and trust in its workings, the commandment will work in me the desire and power for obedience. God’s Word works for those who believe. When I weigh and firmly hold the command, it works the desire and the will to obey. It strongly urges me toward the conviction that I can certainly do what my Father says. The Word works both faith and obedience. The obedience of the Christian is the obedience of faith. I must believe that through the Spirit I have the power to do what God wills. In the Word, the power of God works in me. The Word, as the command of the living God who loves me, is my power. :tooltip{text="verses" content="Gal. 6:6; 1 Thess. 1:3; Jas. 1:21"}
 
 Therefore, my young disciples in Christ, learn to receive God’s Word trustfully. Even though at first you do not understand it, continue to meditate on it. It has a living power in it, and it will glorify itself. Although you feel no power to believe or to obey, the Word is living and powerful. Take it and hold it fast. It will accomplish its work with divine power, The Word inspires and strengthens our faith and obedience.
 
-###  
-
 > Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen.
-
-###  
 
 ### Notes
 
