@@ -14,9 +14,9 @@ createdDate: 2024-04-30
 >
 > *Thanks be unto God for His unspeakable gift (2 Corinthians 9:15)*
 
-God held the world so dear that He gave His only begotten Son for everyone who will trust in Him. And how did He give Him? He gave Him in His birth as man, in order to be forever one with us. He gave Him in His death on the cross as surety, in order to take away our sin and curse. He gave Him on the throne of heaven, in order to arrange for our welfare, as our Representative and Intercessor over all the powers of heaven. He gave Him in the outpouring of the Spirit, in order to dwell in us—to be entirely and altogether our own. :tooltip{text="verses" content="John 1:14,16; 14:23; Rom. 5:8; 8:32,34; Eph. 1:22; 3:17; Col. 2:9-10; Heb. 7:24,26; 1 John 4:9-10"} Yes, that is the love of God. He gave His Son to us, for us, and in us.
+God held the world so dear that He gave His only begotten Son for everyone who will trust in Him. And how did He give Him? He gave Him in His birth as man, in order to be forever one with us. He gave Him in His death on the cross as surety, in order to take away our sin and curse. He gave Him on the throne of heaven, in order to arrange for our welfare, as our Representative and Intercessor over all the powers of heaven. He gave Him in the outpouring of the Spirit, in order to dwell in us—to be entirely and altogether our own. :tooltip{text="verses" content="John 1:14, 16; 14:23; Rom. 5:8; 8:32, 34; Eph. 1:22; 3:17; Col. 2:9-10; Heb. 7:24, 26; 1 John 4:9-10"} Yes, that is the love of God. He gave His Son to us, for us, and in us.
 
-Nothing less than His Son Himself. This is the love of God. It is not that He gives us something, but that He gives us Someone—a living person-not one or another blessing, but Him, who is all life and blessing—Jesus Himself. He does not simply give us forgiveness, revival, sanctification, or glory—He gives us His own Son, Jesus. The Lord Jesus is the beloved, the equal, the bosom friend, the eternal blessedness of the Father. And it is the will of God that we should have Jesus as ours, even as He has Him. :tooltip{text="verses" content="Matt. 11:27; John 17:23,25; Rom. 8:38,39; Heb. 2:11,Tim. 1:12"} For this reason He gave Him to us. The whole of salvation consists of this—to have, to possess, to enjoy Jesus. God has given His Son, given Him wholly to become ours. :tooltip{text="verses" content="Psalms 73:24; 142:6; John 20:28; Heb. 3:14"}
+Nothing less than His Son Himself. This is the love of God. It is not that He gives us something, but that He gives us Someone—a living person-not one or another blessing, but Him, who is all life and blessing—Jesus Himself. He does not simply give us forgiveness, revival, sanctification, or glory—He gives us His own Son, Jesus. The Lord Jesus is the beloved, the equal, the bosom friend, the eternal blessedness of the Father. And it is the will of God that we should have Jesus as ours, even as He has Him. :tooltip{text="verses" content="Matt. 11:27; John 17:23, 25; Rom. 8:38, 39; Heb. 2:11,Tim. 1:12"} For this reason He gave Him to us. The whole of salvation consists of this—to have, to possess, to enjoy Jesus. God has given His Son, given Him wholly to become ours. :tooltip{text="verses" content="Psalms 73:24; 142:6; John 20:28; Heb. 3:14"}
 
 What do we have to do? To take Him, to receive and to take possession of the gift—to enjoy Jesus as our own. This is eternal life. “He that hath the Son hath life.” :tooltip{text="verses" content="John 1:12; 2 Cor. 3:5; Col. 2:6; 1 John 5:12"}
 
@@ -30,11 +30,7 @@ For this reason, rely every day on this gift from God. It has been presented to 
 
 Young Christian, so weak and so sinful, please listen to that word. God has given you Jesus. He is yours. Taking is nothing else but the fruit of faith. The gift is for you. He will do all for you.
 
-###  
-
 > Lord Jesus, today and every day, I take You. In all Your fullness and in all Your relations, without ceasing, I take You for myself. You are my Wisdom, my Light, my Leader. I take You as my Prophet. You, who perfectly reconciles me and brings me near to God, who purifies and sanctifies me and prays for me, I take as my Priest. You, who guides and keeps and blesses me, I take as my King. You, Lord, are all, and You are wholly mine. Thanks be to God for His unspeakable gift. Amen.
-
-###  
 
 ### Notes
 
