@@ -39,11 +39,13 @@ And not only the promises, but also the commands, have this living power. When I
 
 Therefore, my young disciples in Christ, learn to receive God’s Word trustfully. Even though at first you do not understand it, continue to meditate on it. It has a living power in it, and it will glorify itself. Although you feel no power to believe or to obey, the Word is living and powerful. Take it and hold it fast. It will accomplish its work with divine power, The Word inspires and strengthens our faith and obedience.
 
-### Prayer
+###  
 
-Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen.
+> Lord God, I begin to conceive how You are in Your Word with Your life and power, and how that Word itself works faith and obedience in the heart that receives and keeps it. Lord, teach me to carry Your every Word as a living seed in my heart, in the assurance that it will work in me all Your good pleasure. Amen.
 
-### Points to remember
+###  
+
+### Notes
 
 1. Do not forget that it is one and the same to believe in the Word, or in the person who speaks the Word, or in the thing which is promised in the Word. The very same faith that receives the promises also receives the Father who promises, and the Son with the salvation that is given in the promises. Please see to it that you never separate the Word and the living God from each other.
 2. Also, see to it that you thoroughly understand the distinction between the reception of the Word as the “word of man” and as the “Word of God, which works in you that believe.”
