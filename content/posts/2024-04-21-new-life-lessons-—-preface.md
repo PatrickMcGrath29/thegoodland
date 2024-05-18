@@ -25,3 +25,7 @@ With respect to the use of this book in retirement, I would fain request one thi
 I conclude with a cordial brotherly greeting to all with whom I have been permitted to mingle during the past year, in speaking about the precious Saviour and His glorious salvation: also to all in other congregations, who in this last season have learned to know the beloved Lord Jesus as their Redeemer.  With a heart full of peace and love, I think of you all, and I pray that the Lord may confirm His work in you.  I have not become weary of crying to you: the blessedness and the power of the New Life that is in you are greater than you know, are wonderfully great: only learn to know aright and trust in Jesus, the gift of God and the Scriptures, the word of God.  Only give Him time to hold converse with you and to work in you, and your heart shall overflow with the blessedness of God.
 
 Now to Him who is able to do more than exceedingly above all that we can ask or think, to Him be glory in the Church to all eternity.
+
+ANDREW MURRAY. \
+Wellington, South Africa\
+12th August 1885
