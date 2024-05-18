@@ -9,10 +9,10 @@ summary: >-
   Watchman Nee was greatly helped by Murray’s books and recommended them.
 
 
-  Andrew Murray wrote these short lessons for new disciples of Jesus. They are simple but very important. Whether we are new with Lord or we have been on His path for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
+  Andrew Murray wrote these 52 short lessons for new disciples of Jesus. They are simple but very important. Whether we are new with Lord or we have been on His path for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
 
 
-  The original language of these lessons contained some older english words and expressions. Some of the language has been updated but not all the text
+  The original language of these lessons containes some older english words and expressions. Some of the language has been updated but not throughout all the text.
 
 
   While the lessons are short, there are substantial Scripture references for further study. When you click on the word "verses" whenever it appears, a list of related verse references is shown. Then, by hovering over each reference you can see the verse.
