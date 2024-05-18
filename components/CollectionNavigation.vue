@@ -12,7 +12,6 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
   return Promise.all([
     prevPostSlug ? usePost(prevPostSlug) : null,
     nextPostSlug ? usePost(nextPostSlug) : null,
-
   ])
 })
 </script>
