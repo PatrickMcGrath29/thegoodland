@@ -9,9 +9,14 @@ const { data: surroundingPosts } = useAsyncData(async () => {
   const prevPostSlug = idx === 0 ? null : props.collection.posts[idx - 1]
   const nextPostSlug = idx === props.collection.posts.length - 1 ? null : props.collection.posts[idx + 1]
 
+  const [prev, next] = await Promise.all([
+    prevPostSlug ? usePost(prevPostSlug) : null,
+    nextPostSlug ? usePost(nextPostSlug) : null,
+  ])
+
   return {
-    prev: prevPostSlug ? await usePost(prevPostSlug) : null,
-    next: nextPostSlug ? await usePost(nextPostSlug) : null,
+    prev,
+    next,
   }
 })
 </script>
