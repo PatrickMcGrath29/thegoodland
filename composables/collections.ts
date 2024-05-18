@@ -17,3 +17,10 @@ export async function useCollection(collectionPath: string): Promise<Collection>
 
   return toCollection(collection)
 }
+
+export async function useCollectionInfoForPost(slug: string): Promise<Collection | undefined> {
+  const collections = (await queryContent<Collection>('collections').find()).map(toCollection)
+  const matchingCollection = collections.find(collection => collection.posts.includes(slug))
+
+  return matchingCollection
+}

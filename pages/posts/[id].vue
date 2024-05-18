@@ -5,8 +5,10 @@ import type { Post } from '~/types'
 const { params: { id: slug } } = useRoute()
 
 const postData = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
-
 const post = postData.data as Ref<Post>
+
+const { data: collectionData } = await useAsyncData(`collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
+
 const postCreatedDate = computed(() => {
   return useFormattedDate(post.value.createdDate)
 })
@@ -36,7 +38,6 @@ const postElementRef = ref<HTMLElement>()
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
-
     <ContainerMedium>
       <div class="my-10 px-2">
         <div class="max-w-screen-md m-auto">
@@ -57,6 +58,7 @@ const postElementRef = ref<HTMLElement>()
             />
           </RefTagger>
         </div>
+        <CollectionNavigation v-if="collectionData" :collection="collectionData" :post="post" />
       </div>
     </ContainerMedium>
   </article>
