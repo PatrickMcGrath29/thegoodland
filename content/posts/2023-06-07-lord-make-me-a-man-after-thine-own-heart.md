@@ -15,10 +15,6 @@ slug: 2023-06-07-lord-make-me-a-man-after-thine-own-heart
 featuredImage: /uploads/lord_make_me_a_man_after_thine_heart.jpeg
 createdDate: 2023-06-07
 ---
-The following passage was written by Oswald J. Smith.
-
-- - -
-
 On November 8, 1927, my thirty-eighth birthday, I prayed this prayer: "Lord, make me a man after Thine Own heart." Work faded out of sight; things that before seemed important disappeared; everything in which I was interested took a secondary place; and my own inner life before God was all that mattered, all that was really worthwhile. And as I paced back and forth in my room that day I prayed, and prayed in the Spirit: "Lord, make me a man after Thine Own heart."
 
 I saw as I had never seen before that the big thing was not the work I was doing, the books that I was writing, the sermons I was preaching, the crowds that gathered, nor the success I achieved; but rather, the life I was living, the thoughts I was thinking, heart holiness, practical righteousness—in a word, my transformation, by the Holy Spirit, into Christ-likeness.
