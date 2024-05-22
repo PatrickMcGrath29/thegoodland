@@ -6,7 +6,7 @@ defineProps<{ featuredPost: Post }>()
 
 <template>
   <div class="py-8">
-    <div class="flex flex-col md:flex-row my-12 md:my-14 space-between items-center gap-24">
+    <div class="flex flex-col md:flex-row my-12 md:my-14 space-between items-center gap-24 md:gap-12 lg:gap-24">
       <div class="basis-1/2">
         <div class="text-5xl font-semibold text-pretty">
           For the Lord your God is bringing you into a good land.
