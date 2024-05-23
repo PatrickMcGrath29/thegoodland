@@ -11,8 +11,8 @@ useHead({
 
 <template>
   <div tabindex="0">
-    <Header />
-    <NuxtPage />
-    <Footer />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
