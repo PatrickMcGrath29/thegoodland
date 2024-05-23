@@ -8,6 +8,16 @@ function toPost(record: any): Post {
   }
 }
 
+export async function usePosts(limit: number | null = null): Promise<Post[]> {
+  const query = queryContent<Post>('posts').sort({ createdDate: -1, $numeric: true })
+
+  if (limit !== null)
+    query.limit(limit)
+
+  const posts = await query.find()
+  return posts.map(toPost)
+}
+
 export async function useBlogPosts(limit: number | null = null): Promise<Post[]> {
   const query = queryContent<Post>('posts').where({ isBlogPost: true }).sort({ createdDate: -1, $numeric: true })
 
