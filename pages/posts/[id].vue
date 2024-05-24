@@ -68,8 +68,4 @@ const postElementRef = ref<HTMLElement>()
 svg {
   display: inline !important;
 }
-
-.verse-ref, .rtTooltipMoreLink {
-  @apply hidden;
-}
 </style>

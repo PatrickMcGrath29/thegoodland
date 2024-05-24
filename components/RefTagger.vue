@@ -16,7 +16,6 @@ const REFTAGGER_SETTINGS = {
       fontSize: '18px',
     },
   },
-  noSearchTagNames: ['blockquote'],
   roundCorners: true,
   socialSharing: [],
 }
@@ -68,3 +67,10 @@ onMounted(() => {
     <slot />
   </div>
 </template>
+
+<style>
+.verse-ref,
+.rtTooltipMoreLink {
+  @apply hidden;
+}
+</style>

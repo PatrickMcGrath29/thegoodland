@@ -39,7 +39,7 @@ onMounted(() => {
 
 <template>
   <ContainerMedium>
-    <div v-if="previewData?.body" class="mx-4 my-8">
+    <div v-if="renderedMarkdown" class="mx-4 my-8">
       <ContentRenderer :value="renderedMarkdown" />
     </div>
   </ContainerMedium>
