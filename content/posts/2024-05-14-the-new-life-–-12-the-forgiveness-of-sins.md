@@ -26,6 +26,8 @@ Live in the full assurance of forgiveness, and let the Spirit fill your heart wi
 
 Then, the forgiveness of former sins supplies the courage to immediately confess every new sin and to trustfully receive forgiveness. :tooltip{text="references (6)" content="Ex. 34:6,7; Matt. 18:21; Luke 1:77,78"}Look, however, to one thing-the certainty of forgiveness must not be a matter of memory or understanding, but must be the fruit of life. It must be our living relationship with the forgiving Father and with Jesus in whom we have forgiveness. :tooltip{text="references (7)" content="Eph. 2:13, 18; Phil 3:9; Col. 1:21, 22"} It is not enough to know that I once received forgiveness. My life in the love of God, my living communion with Jesus by faith—this makes the forgiveness of sin again always new and powerful. It is the joy and the life of my soul.
 
+ 
+
 > Lord God, this is the wonder of Your grace—that You are a forgiving God. Teach me everyday to know in this the glory of Your love. Let the Holy Spirit seal forgiveness to me as a blessing, everlasting, ever fresh, living, and powerful. And let my life be like a song of thanksgiving. “Bless the Lord, O my soul, who forgives all your iniquities.” Amen.
 
  
