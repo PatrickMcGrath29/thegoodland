@@ -12,7 +12,7 @@ interface CMSData {
 }
 
 definePageMeta({
-  layout: 'minimal',
+  layout: 'blank',
 })
 
 const previewData = ref<CMSData | null>(null)
@@ -31,22 +31,16 @@ const renderedMarkdown = computedAsync(async () => {
 
 onMounted(() => {
   setInterval(() => {
-    let current = window
-    let n = 0
-    while (current.parent && n < 10) {
-      current = current.parent
-      n += 1
-      if (current.previewDataCMS)
-        previewData.value = current.previewDataCMS
-    }
+    if (window.parent.parent.previewDataCMS)
+      previewData.value = window.parent.parent.previewDataCMS
   }, 1000)
 })
 </script>
 
 <template>
-  <div>
-    <div v-if="previewData?.body" class="m-4">
+  <ContainerMedium>
+    <div v-if="previewData?.body" class="mx-4 my-8">
       <ContentRenderer :value="renderedMarkdown" />
     </div>
-  </div>
+  </ContainerMedium>
 </template>
