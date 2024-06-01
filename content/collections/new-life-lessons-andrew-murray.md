@@ -15,7 +15,7 @@ summary: >-
   The lessons are short but there are many Scripture references for further study. When there is a single verse reference you can hover over it and the verse opens up. When there is an indication saying "references" in blue you can click on it and it opens a list with related verse references. Then, by hovering over each reference, each verse opens up.
 
 
-  May the Good Shepherd give each one the needed "portion of food at the proper time” (Luke 12:42).
+  May the Good Shepherd give each of His seekers the needed "portion of food at the proper time” (Luke 12:42).
 
 
   Note: The original 1800's language of these lessons contains some older English words and expressions. Some of the language has been updated but not throughout all the text.
