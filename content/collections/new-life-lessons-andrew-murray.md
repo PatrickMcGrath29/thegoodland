@@ -12,10 +12,10 @@ summary: >-
   Andrew Murray wrote these 52 short lessons for new disciples of Jesus. They are simple but very important. Whether we are new with Lord or we have been on His path for years, these truths need to be engraved in our hearts and our understanding, not only for ourselves but also to be able to help others.
 
 
-  The original language of these lessons containes some older english words and expressions. Some of the language has been updated but not throughout all the text.
+  The original language of these lessons contains some older English words and expressions. Some of the language has been updated but not throughout all the text.
 
 
-  While the lessons are short, there are substantial Scripture references for further study. When you click on the word "verses" whenever it appears, a list of related verse references is shown. Then, by hovering over each reference you can see the verse.
+  The lessons are short but there are many Scripture references for further study. When you click on the blue word "references" a list appears with related verse references. Then, by hovering over each reference, the verse opens up.
 
 
   May the Good Shepherd give each one the needed "portion of food at the proper time” (Luke 12:42).
