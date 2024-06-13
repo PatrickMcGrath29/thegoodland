@@ -2,8 +2,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseUrl: process.env.URL || 'http://localhost:3000',
-      scProject: process.env.SC_PROJECT || '000000',
-      scSecurity: process.env.SC_SECURITY || '000000',
     },
   },
   devtools: { enabled: true },
