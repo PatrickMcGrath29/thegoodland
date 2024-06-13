@@ -18,6 +18,11 @@ export default defineNuxtConfig({
     quality: 80,
     provider: 'ipx',
   },
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
   experimental: {
     viewTransition: true,
   },
