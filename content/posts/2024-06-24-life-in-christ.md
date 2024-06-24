@@ -17,9 +17,7 @@ slug: 2024-06-24-life-in-christ
 >
 > *And we are in him who is true, even in his Son Jesus Christ (1 John 5:20)*
 
-Just as Jesus’ highest mission was to give believers eternal life, so the highest calling of the believer is to fully make this life his own. 
-
-For this to happen, the heart needs to be empty of other things. But an empty heart alone is not enough. It must also be a heart that is hungry and thirsty, a heart that longs for God and seeks to know Him more. 
+Just as Jesus’ highest mission was to give believers eternal life, so the highest calling of the believer is to fully make this life his own. For this to happen, the heart needs to be empty of other things. But an empty heart alone is not enough. It must also be a heart that is hungry and thirsty, a heart that longs for God and seeks to know Him more. 
 
 But what is this eternal life? Some have said that self-knowledge, a deep understanding of oneself, is the path to it. But “this is eternal life: that they know you, the only true God, and Jesus Christ, whom you have sent” (John 17:3).
 
