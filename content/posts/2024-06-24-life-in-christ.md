@@ -7,7 +7,7 @@ author: A. J. Gordon
 slug: 2024-06-24-life-in-christ
 uuid: lg0zpz_jlo
 isBlogPost: true
-featuredImage: /uploads/mojtaba-fahiminia-lmxbuadsxoc-unsplash.jpg
+featuredImage: /uploads/xuan-nguyen-cal8lqubhro-unsplash.jpg
 createdDate: 2024-06-24
 ---
 > *Created in Christ Jesus unto good works (Ephesians 2:10)*
