@@ -2,11 +2,15 @@
 slugFields:
   - createdDate
   - title
-title: Life in Christ
-author: A. J. Gordon
-slug: 2024-06-24-life-in-christ
 uuid: lg0zpz_jlo
+title: Life in Christ
 isBlogPost: true
+author: A. J. Gordon
+summary: As we learn in our daily lives to 'fix our eyes on Jesus, the author
+  and perfecter of our faith', and as our hearts fill with fervent contemplation
+  of the person and character of Christ, His image gradually becomes reproduced
+  in our lives.
+slug: 2024-06-24-life-in-christ
 featuredImage: /uploads/xuan-nguyen-cal8lqubhro-unsplash.jpg
 createdDate: 2024-06-24
 ---
