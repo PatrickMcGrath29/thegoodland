@@ -7,6 +7,10 @@ useHead({
     lang: 'en',
   },
 })
+
+useSeoMeta({
+  ogSiteName: 'The Good Land Blog',
+})
 </script>
 
 <template>
