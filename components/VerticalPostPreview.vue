@@ -7,7 +7,7 @@ const postPath = `/posts/${props.post.slug}`
 
 <template>
   <NuxtLink
-    class="flex flex-col gap-6 bg-base-200 border border-base-300 rounded hover:shadow-lg hover:scale-[1.01] transition-all duration-300"
+    class="flex flex-col gap-6 bg-base-200 border border-base-300 hover:border-[#ffbf00] hover:border-opacity-20 rounded hover:shadow-lg hover:scale-[1.01] transition-all duration-300"
     :to="postPath"
   >
     <div v-if="post.featuredImage" class="w-full relative">
