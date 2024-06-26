@@ -50,6 +50,10 @@ The words “in Christ” in the New Testament are hiding a profound mystery for
 
 If someone is “in Christ,” they certainly have regeneration: How could the Head be alive and the members dead? If someone is “in Christ,” they have justification: How could God approve of the Head and condemn the members? If someone is “in Christ,” they have sanctification: How could the Holy One, who has no blemish, remain in living connection with someone who is not holy? If someone is “in Christ,” they have redemption: How could the Son of God be in glory while someone He made part of His body is abandoned in the grave of eternal death?
 
+::pullquote
+The incarnation of God is the starting point and fundamental condition for our reconciliation with God. There can be no union between God and man without the intermediary that is both.
+::
+
 Through these two words, we can gain a deep understanding of the divine way of salvation. God does not work on the soul separately while it is still foreign and isolated from Him, to make it suitable to unite with Him. Instead, He begins by uniting it with Himself, so that through this union, He can impart divine life and energy, without which any other work on it would be futile. The method of grace is precisely the opposite of the method of law. The law first requires sanctification to then bring about union with God. However, grace first brings union with God so that sanctification can follow as a result. This is why the incarnation of God is the starting point and fundamental condition for our reconciliation with God. There can be no union between God and man without the intermediary that is both. And this is why there is a need for our incorporation with Christ, so that what was made possible through the incarnation can become real and experiential in each one through faith.
 
 The principle of our union with Christ has an astonishingly wide application in the Gospel. Christianity does not eliminate natural human relationships, does not abolish human obligations, and does not nullify moral or spiritual laws. But it elevates all these to a new sphere and puts upon them the seal and signature of the Gospel: “In Christ.” Thus, while all things continue as they were from the beginning, all, by their readjustment to this divine character and person, become virtually new.  Life is still from God, but it now has this new dependency “in Christ.” “Of Him you are in Christ Jesus.” The obligation to labor remains unchanged, but now it gains new motivation and purpose: “your labor in the Lord...” The marriage relation acquires a new seal: “... only in the Lord.” Children's obedience to their parents is elevated to a direct relation to the Son of God: “Children, obey your parents in the Lord.” Daily life becomes “good conduct in Christ.” Joys and sorrows, victories and sufferings, are all “in Christ.” Even truth itself, as if needing a new baptism, is now “truth in Jesus” (Eph. 4:21). Death still exists but has been stripped of its sting and crowned with a blessing, for with Christ, “blessed are the dead who die in the Lord” (Rev. 14:13).
@@ -58,6 +62,6 @@ Thus, Christ, by taking on the human element, embraces everything that belongs t
 
 The very glory and mystery of the believer's life is that it is one with the life of the Savior and inseparable from it. It is not a life parallel to the life of Christ that is merely shaped and guided by it. It is the very life of Christ that is lived out in His believers, reproducing within them those events that are immortal in energy and limitless in application.
 
----
+- - -
 
 *(A. J. Gordon, “In Christ – The Believer’s Union With His Lord”, excerpted)*
