@@ -30,9 +30,7 @@
     "primevue": "^3.52.0",
     "sass": "^1.77.5",
     "sharp": "^0.33.4",
+    "sitemap": "^8.0.0",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "sitemap": "^8.0.0"
   }
 }
