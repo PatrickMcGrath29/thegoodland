@@ -20,10 +20,15 @@ useSeoMeta({
           Recent Posts
         </h2>
 
-        <NuxtLink class="text-md mb-12 flex items-center text-neutral-400 hover:text-[#ffbf00] transition-all font-medium gap-1 hover:gap-1.5" to="/posts">
-          See All
-          <Icon name="mdi:chevron-right" class="text-[#ffbf00] size-6" />
-        </NuxtLink>
+        <div class="mb-12">
+          <NuxtLink
+            class="text-sm flex items-center w-fit hover:text-[#ffbf00] transition-all font-semibold hover:gap-0.5"
+            to="/posts"
+          >
+            See All
+            <Icon name="mdi:chevron-right" class="text-[#ffbf00] size-6" />
+          </NuxtLink>
+        </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
           <VerticalPostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
