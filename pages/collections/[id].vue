@@ -9,6 +9,22 @@ const collection = collectionData as Ref<Collection>
 const { data: posts } = await useAsyncData(
   () => usePostsBySlug(collection.value.posts),
 )
+
+const seoTitle = computed(() => {
+  return `${collection.value.name} by ${collection.value.author}`
+})
+
+const seoDescription = computed(() => {
+  return smartEllipsis(collection.value.summary, 160)
+})
+
+useSeoMeta({
+  title: seoTitle,
+  ogTitle: seoTitle,
+  description: seoDescription,
+  ogDescription: seoDescription,
+  ogImage: collection.value.featuredImage ? useSeoImage(collection.value.featuredImage) : undefined,
+})
 </script>
 
 <template>
