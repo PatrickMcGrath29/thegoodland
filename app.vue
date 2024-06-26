@@ -1,8 +1,5 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: (titleChunk) => {
-    return titleChunk ? `The Good Land - ${titleChunk}` : 'The Good Land Blog'
-  },
   htmlAttrs: {
     lang: 'en',
   },
@@ -10,6 +7,8 @@ useHead({
 
 useSeoMeta({
   ogSiteName: 'The Good Land Blog',
+  title: 'The Good Land Blog',
+  ogTitle: 'The Good Land Blog',
 })
 </script>
 
