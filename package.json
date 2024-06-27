@@ -27,6 +27,7 @@
     "nuxt": "^3.12.2",
     "nuxt-icon": "^0.6.10",
     "nuxt-primevue": "^3.0.0",
+    "nuxt-schema-org": "^3.3.8",
     "primevue": "^3.52.0",
     "sass": "^1.77.5",
     "sharp": "^0.33.4",

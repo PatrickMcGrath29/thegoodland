@@ -4,6 +4,15 @@ export default defineNuxtConfig({
       baseUrl: process.env.URL || 'http://localhost:3000',
     },
   },
+  schemaOrg: {
+    identity: {
+      type: 'Organization',
+      name: 'The Good Land',
+    },
+  },
+  site: {
+    name: 'The Good Land Blog',
+  },
   devtools: { enabled: true },
   modules: [
     '@vueuse/nuxt',
@@ -13,6 +22,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/content',
     'nuxt-primevue',
+    'nuxt-schema-org',
   ],
   image: {
     quality: 80,
