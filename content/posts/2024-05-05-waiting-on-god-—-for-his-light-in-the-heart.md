@@ -16,7 +16,7 @@ slug: 2024-05-04-waiting-on-god-for-his-light-in-the-heart
 featuredImage: /uploads/waiting_on_god_for_his_light.jpg
 createdDate: 2024-05-04
 ---
-The following passage comes from the book Waiting on God, by Andrew Murray. The full book can be found online [here](/uploads/waiting_on_god.pdf)[](waiting_on_god.pdf).
+The following passage comes from the book Waiting on God, by Andrew Murray. The full book can be found online [here](/uploads/waiting_on_god.pdf).
 
 - - -
 
