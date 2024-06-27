@@ -14,17 +14,13 @@ slug: 2024-06-24-life-in-christ
 featuredImage: /uploads/xuan-nguyen-cal8lqubhro-unsplash.jpg
 createdDate: 2024-06-24
 ---
-> *"Created in Christ Jesus unto good works"*\
-> *\- Ephesians 2:10*
+> *"Created in Christ Jesus unto good works" (Ephesians 2:10)*
 >
-> *"Of him you are in Christ Jesus"*\
-> *\- 1 Corinthians 1:30*
+> *"Of him you are in Christ Jesus" (1 Corinthians 1:30)*
 >
-> *"According as he has chosen us in him before the foundation of the world"*\
-> *\- Ephesians 1:4*
+> *"According as he has chosen us in him before the foundation of the world" (Ephesians 1:4)*
 >
-> *"And we are in him who is true, even in his Son Jesus Christ"*\
-> *\- 1 John 5:20*
+> *"And we are in him who is true, even in his Son Jesus Christ" (1 John 5:20)*
 
 Just as Jesus’ highest mission was to give believers eternal life, so the highest calling of the believer is to fully make this life his own. For this to happen, the heart needs to be empty of other things. But an empty heart alone is not enough. It must also be a heart that is hungry and thirsty, a heart that longs for God and seeks to know Him more. 
 
