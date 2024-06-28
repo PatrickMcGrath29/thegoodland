@@ -26,11 +26,11 @@ useSeoMeta({
 
         <div class="mb-12">
           <NuxtLink
-            class="text-sm flex items-center w-fit hover:text-[#ffbf00] transition-all font-semibold hover:gap-0.5"
+            class="text-md flex items-center w-fit hover:text-[#ffbf00] transition-all font-semibold hover:gap-0.5"
             to="/posts"
           >
             See All
-            <Icon name="mdi:chevron-right" class="text-[#ffbf00] size-6" />
+            <Icon name="mdi:chevron-right" class="text-[#ffbf00] size-5" />
           </NuxtLink>
         </div>
 
