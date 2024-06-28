@@ -25,6 +25,11 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     'nuxt-link-checker',
   ],
+  primevue: {
+    components: {
+      include: ['OverlayPanel'],
+    },
+  },
   image: {
     quality: 80,
     provider: 'ipx',
