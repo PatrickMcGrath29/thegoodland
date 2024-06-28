@@ -15,7 +15,7 @@
             </ul>
           </div>
           <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center">
-            <LogoIcon class="size-7 fill-[#ffbf00]" />
+            <LogoIcon class="size-6 fill-[#ffbf00] mr-0.5" />
             The Good Land
           </NuxtLink>
         </div>
