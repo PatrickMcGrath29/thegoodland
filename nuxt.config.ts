@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-primevue',
     'nuxt-schema-org',
-    "nuxt-link-checker"
+    'nuxt-link-checker',
   ],
   image: {
     quality: 80,
