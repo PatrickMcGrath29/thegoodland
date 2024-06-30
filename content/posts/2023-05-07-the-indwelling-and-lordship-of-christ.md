@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: q_q5-eotpm
-title: The Indwelling and Lordship of Christ - Excerpts from The Normal Christian Life
+title: The Indwelling and Lordship of Christ
 isBlogPost: true
 author: Watchman Nee
 summary: Once we have made the discovery of the fact that we are the dwelling
@@ -11,7 +11,7 @@ summary: Once we have made the discovery of the fact that we are the dwelling
   see that we are the temple of God we shall immediately recognize that we are
   not our own. Consecration will follow revelation. The difference between
   victorious Christians and defeated ones is not that some have the Spirit while
-  others have not, but that some know His indwelling and others do not, and that
+  others have not, but that some know His indwelling and others do not, and that
   consequently some recognize the Divine ownership of their lives while others
   are still their own masters.
 slug: 2023-05-07-the-indwelling-and-lordship-of-christ

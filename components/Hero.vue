@@ -15,9 +15,9 @@ defineProps<{ featuredPost: Post }>()
           Deuteronomy 8:7
         </div>
 
-        <div class="mt-24 text-xl italic text-pretty">
+        <h1 class="mt-24 text-xl italic text-pretty">
           Literature that highlights the richness of life found in Jesus Christ.
-        </div>
+        </h1>
       </div>
       <div class="basis-1/2">
         <VerticalPostPreview :post="featuredPost" is-featured />

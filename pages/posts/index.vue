@@ -1,5 +1,12 @@
 <script setup lang="ts">
 const { data: posts } = await useAsyncData('allPosts', () => useBlogPosts())
+
+const description = 'Blog posts that highlight the richness of life found in Jesus Christ.'
+
+useSeoMeta({
+  description,
+  ogDescription: description,
+})
 </script>
 
 <template>

@@ -35,7 +35,10 @@ const postElementRef = ref<HTMLElement>()
   <article>
     <Container>
       <div v-if="post.featuredImage" class="my-5">
-        <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
+        <NuxtImg
+          :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg"
+          :alt="`Featured image for ${post.title}`"
+        />
       </div>
     </Container>
 

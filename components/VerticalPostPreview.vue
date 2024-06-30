@@ -19,7 +19,10 @@ const postPath = `/posts/${props.post.slug}`
           Featured
         </span>
       </div>
-      <NuxtImg :src="post.featuredImage" width="500px" placeholder class="w-full h-72 object-cover rounded-t" />
+      <NuxtImg
+        :src="post.featuredImage" width="500px" placeholder class="w-full h-72 object-cover rounded-t"
+        :alt="`Featured image for ${post.title}`"
+      />
     </div>
     <div class="px-6 pt-0 flex flex-col h-full mb-8">
       <h2 class="text-2xl font-semibold mb-4">

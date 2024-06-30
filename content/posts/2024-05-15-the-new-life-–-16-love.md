@@ -25,11 +25,9 @@ Brotherly love has its measure and rule in the love of Jesus. "This is My comman
 
 Brotherly love must be in deed and in truth. :tooltip{text="references (7)" content="Matt. 12:50; 25:40; Rom. 13:10; 1 Cor. 7:19; Gal. 5:6; James 2:15, 16; 1 John 3:16, 17, 18"} It is not mere feeling. The power in Christ arises from faith which works by love. It manifests itself in all the Christ-like characteristics that are specified in the Word of God. Contemplate its glorious image in 1 Corinthians 13:4-7. Notice all the glorious encouragements to gentleness, to longsuffering, to mercy. :tooltip{text="references (8)" content="Gal. 5:22; Eph. 4:2, 32; Phil. 2:2, 3; Col. 3:12; 2 Thess. 1:3"} In all your conduct, let it be seen that the love of Christ lives in you. Let your love be a helpful, self-sacrificing love--like that of Jesus. Hold all children of God, however sinful or wrong they may be, fervently dear. Let your love for them teach you to love all men. :tooltip{text="references (9)" content="Luke 6:32, 35; 1 Pet. 1:22; 2 Pet. 1:7"} Show your family, the Church, and the world that within you "love is greatest" (1 Corinthians 13:13). Show all that the love of God has a full dwelling and a free working in your life.
 
-Christian, God is love. Jesus is the gift of this love-to bring love to you, to transplant you into that life of godlike love. Live in that faith, and you will not complain that you have no power to love. The love of the Spirit will be your power and your life. 
+Christian, God is love. Jesus is the gift of this love-to bring love to you, to transplant you into that life of godlike love. Live in that faith, and you will not complain that you have no power to love. The love of the Spirit will be your power and your life.
 
 > Beloved Savior, I see more clearly that the whole new life is a life in love. You yourself are the Son of God's love, the gift of His love, who came to introduce us into His love and to give us a dwelling there. And the Holy Spirit is given to spread the love of God in our hearts, to open a spring from which love for You and for the other believers and for all humanity will flow. Lord, here I am, one redeemed by love, to live for it and in its power to love all. Amen.
-
- 
 
 ### Notes
 
@@ -37,7 +35,7 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 2. Do not wonder why I have said that you must love even though you do not feel the least bit of love. Not the feeling, but the will, is your power. It is not in your feeling, but in your faith, that the Spirit in you is the power of your will to work in you all that the Father bids you. Therefore, although you feel absolutely no love for your enemy, say in the obedience of faith, "Father, I love him; in faith in the hidden working of the Spirit in my heart, I do love him.
 3. Do not think that this is love, if you wish no evil to anyone, or if you should be willing to help, if he were in need. No, love is much more. Love is His love. Love is the disposition with which God addressed you when you were His enemy, and afterward ran to you with tender longing to caress you.
 
-###  
+###
 
 ### References
 
@@ -60,5 +58,3 @@ Christian, God is love. Jesus is the gift of this love-to bring love to you, to 
 9) Luke 6:32,35; 1 Pet. 1:22; 2 Pet. 1:7
 
 \_\_\_\_
-
-[](https://thegoodland.io/posts/2024-05-13-the-new-life-15-righteousness)[Table of Contents](https://thegoodland.io/collections/new-life-lessons-andrew-murray)

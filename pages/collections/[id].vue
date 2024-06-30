@@ -30,7 +30,10 @@ useSeoMeta({
 <template>
   <Container>
     <div v-if="collection.featuredImage" class="my-5">
-      <NuxtImg :src="collection.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
+      <NuxtImg
+        :src="collection.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg"
+        :alt="`Featured image for ${collection.name}`"
+      />
     </div>
   </Container>
   <ContainerMedium>
