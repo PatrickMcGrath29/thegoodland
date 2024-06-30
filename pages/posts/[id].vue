@@ -22,7 +22,7 @@ const postSeoDescripton = computed(() => {
 
 useSeoMeta({
   title: post.value.title,
-  ogTitle: post.value.tile,
+  ogTitle: post.value.title,
   description: postSeoDescripton,
   ogDescription: postSeoDescripton,
   ogImage: useSeoImage(post.value.featuredImage),
@@ -38,6 +38,7 @@ const postElementRef = ref<HTMLElement>()
         <NuxtImg :src="post.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg" />
       </div>
     </Container>
+
     <ContainerMedium>
       <div class="my-10 px-2">
         <div class="max-w-screen-md m-auto">
