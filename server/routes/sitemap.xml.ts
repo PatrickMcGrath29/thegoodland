@@ -1,9 +1,18 @@
+import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { serverQueryContent } from '#content/server'
+
+function getPDFs() {
+  return fs.readdirSync('public/uploads/').filter((file) => {
+    return file.endsWith('.pdf')
+  })
+}
 
 export default defineEventHandler(async (event) => {
   const posts = await serverQueryContent(event, 'posts').find()
   const collections = await serverQueryContent(event, 'collections').find()
+  const pdfFiles = getPDFs()
+
   const sitemap = new SitemapStream({
     hostname: 'https://thegoodland.io',
   })
@@ -29,6 +38,13 @@ export default defineEventHandler(async (event) => {
     sitemap.write({
       url: `/collections/${collection.slug}`,
       changefreq: 'weekly',
+    })
+  }
+
+  for (const pdf of pdfFiles) {
+    sitemap.write({
+      url: `/uploads/${pdf}`,
+      changefreq: 'monthly',
     })
   }
 
