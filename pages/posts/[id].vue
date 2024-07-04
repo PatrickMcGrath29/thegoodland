@@ -25,8 +25,19 @@ useSeoMeta({
   ogTitle: post.value.title,
   description: postSeoDescripton,
   ogDescription: postSeoDescripton,
-  ogImage: useSeoImage(post.value.featuredImage),
+  ogImage: post.value.featuredImage && useSeoImage(post.value.featuredImage),
 })
+
+useSchemaOrg([
+  defineArticle({
+    headline: post.value.title,
+    datePublished: post.value.createdDate.toISOString(),
+    image: post.value.featuredImage,
+    author: post.value.author && {
+      name: post.value.author,
+    },
+  }),
+])
 
 const postElementRef = ref<HTMLElement>()
 </script>

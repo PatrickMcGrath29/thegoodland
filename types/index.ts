@@ -6,9 +6,9 @@ export interface Post extends ParsedContent {
   title: string
   isBlogPost: boolean
   summary?: string
-  featuredImage: string
+  featuredImage?: string
   createdDate: Date
-  author: string
+  author?: string
 }
 
 export interface Collection extends ParsedContent {

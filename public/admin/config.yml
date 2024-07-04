@@ -153,4 +153,14 @@ collections:
         widget: string
         required: false
 
+  - label: Pages
+    name: pages
+    files:
+      - label: About Page
+        name: about
+        file: content/pages/about.md
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+
 local_backend: true
