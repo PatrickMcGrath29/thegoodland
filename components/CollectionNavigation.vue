@@ -17,17 +17,39 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
 </script>
 
 <template>
-  <div v-if="surroundingPosts" class="flex justify-between mt-10 md:px-10 flex-col sm:flex-row items-center">
+  <div v-if="surroundingPosts" class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-16">
     <div>
-      <NuxtLink v-if="surroundingPosts[0]" class="btn btn-ghost" :to="`/posts/${surroundingPosts[0].slug}`">
-        <Icon name="mdi:arrow-left" />
-        {{ surroundingPosts[0].title }}
+      <NuxtLink
+        v-if="surroundingPosts[0]" class="btn btn-ghost w-full h-full"
+        :to="`/posts/${surroundingPosts[0].slug}`"
+      >
+        <div class="py-2">
+          <div class="text-xm font-light text-neutral-400 mb-3">
+            Previous in Series
+          </div>
+          {{ surroundingPosts[0].title }}
+        </div>
       </NuxtLink>
     </div>
     <div>
-      <NuxtLink v-if="surroundingPosts[1]" class="btn btn-ghost" :to="`/posts/${surroundingPosts[1].slug}`">
-        {{ surroundingPosts[1].title }}
-        <Icon name="mdi:arrow-right" />
+      <NuxtLink :to="`/collections/${collection.slug}`" class="btn btn-ghost w-full h-full">
+        <div class="py-2">
+          Table of Contents
+        </div>
+      </NuxtLink>
+    </div>
+
+    <div>
+      <NuxtLink
+        v-if="surroundingPosts[1]" class="btn btn-ghost w-full h-full"
+        :to="`/posts/${surroundingPosts[1].slug}`"
+      >
+        <div class="py-2">
+          <div class="text-xm font-light text-neutral-400 mb-3">
+            Next in Series
+          </div>
+          {{ surroundingPosts[1].title }}
+        </div>
       </NuxtLink>
     </div>
   </div>
