@@ -6,12 +6,12 @@ const postData = await useAsyncData('homePostSample', () => useBlogPosts(10))
 const posts = postData.data as Ref<Post[]>
 const [featuredPost, ...recentPosts] = posts.value
 
-const description = 'Literature that highlights the richness of life found in Jesus Christ.'
+const description = 'The Good Land Blog is a collection of Bible focused Christian resources that aim to highlight the richness of life found in Jesus Christ.'
 
 useSeoMeta({
   description,
   ogDescription: description,
-  ogImage: useSeoImage(featuredPost.featuredImage),
+  ogImage: featuredPost.featuredImage && useSeoImage(featuredPost.featuredImage),
 })
 </script>
 
