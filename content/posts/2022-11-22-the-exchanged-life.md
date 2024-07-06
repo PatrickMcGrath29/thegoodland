@@ -2,7 +2,10 @@
 slugFields:
   - createdDate
   - title
+uuid: 5gabga1gau
 title: The Exchanged Life
+isBlogPost: true
+author: Hudson Taylor
 summary: >
   As I thought of the Vine and the branches, what light the blessed Spirit
   poured direct into my soul! How great seemed my mistake in having wished to
@@ -15,8 +18,6 @@ summary: >
   what it involves. Can Christ be rich and I poor? Can your right hand be rich
   and the left poor? or your head be well fed while your body starves?
 slug: 2022-11-22-the-exchanged-life
-uuid: 5gabga1gau
-isBlogPost: true
 featuredImage: /uploads/exchanged_life.jpeg
 createdDate: 2022-11-22
 ---
