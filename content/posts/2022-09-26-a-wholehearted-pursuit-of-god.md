@@ -2,7 +2,10 @@
 slugFields:
   - createdDate
   - title
+uuid: ac8jxwp3va
 title: A Wholehearted Pursuit of God
+isBlogPost: true
+author: A.W. Tozer
 summary: Right now we are in an age of religious complexity. The simplicity
   which is in Christ is rarely found among us. In its stead are programs,
   methods, organizations and a world of nervous activities which occupy time and
@@ -11,8 +14,6 @@ summary: Right now we are in an age of religious complexity. The simplicity
   proceed in the way of simplicity… We must simplify our approach to Him. We
   must strip down to essentials (and they will be found to be blessedly few).
 slug: 2022-09-26-a-wholehearted-pursuit-of-god
-uuid: ac8jxwp3va
-isBlogPost: true
 featuredImage: /uploads/pursuit_of_god.jpeg
 createdDate: 2022-09-26
 ---
