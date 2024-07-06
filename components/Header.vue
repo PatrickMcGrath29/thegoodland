@@ -4,7 +4,7 @@
       <div class="navbar bg-base-300 rounded-lg shadow-md">
         <div class="navbar-start">
           <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center">
-            <LogoIcon class="size-9 fill-[#ffbf00] mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
+            <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
             The Good Land
           </NuxtLink>
         </div>

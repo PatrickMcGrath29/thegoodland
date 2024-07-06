@@ -7,7 +7,7 @@ const postPath = `/posts/${props.post.slug}`
 
 <template>
   <NuxtLink
-    class="flex flex-col gap-6 bg-base-200 border border-base-300 hover:border-[#ffbf00] hover:border-opacity-20 rounded hover:shadow-lg hover:scale-[1.01] transition-all duration-300"
+    class="flex flex-col gap-6 bg-base-200 border border-base-300 hover:border-accent hover:border-opacity-20 rounded hover:shadow-lg hover:scale-[1.01] transition-all duration-300"
     :to="postPath"
   >
     <div v-if="post.featuredImage" class="w-full relative">
@@ -15,7 +15,7 @@ const postPath = `/posts/${props.post.slug}`
         <span
           class="bg-neutral-800 opacity-90 px-3 py-1.5 border border-neutral-700 shadow-lg text-neutral- flex items-center rounded-md"
         >
-          <Icon name="mdi:star-four-points" class="mr-1.5 text-[#ffbf00]" />
+          <Icon name="mdi:star-four-points" class="mr-1.5 text-accent" />
           Featured
         </span>
       </div>

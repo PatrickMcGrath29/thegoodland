@@ -9,7 +9,14 @@ module.exports = {
     extend: {},
   },
   daisyui: {
-    themes: ['dark', 'light'],
+    themes: [
+      {
+        dark: {
+          ...require('daisyui/src/theming/themes').dark,
+          accent: '#ffbf00',
+        },
+      },
+    ],
   },
   plugins: [require('daisyui')],
 }
