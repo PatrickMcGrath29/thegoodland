@@ -1,9 +1,7 @@
 <script setup lang="ts">
 const quoteStore = useQuoteStore()
 
-await useAsyncData('fetch-quotes', () => {
-  return quoteStore.fetchQuotes()
-})
+await useAsyncData('fetch-quotes', () => quoteStore.fetchQuotes())
 
 const { params: { id } } = useRoute()
 
@@ -16,8 +14,10 @@ const quotesForReference = computed(() => {
 
 const reference = computed(() => quotesForReference.value[0]?.reference?.referenceName)
 
-const columnSettings = computed(() => {
-  return useColumnSettings(quotesForReference.value.length)
+useSeoMeta({
+  title: `${reference.value} Quotes`,
+  description: `Quotes from ${reference.value}`,
+  ogDescription: `Quotes from ${reference.value}`,
 })
 </script>
 
@@ -26,7 +26,7 @@ const columnSettings = computed(() => {
     <h1 class="text-4xl text-center my-10 font-bold">
       {{ reference }} Quotes
     </h1>
-    <div class="gap-6" :class="columnSettings">
+    <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-6">
@@ -34,6 +34,6 @@ const columnSettings = computed(() => {
           </div>
         </StyledCard>
       </div>
-    </div>
+    </ColumnView>
   </Container>
 </template>
