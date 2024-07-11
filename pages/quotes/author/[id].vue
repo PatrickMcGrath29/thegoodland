@@ -16,8 +16,10 @@ const quotesForAuthor = computed(() => {
 
 const author = computed(() => quotesForAuthor.value[0]?.reference?.authorName)
 
-const columnSettings = computed(() => {
-  return useColumnSettings(quotesForAuthor.value.length)
+useSeoMeta({
+  title: `${author.value} Quotes`,
+  description: `Quotes by ${author.value}`,
+  ogDescription: `Quotes by ${author.value}`,
 })
 </script>
 
@@ -26,7 +28,7 @@ const columnSettings = computed(() => {
     <h1 class="text-4xl text-center my-10 font-bold">
       {{ author }} Quotes
     </h1>
-    <div class="gap-6" :class="columnSettings">
+    <ColumnView class="gap-6" :count="quotesForAuthor.length">
       <div v-for="(quote, idx) in quotesForAuthor" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-6">
@@ -34,6 +36,6 @@ const columnSettings = computed(() => {
           </div>
         </StyledCard>
       </div>
-    </div>
+    </ColumnView>
   </Container>
 </template>

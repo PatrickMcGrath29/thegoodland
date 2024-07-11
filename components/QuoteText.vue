@@ -14,12 +14,18 @@ defineProps<{
       </p>
 
       <div class="pt-4">
-        <h4 v-if="quote.reference?.referenceName" class="card-title text-base font-bold">
+        <NuxtLink
+          v-if="quote.reference?.referenceName" class="card-title text-base font-bold"
+          :to="`/quotes/reference/${slugify(quote.reference.referenceName)}`"
+        >
           {{ quote.reference.referenceName }}
-        </h4>
-        <h5 class="text-sm italic">
+        </NuxtLink>
+        <NuxtLink
+          class="text-sm italic"
+          :to="quote.reference?.authorName ? `/quotes/author/${slugify(quote.reference.authorName)}` : ''"
+        >
           by {{ quote.reference?.authorName || "Anonymous" }}
-        </h5>
+        </NuxtLink>
       </div>
     </div>
     <div v-if="quote.link || quote.reference?.link" class="text-sm text-blue-300 pt-1 mt-3 flex gap-3">

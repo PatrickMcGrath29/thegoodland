@@ -3,10 +3,6 @@ const quoteStore = useQuoteStore()
 await useAsyncData('fetch-quotes', () => {
   return quoteStore.fetchQuotes()
 })
-
-const columnSettings = computed(() => {
-  return useColumnSettings(quoteStore.quotesForCategory.length)
-})
 </script>
 
 <template>
@@ -14,7 +10,7 @@ const columnSettings = computed(() => {
     <h1 class="text-4xl text-center my-10 font-bold">
       Quotes
     </h1>
-    <div class="gap-6" :class="columnSettings">
+    <ColumnView class="gap-6" :count="quoteStore.quotes.length">
       <div v-for="(quote, idx) in quoteStore.quotes" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-6">
@@ -22,6 +18,6 @@ const columnSettings = computed(() => {
           </div>
         </StyledCard>
       </div>
-    </div>
+    </ColumnView>
   </Container>
 </template>
