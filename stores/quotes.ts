@@ -24,6 +24,8 @@ export const useQuoteStore = defineStore('quotes', () => {
         reference: referencesById.get(quote.referenceId) as Reference,
       }
     })
+
+    return true
   }
 
   const highlightedQuote = (date: ref<Date> = new Date()) => {
