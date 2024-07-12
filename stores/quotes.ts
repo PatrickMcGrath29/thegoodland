@@ -1,4 +1,4 @@
-import type { Quote, RawQuote, Reference } from '~/types'
+import type { Quote } from '~/types'
 
 const ALL_CATEGORIES_TAG = 'All'
 
@@ -7,23 +7,9 @@ export const useQuoteStore = defineStore('quotes', () => {
 
   const fetchQuotes = async () => {
     if (quotes.value.length > 0)
-      return
+      return true
 
-    const [rawQuotes, rawReferences] = await Promise.all([
-      useQuotes(),
-      useReferences(),
-    ])
-
-    const referencesById: Map<string, Reference> = new Map(
-      rawReferences.map((reference: Reference) => [reference.uuid, reference]),
-    )
-
-    quotes.value = rawQuotes.map((quote: RawQuote): Quote => {
-      return {
-        ...quote,
-        reference: referencesById.get(quote.referenceId) as Reference,
-      }
-    })
+    quotes.value = await useQuotes()
 
     return true
   }

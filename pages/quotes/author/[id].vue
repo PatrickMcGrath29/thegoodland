@@ -9,8 +9,7 @@ const { params: { id } } = useRoute()
 
 const quotesForAuthor = computed(() => {
   return quoteStore.quotes.filter((quote) => {
-    const authorName = quote.reference?.authorName
-    return authorName && slugify(authorName) === id
+    return quote.reference?.authorSlug === id
   })
 })
 

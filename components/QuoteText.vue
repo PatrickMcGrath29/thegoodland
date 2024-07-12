@@ -16,13 +16,13 @@ defineProps<{
       <div class="pt-4">
         <NuxtLink
           v-if="quote.reference?.referenceName" class="card-title text-base font-bold"
-          :to="`/quotes/reference/${slugify(quote.reference.referenceName)}`"
+          :to="`/quotes/reference/${quote.reference?.referenceSlug}`"
         >
           {{ quote.reference.referenceName }}
         </NuxtLink>
         <NuxtLink
           class="text-sm italic"
-          :to="quote.reference?.authorName ? `/quotes/author/${slugify(quote.reference.authorName)}` : ''"
+          :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''"
         >
           by {{ quote.reference?.authorName || "Anonymous" }}
         </NuxtLink>
