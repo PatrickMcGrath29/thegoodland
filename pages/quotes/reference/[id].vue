@@ -7,8 +7,7 @@ const { params: { id } } = useRoute()
 
 const quotesForReference = computed(() => {
   return quoteStore.quotes.filter((quote) => {
-    const referenceName = quote.reference?.referenceName
-    return referenceName && slugify(referenceName) === id
+    return quote.reference?.referenceSlug === id
   })
 })
 

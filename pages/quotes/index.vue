@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const quoteStore = useQuoteStore()
-await useAsyncData('fetch-quotes', () => {
+await useAsyncData(() => {
   return quoteStore.fetchQuotes()
 })
 </script>
