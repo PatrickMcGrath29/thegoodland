@@ -58,8 +58,18 @@ export async function useQuotes(): Promise<Quote[]> {
   )
 
   return rawQuotes.map((quote: RawQuote): Quote => {
+    const reference = referencesById.get(quote.referenceId)
+
+    const quoteSlugFields = [
+      reference?.authorName,
+      ...quote.text.split(' ').slice(0, 5),
+    ]
+
+    const quoteSlug = slugify(quoteSlugFields.filter(Boolean).join('-'))
+
     return {
       ...quote,
+      slug: quoteSlug,
       reference: referencesById.get(quote.referenceId) as Reference,
     }
   })
