@@ -26,7 +26,7 @@ useSeoMeta({
 
         <div class="mb-12">
           <NuxtLink
-            class="text-md flex items-center w-fit hover:text-accent transition-all font-semibold hover:gap-0.5"
+            class="text-md flex items-center w-fit hover:text-accent transition-all font-semibold hover:gap-1"
             to="/posts"
           >
             See All

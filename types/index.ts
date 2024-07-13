@@ -1,4 +1,4 @@
-import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
+import type { ParsedContent } from '@nuxt/content'
 
 export interface Post extends ParsedContent {
   uuid: string
@@ -19,4 +19,22 @@ export interface Collection extends ParsedContent {
   summary: string
   posts: string[]
   featuredImage: string
+}
+
+export interface Quote {
+  uuid: string
+  text: string
+  reference?: Reference
+  categories: string[]
+  link?: string
+  slug: string
+}
+
+export interface Reference {
+  uuid: string
+  referenceName?: string
+  authorName?: string
+  link?: string
+  authorSlug?: string
+  referenceSlug: string
 }
