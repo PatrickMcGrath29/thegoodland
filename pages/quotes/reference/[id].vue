@@ -1,12 +1,13 @@
 <script setup lang="ts">
-const quoteStore = useQuoteStore()
+import type { Quote } from '~/types';
 
-await useAsyncData('fetch-quotes', () => quoteStore.fetchQuotes())
+const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
+const quotes = data as Ref<Quote[]>
 
 const { params: { id } } = useRoute()
 
 const quotesForReference = computed(() => {
-  return quoteStore.quotes.filter((quote) => {
+  return quotes.value.filter((quote) => {
     return quote.reference?.referenceSlug === id
   })
 })

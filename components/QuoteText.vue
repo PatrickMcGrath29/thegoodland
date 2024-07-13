@@ -26,6 +26,10 @@ defineProps<{
         >
           by {{ quote.reference?.authorName || "Anonymous" }}
         </NuxtLink>
+        <br>
+        <NuxtLink :to="`/quotes/${quote.uuid}/${quote.slug}`" class="text-sm font-medium">
+          See More
+        </NuxtLink>
       </div>
     </div>
     <div v-if="quote.link || quote.reference?.link" class="text-sm text-blue-300 pt-1 mt-3 flex gap-3">

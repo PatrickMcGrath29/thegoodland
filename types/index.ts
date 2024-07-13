@@ -27,6 +27,7 @@ export interface Quote {
   reference?: Reference
   categories: string[]
   link?: string
+  slug: string
 }
 
 export interface Reference {
