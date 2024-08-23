@@ -4,16 +4,20 @@ export default defineNuxtConfig({
       baseUrl: process.env.URL || 'http://localhost:3000',
     },
   },
+
   schemaOrg: {
     identity: {
       type: 'Organization',
       name: 'The Good Land',
     },
   },
+
   site: {
     name: 'The Good Land Blog',
   },
+
   devtools: { enabled: true },
+
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
@@ -25,23 +29,28 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     'nuxt-link-checker',
   ],
+
   primevue: {
     components: {
       include: ['OverlayPanel'],
     },
   },
+
   image: {
     quality: 80,
     provider: 'ipx',
   },
+
   nitro: {
     prerender: {
       routes: ['/sitemap.xml'],
     },
   },
+
   experimental: {
     viewTransition: true,
   },
+
   routeRules: {
     '/2021/08/23/entering-into-the-good-land': { redirect: '/posts/2021-08-23-entering-into-the-good-land' },
     '/2021/09/28/lord-shine-your-light': { redirect: '/posts/2021-09-28-lord-shine-your-light' },
@@ -67,4 +76,6 @@ export default defineNuxtConfig({
     '/wp-content/uploads/2023/05/abide_in_christ.pdf': { redirect: '/uploads/abide_in_christ.pdf' },
     '/wp-content/uploads/2023/05/the_pursuit_of_god.pdf': { redirect: '/uploads/the_pursuit_of_god.pdf' },
   },
+
+  compatibilityDate: '2024-08-23',
 })

@@ -53,6 +53,7 @@ useSeoMeta({
         <NuxtLink
           v-for="(post, idx) in posts" :key="idx" :to="`/posts/${post.slug}`"
           class="p-3 block bg-base-300 hover:bg-neutral-700 rounded mb-4"
+          prefetch-on="interaction"
         >
           {{ post.title }}
         </NuxtLink>

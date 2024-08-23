@@ -9,6 +9,7 @@ const postPath = `/posts/${props.post.slug}`
   <NuxtLink
     class="flex flex-col gap-6 bg-base-200 border border-base-300 hover:border-accent hover:border-opacity-20 rounded hover:shadow-lg hover:scale-[1.01] transition-all duration-300"
     :to="postPath"
+    prefetch-on="interaction"
   >
     <div v-if="post.featuredImage" class="w-full relative">
       <div v-if="isFeatured" class="absolute top-4 left-4">
