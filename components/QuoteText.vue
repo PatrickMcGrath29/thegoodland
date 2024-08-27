@@ -9,9 +9,11 @@ defineProps<{
 <template>
   <div>
     <div>
-      <p class="whitespace-pre-wrap text-base">
-        {{ quote.text }}
-      </p>
+      <NuxtLink :to="`/quotes/${quote.uuid}/${quote.slug}`">
+        <p class="whitespace-pre-wrap text-base">
+          {{ quote.text }}
+        </p>
+      </NuxtLink>
 
       <div class="pt-4">
         <NuxtLink
@@ -25,10 +27,6 @@ defineProps<{
           :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''"
         >
           by {{ quote.reference?.authorName || "Anonymous" }}
-        </NuxtLink>
-        <br>
-        <NuxtLink :to="`/quotes/${quote.uuid}/${quote.slug}`" class="text-sm font-medium">
-          See More
         </NuxtLink>
       </div>
     </div>

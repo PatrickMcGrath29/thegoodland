@@ -15,9 +15,9 @@ const matchingQuote = computed(() => {
 
 <template>
   <Container>
-    <StyledCard class="my-10">
+    <StyledCard :disable-hover="true" class="my-10">
       <div class="p-6">
-        <QuoteText :quote="matchingQuote" />
+        <LargeQuote :quote="matchingQuote" />
       </div>
     </StyledCard>
   </container>
