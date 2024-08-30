@@ -163,4 +163,73 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
 
+  - name: quote
+    label: Quote
+    folder: content/quotes
+    format: frontmatter
+    create: true
+    slug: '{{uuid}}'
+    summary: '{{text}}'
+    editor:
+      preview: false
+    identifier_field: uuid
+    fields:
+      - {label: Unique ID, name: uuid, widget: uuid}
+      - {label: Text, name: text, widget: text}
+      - label: Reference
+        name: referenceId
+        widget: relation
+        collection: references
+        search_fields: [referenceName, authorName]
+        value_field: uuid
+        display_fields: [referenceName, authorName]
+        required: false
+        hint: 'Optional, the reference associated with this quote (book, sermon). If the reference is not known leave this blank.'
+
+      - label: Categories
+        name: categories
+        widget: list
+        field:
+          label: Category
+          name: categories
+          widget: relation
+          collection: categories
+          search_fields: [name]
+          value_field: name
+          display_fields: [name]
+          required: false
+
+      - label: Quote Link
+        name: link
+        widget: string
+        required: false
+        hint: 'A link associated with this quote, for further reading. If there is a link associated with the resource for this quote then this will take precedence over it.'
+
+  - name: references
+    label: Quote Reference
+    folder: content/references
+    format: frontmatter
+    create: true
+    slug: '{{uuid}}-{{referenceName}}-{{authorName}}'
+    summary: '{{referenceName}} by {{authorName}}'
+    editor:
+      preview: false
+    fields:
+      - {label: Unique ID, name: uuid, widget: uuid}
+      - label: Reference Name
+        name: referenceName
+        widget: string
+        required: false
+
+      - label: Author Name
+        name: authorName
+        widget: string
+        required: false
+
+      - label: Resource Link
+        name: link
+        widget: string
+        required: false
+        hint: A link associated with this resource for further reading.
+
 local_backend: true
