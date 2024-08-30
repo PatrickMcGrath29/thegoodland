@@ -13,7 +13,6 @@ const quotesForReference = computed(() => {
 })
 
 const reference = computed(() => quotesForReference.value[0]?.reference?.referenceName)
-const author = computed(() => quotesForReference.value[0]?.reference?.authorName)
 
 useSeoMeta({
   title: `${reference.value} Quotes`,
@@ -24,10 +23,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <h1 class="my-14 flex items-center">
-      <span class="text-3xl border-r pr-4 border-neutral-500 font-light text-neutral-500">Quotes</span>
-      <span class="text-4xl pl-4 font-bold">{{ reference }}</span>
-    </h1>
+    <QuoteHeader :heading="reference" />
 
     <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">
