@@ -23,9 +23,11 @@ useSeoMeta({
 
 <template>
   <Container>
-    <h1 class="text-4xl text-center my-10 font-bold">
-      {{ author }} Quotes
+    <h1 class="my-14 flex items-center">
+      <span class="text-3xl border-r pr-4 border-neutral-500 font-light text-neutral-500">Quotes</span>
+      <span class="text-4xl pl-4 font-bold">{{ author }}</span>
     </h1>
+
     <ColumnView class="gap-6" :count="quotesForAuthor.length">
       <div v-for="(quote, idx) in quotesForAuthor" :key="idx" class="inline-block mb-6">
         <StyledCard>
@@ -37,3 +39,4 @@ useSeoMeta({
     </ColumnView>
   </Container>
 </template>
+``

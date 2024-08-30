@@ -25,16 +25,10 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxt/image',
     '@nuxt/content',
-    'nuxt-primevue',
+    '@primevue/nuxt-module',
     'nuxt-schema-org',
     'nuxt-link-checker',
   ],
-
-  primevue: {
-    components: {
-      include: ['OverlayPanel'],
-    },
-  },
 
   image: {
     quality: 80,

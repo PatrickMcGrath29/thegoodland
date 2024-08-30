@@ -8,7 +8,6 @@ defineProps<{
 
 <template>
   <div>
-    <Icon name="ph:quotes-duotone" class="float-left mr-1.5" size="20px" />
     <p class="whitespace-pre-wrap text-base">
       <span class="text-lg">{{ quote.text }}</span>
     </p>
