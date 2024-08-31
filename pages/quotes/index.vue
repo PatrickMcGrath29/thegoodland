@@ -4,6 +4,18 @@ import type { Quote, Reference } from '~/types'
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
+const searchBarValue: Ref<string> = ref('')
+
+const matchingQuotes = computed(() => {
+  if (searchBarValue.value === '')
+    return quotes.value
+
+  return quotes.value.filter((quote) => {
+    const search = searchBarValue.value.toLowerCase()
+    return quote.text.toLowerCase().includes(search)
+  })
+})
+
 const authors = computed(() => {
   const authors = new Set(
     quotes.value.map(
@@ -102,13 +114,13 @@ function toggleReferenceDialog(event: any) {
       <div class="w-full sm:max-w-96">
         <label class="input input-bordered flex items-center gap-2">
           <Icon name="ph:magnifying-glass-duotone" />
-          <input placeholder="Search...">
+          <input v-model="searchBarValue" placeholder="Search...">
         </label>
       </div>
     </div>
 
-    <ColumnView class="gap-6" :count="quotes.length">
-      <div v-for="(quote, idx) in quotes" :key="idx" class="inline-block mb-6">
+    <ColumnView class="gap-6" :count="matchingQuotes.length">
+      <div v-for="(quote, idx) in matchingQuotes" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-4">
             <QuoteText :quote="quote" />
