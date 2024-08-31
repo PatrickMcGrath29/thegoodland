@@ -23,7 +23,7 @@ async function useRawQuotes(): Promise<RawQuote[]> {
   })
 }
 
-export function referneceSlug(authorName: string, referenceName: string): string {
+export function referenceSlug(authorName: string, referenceName: string): string {
   return slugify([
     authorName,
     referenceName,
@@ -40,14 +40,12 @@ export async function useReferences(): Promise<Reference[]> {
     .find()
 
   const toReference = (rawReference: any): Reference => {
-    const referenceSlug = referneceSlug(rawReference.authorName, rawReference.referenceName)
-
     return {
       uuid: rawReference.uuid.toLowerCase(),
       authorName: rawReference.authorName,
       referenceName: rawReference.referenceName,
       link: rawReference.link,
-      referenceSlug,
+      referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName),
       authorSlug: authorSlug(rawReference.authorName),
     }
   }
