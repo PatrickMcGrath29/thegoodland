@@ -119,7 +119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.10":
+"@antfu/utils@npm:^0.7.10, @antfu/utils@npm:^0.7.7":
   version: 0.7.10
   resolution: "@antfu/utils@npm:0.7.10"
   checksum: 10c0/98991f66a4752ef097280b4235b27d961a13a2c67ef8e5b716a120eb9823958e20566516711204e2bfb08f0b935814b715f49ecd79c3b9b93ce32747ac297752
@@ -2061,6 +2061,76 @@ __metadata:
   version: 1.0.0-next.25
   resolution: "@polka/url@npm:1.0.0-next.25"
   checksum: 10c0/ef61f0a0fe94bb6e1143fc5b9d5a12e6ca9dbd2c57843ebf81db432c21b9f1005c09e8a1ef8b6d5ddfa42146ca65b640feb2d353bd0d3546da46ba59e48a5349
+  languageName: node
+  linkType: hard
+
+"@primeuix/styled@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@primeuix/styled@npm:0.0.5"
+  dependencies:
+    "@primeuix/utils": "npm:^0.0.5"
+  checksum: 10c0/bbf267d121deb053ea211ad5102ff6b4b6319f91909f667504fe0ad6522e5e3c3b6afacde413a5e341adffa36b283857b37d1cfe59777c96cb5e2676f419dd7e
+  languageName: node
+  linkType: hard
+
+"@primeuix/utils@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@primeuix/utils@npm:0.0.5"
+  checksum: 10c0/3310be6c730fe4049b8367dea41e23a678f64c4ea4df14bbce158e2e5914d19125ed21804da1697495417bcb072c76491ae3801fd9f295e54b4fb0d255e41814
+  languageName: node
+  linkType: hard
+
+"@primevue/auto-import-resolver@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@primevue/auto-import-resolver@npm:4.0.5"
+  dependencies:
+    "@primevue/metadata": "npm:4.0.5"
+  checksum: 10c0/e9d0e88ef1b97d634bfcf0b0b80b21c8ca4c43dc47c99f0a099c923e1a21bf40303972e940178db33ddf5f44743ced99e5e7a3854914dcba3380fbf1441479c7
+  languageName: node
+  linkType: hard
+
+"@primevue/core@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@primevue/core@npm:4.0.5"
+  dependencies:
+    "@primeuix/styled": "npm:^0.0.5"
+    "@primeuix/utils": "npm:^0.0.5"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 10c0/9bb3fa3a18a5428e56d32e3f6600040ca5f552a594323803064d91378d22927ad96f4bb713a67d1f5f31195f696635df9e89264c2c034554ce85936d30027b5a
+  languageName: node
+  linkType: hard
+
+"@primevue/icons@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@primevue/icons@npm:4.0.5"
+  dependencies:
+    "@primeuix/utils": "npm:^0.0.5"
+    "@primevue/core": "npm:4.0.5"
+  checksum: 10c0/076fd0a224ff67310449b8f830e909a05f9c099ad87915b28f23700975441d74aee2e5151093c49f3948e688b5226ff3450fe6a7d08c955a20bc03ab13187c44
+  languageName: node
+  linkType: hard
+
+"@primevue/metadata@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@primevue/metadata@npm:4.0.5"
+  checksum: 10c0/7705f19d75d48ba679f6ed78f8133a68dfb72fabc45303a3b15ea4491ba69bd02c63c4369bf7cce2dd8a714f0483ffad358e1e859a28621395f5c0b6b07b1fca
+  languageName: node
+  linkType: hard
+
+"@primevue/nuxt-module@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "@primevue/nuxt-module@npm:4.0.5"
+  dependencies:
+    "@nuxt/kit": "npm:^3.7.3"
+    "@primeuix/styled": "npm:^0.0.5"
+    "@primeuix/utils": "npm:^0.0.5"
+    "@primevue/auto-import-resolver": "npm:4.0.5"
+    "@primevue/metadata": "npm:4.0.5"
+    pathe: "npm:^1.1.2"
+    primevue: "npm:4.0.5"
+    unplugin-vue-components: "npm:0.27.0"
+  checksum: 10c0/27e2759beefdbe54689d8cc316853acb9b5a529f7145decf2c787b5ff0c8990ba885e9d5120480569d8aa52f3f40af5890bd9f52037b75f9059828524bad4ecb
   languageName: node
   linkType: hard
 
@@ -8915,17 +8985,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-primevue@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "nuxt-primevue@npm:3.0.0"
-  dependencies:
-    "@nuxt/kit": "npm:^3.7.3"
-    pathe: "npm:^1.1.2"
-    primevue: "npm:^3.51.0"
-  checksum: 10c0/023d99c32df6451c0b9e2f4db1d984b673d869dac361000c429f879e401412ab8c5bfbdb7dbd925672e60f7ff3ee04ec78e8327b3afc053e05932a273b9424bf
-  languageName: node
-  linkType: hard
-
 "nuxt-schema-org@npm:^3.3.8":
   version: 3.3.9
   resolution: "nuxt-schema-org@npm:3.3.9"
@@ -9983,12 +10042,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"primevue@npm:^3.51.0, primevue@npm:^3.52.0":
-  version: 3.53.0
-  resolution: "primevue@npm:3.53.0"
-  peerDependencies:
-    vue: ^3.0.0
-  checksum: 10c0/659a9ca01a261d106395a892740a2864d2a10ee909f28ed581551cb446ade4b81b57a0ba73d5788d72669a00f7e73d9dc354fabed2d8f52df83ac80a81efd65f
+"primevue@npm:4.0.5, primevue@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "primevue@npm:4.0.5"
+  dependencies:
+    "@primeuix/styled": "npm:^0.0.5"
+    "@primeuix/utils": "npm:^0.0.5"
+    "@primevue/core": "npm:4.0.5"
+    "@primevue/icons": "npm:4.0.5"
+  checksum: 10c0/8d7c32346dae1525e408a3ad804c3a57c43b0696c2b79f57e4e2f01bbb8faecad50e8fd9955c51efcaf36ca2a7591c993db88d38e3921dc7767c16b640f36971
   languageName: node
   linkType: hard
 
@@ -10468,7 +10530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.22.1, resolve@npm:^1.22.2, resolve@npm:^1.22.4":
+"resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.22.1, resolve@npm:^1.22.2, resolve@npm:^1.22.4, resolve@npm:^1.22.8":
   version: 1.22.8
   resolution: "resolve@npm:1.22.8"
   dependencies:
@@ -10481,7 +10543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.4#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.8#optional!builtin<compat/resolve>":
   version: 1.22.8
   resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
@@ -11647,15 +11709,15 @@ __metadata:
     "@nuxt/image": "npm:^1.7.0"
     "@nuxtjs/tailwindcss": "npm:^6.12.0"
     "@pinia/nuxt": "npm:^0.5.1"
+    "@primevue/nuxt-module": "npm:^4.0.5"
     "@vueuse/nuxt": "npm:^10.11.0"
     daisyui: "npm:^4.12.2"
     eslint: "npm:^9.4.0"
     nuxt: "npm:^3.13.0"
     nuxt-icon: "npm:^0.6.10"
     nuxt-link-checker: "npm:^3.0.0-rc.12"
-    nuxt-primevue: "npm:^3.0.0"
     nuxt-schema-org: "npm:^3.3.8"
-    primevue: "npm:^3.52.0"
+    primevue: "npm:^4.0.5"
     sass: "npm:^1.77.5"
     sharp: "npm:^0.33.4"
     sitemap: "npm:^8.0.0"
@@ -12090,6 +12152,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unplugin-vue-components@npm:0.27.0":
+  version: 0.27.0
+  resolution: "unplugin-vue-components@npm:0.27.0"
+  dependencies:
+    "@antfu/utils": "npm:^0.7.7"
+    "@rollup/pluginutils": "npm:^5.1.0"
+    chokidar: "npm:^3.6.0"
+    debug: "npm:^4.3.4"
+    fast-glob: "npm:^3.3.2"
+    local-pkg: "npm:^0.5.0"
+    magic-string: "npm:^0.30.10"
+    minimatch: "npm:^9.0.4"
+    resolve: "npm:^1.22.8"
+    unplugin: "npm:^1.10.1"
+  peerDependencies:
+    "@babel/parser": ^7.15.8
+    "@nuxt/kit": ^3.2.2
+    vue: 2 || 3
+  peerDependenciesMeta:
+    "@babel/parser":
+      optional: true
+    "@nuxt/kit":
+      optional: true
+  checksum: 10c0/90f36ab9f40cbd4b1df159f125cb1a92adad96719a1fd1100a861dcbe21efe598f8fa1c5c2026dbb5e11be48ef89dcd40fe3ce02d18432e8acde1a9805bb74ee
+  languageName: node
+  linkType: hard
+
 "unplugin-vue-router@npm:^0.10.7":
   version: 0.10.7
   resolution: "unplugin-vue-router@npm:0.10.7"
@@ -12126,6 +12215,17 @@ __metadata:
     webpack-sources: "npm:^3.2.3"
     webpack-virtual-modules: "npm:^0.6.2"
   checksum: 10c0/1ebdca5437adcf83f53ef715f336b9e5b85d671c40769c9fc4f3412e59c825c16bb56fb4e706b21991175db6addbc5fce10c8e2f67fb0387703431a8a1601c0d
+  languageName: node
+  linkType: hard
+
+"unplugin@npm:^1.10.1":
+  version: 1.12.3
+  resolution: "unplugin@npm:1.12.3"
+  dependencies:
+    acorn: "npm:^8.12.1"
+    webpack-sources: "npm:^3.2.3"
+    webpack-virtual-modules: "npm:^0.6.2"
+  checksum: 10c0/728d7c4e8fdbb1e1924a3d2b61ead2e39bcd25ddc8c1eb25d77912779525120c064661d18a37b53b9a7710fb83871af4b9df1f243457e30874c817c5a2c54c3f
   languageName: node
   linkType: hard
 
