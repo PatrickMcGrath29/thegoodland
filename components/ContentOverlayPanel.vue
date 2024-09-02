@@ -28,7 +28,7 @@ function toggleOverlayPanel(event: any) {
     >
       <div
         v-for="(record, idx) in contentRecords" :key="idx"
-        class="cursor-pointer hover:bg-neutral-700 p-1.5 rounded max-w-80" @click="() => navFunction(record)"
+        class="cursor-pointer hover:bg-neutral-700 p-1.5 rounded max-w-72 text-ellipsis text-nowrap overflow-hidden" @click="() => navFunction(record)"
       >
         {{ recordDisplaySelector ? recordDisplaySelector(record) : record }}
       </div>
