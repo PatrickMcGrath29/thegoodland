@@ -23,7 +23,7 @@ async function useRawQuotes(): Promise<RawQuote[]> {
   })
 }
 
-export function referenceSlug(authorName: string, referenceName: string): string {
+export function referenceSlug(authorName: string | undefined, referenceName: string | undefined): string {
   return slugify([
     authorName,
     referenceName,
