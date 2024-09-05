@@ -9,5 +9,7 @@ text: "When you come to Christ, you must drop your conditions. You have to give
   act of rebellion against our late-modern culture of self-assertion. But that
   is what we are called to. Nothing less."
 referenceId: g-4ho2anwh
-categories: []
+categories:
+  - Obedience
+  - Surrender
 ---
