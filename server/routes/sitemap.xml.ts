@@ -1,6 +1,9 @@
 import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { serverQueryContent } from '#content/server'
+import { hydrateQuotes } from '~/composables/quotes'
+import type { RawQuote, Reference } from '~/types'
+import { parseReference } from '~/utils/utils'
 
 function getPDFs() {
   return fs.readdirSync('public/uploads/').filter((file) => {
@@ -8,9 +11,21 @@ function getPDFs() {
   })
 }
 
+async function getReferencePaths(event: any) {
+  const rawReferences = await serverQueryContent(event, 'references').find()
+  const references = rawReferences.map(parseReference)
+
+  const authorSlugs = Array.from(new Set(references.map(reference => reference?.authorSlug).filter(Boolean)))
+  const referenceSlugs = Array.from(new Set(references.map(reference => reference?.referenceSlug).filter(Boolean)))
+
+  return { authorSlugs, referenceSlugs }
+}
+
 export default defineEventHandler(async (event) => {
   const posts = await serverQueryContent(event, 'posts').find()
   const collections = await serverQueryContent(event, 'collections').find()
+  const { authorSlugs, referenceSlugs } = await getReferencePaths(event)
+
   const pdfFiles = getPDFs()
 
   const sitemap = new SitemapStream({
@@ -38,6 +53,20 @@ export default defineEventHandler(async (event) => {
     sitemap.write({
       url: `/collections/${collection.slug}`,
       changefreq: 'weekly',
+    })
+  }
+
+  for (const authorSlug of authorSlugs) {
+    sitemap.write({
+      url: `/quotes/authors/${authorSlug}`,
+      changefreq: 'monthly',
+    })
+  }
+
+  for (const referenceSlug of referenceSlugs) {
+    sitemap.write({
+      url: `/quotes/references/${referenceSlug}`,
+      changefreq: 'monthly',
     })
   }
 

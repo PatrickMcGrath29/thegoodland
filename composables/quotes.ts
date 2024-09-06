@@ -1,13 +1,4 @@
-import type { ParsedContent } from '@nuxt/content'
-import type { Quote, Reference } from '~/types'
-
-interface RawQuote extends ParsedContent {
-  uuid: string
-  text: string
-  referenceId: string
-  categories: string[]
-  link?: string
-}
+import type { Quote, RawQuote, Reference } from '~/types'
 
 async function useRawQuotes(): Promise<RawQuote[]> {
   const quotes = await queryContent<RawQuote>('/quotes')
@@ -23,42 +14,15 @@ async function useRawQuotes(): Promise<RawQuote[]> {
   })
 }
 
-export function referenceSlug(authorName: string | undefined, referenceName: string | undefined): string {
-  return slugify([
-    authorName,
-    referenceName,
-  ].filter(Boolean).join('-'))
-}
-
-export function authorSlug(authorName: string): string {
-  return slugify(authorName)
-}
-
 export async function useReferences(): Promise<Reference[]> {
   const references = await queryContent('/references')
     .sort({ uuid: 1 })
     .find()
 
-  const toReference = (rawReference: any): Reference => {
-    return {
-      uuid: rawReference.uuid.toLowerCase(),
-      authorName: rawReference.authorName,
-      referenceName: rawReference.referenceName,
-      link: rawReference.link,
-      referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName),
-      authorSlug: authorSlug(rawReference.authorName),
-    }
-  }
-
-  return references.map(toReference)
+  return references.map(parseReference)
 }
 
-export async function useQuotes(): Promise<Quote[]> {
-  const [rawQuotes, references] = await Promise.all([
-    useRawQuotes(),
-    useReferences(),
-  ])
-
+export function hydrateQuotes(rawQuotes: RawQuote[], references: Reference[]): Quote[] {
   const referencesById: Map<string, Reference> = new Map(
     references.map((reference: Reference) => [reference.uuid, reference]),
   )
@@ -79,4 +43,13 @@ export async function useQuotes(): Promise<Quote[]> {
       reference: referencesById.get(quote.referenceId) as Reference,
     }
   })
+}
+
+export async function useQuotes(): Promise<Quote[]> {
+  const [rawQuotes, references] = await Promise.all([
+    useRawQuotes(),
+    useReferences(),
+  ])
+
+  return hydrateQuotes(rawQuotes, references)
 }

@@ -1,5 +1,13 @@
 import type { ParsedContent } from '@nuxt/content'
 
+export interface RawQuote extends ParsedContent {
+  uuid: string
+  text: string
+  referenceId: string
+  categories: string[]
+  link?: string
+}
+
 export interface Post extends ParsedContent {
   uuid: string
   slug: string
@@ -36,5 +44,5 @@ export interface Reference {
   authorName?: string
   link?: string
   authorSlug?: string
-  referenceSlug: string
+  referenceSlug?: string
 }
