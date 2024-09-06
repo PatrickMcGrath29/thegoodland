@@ -1,29 +1,24 @@
-import type { Reference } from '~/types'
+import type { Quote, RawQuote, RawReference, Reference } from '~/types'
 
 export function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
 }
 
-export function referenceSlug(authorName: string | undefined, referenceName: string | undefined): string {
+export function referenceSlug(authorName: string | undefined, referenceName: string | undefined): string | undefined {
+  if (!authorName && !referenceName)
+    return undefined
+
   return slugify([
     authorName,
     referenceName,
   ].filter(Boolean).join('-'))
 }
 
-export function authorSlug(authorName: string): string {
-  return slugify(authorName)
-}
+export function authorSlug(authorName: string | undefined): string | undefined {
+  if (!authorName)
+    return undefined
 
-export function parseReference(rawReference: any): Reference {
-  return {
-    uuid: rawReference.uuid.toLowerCase(),
-    authorName: rawReference.authorName,
-    referenceName: rawReference.referenceName,
-    link: rawReference.link,
-    referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName),
-    authorSlug: authorSlug(rawReference.authorName),
-  }
+  return slugify(authorName)
 }
 
 export function getPath(record: any): string {
@@ -42,4 +37,54 @@ export function smartEllipsis(text: string, length: number) {
     text = `${index.substring(0, index.lastIndexOf(' '))}...`
   }
   return text
+}
+
+function parseQuote(rawQuote: RawQuote): RawQuote {
+  return {
+    ...rawQuote,
+    uuid: rawQuote.uuid?.toLowerCase(),
+    referenceId: rawQuote.referenceId?.toLowerCase(),
+  }
+}
+
+function parseReference(rawReference: RawReference): RawReference {
+  return {
+    ...rawReference,
+    uuid: rawReference.uuid?.toLowerCase(),
+  }
+}
+
+function buildQuote(rawQuote: RawQuote, rawReference: RawReference): Quote {
+  const quoteSlugFields = [
+    rawReference?.authorName,
+    ...rawQuote.text.split(' ').slice(0, 5),
+  ]
+  const quoteSlug = slugify(quoteSlugFields.filter(Boolean).join('-'))
+
+  const slugForAuthor = authorSlug(rawReference.authorName)
+  const slugForReference = referenceSlug(rawReference.authorName, rawReference.referenceName)
+
+  return {
+    ...rawQuote,
+    slug: quoteSlug,
+    reference: {
+      ...rawReference,
+      authorSlug: slugForAuthor,
+      referenceSlug: slugForReference,
+    },
+  }
+}
+
+export function hydrateQuotes(rawQuotes: RawQuote[], rawReferences: RawReference[]): Quote[] {
+  const quotes = rawQuotes.map(parseQuote)
+  const references = rawReferences.map(parseReference)
+
+  const referencesById: Map<string, RawReference> = new Map(
+    references.map((reference: RawReference) => [reference.uuid, reference]),
+  )
+
+  return quotes.map((quote: RawQuote): Quote => {
+    const reference = referencesById.get(quote.referenceId) as RawReference
+    return buildQuote(quote, reference)
+  })
 }

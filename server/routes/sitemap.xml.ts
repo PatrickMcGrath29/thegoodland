@@ -1,9 +1,8 @@
 import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { serverQueryContent } from '#content/server'
-import { hydrateQuotes } from '~/composables/quotes'
-import type { RawQuote, Reference } from '~/types'
-import { parseReference } from '~/utils/utils'
+import { hydrateQuotes } from '~/utils/utils'
+import type { RawQuote, RawReference } from '~/types'
 
 function getPDFs() {
   return fs.readdirSync('public/uploads/').filter((file) => {
@@ -12,11 +11,13 @@ function getPDFs() {
 }
 
 async function getReferencePaths(event: any) {
-  const rawReferences = await serverQueryContent(event, 'references').find()
-  const references = rawReferences.map(parseReference)
+  const rawReferences = await serverQueryContent<RawReference>(event, 'references').find()
+  const rawQuotes = await serverQueryContent<RawQuote>(event, 'quotes').find()
 
-  const authorSlugs = Array.from(new Set(references.map(reference => reference?.authorSlug).filter(Boolean)))
-  const referenceSlugs = Array.from(new Set(references.map(reference => reference?.referenceSlug).filter(Boolean)))
+  const quotes = hydrateQuotes(rawQuotes, rawReferences)
+
+  const authorSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.authorSlug).filter(Boolean)))
+  const referenceSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.referenceSlug).filter(Boolean)))
 
   return { authorSlugs, referenceSlugs }
 }

@@ -8,6 +8,13 @@ export interface RawQuote extends ParsedContent {
   link?: string
 }
 
+export interface RawReference extends ParsedContent {
+  uuid: string
+  referenceName?: string
+  authorName?: string
+  link?: string
+}
+
 export interface Post extends ParsedContent {
   uuid: string
   slug: string
