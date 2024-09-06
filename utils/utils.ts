@@ -54,12 +54,19 @@ function parseReference(rawReference: RawReference): RawReference {
   }
 }
 
-function buildQuote(rawQuote: RawQuote, rawReference: RawReference): Quote {
+function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined): Quote {
   const quoteSlugFields = [
     rawReference?.authorName,
     ...rawQuote.text.split(' ').slice(0, 5),
   ]
   const quoteSlug = slugify(quoteSlugFields.filter(Boolean).join('-'))
+
+  if (!rawReference) {
+    return {
+      ...rawQuote,
+      slug: quoteSlug,
+    }
+  }
 
   const slugForAuthor = authorSlug(rawReference.authorName)
   const slugForReference = referenceSlug(rawReference.authorName, rawReference.referenceName)
@@ -84,7 +91,7 @@ export function hydrateQuotes(rawQuotes: RawQuote[], rawReferences: RawReference
   )
 
   return quotes.map((quote: RawQuote): Quote => {
-    const reference = referencesById.get(quote.referenceId) as RawReference
+    const reference = referencesById.get(quote.referenceId)
     return buildQuote(quote, reference)
   })
 }
