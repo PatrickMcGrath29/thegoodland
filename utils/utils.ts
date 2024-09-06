@@ -61,24 +61,26 @@ function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined):
   ]
   const quoteSlug = slugify(quoteSlugFields.filter(Boolean).join('-'))
 
-  if (!rawReference) {
-    return {
-      ...rawQuote,
-      slug: quoteSlug,
-    }
+  const quote: Quote = {
+    slug: quoteSlug,
+    ...rawQuote,
   }
 
-  const slugForAuthor = authorSlug(rawReference.authorName)
-  const slugForReference = referenceSlug(rawReference.authorName, rawReference.referenceName)
+  if (!rawReference)
+    return quote
+
+  const hasAuthor = rawReference.authorName
+  const hasReference = rawReference.authorName && rawReference.referenceName
+
+  const reference: Reference = {
+    ...rawReference,
+    ...(hasAuthor && { authorSlug: authorSlug(rawReference.authorName) }),
+    ...(hasReference && { referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName) }),
+  }
 
   return {
-    ...rawQuote,
-    slug: quoteSlug,
-    reference: {
-      ...rawReference,
-      authorSlug: slugForAuthor,
-      referenceSlug: slugForReference,
-    },
+    ...quote,
+    reference,
   }
 }
 
