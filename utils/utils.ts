@@ -4,7 +4,7 @@ export function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
 }
 
-export function referenceSlug(authorName: string | undefined, referenceName: string | undefined): string | undefined {
+export function referenceSlug(authorName: string, referenceName: string): string | undefined {
   if (!authorName && !referenceName)
     return undefined
 
@@ -14,7 +14,7 @@ export function referenceSlug(authorName: string | undefined, referenceName: str
   ].filter(Boolean).join('-'))
 }
 
-export function authorSlug(authorName: string | undefined): string | undefined {
+export function authorSlug(authorName: string): string | undefined {
   if (!authorName)
     return undefined
 
@@ -69,13 +69,14 @@ function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined):
   if (!rawReference)
     return quote
 
-  const hasAuthor = rawReference.authorName
-  const hasReference = rawReference.authorName && rawReference.referenceName
-
   const reference: Reference = {
     ...rawReference,
-    ...(hasAuthor && { authorSlug: authorSlug(rawReference.authorName) }),
-    ...(hasReference && { referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName) }),
+    ...(rawReference.authorName && {
+      authorSlug: authorSlug(rawReference.authorName),
+    }),
+    ...(rawReference.authorName && rawReference.referenceName && {
+      referenceSlug: referenceSlug(rawReference.authorName, rawReference.referenceName),
+    }),
   }
 
   return {
