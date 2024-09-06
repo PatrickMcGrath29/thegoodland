@@ -59,14 +59,14 @@ export default defineEventHandler(async (event) => {
 
   for (const authorSlug of authorSlugs) {
     sitemap.write({
-      url: `/quotes/authors/${authorSlug}`,
+      url: `/quotes/author/${authorSlug}`,
       changefreq: 'monthly',
     })
   }
 
   for (const referenceSlug of referenceSlugs) {
     sitemap.write({
-      url: `/quotes/references/${referenceSlug}`,
+      url: `/quotes/reference/${referenceSlug}`,
       changefreq: 'monthly',
     })
   }
