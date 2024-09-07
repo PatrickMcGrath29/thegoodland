@@ -63,15 +63,6 @@ const references: Ref<TextLink[]> = computed(() => {
 
   return Array.from(referenceLinks).sort().map((link => JSON.parse(link)))
 })
-
-async function navigateToAuthorPage(author: string) {
-  await navigateTo(`/quotes/author/${authorSlug(author)}`)
-}
-
-async function navigateToReferencePage(reference: Reference) {
-  const slug = referenceSlug(reference.authorName, reference.referenceName)
-  await navigateTo(`/quotes/reference/${slug}`)
-}
 </script>
 
 <template>
@@ -79,11 +70,14 @@ async function navigateToReferencePage(reference: Reference) {
     <QuoteHeader heading="All Quotes" />
 
     <div class="mb-4 flex flex-wrap gap-3">
-      <ContentOverlayPanel button-text="Authors" :nav-function="navigateToAuthorPage" :content-records="authors" />
+      <ContentOverlayPanel
+        button-text="Authors"
+        :content-records="authors"
+      />
 
       <ContentOverlayPanel
-        button-text="Literature" :nav-function="navigateToReferencePage"
-        :content-records="references""
+        button-text="Literature"
+        :content-records="references"
       />
 
       <div class="w-full sm:max-w-96">
