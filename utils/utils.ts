@@ -4,7 +4,7 @@ export function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
 }
 
-export function referenceSlug(authorName: string, referenceName: string): string | undefined {
+export function referenceSlug(authorName: string | undefined, referenceName: string): string | undefined {
   if (!authorName && !referenceName)
     return undefined
 

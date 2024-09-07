@@ -50,7 +50,7 @@ const references: Ref<TextLink[]> = computed(() => {
   const referenceLinks = new Set(
     references.map(
       (reference) => {
-        const slug = referenceSlug(reference.authorName, reference.referenceName)
+        const slug = referenceSlug(reference.authorName, reference.referenceName as string)
         const link: TextLink = {
           text: reference.referenceName as string,
           link: `/quotes/reference/${slug}`,
