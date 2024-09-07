@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote, Reference } from '~/types'
+import type { Quote, Reference, TextLink } from '~/types'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
@@ -17,7 +17,7 @@ const matchingQuotes = computed(() => {
   })
 })
 
-const authors = computed(() => {
+const authors: Ref<TextLink[]> = computed(() => {
   const authors = new Set(
     quotes.value.map(
       quote => quote.reference?.authorName,
@@ -25,20 +25,43 @@ const authors = computed(() => {
       author => author !== undefined,
     ).sort(),
   )
-  return Array.from(authors)
+
+  const authorLinks = Array.from(authors).map(
+    (author) => {
+      return {
+        text: author,
+        link: `/quotes/author/${authorSlug(author)}`,
+      }
+    },
+  )
+
+  return authorLinks
 })
 
-const references: Ref<Reference[]> = computed(() => {
-  const references = new Set(
-    quotes.value.map(
-      quote => quote.reference,
-    ).filter(
-      reference => reference !== undefined,
-    ).filter(
-      reference => reference.referenceName,
-    ).sort(),
+const references: Ref<TextLink[]> = computed(() => {
+  const references: Reference[] = quotes.value.map(
+    quote => quote.reference,
+  ).filter(
+    reference => reference !== undefined,
+  ).filter(
+    reference => reference.referenceName,
   )
-  return Array.from(references)
+
+  const referenceLinks = new Set(
+    references.map(
+      (reference) => {
+        const slug = referenceSlug(reference.authorName, reference.referenceName)
+        const link: TextLink = {
+          text: reference.referenceName as string,
+          link: `/quotes/reference/${slug}`,
+        }
+
+        return JSON.stringify(link)
+      },
+    ),
+  )
+
+  return Array.from(referenceLinks).sort().map((link => JSON.parse(link)))
 })
 
 async function navigateToAuthorPage(author: string) {
@@ -60,7 +83,7 @@ async function navigateToReferencePage(reference: Reference) {
 
       <ContentOverlayPanel
         button-text="Literature" :nav-function="navigateToReferencePage"
-        :content-records="references" :record-display-selector="(record: Reference) => (record.referenceName as string)"
+        :content-records="references""
       />
 
       <div class="w-full sm:max-w-96">

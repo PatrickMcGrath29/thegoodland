@@ -53,3 +53,8 @@ export interface Reference {
   authorSlug?: string
   referenceSlug?: string
 }
+
+export interface TextLink {
+  text: string
+  link: string
+}

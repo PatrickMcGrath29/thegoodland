@@ -1,10 +1,14 @@
 <script setup lang="ts" generic="T">
+import type { TextLink } from '~/types'
+
 defineProps<{
   buttonText: string
-  navFunction: (selectedItem: T) => void
-  contentRecords: T[]
-  recordDisplaySelector?: (record: T) => string
+  contentRecords: TextLink[]
 }>()
+
+async function goTo(path: string) {
+  await navigateTo(path)
+}
 
 const overlayPanelRef = ref()
 function toggleOverlayPanel(event: any) {
@@ -28,9 +32,9 @@ function toggleOverlayPanel(event: any) {
     >
       <div
         v-for="(record, idx) in contentRecords" :key="idx"
-        class="cursor-pointer hover:bg-neutral-700 p-1.5 rounded max-w-72 text-ellipsis text-nowrap overflow-hidden" @click="() => navFunction(record)"
+        class="cursor-pointer hover:bg-neutral-700 p-1.5 rounded max-w-72 text-ellipsis text-nowrap overflow-hidden" @click="() => goTo(record.link)"
       >
-        {{ recordDisplaySelector ? recordDisplaySelector(record) : record }}
+        {{ record.text }}
       </div>
     </div>
   </OverlayPanel>
