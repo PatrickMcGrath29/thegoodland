@@ -19,6 +19,7 @@
     "@antfu/eslint-config": "^2.21.1",
     "@nuxt/content": "^2.12.1",
     "@nuxt/image": "^1.7.0",
+    "@nuxt/scripts": "^0.8.5",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "@pinia/nuxt": "^0.5.1",
     "@primevue/nuxt-module": "^4.0.5",

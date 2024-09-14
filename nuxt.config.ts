@@ -2,6 +2,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseUrl: process.env.URL || 'http://localhost:3000',
+      scripts: {
+        cloudflareWebAnalytics: {
+          token: process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || '',
+        },
+      },
     },
   },
 
@@ -28,8 +33,16 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     'nuxt-link-checker',
     '@primevue/nuxt-module',
-
+    '@nuxt/scripts',
   ],
+
+  $production: {
+    scripts: {
+      registry: {
+        cloudflareWebAnalytics: true,
+      },
+    },
+  },
 
   primevue: {
     options: {
