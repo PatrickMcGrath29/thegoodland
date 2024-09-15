@@ -9,7 +9,7 @@ text: >-
   Look, for example, at the precepts and exhortations of the epistles. Every one of them has been perfectly exemplified in Christ; and unless this is remembered, so that they may be associated with Himself as the living Word, they will become hard and legal obligations.
 
 
-  Christ in us, Christ our life, as set forth in Colossians, is to be followed by the display of Christ through us, in the power of the Holy Ghost. For this we need to be much in His company; for the more we are with Him and occupied with Him, the more we shall be transformed into His likeness, and the more certainly will the savour of His, good ointments be spread abroad. And this will be a mighty testimony to what He is; for in this, case His name will, through us, be as ointment poured forth; the sweet savour of the name of' Christ will flow forth from our walk as well as from our words.
+  Christ in us, Christ our life, as set forth in Colossians, is to be followed by the display of Christ through us, in the power of the Holy Ghost. For this we need to be much in His company; for the more we are with Him and occupied with Him, the more we shall be transformed into His likeness, and the more certainly will the savour of His good ointments be spread abroad. And this will be a mighty testimony to what He is; for in this, case His name will, through us, be as ointment poured forth; the sweet savour of the name of' Christ will flow forth from our walk as well as from our words.
 
 
   The apostle Paul uses the very words in speaking of his preaching, when he says, "We are unto God a sweet savour of Christ"; and in a subsequent chapter (2 Cor. 4), he points out that testimony is connected with the life as well as with the lip.
