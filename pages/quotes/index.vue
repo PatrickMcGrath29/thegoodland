@@ -75,9 +75,9 @@ const references: Ref<TextLink[]> = computed(() => {
 
     <StyledCard class="my-10">
       <div class="p-8">
-        <h1 class="text-xl mb-7 text-center font-semibold">
+        <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
-        </h1>
+        </h2>
         <ClientOnly>
           <QuoteText :quote="highlightedQuote" />
         </ClientOnly>
