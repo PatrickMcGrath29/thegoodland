@@ -21,7 +21,7 @@ defineProps<{
           class="text-base font-semibold hover:underline decoration-neutral-400 flex items-center gap-1"
           :to="`/quotes/reference/${quote.reference?.referenceSlug}`"
         >
-          <Icon name="ph:bookmark-simple-duotone" size="17px" class="text-neutral-400" />
+          <Icon name="ph:bookmark-simple-duotone" size="15px" class="text-neutral-400" />
           {{ quote.reference.referenceName }}
         </NuxtLink>
       </div>
