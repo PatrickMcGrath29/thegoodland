@@ -30,6 +30,7 @@ defineProps<{
           class="text-sm italic hover:underline decoration-neutral-400 align-middle"
           :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''"
         >
+          <Icon name="ph:pen-nib-duotone" size="15px" class="text-neutral-400" />
           by {{ quote.reference?.authorName || "Anonymous" }}
         </NuxtLink>
       </div>
