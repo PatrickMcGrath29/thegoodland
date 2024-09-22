@@ -74,7 +74,7 @@ const references: Ref<TextLink[]> = computed(() => {
     <QuoteHeader heading="All Quotes" />
 
     <StyledCard class="my-10">
-      <div class="p-8">
+      <div class="p-4 md:p-8">
         <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
         </h2>

@@ -18,19 +18,19 @@ defineProps<{
       <div>
         <NuxtLink
           v-if="quote.reference?.referenceName"
-          class="text-base font-semibold hover:underline decoration-neutral-400 flex items-center gap-1"
+          class="text-base font-semibold hover:underline decoration-neutral-400 flex items-center gap-1.5"
           :to="`/quotes/reference/${quote.reference?.referenceSlug}`"
         >
-          <Icon name="ph:bookmark-simple-duotone" size="15px" class="text-neutral-400" />
+          <Icon name="ph:bookmark-simple-duotone" size="15px" class="text-accent text-opacity-40" />
           {{ quote.reference.referenceName }}
         </NuxtLink>
       </div>
       <div>
         <NuxtLink
-          class="text-sm italic hover:underline decoration-neutral-400 align-middle"
+          class="text-sm italic hover:underline decoration-neutral-400 flex items-center gap-1.5"
           :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''"
         >
-          <Icon name="ph:pen-nib-duotone" size="15px" class="text-neutral-400" />
+          <Icon name="ph:pen-nib-duotone" size="15px" class="text-accent text-opacity-40" />
           by {{ quote.reference?.authorName || "Anonymous" }}
         </NuxtLink>
       </div>
