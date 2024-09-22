@@ -90,7 +90,7 @@ const references: Ref<TextLink[]> = computed(() => {
 
     <ColumnView class="gap-6" :count="matchingQuotes.length">
       <div v-for="(quote, idx) in matchingQuotes" :key="idx" class="inline-block mb-6">
-        <StyledCard>
+        <StyledCard :disable-hover="true">
           <div class="p-4">
             <QuoteText :quote="quote" />
           </div>

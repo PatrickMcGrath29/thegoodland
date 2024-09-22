@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  experimental: {
+    buildCache: true,
+  },
+
   runtimeConfig: {
     public: {
       baseUrl: process.env.URL || 'http://localhost:3000',
