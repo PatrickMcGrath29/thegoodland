@@ -23,3 +23,9 @@ export function useColumnSettings(numElements: number) {
   else
     return 'columns-md'
 }
+
+export function dayOfYear() {
+  return Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000,
+  )
+}

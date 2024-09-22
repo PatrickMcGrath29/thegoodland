@@ -98,3 +98,9 @@ export function hydrateQuotes(rawQuotes: RawQuote[], rawReferences: RawReference
     return buildQuote(quote, reference)
   })
 }
+
+export function getHighlightedQuote(quotes: Ref<Quote[]>) {
+  const higlightedQuoteIdx = dayOfYear() % quotes.value.length
+
+  return quotes.value[higlightedQuoteIdx]
+}

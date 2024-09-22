@@ -7,6 +7,10 @@ const quotes = data as Ref<Quote[]>
 const searchBarValue: Ref<string> = ref('')
 const throttledSearchBarValue = refThrottled(searchBarValue, 250)
 
+const highlightedQuote = computed(() => {
+  return getHighlightedQuote(quotes)
+})
+
 const matchingQuotes = computed(() => {
   if (throttledSearchBarValue.value === '')
     return quotes.value
@@ -69,16 +73,21 @@ const references: Ref<TextLink[]> = computed(() => {
   <Container>
     <QuoteHeader heading="All Quotes" />
 
-    <div class="mb-4 flex flex-wrap gap-3">
-      <ContentOverlayPanel
-        button-text="Authors"
-        :content-records="authors"
-      />
+    <StyledCard class="my-10">
+      <div class="p-8">
+        <h1 class="text-2xl mb-7 text-center font-semibold">
+          Quote of the Day
+        </h1>
+        <ClientOnly>
+          <QuoteText :quote="highlightedQuote" />
+        </ClientOnly>
+      </div>
+    </StyledCard>
 
-      <ContentOverlayPanel
-        button-text="Literature"
-        :content-records="references"
-      />
+    <div class="mb-10 flex flex-wrap gap-3">
+      <ContentOverlayPanel button-text="Authors" :content-records="authors" />
+
+      <ContentOverlayPanel button-text="Literature" :content-records="references" />
 
       <div class="w-full sm:max-w-96">
         <label class="input input-bordered flex items-center gap-2">
@@ -90,7 +99,7 @@ const references: Ref<TextLink[]> = computed(() => {
 
     <ColumnView class="gap-6" :count="matchingQuotes.length">
       <div v-for="(quote, idx) in matchingQuotes" :key="idx" class="inline-block mb-6">
-        <StyledCard :disable-hover="true">
+        <StyledCard>
           <div class="p-4">
             <QuoteText :quote="quote" />
           </div>
