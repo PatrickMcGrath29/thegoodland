@@ -24,7 +24,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <div class="my-8 text-neutral-400 font-medium text-sm">
+    <div class="my-8 text-neutral-400 font-medium text-sm text-center md:text-left">
       <NuxtLink to="/quotes" class="hover:text-accent hover:text-opacity-70">
         Quotes
       </NuxtLink>
