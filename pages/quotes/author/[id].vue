@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { BreadCrumb, Quote } from '~/types'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
@@ -14,6 +14,13 @@ const quotesForAuthor = computed(() => {
 
 const author = computed(() => quotesForAuthor.value[0]?.reference?.authorName)
 
+const breadCrumbs = computed(() => {
+  return [
+    { text: 'Quotes', link: '/quotes' },
+    { text: author.value },
+  ] as BreadCrumb[]
+})
+
 useSeoMeta({
   title: `${author.value} Quotes`,
   description: `Quotes by ${author.value}`,
@@ -23,7 +30,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <QuoteHeader :heading="author" />
+    <QuoteHeader :heading="(author as string)" :bread-crumbs="breadCrumbs" />
 
     <ColumnView class="gap-6" :count="quotesForAuthor.length">
       <div v-for="(quote, idx) in quotesForAuthor" :key="idx" class="inline-block mb-6">

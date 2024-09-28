@@ -58,3 +58,8 @@ export interface TextLink {
   text: string
   link: string
 }
+
+export interface BreadCrumb {
+  text: string
+  link?: string
+}
