@@ -12,18 +12,33 @@ const quotesForReference = computed(() => {
   })
 })
 
-const reference = computed(() => quotesForReference.value[0]?.reference?.referenceName)
+const reference = computed(() => quotesForReference.value[0]?.reference)
+const title = computed(() => `${reference.value?.referenceName} Quotes by ${reference.value?.authorName}`)
 
 useSeoMeta({
-  title: `${reference.value} Quotes`,
-  description: `Quotes from ${reference.value}`,
-  ogDescription: `Quotes from ${reference.value}`,
+  title,
+  description: title,
+  ogDescription: title,
 })
 </script>
 
 <template>
   <Container>
-    <QuoteHeader :heading="reference" />
+    <div class="my-8 text-neutral-400 font-medium text-sm">
+      <NuxtLink to="/quotes" class="hover:text-accent hover:text-opacity-70">
+        Quotes
+      </NuxtLink>
+      <span class="mx-2 text-neutral-700">/</span>
+      <NuxtLink :to="`/quotes/author/${reference?.authorSlug}`" class="hover:text-accent hover:text-opacity-70">
+        {{ reference?.authorName }}
+      </NuxtLink>
+      <span class="mx-2 text-neutral-700">/</span>
+      <span class="text-neutral-500">
+        {{ reference?.referenceName }}
+      </span>
+    </div>
+
+    <QuoteHeader :heading="reference?.referenceName" with-bread-crumbs />
 
     <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">
