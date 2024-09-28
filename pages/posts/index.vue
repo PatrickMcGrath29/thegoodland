@@ -4,6 +4,7 @@ const { data: posts } = await useAsyncData('allPosts', () => useBlogPosts())
 const description = 'Blog posts that highlight the richness of life found in Jesus Christ.'
 
 useSeoMeta({
+  title: 'The Good Land Blog — Posts',
   description,
   ogDescription: description,
 })

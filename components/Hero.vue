@@ -11,7 +11,7 @@ defineProps<{ featuredPost: Post }>()
         <div class="text-5xl font-semibold text-pretty">
           For the Lord your God is bringing you into a good land.
         </div>
-        <div class="text-2xl mt-3">
+        <div class="text-xl mt-3 font-medium text-neutral-400">
           Deuteronomy 8:7
         </div>
 

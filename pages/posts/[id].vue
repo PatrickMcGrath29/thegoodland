@@ -20,9 +20,16 @@ const postSeoDescripton = computed(() => {
   return smartEllipsis(post.value.summary, 160)
 })
 
+const title = computed(() => {
+  if (post.value.author)
+    return `${post.value.title} by ${post.value.author}`
+
+  return post.value.title
+})
+
 useSeoMeta({
-  title: post.value.title,
-  ogTitle: post.value.title,
+  title,
+  ogTitle: title,
   description: postSeoDescripton,
   ogDescription: postSeoDescripton,
   ogImage: post.value.featuredImage && useSeoImage(post.value.featuredImage),
@@ -30,7 +37,7 @@ useSeoMeta({
 
 useSchemaOrg([
   defineArticle({
-    headline: post.value.title,
+    headline: title,
     datePublished: post.value.createdDate.toISOString(),
     image: post.value.featuredImage,
     author: post.value.author && {

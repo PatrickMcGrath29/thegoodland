@@ -67,6 +67,10 @@ const references: Ref<TextLink[]> = computed(() => {
 
   return Array.from(referenceLinks).sort().map((link => JSON.parse(link)))
 })
+
+useSeoMeta({
+  title: 'The Good Land — Quotes',
+})
 </script>
 
 <template>
