@@ -14,6 +14,7 @@ useSeoMeta({
 
 <template>
   <div tabindex="0">
+    <NuxtLoadingIndicator color="#ffbf00" :height="1" />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
