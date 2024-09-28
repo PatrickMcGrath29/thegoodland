@@ -77,7 +77,7 @@ useSeoMeta({
   <Container>
     <QuoteHeader heading="All Quotes" />
 
-    <StyledCard class="my-10">
+    <StyledCard class="my-10" highlighted-state="active">
       <div class="p-4 md:p-8">
         <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
