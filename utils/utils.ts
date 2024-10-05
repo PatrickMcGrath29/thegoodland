@@ -104,3 +104,20 @@ export function getHighlightedQuote(quotes: Ref<Quote[]>) {
 
   return quotes.value[higlightedQuoteIdx]
 }
+
+export function normalizeInput(input: string | undefined): string {
+  if (!input)
+    return ''
+
+  return input.toLowerCase().replace('.', '')
+}
+
+export function formatDate(dateValue: Date) {
+  return dateValue.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+}
+
+export function dayOfYear() {
+  return Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000,
+  )
+}

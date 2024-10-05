@@ -31,7 +31,7 @@ const postPath = `/posts/${props.post.slug}`
         </p>
         <div class="mt-5 flex-grow flex flex-col justify-end">
           <div class="font-bold text-xs text-neutral-500 mb-1 uppercase">
-            {{ useFormattedDate(post.createdDate) }}
+            {{ formatDate(post.createdDate) }}
           </div>
           <div v-if="post.author" class="text-sm font-semibold ">
             by {{ post.author }}

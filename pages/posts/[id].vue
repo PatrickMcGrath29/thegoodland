@@ -10,7 +10,7 @@ const post = postData.data as Ref<Post>
 const { data: collectionData } = await useAsyncData(`collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
 
 const postCreatedDate = computed(() => {
-  return useFormattedDate(post.value.createdDate)
+  return formatDate(post.value.createdDate)
 })
 
 const postSeoDescripton = computed(() => {

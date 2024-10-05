@@ -16,8 +16,11 @@ const matchingQuotes = computed(() => {
     return quotes.value
 
   return quotes.value.filter((quote) => {
-    const search = throttledSearchBarValue.value.toLowerCase()
-    return quote.text.toLowerCase().includes(search)
+    return [
+      normalizeInput(quote.text),
+      normalizeInput(quote.reference?.authorName),
+      normalizeInput(quote.reference?.referenceName),
+    ].filter(Boolean).some(text => text.includes(normalizeInput(throttledSearchBarValue.value)))
   })
 })
 

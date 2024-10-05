@@ -13,19 +13,9 @@ export function useSeoImage(imagePath: string | null) {
   return new URL(formattedImagePath, baseUrl).toString()
 }
 
-export function useFormattedDate(dateValue: Date) {
-  return dateValue.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
-}
-
 export function useColumnSettings(numElements: number) {
   if (numElements < 3)
     return 'columns-1'
   else
     return 'columns-md'
-}
-
-export function dayOfYear() {
-  return Math.floor(
-    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000,
-  )
 }

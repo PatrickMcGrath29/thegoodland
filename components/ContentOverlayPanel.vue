@@ -8,10 +8,6 @@ const { buttonText, contentRecords } = defineProps<{
 
 const inputFilter: Ref<string> = ref('')
 
-function normalizeInput(input: string) {
-  return input.toLowerCase().replace('.', '')
-}
-
 const filteredContentRecords = computed(() => {
   return contentRecords.filter((record) => {
     return normalizeInput(record.text).includes(normalizeInput(inputFilter.value))
