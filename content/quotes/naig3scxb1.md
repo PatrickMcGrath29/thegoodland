@@ -4,7 +4,7 @@ text: >-
   I have to learn to persevere in the race He has set before me, drawing my
   strength only from Him. and not relying at all on what I may consider any
   natural abilities I may have. I have to let God take from me even that
-  strength which i thought I had in order that He may more fully reveal His own
+  strength which I thought I had in order that He may more fully reveal His own
   strength: in order that He may continue in me the work of conforming me to the
   image of His Son.
 
@@ -18,7 +18,7 @@ text: >-
   I long to be kept by God in an attitude of willing surrender so that He can go on to perfect that which concerns me; so that He can go on stripping and whittling and sandpapering until He is content with the new arrow He is creating.
 
 
-  Crucifixion the death-to-self life, must surely be seen by us all as costly, but the abundant life that He wishes to bestow on each can only be seen as unutterable privilege. 
+  Crucifixion, the death-to-self life, must surely be seen by us all as costly, but the abundant life that He wishes to bestow on each can only be seen as unutterable privilege. 
 
 
   "For our light affliction, which is but for a moment, is working for us a far more exceeding and eternal weight of glory" (2 Corinthians 4:17).
