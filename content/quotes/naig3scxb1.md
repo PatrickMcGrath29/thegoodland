@@ -2,7 +2,7 @@
 uuid: naig3scxb1
 text: >-
   I have to learn to persevere in the race He has set before me, drawing my
-  strength only from Him. and not relying at all on what I may consider any
+  strength only from Him, and not relying at all on what I may consider any
   natural abilities I may have. I have to let God take from me even that
   strength which I thought I had in order that He may more fully reveal His own
   strength: in order that He may continue in me the work of conforming me to the
