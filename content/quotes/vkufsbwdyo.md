@@ -16,5 +16,6 @@ text: >-
 referenceId: plga_dlwf0
 categories:
   - Conformity to Christ
+  - Salvation
 link: https://www.blueletterbible.org/Comm/chafer_lewis_sperry/salvation/salv11.cfm
 ---
