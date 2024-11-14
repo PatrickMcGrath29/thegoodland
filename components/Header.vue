@@ -3,8 +3,8 @@
     <Container>
       <div class="navbar bg-base-300 rounded-lg shadow-md">
         <div class="navbar-start">
-          <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center">
-            <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
+          <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center hover:bg-neutral-800">
+            <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-800 p-1.5 rounded-md" />
             The Good Land
           </NuxtLink>
         </div>
