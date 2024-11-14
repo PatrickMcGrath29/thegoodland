@@ -56,6 +56,7 @@ export interface Reference {
 
 export interface TextLink {
   text: string
+  textSubtitle?: string
   link: string
 }
 

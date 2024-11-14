@@ -60,6 +60,7 @@ const references: Ref<TextLink[]> = computed(() => {
         const slug = referenceSlug(reference.authorName, reference.referenceName as string)
         const link: TextLink = {
           text: reference.referenceName as string,
+          textSubtitle: reference.authorName ? `by ${reference.authorName}` : undefined,
           link: `/quotes/reference/${slug}`,
         }
 
