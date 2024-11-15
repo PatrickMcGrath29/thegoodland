@@ -11,4 +11,7 @@ text: >-
 
   So often I seem to have to learn lessons over and over again. Yet God is so graciously willing to go on teaching, so patiently waiting to fill and overflow with His daily enabling by His indwelling Holy Spirit.
 referenceId: cxwlhx7gsj
+categories:
+  - Weakness
+  - The Cross
 ---
