@@ -16,5 +16,7 @@ text: >-
 
   The ultimate value of everything is not the information which we give, not the amount of work that we do, not the measure of truth that we possess, but just the fact that we know the Lord in a deep and mighty way. This is the on thing that will remain when all else passes.
 referenceId: haqpdi64-d
-categories: []
+categories:
+  - Knowing the Lord
+  - Service
 ---
