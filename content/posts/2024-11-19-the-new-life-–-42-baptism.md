@@ -15,7 +15,7 @@ slug: the-new-life-42-baptism
 
 We find the meaning of the institution of baptism summarized in these words. The word “teach” means, “make disciples of all the nations, baptizing them.” The believing disciple, as he is baptized in the water, is also to be baptized or introduced into the name of the triune God.
 
-By the name of the Father, the new birth and life as a child in the love of the Father are secured to him. :tooltip{text="references (1)" content="Gal. 3:26,27; 4:67"} By the name of the Son, participation in the forgiveness of sins and the life that is in Christ are promised to him.:tooltip{text="references (2)" content=" Col. 2:12"} By the name of the Holy Spirit, the indwelling and progressive renewal of the Spirit are assured him.:tooltip{text="references (3)" content=" Tit. 3:5,6"} And every baptized believer must always look upon baptism as his entrance into a covenant with the triune God, and as a pledge that the Father, the Son, and the Spirit will, in course of time, do for him all that they have promised. It requires a lifelong study to know and enjoy all the blessing that is presented in baptism.
+By the name of the Father, the new birth and life as a child in the love of the Father are secured to him. :tooltip{text="references (1)" content="Gal. 3:26,27; 4:67"} By the name of the Son, participation in the forgiveness of sins and the life that is in Christ are promised to him. :tooltip{text="references (2)" content=" Col. 2:12"} By the name of the Holy Spirit, the indwelling and progressive renewal of the Spirit are assured him. :tooltip{text="references (3)" content=" Tit. 3:5,6"} And every baptized believer must always look upon baptism as his entrance into a covenant with the triune God, and as a pledge that the Father, the Son, and the Spirit will, in course of time, do for him all that they have promised. It requires a lifelong study to know and enjoy all the blessing that is presented in baptism.
 
 In other passages of Scripture, the blessing is again set forth. We find bound up with it the new birth required to make a child of God. “Except a man be born of water and the Spirit, he cannot enter into the Kingdom of God” (John 3:5). The baptized disciple has in God a Father, and he has to live as a child in the love of this Father. :tooltip{text="references (4)" content=" John 3:3"}
 
@@ -29,9 +29,13 @@ The believing candidate for baptism is baptized into the death of Christ and has
 
 And all this rich blessing which lies in baptism is received by faith. “He that believeth, and is baptized, shall be saved.” Baptism was not only a confession on man's part of the faith that he already had, but equally a seal on God's part for the confirmation of faith — a covenant sign in which the whole treasury of grace lay open, to be enjoyed throughout life. As often as a baptized believer sees a baptism administered, or reflects on it, it is to be to him an encouragement to press, by an ever-growing faith, into the full life of salvation that the triune God desires to work in him. The Holy Spirit is given to appropriate within us all the love of the Father and all the grace of the Son. The believing candidate for baptism is baptized into the death of Christ and has put on Christ. The Holy Spirit is in the disciple to give him all this as his daily experience. :tooltip{text="references (7)" content=" John 16:13,14; Eph. 4:14,15; Col. 2:6"}
 
+
+
 > Lord God, make Your holy baptism always operative in my soul as the experience that I am baptized into the death of Christ. And let Your people everywhere understand by Your Spirit what rich blessing lies in this baptism. Amen.
->
-> ### References
+
+ 
+
+### References
 
 1. Gal. 3:26,27; 4:67
 2. Col. 2:12
