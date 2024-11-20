@@ -38,5 +38,6 @@ posts:
   - post: the-new-life-14-holiness
   - post: the-new-life-15-righteousness
   - post: the-new-life-16-love
+  - post: the-new-life-42-baptism
 featuredImage: /uploads/hero.jpg
 ---
