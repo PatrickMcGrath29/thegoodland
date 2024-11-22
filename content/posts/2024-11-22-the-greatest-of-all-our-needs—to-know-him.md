@@ -2,14 +2,15 @@
 slugFields:
   - createdDate
   - title
+uuid: urrt6ib_tq
 title: The Greatest of All Our Needs—to Know Him
+isBlogPost: true
+author: T. Austin-Sparks
 summary: It is of the greatest importance for the Lord's children to recognize
   fully that, above all other things, His object is that they should know Him.
   This is the all-governing end of all His dealings with us. This is the
   greatest of all our needs.
 slug: 2024-11-22-the-greatest-of-all-our-needsto-know-him
-uuid: urrt6ib_tq
-isBlogPost: true
 featuredImage: /uploads/sixteen-miles-out-ki3hr9t8t7a-unsplash.jpg
 createdDate: 2024-11-22
 ---
