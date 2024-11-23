@@ -11,7 +11,7 @@ summary: It is of the greatest importance for the Lord's children to recognize
   This is the all-governing end of all His dealings with us. This is the
   greatest of all our needs.
 slug: 2024-11-22-the-greatest-of-all-our-needsto-know-him
-featuredImage: /uploads/sixteen-miles-out-ki3hr9t8t7a-unsplash.jpg
+featuredImage: /uploads/knowing_him.jpg
 createdDate: 2024-11-22
 ---
 > "Jesus said to him, “Have I been with you so long, and yet you have not known Me...?"\
