@@ -66,9 +66,12 @@ const postElementRef = ref<HTMLElement>()
           <h1 class="text-4xl font-semibold">
             {{ post.title }}
           </h1>
-          <div v-if="post.author || post.createdDate" class="mt-2 flex gap-x-5 gap-y-2 flex-wrap">
-            <PostDetail v-if="post.author" icon-name="mdi:account" :text="post.author" />
-            <PostDetail v-if="post.isBlogPost && post.createdDate" icon-name="mdi:calendar" :text="postCreatedDate" />
+          <div v-if="post.author || post.createdDate" class="mt-3 flex gap-x-5 gap-y-2 flex-wrap">
+            <PostDetail v-if="post.author" icon-name="ph:user-duotone" :text="post.author" />
+            <PostDetail
+              v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
+              :text="postCreatedDate"
+            />
           </div>
         </div>
 

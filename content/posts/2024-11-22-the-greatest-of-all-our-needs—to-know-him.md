@@ -10,7 +10,7 @@ summary: It is of the greatest importance for the Lord's children to recognize
   fully that, above all other things, His object is that they should know Him.
   This is the all-governing end of all His dealings with us. This is the
   greatest of all our needs.
-slug: 2024-11-22-the-greatest-of-all-our-needsto-know-him
+slug: 2024-11-22-the-greatest-of-all-our-needs-to-know-him
 featuredImage: /uploads/knowing_him.jpg
 createdDate: 2024-11-22
 ---
@@ -25,7 +25,7 @@ Our minds are so often occupied with service and work; we think that doing thing
 Back of everything that the Lord is more concerned about our knowing Him than about anything else.
 ::
 
-All well and good, for these are important matters; but, back of everything that the Lord is more concerned about our knowing Him than about anything else. It is very possible to have a wonderful grasp on the Scriptures, a comprehensive and intimate familiarity with doctrine; to stand for cardinal verities of the faith; to be an unceasing worker in Christian service; to have a great devotion of the salvation of men, and yet, alas, to have a very inadequate and limited personal knowledge of God within. So often the Lord has to take away our work that we may discover Him. 
+All well and good, for these are important matters; but, back of everything that the Lord is more concerned about our knowing Him than about anything else. It is very possible to have a wonderful grasp on the Scriptures, a comprehensive and intimate familiarity with doctrine; to stand for cardinal verities of the faith; to be an unceasing worker in Christian service; to have a great devotion of the salvation of men, and yet, alas, to have a very inadequate and limited personal knowledge of God within. So often the Lord has to take away our work that we may discover Him.
 
 The ultimate value of everything is not the information which we give, not the amount of work that we do, not the measure of truth that we possess, but just the fact that we know the Lord in a deep and mighty way.
 
@@ -33,7 +33,7 @@ This is the one thing that will remain when all else passes. It is this that wil
 
 We want instructions and commands, the Lord wants us to have a "mind." "Have this mind in you," (Phil 2:5) "We have the mind of Christ" (1 Cor 2:16). Christ has a consciousness, and by the Holy Spirit He would give and develop in us that consciousness. The inspired statement is that "His anointing teaches you concerning all things" (1 John 2:27). We are not servants, we are sons. Commands—as such—are for servants, and mind is for sons.
 
-There is an appalling state of things amongst the Lord's people today. So many of them have their life almost entirely in that which is external to themselves—in their counsel and guidance, their sustenance and support, their guidance, their means of grace. Personal, inward, spiritual intelligence is a very rare thing. No wonder that the enemy has such a successful line in delusions, counterfeits, and false representations. Our greatest safeguard against such will be a deep knowledge of the Lord through discipline. 
+There is an appalling state of things amongst the Lord's people today. So many of them have their life almost entirely in that which is external to themselves—in their counsel and guidance, their sustenance and support, their guidance, their means of grace. Personal, inward, spiritual intelligence is a very rare thing. No wonder that the enemy has such a successful line in delusions, counterfeits, and false representations. Our greatest safeguard against such will be a deep knowledge of the Lord through discipline.
 
 Immediately it is things that we reach out for: e.g., experiences, sensations, "proofs," evidences, manifestations, and so on, we become exposed in a perilous realm where Satan can give a false conversion, a false "baptism of the Spirit"(?), a false evidence and guidance such as is found in spiritualism.
 
