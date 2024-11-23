@@ -25,7 +25,7 @@ All well and good, for these are important matters; but, back of everything that
 
 The ultimate value of everything is not the information which we give, not the amount of work that we do, not the measure of truth that we possess, but just the fact that we know the Lord in a deep and mighty way.
 
-This is the on thing that will remain when all else passes. It is this that will make for the permanence of our ministry after we are gone. While we may help others in many ways and by many means so far as their earthly life is concerned, our real service to them is based upon our knowledge of the Lord.
+This is the one thing that will remain when all else passes. It is this that will make for the permanence of our ministry after we are gone. While we may help others in many ways and by many means so far as their earthly life is concerned, our real service to them is based upon our knowledge of the Lord.
 
 ::pullquote
 The greatest of the problems of the Christian life is the problem of guidance.
@@ -37,7 +37,7 @@ There is an appalling state of things amongst the Lord's people today. So many o
 
 Immediately it is things that we reach out for: e.g., experiences, sensations, "proofs," evidences, manifestations, and so on, we become exposed in a perilous realm where Satan can give a false conversion, a false 'baptism of the Spirit'(?), a false evidence and guidance such as is found in spiritualism.
 
-To know the Lord in a real way means steadfastness when others are being carried away—steadfastness through times of fiery trial. Those who know the Lord do not put forth their own hand and try to bring things about. Such are full of love and patience, and do not lose their pose when everything seems to be going to pieces. Confidence is an essential and inevitable fruit of this knowledge, and in those who know Him there is a quiet restful strength which speaks of a great depth of life.
+To know the Lord in a real way means steadfastness when others are being carried away—steadfastness through times of fiery trial. Those who know the Lord do not put forth their own hand and try to bring things about. Such are full of love and patience, and do not lose their poise when everything seems to be going to pieces. Confidence is an essential and inevitable fruit of this knowledge, and in those who know Him there is a quiet restful strength which speaks of a great depth of life.
 
 To close let me point out that in Christ "are all the treasures of wisdom and knowledge hidden," and the Lord's will for us is to come to an ever-growing realization and personal appreciation of Him in Whom all the fullness dwells.
 
