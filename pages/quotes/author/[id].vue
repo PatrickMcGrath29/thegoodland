@@ -14,6 +14,13 @@ const quotesForAuthor = computed(() => {
 
 const author = computed(() => quotesForAuthor.value[0]?.reference?.authorName)
 
+const breadCrumbs = computed(() => {
+  return [
+    { text: 'Quotes', link: '/quotes' },
+    { text: author.value },
+  ] as BreadCrumb[]
+})
+
 const references = computed(() => {
   const referenceIds: string[] = []
   const references = []
@@ -39,17 +46,23 @@ useSeoMeta({
   <Container>
     <QuoteHeader :heading="(author as string)" :bread-crumbs="breadCrumbs" />
 
-    <div v-if="references.length > 1" class="flex overflow-auto gap-3 pb-3 mb-3">
-      <StyledCard v-for="(reference, idx) in references" :key="idx" :scale="false">
-        <NuxtLink
-          :to="`/quotes/reference/${reference.referenceSlug}`"
-          class="whitespace-nowrap max-w-60 flex px-3 py-2"
-        >
-          <span class="text-ellipsis overflow-hidden text-sm">
-            {{ reference.referenceName }}
-          </span>
-        </NuxtLink>
-      </StyledCard>
+    <div v-if="references.length > 1">
+      <div class="flex items-center gap-2 mb-3">
+        <Icon name="ph:list-magnifying-glass" size="20px" class="align-middle text-neutral-500" />
+        <span class="text-sm font-semibold">Filter by Book</span>
+      </div>
+      <div class="flex overflow-auto gap-3 pb-3 mb-3">
+        <StyledCard v-for="(reference, idx) in references" :key="idx" :scale="false">
+          <NuxtLink
+            :to="`/quotes/reference/${reference.referenceSlug}`"
+            class="whitespace-nowrap max-w-60 flex px-3 py-2"
+          >
+            <span class="text-ellipsis overflow-hidden text-sm">
+              {{ reference.referenceName }}
+            </span>
+          </NuxtLink>
+        </StyledCard>
+      </div>
     </div>
 
     <ColumnView class="gap-6" :count="quotesForAuthor.length">
