@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { highlightedState = 'hover' } = defineProps<{ highlightedState?: 'active' | 'disabled' | 'hover' }>()
+const { highlightedState = 'hover', scale = true } = defineProps<{ highlightedState?: 'active' | 'disabled' | 'hover', scale?: boolean }>()
 </script>
 
 <template>
@@ -15,8 +15,14 @@ const { highlightedState = 'hover' } = defineProps<{ highlightedState?: 'active'
   </div>
 
   <div
-    v-else-if="highlightedState === 'hover'"
+    v-else-if="highlightedState === 'hover' && scale"
     class="bg-base-200 border border-base-300 rounded hover:shadow-lg hover:border-accent hover:border-opacity-20 hover:scale-[1.01] transition-all duration-300"
+  >
+    <slot />
+  </div>
+  <div
+    v-else-if="highlightedState === 'hover'"
+    class="bg-base-200 border border-base-300 rounded hover:shadow-lg hover:border-accent hover:border-opacity-20 transition-all duration-300"
   >
     <slot />
   </div>
