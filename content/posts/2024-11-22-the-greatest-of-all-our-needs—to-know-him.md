@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: urrt6ib_tq
-title: The Greatest of All Our Needs—to Know Him
+title: The Greatest of All Our Needs — to Know Him
 isBlogPost: true
 author: T. Austin-Sparks
 summary: It is of the greatest importance for the Lord's children to recognize
