@@ -13,11 +13,13 @@ featuredImage: /uploads/entering_in.jpg
 createdDate: 2024-11-24
 ---
 > “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’"
+>
 > — Matthew 25:6
 
 
 
-> "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’"
+> "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’
+>
 > — Matthew 25:23
 
 By putting these two verses together, we arrive at the topic at hand—entering into the joy of the Lord, our Bridegroom. Our Lord Jesus is the Bridegroom, and as it says in Matthew 25:6, we live in expectation of His return for His bride, the Church. At the beginning of the Lord Jesus’ ministry, John the Baptist testified, “‘I am not the Christ,’ but, ‘I have been sent before Him.’ He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices greatly because of the bridegroom’s voice. Therefore, this joy of mine is fulfilled” (John 3:28–29). John the Baptist knew that the Lord Jesus is the Bridegroom, who came to give His life to redeem and purify His bride (Titus 2:13–14). With that knowledge, his heart greatly rejoiced!
@@ -35,6 +37,7 @@ The Lord's joy is wrapped up in His great purpose, which has been unfolding sinc
 The Bible begins and ends with a marriage. It starts with the marriage between Adam and Eve, which itself typifies the marriage between Christ and the Church, and ends with the marriage supper of the Lamb—the marriage between Christ and the Church, where the bride is made ready to be joined to the Lord Jesus. Marriage is the ultimate picture of the union between two parties. In the Bible, we see the great desire of God to be one with His people.
 
 > "Let us be glad and rejoice and give Him glory, for the marriage of the Lamb has come, and His wife has made herself ready.”
+>
 > — Revelation 19:7
 
 The joy of the Lord is His people—His bride. In Hebrews 12:2, it says that it was for this joy that He endured the cross. He went through death on the cross, knowing that through His sacrifice, He was opening a way of redemption and salvation for mankind. Through His death, He knew He was forming a bride for Himself—a holy people set apart for Him. It was this deep-rooted joy that led Him through torment beyond our comprehension. The joy of the Lord is at its very heart is a selfless, self-sacrificial love for mankind, whom He is forming into His church, His bride.
@@ -54,11 +57,10 @@ We also see this reality in the life of the elder son who remained in his father
 While all of this was going on, the father held hope in his heart that one day his son would return home. He would look in the distance, hoping that one day he would see his son on the horizon. When the son finally returned, the father saw him from far off and ran to embrace him. He put a robe on him, a ring on his finger, and sandals on his feet. He had his servants slaughter the fatted calf, for it was cause to celebrate.
 
 > "But the father said to his servants, ‘Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet. And bring the fatted calf here and kill it, and let us eat and be merry; for this my son was dead and is alive again; he was lost and is found.’ And they began to be merry.”
+>
 > — Luke 15:22–24
 
-
-
-> There was great joy in the father’s heart, but the elder son who remained in the house was unable to enter into his father’s joy. He had no pleasure that his brother, who was lost, had returned home. When the father recognized him to be missing from the celebration, he went to him and pleaded with him. The son was bitter in his heart. The son complained that the father had never given him a goat so that he could be merry with his friends. But the father responded, “Son, you are always with me, and all that I have is yours. It was right that we should make merry and be glad, for your brother was dead and is alive again, and was lost and is found” (Luke 15:31–32).
+There was great joy in the father’s heart, but the elder son who remained in the house was unable to enter into his father’s joy. He had no pleasure that his brother, who was lost, had returned home. When the father recognized him to be missing from the celebration, he went to him and pleaded with him. The son was bitter in his heart. The son complained that the father had never given him a goat so that he could be merry with his friends. But the father responded, “Son, you are always with me, and all that I have is yours. It was right that we should make merry and be glad, for your brother was dead and is alive again, and was lost and is found” (Luke 15:31–32).
 
 It seems as though this elder son didn’t really care for the things that were in his fathers heart. Surely the elder son would have seen the pain that the departure of the younger son had caused him. The elder son was living alongside his father for the entirety of the time when his younger brother was living waywardly. It seems as though the elder son would have known his father’s burden, but it just meant nothing to him—he was instead so focused on himself. What a great loss here, that this elder son, who was living in his father’s household, didn’t really know the heart of the father. He was a stranger to the burdens in his father’s heart.
 
