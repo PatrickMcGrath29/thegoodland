@@ -9,12 +9,14 @@ summary: If we want to live a full and victorious life in Christ, in this age so
 slug: 2024-11-24-entering-into-the-joy-of-the-lord-our-bridegroom
 uuid: 6ebvibn_mn
 isBlogPost: true
-featuredImage: /uploads/entering_in-1-.jpg
+featuredImage: /uploads/entering_in.jpg
 createdDate: 2024-11-24
 ---
 > “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’"
 > — Matthew 25:6
->
+
+
+
 > "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’"
 > — Matthew 25:23
 
@@ -45,7 +47,7 @@ If we want to enter into His joy, we must know what His joy is. Oh Lord, may You
 
 Entering into His joy is only possible through the inward transformation of our hearts. Humanity, in its fallen nature, is selfish. The Lord, on the other hand, is the opposite—His love for mankind is self-sacrificing, demonstrated in His death on the cross on our behalf. Apart from the transforming work of Christ our hearts are selfishly oriented toward ourselves, and we won’t be able to see the joy that comes from the salvation of the lost. We will have no pleasure in being brought low, so that Christ may be lifted up. This is why our selfish nature must be stripped away, if we are to enter into the joy of the Lord. There is a crucial work that the Lord must do in our hearts—a work of transformation in our inner being. The Lord shows us the cross, with a call to die to ourselves, and through this process, He performs a work of transformation in us.
 
-We see this wonderful transformation in the Song of Songs. This book is widely known among those who study the Bible to be a picture of the relationship between Christ and the Church. Initially, the Shulamite, who represents the Church, is primarily concerned with what she is getting out of her relationship with Solomon. In Song of Songs 2:16 it says, “My beloved is mine, and I am his.” She is primarily concerned with her feelings and her benefit—"My beloved is mine." After some time and through various trials that brought her closer to Solomon, her words changed to, “I am my beloved’s, and my beloved is mine” (Song of Songs 6:3). Now, "my beloved is mine" comes second to "I am His." She is less concerned with what she is getting and more focused on giving herself to Solomon. But there is still some concern for herself. Finally, her words change to, “I am my beloved’s, and his desire is toward me” (Song of Songs 7:10). She is no longer concerned with herself or what she is receiving, but is instead entirely focused on the Lord and His desires. The Lord takes every true Christian through a process of transformation, leading us out of our selfish, self-centered ways. And in its place He imparts to us a new nature, one after His own heart.
+We see this wonderful transformation in the Song of Songs. This book is widely known among those who study the Bible to be a picture of the relationship between Christ and the Church. Initially, the Shulamite, who represents the Church, is primarily concerned with what she is getting out of her relationship with Solomon. In Song of Songs 2:16 it says, “My beloved is mine, and I am his.” She is primarily concerned with her feelings and her benefit—"My beloved is mine." After some time and through various trials that brought her closer to Solomon, her words changed to, “I am my beloved’s, and my beloved is mine” (Song of Songs 6:3). Now, "my beloved is mine" comes second to "I am His." She is less concerned with what she is getting and more focused on giving herself to Solomon. But there is still some concern for herself. Finally, her words change to, “I am my beloved’s, and his desire is toward me” (Song of Songs 7:10). She is no longer concerned with herself or what she is receiving, but is insead entirely focused on the Lord and His desires. The Lord takes every true Christian through a process of transformation, leading us out of our selfish, self-centered ways. And in its place He imparts to us a new nature, one after His own heart.
 
 We also see this reality in the life of the elder son who remained in his father’s house, in the parable of the prodigal son. In this parable, the younger son said to his father that he wanted his share of the inheritance now. What the younger son was really saying was that all his father was good to him for was his inheritance, and that it was taking too long for him to pass away, so he wanted it now. This younger son took his share of the inheritance and squandered it utterly, losing everything. He found himself without any possessions, hungering, and eating food intended for animals. The younger son remembered that even the servants in his father’s house had an abundance, and so he decided to return to his father and ask to be accepted back as a servant.
 
@@ -53,7 +55,9 @@ While all of this was going on, the father held hope in his heart that one day h
 
 > "But the father said to his servants, ‘Bring out the best robe and put it on him, and put a ring on his hand and sandals on his feet. And bring the fatted calf here and kill it, and let us eat and be merry; for this my son was dead and is alive again; he was lost and is found.’ And they began to be merry.”
 > — Luke 15:22–24
->
+
+
+
 > There was great joy in the father’s heart, but the elder son who remained in the house was unable to enter into his father’s joy. He had no pleasure that his brother, who was lost, had returned home. When the father recognized him to be missing from the celebration, he went to him and pleaded with him. The son was bitter in his heart. The son complained that the father had never given him a goat so that he could be merry with his friends. But the father responded, “Son, you are always with me, and all that I have is yours. It was right that we should make merry and be glad, for your brother was dead and is alive again, and was lost and is found” (Luke 15:31–32).
 
 It seems as though this elder son didn’t really care for the things that were in his fathers heart. Surely the elder son would have seen the pain that the departure of the younger son had caused him. The elder son was living alongside his father for the entirety of the time when his younger brother was living waywardly. It seems as though the elder son would have known his father’s burden, but it just meant nothing to him—he was instead so focused on himself. What a great loss here, that this elder son, who was living in his father’s household, didn’t really know the heart of the father. He was a stranger to the burdens in his father’s heart.
