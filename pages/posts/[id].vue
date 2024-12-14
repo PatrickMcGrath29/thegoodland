@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import PostDetail from '~/components/PostDetail.vue'
 import type { Post } from '~/types'
+import PostDetail from '~/components/PostDetail.vue'
 
 const { params: { id: slug } } = useRoute()
 

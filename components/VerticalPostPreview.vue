@@ -30,11 +30,11 @@ const postPath = `/posts/${props.post.slug}`
           {{ smartEllipsis(post.summary, 220) }}
         </p>
         <div class="mt-5 flex-grow flex flex-col justify-end">
-          <div class="font-bold text-xs text-neutral-500 mb-1 uppercase">
-            {{ formatDate(post.createdDate) }}
-          </div>
-          <div v-if="post.author" class="text-sm font-semibold ">
+          <div v-if="post.author" class="text-sm font-bold mb-1">
             by {{ post.author }}
+          </div>
+          <div class="font-bold text-xs text-neutral-500 uppercase">
+            {{ formatDate(post.createdDate) }}
           </div>
         </div>
       </div>
