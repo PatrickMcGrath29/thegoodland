@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import PostDetail from '~/components/PostDetail.vue'
 import type { Post } from '~/types'
+import PostDetail from '~/components/PostDetail.vue'
 
 const { params: { id: slug } } = useRoute()
 
@@ -59,6 +59,16 @@ const postElementRef = ref<HTMLElement>()
         />
       </div>
     </Container>
+
+    <!-- <div v-if="post.body?.toc">
+      <ul>
+        <li v-for="link of post.body.toc.links" :key="link.id">
+          <NuxtLink :to="`#${link.id}`">
+            {{ link.text }} {{ link.depth }}
+          </NuxtLink>
+        </li>
+      </ul>
+    </div> -->
 
     <ContainerMedium>
       <div class="my-10 px-2">
