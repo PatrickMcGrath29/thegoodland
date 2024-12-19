@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: b7sywasyuz
 title: His Witnesses
-isBlogPost: true
+isBlogPost: false
 author: Freda Hanbury Allen
 createdDate: 2024-12-19
 slug: 2024-12-19-his-witnesses
