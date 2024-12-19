@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import type { Collection } from '~/types'
+
 function clickHandler() {
   if (document.activeElement instanceof HTMLElement)
     document.activeElement.blur()
 }
 
-const { data: collections } = await useAsyncData('collections', () => useCollections())
+const { data: collectionResult } = await useAsyncData('primaryCollection', () => useCollection('new-life-lessons-andrew-murray'))
+const primaryCollection = collectionResult as Ref<Collection>
 </script>
 
 <template>
@@ -13,9 +16,9 @@ const { data: collections } = await useAsyncData('collections', () => useCollect
       Blog Posts
     </NuxtLink>
   </li>
-  <li v-for="(collection, idx) in collections" :key="idx">
-    <NuxtLink :to="`/collections/${collection.slug}`" @click="clickHandler">
-      {{ collection.name }}
+  <li>
+    <NuxtLink :to="`/collections/${primaryCollection.slug}`" @click="clickHandler">
+      {{ primaryCollection.name }}
     </NuxtLink>
   </li>
   <li>
