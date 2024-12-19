@@ -10,5 +10,6 @@ summary: '"That I May Know Him" is a collection of poems written by Freda
 slug: that-i-may-know-him-freda-hanbury-allen
 posts:
   - post: my-prayer
+  - post: 2024-12-19-his-witnesses
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
