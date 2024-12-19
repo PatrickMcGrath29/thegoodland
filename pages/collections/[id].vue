@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import type { Collection } from '~/types'
 
-const { params: { id: collectionId } } = useRoute()
+const route = useRoute()
 
-const { data: collectionData } = await useAsyncData(`collection/${collectionId}}`, () => useCollection(collectionId as string))
+const collectionId = computed(() => route.params.id as string)
+
+const { data: collectionData } = await useAsyncData(
+  `collection/${collectionId.value}}`,
+  () => useCollection(collectionId.value),
+  { watch: [collectionId] },
+)
 const collection = collectionData as Ref<Collection>
 
 const { data: posts } = await useAsyncData(
