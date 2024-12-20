@@ -9,8 +9,8 @@ summary: '"That I May Know Him" is a collection of poems written by Freda
   riches found in a relationship with our Lord and Savior.'
 slug: that-i-may-know-him-freda-hanbury-allen
 posts:
-  - post: my-prayer
+  - post: 2024-12-19-my-prayer
   - post: 2024-12-19-his-witnesses
-  - post: guidance
+  - post: 2024-12-20-guidance
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
