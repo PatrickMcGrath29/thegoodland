@@ -54,8 +54,8 @@ const postElementRef = ref<HTMLElement>()
     <Container>
       <div v-if="post.featuredImage || collectionData?.featuredImage" class="my-5">
         <NuxtImg
-          :src="post.featuredImage || collectionData?.featuredImage" height="1000px" class="w-full h-96 object-cover rounded-lg"
-          :alt="`Featured image for ${post.title}`" placeholder
+          :src="post.featuredImage || collectionData?.featuredImage" height="1000px"
+          class="w-full h-96 object-cover rounded-lg" :alt="`Featured image for ${post.title}`" placeholder
         />
       </div>
     </Container>
@@ -72,6 +72,7 @@ const postElementRef = ref<HTMLElement>()
               v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
               :text="postCreatedDate"
             />
+            <PostDetail v-if="collectionData" icon-name="ph:book-bookmark-duotone" :text="collectionData.name" :to="`/collections/${collectionData.slug}`" />
           </div>
         </div>
 

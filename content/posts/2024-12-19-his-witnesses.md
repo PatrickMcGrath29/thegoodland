@@ -9,6 +9,11 @@ author: Freda Hanbury Allen
 createdDate: 2024-12-19
 slug: 2024-12-19-his-witnesses
 ---
+> "Chosen... that you should know His will, and see the Just One, and hear the voice of His mouth. For you will be His witness to all men of what you have seen and heard."
+>
+> —Acts 22:14-15
+
+::center
 Chosen that thou shouldest know Him\
 And the fulness of His grace,\
 That, through all life's varied pathway,\
@@ -98,3 +103,4 @@ And go forth His name to bear.\
 In His might thy power alone,\
 Glory shining bright before thee,\
 And thy blessed Lord's "Well done."
+::
