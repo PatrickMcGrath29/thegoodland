@@ -11,5 +11,6 @@ slug: that-i-may-know-him-freda-hanbury-allen
 posts:
   - post: my-prayer
   - post: 2024-12-19-his-witnesses
+  - post: guidance
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
