@@ -13,6 +13,7 @@ const { data: collectionData } = await useAsyncData(
 const collection = collectionData as Ref<Collection>
 
 const { data: posts } = await useAsyncData(
+  `collection/posts/${collectionId.value}}`,
   () => usePostsBySlug(collection.value.posts),
   { watch: [collectionId] },
 )

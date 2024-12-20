@@ -7,7 +7,7 @@ const { params: { id: slug } } = useRoute()
 const postData = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
 const post = postData.data as Ref<Post>
 
-const { data: collectionData } = await useAsyncData(`collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
+const { data: collectionData } = await useAsyncData(`posts/collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
 
 const postCreatedDate = computed(() => {
   return formatDate(post.value.createdDate)
