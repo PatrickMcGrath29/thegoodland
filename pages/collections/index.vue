@@ -11,8 +11,8 @@ const { data: collections } = await useAsyncData('allCollections', () => useColl
             v-if="collection.featuredImage" :src="collection.featuredImage" height="250px" placeholder
             class="object-cover w-full h-56 rounded-t"
           />
-          <div class="m-8 block">
-            <div class="text-3xl font-medium">
+          <div class="m-4 md:m-8 block">
+            <div class="text-2xl font-medium">
               {{ collection.name }}
             </div>
             <div class="mt-1 text-neutral-500">
