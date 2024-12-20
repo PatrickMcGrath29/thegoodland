@@ -14,6 +14,7 @@ const collection = collectionData as Ref<Collection>
 
 const { data: posts } = await useAsyncData(
   () => usePostsBySlug(collection.value.posts),
+  { watch: [collectionId] },
 )
 
 const seoTitle = computed(() => {
