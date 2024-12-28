@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Collection } from '~/types'
+import { smartEllipsis } from '~/shared/utils'
 
 const route = useRoute()
 

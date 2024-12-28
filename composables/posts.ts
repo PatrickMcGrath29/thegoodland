@@ -1,4 +1,3 @@
-import { getPath } from './utils'
 import type { Post } from '~/types'
 
 function toPost(record: any): Post {

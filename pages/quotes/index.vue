@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import type { Quote, Reference, TextLink } from '~/types'
+import { getHighlightedQuote } from '~/shared/quotes'
+import { authorSlug, normalizeInput, referenceSlug } from '~/shared/utils'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
@@ -69,7 +71,7 @@ const references: Ref<TextLink[]> = computed(() => {
     ),
   )
 
-  return Array.from(referenceLinks).sort().map((link => JSON.parse(link)))
+  return Array.from(referenceLinks).sort().map(link => JSON.parse(link))
 })
 
 useSeoMeta({

@@ -1,8 +1,8 @@
-import fs from 'node:fs'
-import { SitemapStream, streamToPromise } from 'sitemap'
-import { serverQueryContent } from '#content/server'
-import { hydrateQuotes } from '~/utils/utils'
 import type { RawQuote, RawReference } from '~/types'
+import fs from 'node:fs'
+import { serverQueryContent } from '#content/server'
+import { SitemapStream, streamToPromise } from 'sitemap'
+import { hydrateQuotes } from '~/shared/quotes'
 
 function getPDFs() {
   return fs.readdirSync('public/uploads/').filter((file) => {

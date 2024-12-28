@@ -1,5 +1,6 @@
 <script setup lang="ts" generic="T">
 import type { TextLink } from '~/types'
+import { normalizeInput } from '~/shared/utils'
 
 const { buttonText, contentRecords } = defineProps<{
   buttonText: string

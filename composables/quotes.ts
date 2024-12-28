@@ -1,4 +1,5 @@
-import type { Quote, RawQuote, RawReference, Reference } from '~/types'
+import type { Quote, RawQuote, RawReference } from '~/types'
+import { hydrateQuotes } from '~/shared/quotes'
 
 async function useRawQuotes(): Promise<RawQuote[]> {
   return await queryContent<RawQuote>('/quotes')
