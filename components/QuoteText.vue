@@ -21,11 +21,11 @@ const quoteSlug = computed(() => {
   <div>
     <RefTagger class="[&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2">
       <template v-if="showPermaLink">
-        <p class="whitespace-pre-wrap text-base">
-          <NuxtLink :to="`/quotes/${quote.uuid}/${quoteSlug}`">
+        <NuxtLink :to="`/quotes/${quote.uuid}/${quoteSlug}`">
+          <p class="whitespace-pre-wrap text-base">
             {{ quote.text }}
-          </NuxtLink>
-        </p>
+          </p>
+        </NuxtLink>
       </template>
       <template v-else>
         <p class="whitespace-pre-wrap text-base">
