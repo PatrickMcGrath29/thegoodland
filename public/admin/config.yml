@@ -183,8 +183,8 @@ collections:
         search_fields: [referenceName, authorName]
         value_field: uuid
         display_fields: [referenceName, authorName]
-        required: false
-        hint: 'Optional, the reference associated with this quote (book, sermon). If the reference is not known leave this blank.'
+        required: true
+        hint: 'The reference associated with this quote (book, sermon). If the referene is not known, select "Anonymous"'
 
       - label: Categories
         name: categories
