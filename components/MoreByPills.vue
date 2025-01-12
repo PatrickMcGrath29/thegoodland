@@ -22,10 +22,6 @@ const references = computed(() => {
 
 <template>
   <div v-if="references.length > 1">
-    <div class="flex items-center gap-2 mb-3">
-      <Icon name="ph:list-magnifying-glass" size="20px" class="align-middle text-neutral-500" />
-      <span class="text-sm font-semibold">Filter by Book</span>
-    </div>
     <div class="flex overflow-auto gap-3 pb-3 mb-3">
       <StyledCard v-for="(reference, idx) in references" :key="idx" :scale="false">
         <NuxtLink
