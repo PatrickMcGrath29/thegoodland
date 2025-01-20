@@ -10,7 +10,8 @@ isBlogPost: false
 featuredImage: /uploads/opening_to_the_lord.jpeg
 createdDate: 2024-04-27
 ---
-> *As newborn babes, desire the sincere milk of the word, that ye may grow thereby unto salvation (1 Peter 2:2)*
+> As newborn babes, desire the sincere milk of the word, that ye may grow thereby unto salvation\
+> — 1 Peter 2:2
 
 Beloved young Christians, hear what your Father has to say in this word. You have just recently given yourselves to the Lord and have believed that He has received you. You have received the new life from God. You are now as newborn infants. He will teach you in this word what is necessary so that you may grow strong.
 
