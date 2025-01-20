@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createMarkdownParser } from '@nuxtjs/mdc/runtime/parser/index'
+import { parseMarkdown } from '@nuxtjs/mdc/runtime'
 
 declare global {
   interface Window {
@@ -17,26 +17,11 @@ definePageMeta({
   layout: 'blank',
 })
 
-function useMarkdownParser() {
-  let parser: Awaited<ReturnType<typeof createMarkdownParser>>
-
-  const parse = async (markdown: string) => {
-    if (!parser) {
-      parser = await createMarkdownParser()
-    }
-    return parser(markdown)
-  }
-
-  return parse
-}
-
 const renderedMarkdown = computedAsync(async () => {
   if (!previewData.value)
     return
 
-  const parser = useMarkdownParser()
-
-  return await parser(
+  return await parseMarkdown(
     previewData.value.body,
   )
 })
