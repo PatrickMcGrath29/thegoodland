@@ -25,7 +25,7 @@ Our minds are so often occupied with service and work; we think that doing thing
 The Lord is more concerned about our knowing Him than about anything else.
 ::
 
-All well and good, for these are important matters; but, back of everything that the Lord is more concerned about our knowing Him than about anything else. It is very possible to have a wonderful grasp on the Scriptures, a comprehensive and intimate familiarity with doctrine; to stand for cardinal verities of the faith; to be an unceasing worker in Christian service; to have a great devotion of the salvation of men, and yet, alas, to have a very inadequate and limited personal knowledge of God within. So often the Lord has to take away our work that we may discover Him.
+All well and good, for these are important matters; but, back of everything the Lord is more concerned about our knowing Him than about anything else. It is very possible to have a wonderful grasp on the Scriptures, a comprehensive and intimate familiarity with doctrine; to stand for cardinal verities of the faith; to be an unceasing worker in Christian service; to have a great devotion of the salvation of men, and yet, alas, to have a very inadequate and limited personal knowledge of God within. So often the Lord has to take away our work that we may discover Him.
 
 The ultimate value of everything is not the information which we give, not the amount of work that we do, not the measure of truth that we possess, but just the fact that we know the Lord in a deep and mighty way.
 
