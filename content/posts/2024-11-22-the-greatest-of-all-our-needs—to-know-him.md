@@ -8,8 +8,7 @@ isBlogPost: true
 author: T. Austin-Sparks
 summary: It is of the greatest importance for the Lord's children to recognize
   fully that, above all other things, His object is that they should know Him.
-  This is the all-governing end of all His dealings with us. This is the
-  greatest of all our needs.
+  This is the all-governing end of all His dealings with us.
 slug: 2024-11-22-the-greatest-of-all-our-needs-to-know-him
 featuredImage: /uploads/knowing_him.jpg
 createdDate: 2024-11-22
@@ -51,6 +50,7 @@ These things are ever near at hand, and we have written this message to urge upo
 
 > "And this is eternal life, that they may know You, the only true God, and Jesus Christ whom You have sent."\
 > —John 17:3
->
+
+
 > "That I may know Him and the power of His resurrection, and the fellowship of His sufferings, being conformed to His death, if, by any means, I may attain to the resurrection from the dead."\
 > —Philippians 3:10-11
