@@ -1,6 +1,6 @@
 import type { Ref } from 'vue'
 import type { Quote, RawQuote, RawReference, Reference } from '../types'
-import { authorSlug, dayOfYear, referenceSlug, slugify } from './utils'
+import { authorSlug, dayOfYear, referenceSlug, slugify, smartEllipsis } from './utils'
 
 function parseQuote(rawQuote: RawQuote): RawQuote {
   return {
@@ -17,15 +17,20 @@ function parseReference(rawReference: RawReference): RawReference {
   }
 }
 
+function quoteSlug(authorName: string | undefined, quoteText: string): string {
+  const parts = [
+    authorName,
+    smartEllipsis(quoteText, 30),
+  ].filter(Boolean).join('-')
+
+  return slugify(parts)
+}
+
 function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined): Quote {
-  const quoteSlugFields = [
-    rawReference?.authorName,
-    ...rawQuote.text.split(' ').slice(0, 5),
-  ]
-  const quoteSlug = slugify(quoteSlugFields.filter(Boolean).join('-'))
+  const slugForQuote = quoteSlug(rawReference?.authorName, rawQuote.text)
 
   const quote: Quote = {
-    slug: quoteSlug,
+    slug: slugForQuote,
     ...rawQuote,
   }
 

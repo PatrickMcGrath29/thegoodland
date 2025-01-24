@@ -1,4 +1,4 @@
-import type { RawQuote, RawReference } from '~/types'
+import type { Quote, RawQuote, RawReference } from '~/types'
 import fs from 'node:fs'
 import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
@@ -10,12 +10,14 @@ function getPDFs() {
   })
 }
 
-async function getReferencePaths(event: any) {
+async function getHydratedQuotes(event: any): Promise<Quote[]> {
   const rawReferences = await serverQueryContent<RawReference>(event, 'references').find()
   const rawQuotes = await serverQueryContent<RawQuote>(event, 'quotes').find()
 
-  const quotes = hydrateQuotes(rawQuotes, rawReferences)
+  return hydrateQuotes(rawQuotes, rawReferences)
+}
 
+function getQuotePaths(quotes: Quote[]) {
   const authorSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.authorSlug).filter(Boolean)))
   const referenceSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.referenceSlug).filter(Boolean)))
 
@@ -25,7 +27,9 @@ async function getReferencePaths(event: any) {
 export default defineEventHandler(async (event) => {
   const posts = await serverQueryContent(event, 'posts').find()
   const collections = await serverQueryContent(event, 'collections').find()
-  const { authorSlugs, referenceSlugs } = await getReferencePaths(event)
+
+  const hydratedQuotes = await getHydratedQuotes(event)
+  const { authorSlugs, referenceSlugs } = getQuotePaths(hydratedQuotes)
 
   const pdfFiles = getPDFs()
 
@@ -67,6 +71,13 @@ export default defineEventHandler(async (event) => {
   for (const referenceSlug of referenceSlugs) {
     sitemap.write({
       url: `/quotes/reference/${referenceSlug}`,
+      changefreq: 'monthly',
+    })
+  }
+
+  for (const quote of hydratedQuotes) {
+    sitemap.write({
+      url: `/quotes/${quote.uuid}/${quote.slug}`,
       changefreq: 'monthly',
     })
   }

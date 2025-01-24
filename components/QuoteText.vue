@@ -1,27 +1,17 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
-import { slugify, smartEllipsis } from '~/shared/utils'
 
 const { quote, showPermaLink = true } = defineProps<{
   quote: Quote
   showPermaLink?: boolean
 }>()
-
-const quoteSlug = computed(() => {
-  const parts = [
-    quote.reference?.authorName,
-    smartEllipsis(quote.text, 30),
-  ].filter(Boolean).join('-')
-
-  return slugify(parts)
-})
 </script>
 
 <template>
   <div>
     <RefTagger class="[&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2">
       <template v-if="showPermaLink">
-        <NuxtLink :to="`/quotes/${quote.uuid}/${quoteSlug}`">
+        <NuxtLink :to="`/quotes/${quote.uuid}/${quote.slug}`">
           <p class="whitespace-pre-wrap text-base">
             {{ quote.text }}
           </p>
