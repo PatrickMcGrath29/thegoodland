@@ -15,6 +15,10 @@ const quoteSlug = computed(() => {
 
   return slugify(parts)
 })
+
+const quoteText = computed(() => {
+  return quote.text.replace(/\\n/g, '\n')
+})
 </script>
 
 <template>
@@ -23,13 +27,13 @@ const quoteSlug = computed(() => {
       <template v-if="showPermaLink">
         <NuxtLink :to="`/quotes/${quote.uuid}/${quoteSlug}`">
           <p class="whitespace-pre-wrap text-base">
-            {{ quote.text }}
+            {{ quoteText }}
           </p>
         </NuxtLink>
       </template>
       <template v-else>
         <p class="whitespace-pre-wrap text-base">
-          {{ quote.text }}
+          {{ quoteText }}
         </p>
       </template>
     </RefTagger>
