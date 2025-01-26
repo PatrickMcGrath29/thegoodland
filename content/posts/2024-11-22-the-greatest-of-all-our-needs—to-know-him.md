@@ -30,6 +30,8 @@ The ultimate value of everything is not the information which we give, not the a
 
 This is the one thing that will remain when all else passes. It is this that will make for the permanence of our ministry after we are gone. While we may help others in many ways and by many means so far as their earthly life is concerned, our real service to them is based upon our knowledge of the Lord.
 
+The greatest of the problems of the Christian life is the problem of guidance. How much has been said and written upon this subject! We... are strongly of the conviction that it is one thing to get direction for the events, incidents, and contingencies of life, and quite another thing to have an abiding, personal, inward knowledge of the Lord. It is one thing to call upon a friend in emergency or at special times to get advice as to a course to be taken; it is another thing to live with that friend so that there is a sense of his mind on things as a general matter.
+
 We want instructions and commands, the Lord wants us to have a "mind." "Have this mind in you," (Phil 2:5) "We have the mind of Christ" (1 Cor 2:16). Christ has a consciousness, and by the Holy Spirit He would give and develop in us that consciousness. The inspired statement is that "His anointing teaches you concerning all things" (1 John 2:27). We are not servants, we are sons. Commands—as such—are for servants, and mind is for sons.
 
 There is an appalling state of things amongst the Lord's people today. So many of them have their life almost entirely in that which is external to themselves—in their counsel and guidance, their sustenance and support, their guidance, their means of grace. Personal, inward, spiritual intelligence is a very rare thing. No wonder that the enemy has such a successful line in delusions, counterfeits, and false representations. Our greatest safeguard against such will be a deep knowledge of the Lord through discipline.
@@ -50,7 +52,6 @@ These things are ever near at hand, and we have written this message to urge upo
 
 > "And this is eternal life, that they may know You, the only true God, and Jesus Christ whom You have sent."\
 > —John 17:3
-
-
+>
 > "That I may know Him and the power of His resurrection, and the fellowship of His sufferings, being conformed to His death, if, by any means, I may attain to the resurrection from the dead."\
 > —Philippians 3:10-11
