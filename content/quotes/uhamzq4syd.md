@@ -7,4 +7,5 @@ text: The life we live is the life of Christ alone. We think of the Christian
 referenceId: aIfAndk4Ds
 categories:
   - Christ Our Life
+  - Exchanged Life
 ---
