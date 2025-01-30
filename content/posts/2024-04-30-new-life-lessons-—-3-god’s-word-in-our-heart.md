@@ -9,13 +9,17 @@ author: Andrew Murray
 createdDate: 2024-04-30
 slug: the-new-life-3-gods-word-in-our-heart
 ---
-> *Therefore shall ye lay up these My words in your heart and in your soul (Deuteronomy 11:18)*
->
-> *Son of man, all My words that I shall speak unto thee receive in thine heart (Ezekiel 3:10)*
->
-> *Thy word have I hid in mine heart, that I might not sin against Thee (Psalm 119:11)*
->
-> *As newborn babes, desire the sincere milk of the word, that ye may grow thereby” (1 Peter 2:2)*
+> "Therefore shall ye lay up these My words in your heart and in your soul"\
+> — Deuteronomy 11:18
+
+> "Son of man, all My words that I shall speak unto thee receive in thine heart"\
+> — Ezekiel 3:10
+
+> "Thy word have I hid in mine heart, that I might not sin against Thee"\
+> — Psalm 119:11
+
+> "As newborn babes, desire the sincere milk of the word, that ye may grow thereby"\
+> — 1 Peter 2:2
 
 Every young Christian is taught that he must receive the Word of God as milk—as the living participation of the life and vine of God—if he is to grow. On this account it is of great importance to know how we must deal with the Word. The Lord says that we must receive it and lay it up in our heart. :tooltip{text="references (1)" content="Deut.30:14; Ps.1:2; 119:34, 36; Isa. 51:7; John 5:38; 8:31; 15:7; Rom.10:8, 9; Col. 3:16"} The Word must possess and fill the heart. What does that mean?
 
