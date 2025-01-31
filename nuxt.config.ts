@@ -77,7 +77,6 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/admin': { redirect: '/admin/' },
     '/2021/08/23/entering-into-the-good-land': { redirect: '/posts/2021-08-23-entering-into-the-good-land' },
     '/2021/09/28/lord-shine-your-light': { redirect: '/posts/2021-09-28-lord-shine-your-light' },
     '/2021/09/30/come-to-me': { redirect: '/posts/2021-09-30-come-to-me-learn-from-me' },
