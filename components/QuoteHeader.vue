@@ -5,7 +5,7 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, breadCrumbs
 </script>
 
 <template>
-  <div v-if="breadCrumbs.length > 0" class="my-8 text-neutral-400 font-medium text-sm text-center">
+  <div v-if="breadCrumbs.length > 0" class="my-8 text-neutral-400 font-medium text-sm">
     <template v-for="(crumb, idx) in breadCrumbs" :key="idx">
       <template v-if="idx + 1 !== breadCrumbs.length">
         <NuxtLink :to="crumb.link" class="hover:text-accent hover:text-opacity-70">

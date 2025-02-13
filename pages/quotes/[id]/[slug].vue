@@ -32,19 +32,11 @@ const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
     crumbs.push(authorCrumb)
   }
 
-  if (matchingQuote.value.reference?.referenceName) {
-    const referenceCrumb = {
-      text: matchingQuote.value.reference?.referenceName,
-      link: undefined,
-    }
-    crumbs.push(referenceCrumb)
-  }
-
   return crumbs
 })
 
 const heading = computed(() => {
-  return matchingQuote.value.reference?.referenceName || matchingQuote.value.reference?.authorName
+  return matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName
 })
 </script>
 
@@ -59,7 +51,7 @@ const heading = computed(() => {
     </StyledCard>
 
     <div v-if="quotesForAuthor.length > 1" class="my-14">
-      <div class="divider text-lg font-semibold text-center">
+      <div class="text-lg font-semibold text-center">
         More by {{ matchingQuote.reference?.authorName }}
       </div>
     </div>
