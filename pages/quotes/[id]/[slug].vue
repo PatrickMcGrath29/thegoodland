@@ -12,7 +12,7 @@ const matchingQuote = computed(() => {
   })
 }) as Ref<Quote>
 
-const quotesForAuthor = computed(() => {
+const additionalQuotesForAuthor = computed(() => {
   return quotes.value.filter((quote) => {
     return quote.reference?.authorSlug === matchingQuote.value.reference?.authorSlug
       && quote.uuid !== matchingQuote.value.uuid
@@ -50,14 +50,14 @@ const heading = computed(() => {
       </div>
     </StyledCard>
 
-    <div v-if="quotesForAuthor.length > 1" class="my-14">
+    <div v-if="additionalQuotesForAuthor.length > 0" class="my-14">
       <div class="text-lg font-semibold text-center">
         More by {{ matchingQuote.reference?.authorName }}
       </div>
     </div>
 
-    <ColumnView class="gap-6" :count="quotesForAuthor.length">
-      <div v-for="(quote, idx) in quotesForAuthor" :key="idx" class="inline-block mb-6">
+    <ColumnView v-if="additionalQuotesForAuthor.length > 0" class="gap-6" :count="additionalQuotesForAuthor.length">
+      <div v-for="(quote, idx) in additionalQuotesForAuthor" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-4">
             <QuoteText :quote="quote" />

@@ -17,13 +17,13 @@ const primaryCollection = collectionResult as Ref<Collection>
     </NuxtLink>
   </li>
   <li>
-    <NuxtLink to="/collections" @click="clickHandler">
-      Collections
+    <NuxtLink :to="`/collections/${primaryCollection.slug}`" @click="clickHandler">
+      {{ primaryCollection.name }}
     </NuxtLink>
   </li>
   <li>
-    <NuxtLink :to="`/collections/${primaryCollection.slug}`" @click="clickHandler">
-      {{ primaryCollection.name }}
+    <NuxtLink to="/collections" @click="clickHandler">
+      Collections
     </NuxtLink>
   </li>
   <li>
