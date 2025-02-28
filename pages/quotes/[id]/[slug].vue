@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { BreadCrumb, Quote } from '~/types'
+import { smartEllipsis } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
 
@@ -37,6 +38,12 @@ const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
 
 const heading = computed(() => {
   return matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName
+})
+
+useSeoMeta({
+  title: `${matchingQuote.value.reference?.authorName} Quotes — ${smartEllipsis(matchingQuote.value.text, 60)}`,
+  description: matchingQuote.value.text,
+  ogDescription: matchingQuote.value.text,
 })
 </script>
 
