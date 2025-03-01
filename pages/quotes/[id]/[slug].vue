@@ -40,8 +40,13 @@ const heading = computed(() => {
   return matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName
 })
 
+const title = computed(() => {
+  return `${matchingQuote.value.reference?.authorName} Quotes — ${smartEllipsis(matchingQuote.value.text, 60)}`
+})
+
 useSeoMeta({
-  title: `${matchingQuote.value.reference?.authorName} Quotes — ${smartEllipsis(matchingQuote.value.text, 60)}`,
+  title,
+  ogTitle: title,
   description: matchingQuote.value.text,
   ogDescription: matchingQuote.value.text,
 })
