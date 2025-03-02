@@ -16,7 +16,7 @@ createdDate: 2025-03-02
 ---
 > "But unto them that are called, both Jews and Greeks, Christ the power of God..."\
 > —1 Corinthians 1:24
->
+
 > "For I determined not to know anything among you, save Jesus Christ, and him crucified"\
 > —1 Corinthians 2:2
 
