@@ -11,7 +11,7 @@ summary: Christ, and Christ crucified, is the power of God to bring
   us our sins, and in His mind this is to be the normal development of every
   Christian's life.
 slug: 2025-03-02-christ-the-power-of-god
-featuredImage: /uploads/christ_power_of_god.jpg
+featuredImage: /uploads/christ_the_power_of_god.jpg
 createdDate: 2025-03-02
 ---
 > "But unto them that are called, both Jews and Greeks, Christ the power of God..."\
