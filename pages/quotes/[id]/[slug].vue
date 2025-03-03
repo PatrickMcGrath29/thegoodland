@@ -54,7 +54,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <QuoteHeader :heading="(heading as string)" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="(heading as string)" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
 
     <StyledCard highlighted-state="active" class="my-10">
       <div class="p-6">

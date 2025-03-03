@@ -30,7 +30,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <QuoteHeader :heading="(author as string)" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="(author as string)" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
 
     <MoreByPills :quotes="quotesForAuthor" />
 

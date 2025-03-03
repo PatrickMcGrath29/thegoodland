@@ -1,14 +1,14 @@
 <template>
   <header class="my-2">
     <Container>
-      <div class="navbar bg-base-300 rounded-lg shadow-md">
+      <div class="navbar bg-base-300 rounded-lg shadow-md justify-between">
         <div class="navbar-start">
           <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center hover:bg-neutral-700">
             <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
             The Good Land
           </NuxtLink>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end w-fit">
           <div class="dropdown dropdown-end">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <Icon name="mdi:menu" size="25px" />

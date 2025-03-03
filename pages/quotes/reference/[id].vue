@@ -32,7 +32,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <QuoteHeader :heading="(reference?.referenceName as string)" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="(reference?.referenceName as string)" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
 
     <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">

@@ -81,7 +81,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <QuoteHeader heading="All Quotes" />
+    <PageHeader heading="All Quotes" subtitle="Quotes" />
 
     <StyledCard class="my-10" highlighted-state="active">
       <div class="p-4 md:p-8">

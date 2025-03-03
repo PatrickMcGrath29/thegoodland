@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { BreadCrumb } from '~/types'
 
-const { heading, breadCrumbs = [] } = defineProps<{ heading: string, breadCrumbs?: BreadCrumb[] }>()
+const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subtitle: string, breadCrumbs?: BreadCrumb[] }>()
 </script>
 
 <template>
@@ -26,9 +26,9 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, breadCrumbs
     :class="{ 'my-10 md:my-14': breadCrumbs.length === 0, 'mb-10 md:mb-14': breadCrumbs.length > 0 }"
   >
     <div
-      class="text-2xl border-neutral-500 font-light text-neutral-500 border-b md:border-r md:border-b-0 pb-1 md:pr-4 md:pb-0"
+      class="text-xl border-neutral-500 font-light text-neutral-500 border-b md:border-r md:border-b-0 pb-1 md:pr-4 md:pb-0"
     >
-      Quotes
+      {{ subtitle }}
     </div>
     <span class="text-4xl pt-1 md:pl-4 md:pt-0 font-bold text-center md:text-left">{{ heading }}</span>
   </h1>
