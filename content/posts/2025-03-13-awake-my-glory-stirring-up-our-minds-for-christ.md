@@ -6,8 +6,9 @@ uuid: wamudyo4gjg
 title: Awake, My Glory! Stirring Up Our Minds for Christ
 isBlogPost: true
 author: Isaac Ambrose
-summary: '"And there is no one who calls on Your name, who stirs himself up to
-  take hold of You" Isaiah 64:7. '
+summary: It was the prophet's complaint, "No man stirs up himself to take hold
+  of God," (Isaiah 64:7). Oh what a shame is this! Is it fit that our
+  understanding, which God has entrusted us with, should be no more improved?
 slug: 2025-03-13-awake-my-glory-stirring-up-our-minds-for-christ
 featuredImage: /uploads/awake_my_glory.jpg
 createdDate: 2025-03-13
