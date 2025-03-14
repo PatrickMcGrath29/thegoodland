@@ -23,7 +23,7 @@ const postSeoDescripton = computed(() => {
 
 const title = computed(() => {
   if (post.value.author)
-    return `${post.value.title} by ${post.value.author}`
+    return `${post.value.title}, by ${post.value.author}`
 
   return post.value.title
 })
