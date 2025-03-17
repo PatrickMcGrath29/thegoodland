@@ -128,7 +128,7 @@ useSeoMeta({
       </div>
     </ColumnView>
 
-    <div class="join flex justify-center my-5">
+    <div v-if="pageCount > 1" class="join flex justify-center my-5">
       <button
         v-for="(page, idx) in Array(pageCount).keys()"
         :key="idx" class="join-item btn"
