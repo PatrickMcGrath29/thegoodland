@@ -102,5 +102,5 @@ export default defineNuxtConfig({
     '/wp-content/uploads/2023/05/the_pursuit_of_god.pdf': { redirect: '/uploads/the_pursuit_of_god.pdf' },
   },
 
-  compatibilityDate: '2024-08-23',
+  compatibilityDate: '2025-03-01',
 })
