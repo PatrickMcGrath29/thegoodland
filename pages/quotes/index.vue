@@ -3,7 +3,7 @@ import type { Quote, Reference, TextLink } from '~/types'
 import { getHighlightedQuote } from '~/shared/quotes'
 import { authorSlug, normalizeInput, referenceSlug } from '~/shared/utils'
 
-const PAGE_SIZE = 50
+const PAGE_SIZE = 25
 const SEARCH_THROTTLE_MS = 250
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
@@ -36,7 +36,16 @@ watch(matchingQuotes, (_old, _new) => {
 
 const pageCount = computed(() => Math.ceil(matchingQuotes.value.length / PAGE_SIZE))
 const pageQuotes = computed(() => {
-  return matchingQuotes.value.slice(pageNumber.value * PAGE_SIZE, (pageNumber.value + 1) * PAGE_SIZE)
+  return matchingQuotes.value.slice(
+    pageNumber.value * PAGE_SIZE,
+    (pageNumber.value + 1) * PAGE_SIZE,
+  )
+})
+
+watch(pageNumber, (_old, _new) => {
+  window.scrollTo({
+    top: 0,
+  })
 })
 
 const authors: Ref<TextLink[]> = computed(() => {
