@@ -5,6 +5,11 @@ useHead({
   },
 })
 
+const route = useRoute()
+watch(route, () => {
+  useCanonicalUrl()
+}, { immediate: true })
+
 useSeoMeta({
   ogSiteName: 'The Good Land Blog',
   title: 'The Good Land Blog',

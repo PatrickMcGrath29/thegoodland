@@ -39,11 +39,15 @@ useSeoMeta({
 useSchemaOrg([
   defineArticle({
     headline: title,
+    description: postSeoDescripton,
     datePublished: post.value.createdDate.toISOString(),
     image: post.value.featuredImage,
-    author: post.value.author && {
-      name: post.value.author,
-    },
+    ...(post.value.author && {
+      author: {
+        '@type': 'Person',
+        'name': post.value.author,
+      },
+    }),
   }),
 ])
 

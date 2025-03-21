@@ -42,10 +42,10 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/content',
-    'nuxt-schema-org',
     'nuxt-link-checker',
     '@primevue/nuxt-module',
     '@nuxt/scripts',
+    'nuxt-schema-org',
   ],
 
   $production: {
