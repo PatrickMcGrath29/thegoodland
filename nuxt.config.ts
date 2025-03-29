@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-
   app: {
     head: {
       viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
@@ -13,6 +12,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      sentryDSN: process.env.SENTRY_DSN || '',
       baseUrl: process.env.URL || 'http://localhost:3000',
       scripts: {
         cloudflareWebAnalytics: {
@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     '@primevue/nuxt-module',
     '@nuxt/scripts',
     'nuxt-schema-org',
+    '@sentry/nuxt/module',
   ],
 
   $production: {
@@ -103,4 +104,17 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-03-01',
+
+  sentry: {
+    sourceMapsUploadOptions: {
+      org: 'songbook',
+      project: 'thegoodland',
+    },
+
+    autoInjectServerSentry: 'top-level-import',
+  },
+
+  sourcemap: {
+    client: 'hidden',
+  },
 })

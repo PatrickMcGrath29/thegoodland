@@ -24,3 +24,6 @@ logs
 !.env.example
 
 .yarn/install-state.gz
+
+# Sentry Config File
+.env.sentry-build-plugin
