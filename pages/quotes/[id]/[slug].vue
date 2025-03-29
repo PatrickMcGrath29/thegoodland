@@ -63,8 +63,15 @@ useSeoMeta({
     </StyledCard>
 
     <div v-if="additionalQuotesForAuthor.length > 0" class="my-14">
-      <div class="text-lg font-semibold text-center">
-        More by {{ matchingQuote.reference?.authorName }}
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <div
+          class="text-sm border-neutral-500 font-light text-neutral-500 border-b md:border-r md:border-b-0 pb-1 md:pr-3 md:pb-0"
+        >
+          Continue Reading
+        </div>
+        <span class="text-lg pt-1 md:pl-3 md:pt-0 font-medium text-center md:text-left">
+          More by {{ matchingQuote.reference?.authorName }}
+        </span>
       </div>
     </div>
 
