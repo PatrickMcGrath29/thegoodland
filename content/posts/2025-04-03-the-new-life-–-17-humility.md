@@ -34,7 +34,7 @@ Learn from Jesus that He is gentle and humble in heart. Consider that He is your
 
 > Blessed Lord Jesus, there was never anyone among the children of men as high, as holy, and as glorious as You. And yet, never was there one so lowly and ready to deny Himself as the servant of all. O Lord, when shall we learn that humility is the grace by which we are most closely conformed to the divine glory? Teach me this, O Lord. Amen.
 
-### **Practical Considerations**
+### **Notes**
 
 **1. Guard against pride in all its forms.** Take heed that you neither feed pride in others nor allow others to feed pride in you. Above all, take care that you do nothing to nourish pride in yourself. Let God alone receive the honor in all things. Seek to recognize and appreciate the good that He works in His children and give Him heartfelt thanks for it. Be grateful for whatever humbles you, whether it comes through friend or foe. Determine never to be overly concerned with your own honor, especially when it is withheld from you. Commit your honor to the Father and concern yourself only with His glory.
 
