@@ -39,5 +39,6 @@ posts:
   - post: the-new-life-15-righteousness
   - post: the-new-life-16-love
   - post: the-new-life-42-baptism
+  - post: 2025-04-03-the-new-life-17-humility
 featuredImage: /uploads/hero.jpg
 ---
