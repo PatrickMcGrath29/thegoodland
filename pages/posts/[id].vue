@@ -4,7 +4,6 @@ import PostDetail from '~/components/PostDetail.vue'
 import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const { params: { id: slug } } = useRoute()
-
 const { data: postData, error } = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
 
 if (error.value) {

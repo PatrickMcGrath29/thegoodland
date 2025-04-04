@@ -19,10 +19,9 @@ export default defineNuxtPlugin(() => {
       // Reset count if more than 30 seconds have passed since last attempt
       if (now - lastAttemptTime > RELOAD_ATTEMPT_TIMEOUT) {
         reloadAttempts = 0
-        lastAttemptTime = now // Reset the timestamp when we reset the count
+        lastAttemptTime = now
       }
 
-      // Only reload if we haven't exceeded max attempts
       if (reloadAttempts < MAX_RELOAD_ATTEMPTS) {
         reloadAttempts++
 
