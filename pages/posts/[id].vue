@@ -5,10 +5,22 @@ import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const { params: { id: slug } } = useRoute()
 
-const postData = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
-const post = postData.data as Ref<Post>
+const { data: postData, error } = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
 
-const { data: collectionData } = await useAsyncData(`posts/collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
+if (error.value) {
+  throw createError({ statusMessage: 'Post Not Found', statusCode: 404 })
+}
+
+const post = postData as Ref<Post>
+
+const { data: collections } = await useAsyncData(`posts/collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
+
+const primaryCollection = computed(() => {
+  if (collections.value && collections.value.length > 0)
+    return collections.value[0]
+
+  return undefined
+})
 
 const postCreatedDate = computed(() => {
   return formatDate(post.value.createdDate)
@@ -57,9 +69,9 @@ const postElementRef = ref<HTMLElement>()
 <template>
   <article>
     <Container>
-      <div v-if="post.featuredImage || collectionData?.featuredImage" class="my-5">
+      <div v-if="post.featuredImage || primaryCollection?.featuredImage" class="my-5">
         <NuxtImg
-          :src="post.featuredImage || collectionData?.featuredImage" height="1000px"
+          :src="post.featuredImage || primaryCollection?.featuredImage" height="1000px"
           class="w-full h-96 object-cover rounded-lg" :alt="`Featured image for ${post.title}`" placeholder
         />
       </div>
@@ -77,7 +89,7 @@ const postElementRef = ref<HTMLElement>()
               v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
               :text="postCreatedDate"
             />
-            <PostDetail v-if="collectionData" icon-name="ph:book-bookmark-duotone" :text="collectionData.name" :to="`/collections/${collectionData.slug}`" />
+            <PostDetail v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name" :to="`/collections/${primaryCollection.slug}`" />
           </div>
         </div>
 
@@ -89,7 +101,7 @@ const postElementRef = ref<HTMLElement>()
             />
           </RefTagger>
         </div>
-        <CollectionNavigation v-if="collectionData" :collection="collectionData" :post="post" />
+        <CollectionNavigation v-if="primaryCollection" :collection="primaryCollection" :post="post" />
       </div>
     </ContainerMedium>
   </article>

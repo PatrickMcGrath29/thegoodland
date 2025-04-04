@@ -6,11 +6,15 @@ const route = useRoute()
 
 const collectionId = computed(() => route.params.id as string)
 
-const { data: collectionData } = await useAsyncData(
+const { data: collectionData, error } = await useAsyncData(
   `collection/${collectionId.value}}`,
   () => useCollection(collectionId.value),
   { watch: [collectionId] },
 )
+
+if (error.value)
+  throw createError({ statusMessage: 'Collection Not Found', statusCode: 404 })
+
 const collection = collectionData as Ref<Collection>
 
 const { data: posts } = await useAsyncData(
