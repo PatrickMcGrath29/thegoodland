@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: 239476tgk4l
 title: The New Life – 17. Humility
-isBlogPost: true
+isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-04-03
 slug: 2025-04-03-the-new-life-17-humility
