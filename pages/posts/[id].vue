@@ -4,7 +4,7 @@ import PostDetail from '~/components/PostDetail.vue'
 import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const { params: { id: slug } } = useRoute()
-const { data: postData, error } = await useAsyncData(`post/${slug}}`, () => usePost(slug as string))
+const { data: postData, error } = await useAsyncData(`post/${slug}`, () => usePost(slug as string))
 
 if (error.value) {
   throw createError({ statusMessage: 'Post Not Found', statusCode: 404 })
@@ -12,8 +12,7 @@ if (error.value) {
 
 const post = postData as Ref<Post>
 
-const { data: collections } = await useAsyncData(`posts/collectionData/${slug}`, () => useCollectionInfoForPost(post.value.slug))
-
+const { data: collections } = await useAsyncData(`posts/collection-data/${slug}`, () => useCollectionInfoForPost(post.value.slug))
 const primaryCollection = computed(() => {
   if (collections.value && collections.value.length > 0)
     return collections.value[0]

@@ -1,18 +1,24 @@
 <script setup lang="ts">
 import type { BreadCrumb, Quote } from '~/types'
 
-const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
-const quotes = data as Ref<Quote[]>
-
 const { params: { id } } = useRoute()
+const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
 
 const quotesForAuthor = computed(() => {
-  return quotes.value.filter((quote) => {
+  if (!quotes.value)
+    throw createError({ statusCode: 404, statusMessage: 'Quotes not found.' })
+
+  const foundQuotes = quotes.value.filter((quote) => {
     return quote.reference?.authorSlug === id
   })
-})
 
-const author = computed(() => quotesForAuthor.value[0]?.reference?.authorName)
+  if (foundQuotes.length === 0)
+    throw createError({ statusCode: 404, statusMessage: 'Author not found.' })
+
+  return foundQuotes
+}) as ComputedRef<[Quote, ...Quote[]]>
+
+const author = computed(() => quotesForAuthor.value[0].reference?.authorName)
 
 const breadCrumbs = computed(() => {
   return [

@@ -8,10 +8,15 @@ const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 const matchingQuote = computed(() => {
-  return quotes.value.find((quote) => {
+  const foundQuote = quotes.value.find((quote) => {
     return quote.uuid === id
   })
-}) as Ref<Quote>
+
+  if (!foundQuote)
+    throw createError({ statusCode: 404, statusMessage: 'Quote Not Found.' })
+
+  return foundQuote
+})
 
 const additionalQuotesForAuthor = computed(() => {
   return quotes.value.filter((quote) => {
