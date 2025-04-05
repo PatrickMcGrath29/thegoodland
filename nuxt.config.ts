@@ -14,11 +14,6 @@ export default defineNuxtConfig({
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
       baseUrl: process.env.URL || 'http://localhost:3000',
-      scripts: {
-        cloudflareWebAnalytics: {
-          token: process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || '',
-        },
-      },
     },
   },
 
@@ -44,18 +39,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-link-checker',
     '@primevue/nuxt-module',
-    '@nuxt/scripts',
     'nuxt-schema-org',
     '@sentry/nuxt/module',
   ],
-
-  $production: {
-    scripts: {
-      registry: {
-        cloudflareWebAnalytics: true,
-      },
-    },
-  },
 
   primevue: {
     options: {

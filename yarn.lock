@@ -1544,46 +1544,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/scripts@npm:^0.11.5":
-  version: 0.11.5
-  resolution: "@nuxt/scripts@npm:0.11.5"
-  dependencies:
-    "@nuxt/kit": "npm:^3.16.1"
-    "@vueuse/core": "npm:^13.0.0"
-    consola: "npm:^3.4.2"
-    defu: "npm:^6.1.4"
-    h3: "npm:^1.15.1"
-    magic-string: "npm:^0.30.17"
-    ofetch: "npm:^1.4.1"
-    ohash: "npm:^2.0.11"
-    pathe: "npm:^2.0.3"
-    pkg-types: "npm:^2.1.0"
-    sirv: "npm:^3.0.1"
-    std-env: "npm:^3.8.1"
-    ufo: "npm:^1.5.4"
-    unplugin: "npm:^2.2.2"
-    unstorage: "npm:^1.15.0"
-    valibot: "npm:^1.0.0"
-  peerDependencies:
-    "@stripe/stripe-js": ^5.10.0
-    "@types/google.maps": ^3.58.1
-    "@types/vimeo__player": ^2.18.3
-    "@types/youtube": ^0.1.0
-    "@unhead/vue": ^2.0.0-rc.8
-    nuxt: ^3.16.0
-  peerDependenciesMeta:
-    "@stripe/stripe-js":
-      optional: true
-    "@types/google.maps":
-      optional: true
-    "@types/vimeo__player":
-      optional: true
-    "@types/youtube":
-      optional: true
-  checksum: 10c0/8c2d3c4223717d7b6393aacfe510252fc16665927a746faf13804641c89c0ac3ee225d36e76f514e4a15e8521dddfcc38b6b3ea4f06a4621bc3ccb0745908426
-  languageName: node
-  linkType: hard
-
 "@nuxt/telemetry@npm:^2.6.6":
   version: 2.6.6
   resolution: "@nuxt/telemetry@npm:2.6.6"
@@ -3724,18 +3684,6 @@ __metadata:
   peerDependencies:
     vue: ">=3.5.13"
   checksum: 10c0/0e50426b0ed2d6ae531e76a0a39f86131a09d3455b6ae6fdd15cd84cdedde2493d1ebca5595cc47e153565e8ba2f47d99ccca4207d4c43686cacbf5654d0fe32
-  languageName: node
-  linkType: hard
-
-"@unhead/vue@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@unhead/vue@npm:2.0.2"
-  dependencies:
-    hookable: "npm:^5.5.3"
-    unhead: "npm:2.0.2"
-  peerDependencies:
-    vue: ">=3.5.13"
-  checksum: 10c0/dfb4d558290c212d29486cbf6a66e8c8812eb51ab4ffa21d7dc01176ce22781aa6e0e41af72ebf104dbf2b97404f281c0c47a3b87859bac7818d1e5342b6bc7f
   languageName: node
   linkType: hard
 
@@ -12604,12 +12552,10 @@ __metadata:
     "@nuxt/content": "npm:^2.13.4"
     "@nuxt/icon": "npm:^1.11.0"
     "@nuxt/image": "npm:^1.10.0"
-    "@nuxt/scripts": "npm:^0.11.5"
     "@nuxtjs/tailwindcss": "npm:^6.13.2"
     "@pinia/nuxt": "npm:0.10.1"
     "@primevue/nuxt-module": "npm:^4.3.3"
     "@sentry/nuxt": "npm:^9"
-    "@unhead/vue": "npm:^2.0.2"
     "@vueuse/nuxt": "npm:^13.0.0"
     daisyui: "npm:^4.12.24"
     eslint: "npm:^9.23.0"
@@ -12886,15 +12832,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unhead@npm:2.0.2":
-  version: 2.0.2
-  resolution: "unhead@npm:2.0.2"
-  dependencies:
-    hookable: "npm:^5.5.3"
-  checksum: 10c0/be25490ba20966238f691e09443a5b487d70b817deb49a88305e6e2e7a9525749f6480caf84b06b8bd909999c60947bbb5bdaa3d4accbe5bcdc41ffd02fef33c
-  languageName: node
-  linkType: hard
-
 "unicode-emoji-modifier-base@npm:^1.0.0":
   version: 1.0.0
   resolution: "unicode-emoji-modifier-base@npm:1.0.0"
@@ -13130,16 +13067,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "unplugin@npm:2.2.2"
-  dependencies:
-    acorn: "npm:^8.14.1"
-    webpack-virtual-modules: "npm:^0.6.2"
-  checksum: 10c0/76ba320f0c5d18c31c6efab0bcf1f487e900193da7d9a63d50ccb87ea3c50bc9952111caee4ec5017bdcb53445dce275b994c6aeca6b92567db283ec5d9fc01b
-  languageName: node
-  linkType: hard
-
 "unrs-resolver@npm:^1.3.1":
   version: 1.3.2
   resolution: "unrs-resolver@npm:1.3.2"
@@ -13349,18 +13276,6 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
-  languageName: node
-  linkType: hard
-
-"valibot@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "valibot@npm:1.0.0"
-  peerDependencies:
-    typescript: ">=5"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/fd80529ce5445e2340b0a2c3d88a61a86180b652eb6bc24da7d0da476b214d8a04f7621ee355f627a1a2dc2b29f39d179effb60e8067b7cf58e300d77dae8f51
   languageName: node
   linkType: hard
 
