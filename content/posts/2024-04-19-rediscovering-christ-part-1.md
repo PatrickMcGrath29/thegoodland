@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: jue6yrkajy
-title: Rediscovering Christ — Part 1
+title: Rediscovering Christ
 isBlogPost: true
 author: Major Ian Thomas
 summary: Although the book is described as the Acts of the Apostles, in many
