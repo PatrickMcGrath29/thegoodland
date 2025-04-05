@@ -29,6 +29,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
+  ssr: true,
 
   modules: [
     '@vueuse/nuxt',
@@ -54,7 +55,7 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
+    provider: 'netlify',
   },
 
   nitro: {
