@@ -62,7 +62,7 @@ export default defineNuxtConfig({
       unstyled: true,
     },
     components: {
-      include: ['OverlayPanel', 'Button', 'Menu'],
+      include: ['OverlayPanel', 'Button', 'Menu', 'Dialog'],
     },
   },
 

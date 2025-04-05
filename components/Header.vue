@@ -20,6 +20,7 @@
               <HeaderItems />
             </ul>
           </div>
+          <Search />
           <div class="hidden lg:flex">
             <ul class="menu menu-horizontal px-1 gap-1">
               <HeaderItems />
