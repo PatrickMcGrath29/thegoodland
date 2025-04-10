@@ -14,11 +14,6 @@ export default defineNuxtConfig({
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
       baseUrl: process.env.URL || 'http://localhost:3000',
-      scripts: {
-        cloudflareWebAnalytics: {
-          token: process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || '',
-        },
-      },
     },
   },
 
@@ -34,6 +29,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
+  ssr: true,
 
   modules: [
     '@vueuse/nuxt',
@@ -44,18 +40,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-link-checker',
     '@primevue/nuxt-module',
-    '@nuxt/scripts',
     'nuxt-schema-org',
     '@sentry/nuxt/module',
   ],
-
-  $production: {
-    scripts: {
-      registry: {
-        cloudflareWebAnalytics: true,
-      },
-    },
-  },
 
   primevue: {
     options: {
@@ -68,12 +55,11 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
   },
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml'],
+      routes: ['/sitemap.xml', '/', '/**'],
     },
   },
 
