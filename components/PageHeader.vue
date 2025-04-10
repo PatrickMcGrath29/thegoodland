@@ -21,7 +21,7 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subtitle: s
     </template>
   </div>
 
-  <h1
+  <div
     class="flex items-center flex-col md:flex-row"
     :class="{ 'my-10 md:my-14': breadCrumbs.length === 0, 'mb-10 md:mb-14': breadCrumbs.length > 0 }"
   >
@@ -30,6 +30,8 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subtitle: s
     >
       {{ subtitle }}
     </div>
-    <span class="text-4xl pt-1 md:pl-4 md:pt-0 font-bold text-center md:text-left">{{ heading }}</span>
-  </h1>
+    <h1 class="text-4xl pt-1 md:pl-4 md:pt-0 font-bold text-center md:text-left">
+      {{ heading }}
+    </h1>
+  </div>
 </template>
