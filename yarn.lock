@@ -874,6 +874,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/ci@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@iconify-json/ci@npm:1.2.2"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/63be58cb69d6fc8bb6756239fdadd99d658cec922d6def1d65b866dd9d473a1fe273d479641e71a4586d50008364ceba510a6e88bc16d36d7c1ed292ab9d6062
+  languageName: node
+  linkType: hard
+
 "@iconify-json/ph@npm:^1.2.2":
   version: 1.2.2
   resolution: "@iconify-json/ph@npm:1.2.2"
@@ -12600,6 +12609,7 @@ __metadata:
   resolution: "thegoodland@workspace:."
   dependencies:
     "@antfu/eslint-config": "npm:^4.11.0"
+    "@iconify-json/ci": "npm:^1.2.2"
     "@iconify-json/ph": "npm:^1.2.2"
     "@nuxt/content": "npm:^2.13.4"
     "@nuxt/icon": "npm:^1.11.0"
