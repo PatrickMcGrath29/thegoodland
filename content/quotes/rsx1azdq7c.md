@@ -7,5 +7,5 @@ text: Come, let the proud man boast in his honor, and the mighty man is his
 referenceId: ZEJvDSyAST
 categories:
   - Joy
-link: https://thegoodland.io/2024/02/09/motives-in-looking-unto-jesus/
+link: https://thegoodland.io/posts/2024-02-10-motives-in-looking-unto-jesus
 ---
