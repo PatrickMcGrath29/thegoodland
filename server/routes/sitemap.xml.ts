@@ -54,12 +54,22 @@ export default defineEventHandler(async (event) => {
     })
   }
 
+  sitemap.write({
+    url: '/collections',
+    changefreq: 'daily',
+  })
+
   for (const collection of collections) {
     sitemap.write({
       url: `/collections/${collection.slug}`,
       changefreq: 'weekly',
     })
   }
+
+  sitemap.write({
+    url: '/quotes',
+    changefreq: 'daily',
+  })
 
   for (const authorSlug of authorSlugs) {
     sitemap.write({
