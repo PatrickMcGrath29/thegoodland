@@ -14,5 +14,5 @@ referenceId: aIfAndk4Ds
 categories:
   - Consecration
   - The Headship of Christ
-link: https://thegoodland.io/2023/05/07/the-absolute-lordship-of-christ/
+link: https://thegoodland.io/posts/2023-05-07-the-indwelling-and-lordship-of-christ
 ---
