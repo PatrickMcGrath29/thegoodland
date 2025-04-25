@@ -42,7 +42,7 @@ const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
 })
 
 const heading = computed(() => {
-  return matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName
+  return `${matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName} Quotes`
 })
 
 const title = computed(() => {
@@ -63,7 +63,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="(heading as string)" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
+    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
 
     <StyledCard highlighted-state="active" class="my-10">
       <div class="p-6">
@@ -78,9 +78,9 @@ useSeoMeta({
         >
           Continue Reading
         </div>
-        <span class="text-lg pt-1 md:pl-3 md:pt-0 font-medium text-center md:text-left">
+        <h2 class="text-lg pt-1 md:pl-3 md:pt-0 font-medium text-center md:text-left">
           More by {{ matchingQuote.reference?.authorName }}
-        </span>
+        </h2>
       </div>
     </div>
 

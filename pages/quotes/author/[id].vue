@@ -19,6 +19,9 @@ const quotesForAuthor = computed(() => {
 }) as ComputedRef<[Quote, ...Quote[]]>
 
 const author = computed(() => quotesForAuthor.value[0].reference?.authorName)
+const heading = computed(() => {
+  return `${author.value} Quotes`
+})
 
 const breadCrumbs = computed(() => {
   return [
@@ -36,7 +39,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="(author as string)" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
+    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
 
     <MoreByPills :quotes="quotesForAuthor" />
 

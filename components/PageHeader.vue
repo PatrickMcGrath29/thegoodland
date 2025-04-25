@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { BreadCrumb } from '~/types'
 
-const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subtitle: string, breadCrumbs?: BreadCrumb[] }>()
+const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?: string, subtitle: string, breadCrumbs?: BreadCrumb[] }>()
 </script>
 
 <template>
@@ -30,8 +30,13 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subtitle: s
     >
       {{ subtitle }}
     </div>
-    <h1 class="text-4xl pt-1 md:pl-4 md:pt-0 font-bold text-center md:text-left">
-      {{ heading }}
-    </h1>
+    <div class="pt-1 md:pl-4 md:pt-0 text-center md:text-left">
+      <h1 class="text-4xl font-bold">
+        {{ heading }}
+      </h1>
+      <h2 v-if="subheading" class="text-base text-neutral-400 pt-0.5">
+        {{ subheading }}
+      </h2>
+    </div>
   </div>
 </template>
