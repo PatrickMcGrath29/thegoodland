@@ -15,4 +15,6 @@ text: Seek at the beginning to get my heart into such a state where it has no
   my mind is thus at peace and continues so after two or three petitions, I
   proceed accordingly.
 referenceId: zi1tbta10z
+categories:
+  - Will of God
 ---
