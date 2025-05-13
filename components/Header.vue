@@ -17,6 +17,7 @@ const navItems = computed(() => {
       children: collections.value?.map(collection => ({
         label: collection.name,
         to: `/collections/${collection.slug}`,
+        description: collection.author ? `by ${collection.author}` : undefined,
       })),
     },
   ])
