@@ -1,3 +1,3 @@
 <template>
-  <div class="my-7 border-t border-neutral-700" />
+  <USeparator class="my-7" />
 </template>
