@@ -1,3 +1,3 @@
 <template>
-  <div class="divider" />
+  <div class="my-7 border-t border-neutral-700" />
 </template>

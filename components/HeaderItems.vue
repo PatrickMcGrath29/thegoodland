@@ -1,34 +1,30 @@
 <script setup lang="ts">
-import type { Collection } from '~/types'
+const { data: collections } = await useAsyncData('collections', () => useCollections())
 
-function clickHandler() {
-  if (document.activeElement instanceof HTMLElement)
-    document.activeElement.blur()
-}
-
-const { data: collectionResult } = await useAsyncData('primaryCollection', () => useCollection('new-life-lessons-andrew-murray'))
-const primaryCollection = collectionResult as Ref<Collection>
+const collectionsItems = computed(() => collections.value?.map(collection => ({
+  label: collection.name,
+  to: `/collections/${collection.slug}`,
+})))
 </script>
 
 <template>
   <li>
-    <NuxtLink to="/posts" @click="clickHandler">
+    <UButton to="/posts" color="neutral" variant="ghost" class="hover:bg-neutral-600">
       Blog Posts
-    </NuxtLink>
+    </UButton>
   </li>
   <li>
-    <NuxtLink :to="`/collections/${primaryCollection.slug}`" @click="clickHandler">
-      {{ primaryCollection.name }}
-    </NuxtLink>
+    <UDropdownMenu
+      :items="collectionsItems" :ui="{
+        content: 'w-48',
+      }"
+    >
+      <UButton label="Collections" color="neutral" variant="ghost" class="cursor-pointer hover:bg-neutral-600" />
+    </UDropdownMenu>
   </li>
   <li>
-    <NuxtLink to="/collections" @click="clickHandler">
-      Collections
-    </NuxtLink>
-  </li>
-  <li>
-    <NuxtLink to="/quotes" @click="clickHandler">
+    <UButton to="/quotes" color="neutral" variant="ghost" class="hover:bg-neutral-600">
       Quotes
-    </NuxtLink>
+    </UButton>
   </li>
 </template>

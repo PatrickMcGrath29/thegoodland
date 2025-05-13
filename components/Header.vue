@@ -1,31 +1,18 @@
 <template>
-  <header class="my-2">
+  <header class="my-3">
     <Container>
-      <div class="navbar bg-base-300 rounded-lg shadow-md justify-between">
+      <div class="flex bg-neutral-800 rounded-lg justify-between px-3 py-1.5 shadow-lg">
         <div class="navbar-start">
-          <NuxtLink to="/" class="btn btn-ghost normal-case text-2xl flex justify-center hover:bg-neutral-700">
-            <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
-            The Good Land
-          </NuxtLink>
+          <UButton to="/" variant="ghost" class="text-neutral hover:bg-neutral-600">
+            <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-600 p-1.5 rounded-md" />
+            <h3 class="normal-case font-semibold text-2xl flex justify-center">
+              The Good Land
+            </h3>
+          </UButton>
         </div>
-        <div class="navbar-end w-fit">
-          <div class="dropdown dropdown-end">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <Icon name="mdi:menu" size="25px" />
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-compact dropdown-content z-[1] mt-3 p-2 shadow bg-neutral-900 rounded-box w-52"
-            >
-              <HeaderItems />
-            </ul>
-          </div>
-          <div class="hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 gap-1">
-              <HeaderItems />
-            </ul>
-          </div>
-        </div>
+        <ul class="flex px-1 gap-1 items-center">
+          <HeaderItems />
+        </ul>
       </div>
     </Container>
   </header>

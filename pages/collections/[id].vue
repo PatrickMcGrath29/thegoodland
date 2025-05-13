@@ -59,13 +59,13 @@ useSeoMeta({
       </h2>
     </div>
     <div class="gap-10 my-10 card">
-      <div class="whitespace-pre-line">
+      <div class="whitespace-pre-line mb-8">
         {{ collection.summary }}
       </div>
       <div class="gap-4 columns-xs">
         <NuxtLink
           v-for="(post, idx) in posts" :key="idx" :to="`/posts/${post.slug}`"
-          class="p-3 block bg-base-300 hover:bg-neutral-700 rounded mb-4"
+          class="p-3 block bg-neutral-700 hover:bg-neutral-800 rounded mb-4"
           prefetch-on="interaction"
         >
           {{ post.title }}
