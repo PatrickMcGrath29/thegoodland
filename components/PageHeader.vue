@@ -26,6 +26,7 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?
     :class="{ 'my-10 md:my-14': breadCrumbs.length === 0, 'mb-10 md:mb-14': breadCrumbs.length > 0 }"
   >
     <div
+      v-if="subtitle"
       class="text-xl border-neutral-500 font-light text-neutral-500 border-b md:border-r md:border-b-0 pb-1 md:pr-4 md:pb-0"
     >
       {{ subtitle }}
