@@ -23,7 +23,21 @@ function toggleOverlayPanel(event: any) {
 </script>
 
 <template>
-  <div class="grow sm:grow-0">
+  <USelectMenu
+    :items="filteredContentRecords" :filter-fields="['text']" label-key="text" :placeholder="buttonText"
+    class="w-60"
+  >
+    <template #item="{ item }">
+      <div>
+        {{ item.text }}
+        <div v-if="item.textSubtitle" class="text-xs">
+          {{ item.textSubtitle }}
+        </div>
+      </div>
+    </template>
+  </USelectMenu>
+
+  <!-- <div class="grow sm:grow-0">
     <Button
       type="button" aria-haspopup="true" aria-controls="overlay_menu" pt:root="btn w-full"
       @click="toggleOverlayPanel"
@@ -53,5 +67,5 @@ function toggleOverlayPanel(event: any) {
         </NuxtLink>
       </div>
     </div>
-  </OverlayPanel>
+  </OverlayPanel> -->
 </template>
