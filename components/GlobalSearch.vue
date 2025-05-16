@@ -49,5 +49,5 @@ const groups = ref([
 </script>
 
 <template>
-  <UCommandPalette v-model:search-term="searchTerm" :groups="groups" placeholder="Search..."  />
+  <UCommandPalette v-model:search-term="searchTerm" :groups="groups" placeholder="Search..." />
 </template>

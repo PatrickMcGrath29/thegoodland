@@ -53,11 +53,3 @@ export function normalizeInput(input: string | undefined): string {
 
   return input.toLowerCase().replace('.', '')
 }
-
-export function useIsSmallScreen() {
-  const { width } = useWindowSize()
-
-  return computed(() => {
-    return width.value < 1024
-  })
-}

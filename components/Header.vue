@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-import { useIsSmallScreen } from '~/shared/utils'
 
 const { data: collections } = await useAsyncData('collections', () => useCollections())
 
