@@ -74,7 +74,7 @@ useSeoMeta({
     <div v-if="additionalQuotesForAuthor.length > 0" class="my-14">
       <div class="flex flex-col md:flex-row items-center justify-center">
         <div
-          class="text-sm border-neutral-500 font-light text-neutral-500 border-b md:border-r md:border-b-0 pb-1 md:pr-3 md:pb-0"
+          class="text-sm border-neutral-500 font-light text-muted border-b md:border-r md:border-b-0 pb-1 md:pr-3 md:pb-0"
         >
           Continue Reading
         </div>

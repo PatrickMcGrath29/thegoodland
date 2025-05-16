@@ -12,7 +12,7 @@ const postPath = `/posts/${props.post.slug}`
       <div v-if="post.featuredImage" class="w-full relative">
         <div v-if="isFeatured" class="absolute top-4 left-4">
           <span
-            class="bg-neutral-800 opacity-90 px-3 py-1.5 border border-neutral-700 shadow-lg text-neutral- flex items-center rounded-md"
+            class="bg-neutral-800 opacity-90 px-3 py-1.5 border border-neutral-700 shadow-lg flex items-center rounded-md"
           >
             <Icon name="mdi:star-four-points" class="mr-1.5 text-accent" />
             Featured

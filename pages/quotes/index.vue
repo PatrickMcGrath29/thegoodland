@@ -61,7 +61,7 @@ const authors: Ref<TextLink[]> = computed(() => {
     (author) => {
       return {
         text: author,
-        link: `/quotes/author/${authorSlug(author)}`,
+        onSelect: () => navigateTo(`/quotes/author/${authorSlug(author)}`),
       }
     },
   )
@@ -78,22 +78,23 @@ const references: Ref<TextLink[]> = computed(() => {
     reference => reference.referenceName,
   )
 
-  const referenceLinks = new Set(
-    references.map(
-      (reference) => {
-        const slug = referenceSlug(reference.authorName, reference.referenceName as string)
-        const link: TextLink = {
-          text: reference.referenceName as string,
-          textSubtitle: reference.authorName ? `by ${reference.authorName}` : undefined,
-          link: `/quotes/reference/${slug}`,
-        }
+  const referenceLinks = references.map(
+    (reference) => {
+      const slug = referenceSlug(reference.authorName, reference.referenceName as string)
+      const link: TextLink = {
+        text: reference.referenceName as string,
+        textSubtitle: reference.authorName ? `by ${reference.authorName}` : undefined,
+        onSelect: () => navigateTo(`/quotes/reference/${slug}`),
+      }
 
-        return JSON.stringify(link)
-      },
-    ),
+      return link
+    },
+  )
+  const uniqueReferenceLinks = referenceLinks.filter((link, index, self) =>
+    index === self.findIndex(l => l.text === link.text && l.textSubtitle === link.textSubtitle),
   )
 
-  return Array.from(referenceLinks).sort().map(link => JSON.parse(link))
+  return uniqueReferenceLinks.sort()
 })
 
 useSeoMeta({
