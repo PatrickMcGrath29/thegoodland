@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+import { useIsSmallScreen } from '~/shared/utils'
 
 const { data: collections } = await useAsyncData('collections', () => useCollections())
 
@@ -8,8 +9,23 @@ const route = useRoute()
 const mobileMenuOpen = ref(false)
 const searchOpen = ref(false)
 
+const isSmallScreen = useIsSmallScreen()
+
+const { Command_K, Ctrl_K } = useMagicKeys()
+
+onMounted(() => {
+  watch([Command_K, Ctrl_K], (v) => {
+    if (searchOpen.value)
+      return
+
+    if (v)
+      searchOpen.value = true
+  })
+})
+
 watch(route, () => {
   mobileMenuOpen.value = false
+  searchOpen.value = false
 })
 
 const navItems = computed(() => {
@@ -34,73 +50,20 @@ const navItems = computed(() => {
       to: '/quotes',
       icon: 'ph:pen-nib-duotone',
     },
+  ] satisfies NavigationMenuItem[])
+})
+
+const desktopNavItems = computed(() => {
+  return [
+    ...navItems.value,
     {
       label: 'Search',
       onSelect: () => searchOpen.value = true,
       icon: 'ph:magnifying-glass-duotone',
       class: 'cursor-pointer',
     },
-  ] satisfies NavigationMenuItem[])
+  ]
 })
-
-const groups = ref([
-  {
-    id: 'users',
-    label: 'Users',
-    items: [
-      {
-        label: 'Benjamin Canac',
-        suffix: 'benjamincanac',
-        avatar: {
-          src: 'https://github.com/benjamincanac.png',
-        },
-      },
-      {
-        label: 'Sylvain Marroufin',
-        suffix: 'smarroufin',
-        avatar: {
-          src: 'https://github.com/smarroufin.png',
-        },
-      },
-      {
-        label: 'Sébastien Chopin',
-        suffix: 'atinux',
-        avatar: {
-          src: 'https://github.com/atinux.png',
-        },
-      },
-      {
-        label: 'Romain Hamel',
-        suffix: 'romhml',
-        avatar: {
-          src: 'https://github.com/romhml.png',
-        },
-      },
-      {
-        label: 'Haytham A. Salama',
-        suffix: 'Haythamasalama',
-        avatar: {
-          src: 'https://github.com/Haythamasalama.png',
-        },
-      },
-      {
-        label: 'Daniel Roe',
-        suffix: 'danielroe',
-        avatar: {
-          src: 'https://github.com/danielroe.png',
-        },
-      },
-      {
-        label: 'Neil Richter',
-        suffix: 'noook',
-        avatar: {
-          src: 'https://github.com/noook.png',
-        },
-      },
-    ],
-  },
-])
-const searchTerm = ref('')
 </script>
 
 <template>
@@ -116,7 +79,7 @@ const searchTerm = ref('')
           </UButton>
         </div>
         <ul class="px-1 gap-1 items-center hidden md:flex">
-          <UNavigationMenu :items="navItems" class="w-full justify-center" content-orientation="vertical" />
+          <UNavigationMenu :items="desktopNavItems" class="w-full justify-center" content-orientation="vertical" />
         </ul>
         <ul class="flex items-center md:hidden">
           <UPopover v-model:open="mobileMenuOpen">
@@ -131,12 +94,15 @@ const searchTerm = ref('')
               />
             </template>
           </UPopover>
+          <UButton variant="ghost" color="neutral" @click="searchOpen = true">
+            <Icon name="ph:magnifying-glass-duotone" size="20px" />
+          </UButton>
         </ul>
       </div>
     </Container>
-    <UModal v-model:open="searchOpen">
+    <UModal v-model:open="searchOpen" class="max-w-2xl" :class="{ 'h-80': !isSmallScreen }" :fullscreen="isSmallScreen">
       <template #content>
-        <UCommandPalette v-model:search-term="searchTerm" :groups="groups" placeholder="Search..." class="h-80" />
+        <GlobalSearch />
       </template>
     </UModal>
   </header>
