@@ -4,9 +4,29 @@ import type { Quote } from '~/types'
 import { smartEllipsis } from '~/shared/utils'
 
 const searchTerm = ref('')
+const route = useRoute()
+
+const settingsStore = useSettingsStore()
+const isSmallScreen = useIsSmallScreen()
 
 const { data: posts } = await useAsyncData('allPosts', () => useBlogPosts())
 const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
+
+const { Command_K, Ctrl_K } = useMagicKeys()
+
+watch(route, () => {
+  settingsStore.searchOpen = false
+})
+
+onMounted(() => {
+  watch([Command_K, Ctrl_K], (v) => {
+    if (settingsStore.searchOpen)
+      return
+
+    if (v)
+      settingsStore.searchOpen = true
+  })
+})
 
 const matchingQuotes = computed(() => {
   const quoteSuffix = (quote: Quote) => {
@@ -16,7 +36,7 @@ const matchingQuotes = computed(() => {
   }
 
   return quotes.value?.filter(quote => quote.text.includes(searchTerm.value)).map(quote => ({
-    label: smartEllipsis(quote.text, 50),
+    label: smartEllipsis(quote.text, 100),
     suffix: quoteSuffix(quote),
     onSelect: () => {
       navigateTo(`/quotes/${quote.uuid}/${quote.slug}`)
@@ -49,5 +69,28 @@ const groups = ref([
 </script>
 
 <template>
-  <UCommandPalette v-model:search-term="searchTerm" :groups="groups" placeholder="Search..." />
+  <UModal v-model:open="settingsStore.searchOpen" class="max-w-4xl" :class="{ 'h-130': !isSmallScreen }" :fullscreen="isSmallScreen">
+    <template #content>
+      <UCommandPalette
+        v-model:search-term="searchTerm" :groups="groups" placeholder="Search..." :close="{
+          onClick: () => {
+            settingsStore.searchOpen = false
+          },
+        }" :ui="{
+          item: 'cursor-pointer',
+        }"
+      >
+        <template #item="{ item }">
+          <div class="text-left py-0.5">
+            <div>
+              <span>{{ item.label }}</span>
+            </div>
+            <div class="text-sm text-gray-500 ">
+              {{ item.suffix }}
+            </div>
+          </div>
+        </template>
+      </UCommandPalette>
+    </template>
+  </UModal>
 </template>

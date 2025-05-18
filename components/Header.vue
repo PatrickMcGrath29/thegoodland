@@ -6,25 +6,10 @@ const { data: collections } = await useAsyncData('collections', () => useCollect
 const route = useRoute()
 
 const mobileMenuOpen = ref(false)
-const searchOpen = ref(false)
-
-const isSmallScreen = useIsSmallScreen()
-
-const { Command_K, Ctrl_K } = useMagicKeys()
-
-onMounted(() => {
-  watch([Command_K, Ctrl_K], (v) => {
-    if (searchOpen.value)
-      return
-
-    if (v)
-      searchOpen.value = true
-  })
-})
+const settingsStore = useSettingsStore()
 
 watch(route, () => {
   mobileMenuOpen.value = false
-  searchOpen.value = false
 })
 
 const navItems = computed(() => {
@@ -57,7 +42,7 @@ const desktopNavItems = computed(() => {
     ...navItems.value,
     {
       label: 'Search',
-      onSelect: () => searchOpen.value = true,
+      onSelect: () => settingsStore.searchOpen = true,
       icon: 'ph:magnifying-glass-duotone',
       class: 'cursor-pointer',
     },
@@ -81,9 +66,12 @@ const desktopNavItems = computed(() => {
           <UNavigationMenu :items="desktopNavItems" class="w-full justify-center" content-orientation="vertical" />
         </ul>
         <ul class="flex items-center md:hidden">
+          <UButton variant="ghost" color="neutral" @click="settingsStore.searchOpen = true">
+            <Icon name="ph:magnifying-glass-duotone" size="20px" />
+          </UButton>
           <UPopover v-model:open="mobileMenuOpen">
             <UButton label="Open" color="neutral" variant="ghost">
-              <Icon name="i-lucide-menu" size="25px" />
+              <Icon name="i-lucide-menu" size="20px" />
             </UButton>
 
             <template #content>
@@ -93,16 +81,9 @@ const desktopNavItems = computed(() => {
               />
             </template>
           </UPopover>
-          <UButton variant="ghost" color="neutral" @click="searchOpen = true">
-            <Icon name="ph:magnifying-glass-duotone" size="20px" />
-          </UButton>
         </ul>
       </div>
+      <GlobalSearch />
     </Container>
-    <UModal v-model:open="searchOpen" class="max-w-2xl" :class="{ 'h-80': !isSmallScreen }" :fullscreen="isSmallScreen">
-      <template #content>
-        <GlobalSearch />
-      </template>
-    </UModal>
   </header>
 </template>

@@ -4,39 +4,19 @@ import { getHighlightedQuote } from '~/shared/quotes'
 import { authorSlug, normalizeInput, referenceSlug } from '~/shared/utils'
 
 const PAGE_SIZE = 2500
-const SEARCH_THROTTLE_MS = 250
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 const pageNumber = ref<number>(0)
-const searchBarValue: Ref<string> = ref('')
-const throttledSearchBarValue = refThrottled(searchBarValue, SEARCH_THROTTLE_MS)
 
 const highlightedQuote = computed(() => {
   return getHighlightedQuote(quotes)
 })
 
-const matchingQuotes = computed(() => {
-  if (throttledSearchBarValue.value === '')
-    return quotes.value
-
-  return quotes.value.filter((quote) => {
-    return [
-      normalizeInput(quote.text),
-      normalizeInput(quote.reference?.authorName),
-      normalizeInput(quote.reference?.referenceName),
-    ].filter(Boolean).some(text => text.includes(normalizeInput(throttledSearchBarValue.value)))
-  })
-})
-
-watch(matchingQuotes, (_old, _new) => {
-  pageNumber.value = 0
-})
-
-const pageCount = computed(() => Math.ceil(matchingQuotes.value.length / PAGE_SIZE))
+const pageCount = computed(() => Math.ceil(quotes.value.length / PAGE_SIZE))
 const pageQuotes = computed(() => {
-  return matchingQuotes.value.slice(
+  return quotes.value.slice(
     pageNumber.value * PAGE_SIZE,
     (pageNumber.value + 1) * PAGE_SIZE,
   )
@@ -117,15 +97,9 @@ useSeoMeta({
       </div>
     </StyledCard>
 
-    <div class="mb-10 flex flex-wrap gap-3">
+    <div class="mb-10 flex flex-wrap gap-3 flex-col sm:flex-row">
       <ContentOverlayPanel button-text="Authors" :content-records="authors" />
       <ContentOverlayPanel button-text="Literature" :content-records="references" />
-      <div class="w-full sm:max-w-96">
-        <label class="input input-bordered flex items-center gap-2">
-          <Icon name="ph:magnifying-glass-duotone" />
-          <input v-model="searchBarValue" placeholder="Search...">
-        </label>
-      </div>
     </div>
 
     <ColumnView class="gap-6" :count="pageQuotes.length">

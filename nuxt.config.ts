@@ -48,7 +48,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/content',
+    '@nuxt/content',  
     'nuxt-link-checker',
     '@nuxt/scripts',
     'nuxt-schema-org',

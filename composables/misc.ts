@@ -24,6 +24,6 @@ export function useIsSmallScreen() {
   const { width } = useWindowSize()
 
   return computed(() => {
-    return width.value < 1024
+    return width.value < 768
   })
 }
