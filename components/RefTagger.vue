@@ -18,6 +18,7 @@ const REFTAGGER_SETTINGS = {
   },
   roundCorners: true,
   socialSharing: [],
+  createTooltipDelay: 1000,
 }
 
 const slotRef = ref<HTMLElement>()

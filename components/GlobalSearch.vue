@@ -35,7 +35,7 @@ const matchingQuotes = computed(() => {
       : `by ${quote.reference?.authorName}`
   }
 
-  return quotes.value?.filter(quote => quote.text.includes(searchTerm.value)).map(quote => ({
+  return quotes.value?.map(quote => ({
     label: smartEllipsis(quote.text, 100),
     suffix: quoteSuffix(quote),
     onSelect: () => {
@@ -45,7 +45,7 @@ const matchingQuotes = computed(() => {
 })
 
 const matchingPosts = computed(() => {
-  return posts.value?.filter(post => post.title.includes(searchTerm.value)).map(post => ({
+  return posts.value?.map(post => ({
     label: post.title,
     suffix: post.author ? `by ${post.author}` : undefined,
     onSelect: () => {
@@ -57,7 +57,7 @@ const matchingPosts = computed(() => {
 const groups = ref([
   {
     id: 'posts',
-    label: 'Posts',
+    label: 'Blog Posts',
     items: matchingPosts.value as CommandPaletteItem[],
   },
   {
@@ -78,14 +78,15 @@ const groups = ref([
           },
         }" :ui="{
           item: 'cursor-pointer',
+          label: 'font-bold text-md pb-4',
         }"
       >
         <template #item="{ item }">
-          <div class="text-left py-0.5">
+          <div class="text-left py-0.5 ">
             <div>
               <span>{{ item.label }}</span>
             </div>
-            <div class="text-sm text-gray-500 ">
+            <div class="text-sm text-dimmed">
               {{ item.suffix }}
             </div>
           </div>
