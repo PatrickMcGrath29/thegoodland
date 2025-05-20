@@ -37,10 +37,8 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  ui: {
-    colorMode: {
-      preference: 'dark',
-    }
+  colorMode: {
+    preference: 'dark',
   },
 
   modules: [
@@ -48,7 +46,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/content',  
+    '@nuxt/content',
     'nuxt-link-checker',
     '@nuxt/scripts',
     'nuxt-schema-org',
