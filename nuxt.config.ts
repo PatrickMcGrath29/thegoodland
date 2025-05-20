@@ -35,18 +35,23 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
+  css: ['~/assets/css/main.css'],
+
+  colorMode: {
+    preference: 'dark',
+  },
+
   modules: [
     '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/content',
     'nuxt-link-checker',
-    '@primevue/nuxt-module',
     '@nuxt/scripts',
     'nuxt-schema-org',
     '@sentry/nuxt/module',
+    '@nuxt/ui',
   ],
 
   $production: {
@@ -54,15 +59,6 @@ export default defineNuxtConfig({
       registry: {
         cloudflareWebAnalytics: true,
       },
-    },
-  },
-
-  primevue: {
-    options: {
-      unstyled: true,
-    },
-    components: {
-      include: ['OverlayPanel', 'Button', 'Menu'],
     },
   },
 

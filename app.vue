@@ -18,10 +18,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <div tabindex="0">
+  <UApp>
     <NuxtLoadingIndicator color="#ffbf00" :height="1" />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </UApp>
 </template>

@@ -19,3 +19,11 @@ export function useColumnSettings(numElements: number) {
   else
     return 'columns-md'
 }
+
+export function useIsSmallScreen() {
+  const { width } = useWindowSize()
+
+  return computed(() => {
+    return width.value < 768
+  })
+}

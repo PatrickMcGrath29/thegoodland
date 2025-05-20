@@ -19,8 +19,11 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
 <template>
   <div v-if="surroundingPosts" class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-16">
     <div>
-      <NuxtLink
-        v-if="surroundingPosts[0]" class="btn btn-ghost w-full h-full"
+      <UButton
+        v-if="surroundingPosts[0]"
+        block
+        color="neutral"
+        variant="ghost" class="w-full h-full text-center"
         :to="`/posts/${surroundingPosts[0].slug}`"
       >
         <div class="py-2">
@@ -29,19 +32,22 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
           </div>
           {{ surroundingPosts[0].title }}
         </div>
-      </NuxtLink>
+      </UButton>
     </div>
     <div>
-      <NuxtLink :to="`/collections/${collection.slug}`" class="btn btn-ghost w-full h-full">
+      <UButton color="neutral" variant="ghost" block :to="`/collections/${collection.slug}`" class="w-full h-full text-center">
         <div class="py-2">
           Table of Contents
         </div>
-      </NuxtLink>
+      </UButton>
     </div>
 
     <div>
-      <NuxtLink
-        v-if="surroundingPosts[1]" class="btn btn-ghost w-full h-full"
+      <UButton
+        v-if="surroundingPosts[1]"
+        color="neutral"
+        block
+        variant="ghost" class="w-full h-full text-center"
         :to="`/posts/${surroundingPosts[1].slug}`"
       >
         <div class="py-2">
@@ -50,7 +56,7 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
           </div>
           {{ surroundingPosts[1].title }}
         </div>
-      </NuxtLink>
+      </UButton>
     </div>
   </div>
 </template>
