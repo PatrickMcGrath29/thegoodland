@@ -76,8 +76,11 @@ const desktopNavItems = computed(() => {
 
             <template #content>
               <UNavigationMenu
+                :ui="{
+                  linkLabel: 'text-base',
+                }"
                 orientation="vertical" :items="navItems"
-                class="w-full justify-center data-[orientation=vertical]:w-48" content-orientation="vertical"
+                class="w-full justify-center data-[orientation=vertical]:w-60" content-orientation="vertical"
               />
             </template>
           </UPopover>
