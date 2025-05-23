@@ -36,7 +36,7 @@ const matchingQuotes = computed(() => {
   }
 
   return quotes.value?.map(quote => ({
-    label: smartEllipsis(quote.text, 100),
+    label: quote.text,
     suffix: quoteSuffix(quote),
     onSelect: () => {
       navigateTo(`/quotes/${quote.uuid}/${quote.slug}`)
@@ -84,7 +84,7 @@ const groups = ref([
         <template #item="{ item }">
           <div class="text-left py-0.5 ">
             <div>
-              <span>{{ item.label }}</span>
+              <span>{{ smartEllipsis(item.label || '', 100) }}</span>
             </div>
             <div class="text-sm text-dimmed">
               {{ item.suffix }}
