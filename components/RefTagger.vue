@@ -6,7 +6,7 @@ declare global {
 }
 
 const REFTAGGER_SCRIPT_ID = 'reftagger-source'
-const REFTAGGER_SCRIPT_URL = 'https://api.reftagger.com/v2/RefTagger.js'
+const REFTAGGER_SCRIPT_URL = '/assets/reftagger.js'
 const REFTAGGER_SETTINGS = {
   bibleReader: 'bible.faithlife',
   bibleVersion: 'NKJV',
