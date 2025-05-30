@@ -22,6 +22,7 @@ const navItems = computed(() => {
     {
       label: 'Collections',
       to: '/collections',
+      defaultOpen: true,
       children: collections.value?.map(collection => ({
         label: collection.name,
         to: `/collections/${collection.slug}`,
