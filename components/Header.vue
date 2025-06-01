@@ -66,11 +66,11 @@ const desktopNavItems = computed(() => {
         <ul class="px-1 gap-1 items-center hidden md:flex">
           <UNavigationMenu :items="desktopNavItems" class="w-full justify-center" content-orientation="vertical" />
         </ul>
-        <ul class="flex items-center md:hidden">
+        <ul class="flex items-center md:hidden gap-2">
           <UButton variant="ghost" color="neutral" @click="settingsStore.searchOpen = true">
             <Icon name="ph:magnifying-glass-duotone" size="20px" />
           </UButton>
-          <UPopover v-model:open="mobileMenuOpen">
+          <UPopover v-model:open="mobileMenuOpen" :modal="true">
             <UButton label="Open" color="neutral" variant="ghost">
               <Icon name="i-lucide-menu" size="20px" />
             </UButton>
@@ -79,9 +79,10 @@ const desktopNavItems = computed(() => {
               <UNavigationMenu
                 :ui="{
                   linkLabel: 'text-base',
+                  root: 'p-2',
                 }"
                 orientation="vertical" :items="navItems"
-                class="w-full justify-center data-[orientation=vertical]:w-60" content-orientation="vertical"
+                class="w-full justify-center data-[orientation=vertical]:w-65" content-orientation="vertical"
               />
             </template>
           </UPopover>
