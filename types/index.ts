@@ -40,7 +40,7 @@ export interface Quote {
   uuid: string
   text: string
   reference?: Reference
-  categories: string[]
+  categories?: string[]
   link?: string
   slug: string
 }
