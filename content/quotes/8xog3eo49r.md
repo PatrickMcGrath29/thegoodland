@@ -8,11 +8,9 @@ text: >-
   before God.
 
 
-  It cannot be too clearly understood that this indwelling is not because of anything in us, either at the beginning, or at any stage of the Christian life.
-
-
-  From first to last, the Spirit dwells with us because of the unchanging value of the work of Christ. Cease forever to dishonor the value of that work by doubting the presence of this Holy Person. Your feelings, your faithfulness have nothing to do with this basic fact.
+  It cannot be too clearly understood that this indwelling is not because of anything in us, either at the beginning, or at any stage of the Christian life. From first to last, the Spirit dwells with us because of the unchanging value of the work of Christ. Cease forever to dishonor the value of that work by doubting the presence of this Holy Person. Your feelings, your faithfulness have nothing to do with this basic fact.
 referenceId: v7bpnwvkbu
 categories:
   - Abiding in Christ
+  - The Presence of God
 ---
