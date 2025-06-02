@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Quote, Reference, TextLink } from '~/types'
 import { getHighlightedQuote } from '~/shared/quotes'
-import { authorSlug, normalizeInput, referenceSlug } from '~/shared/utils'
+import { authorSlug, referenceSlug } from '~/shared/utils'
 
 const PAGE_SIZE = 2500
 
@@ -28,55 +28,6 @@ watch(pageNumber, (_old, _new) => {
   })
 })
 
-const authors: Ref<TextLink[]> = computed(() => {
-  const authors = new Set(
-    quotes.value.map(
-      quote => quote.reference?.authorName,
-    ).filter(
-      author => author !== undefined,
-    ).sort(),
-  )
-
-  const authorLinks = Array.from(authors).map(
-    (author) => {
-      return {
-        text: author,
-        onSelect: () => navigateTo(`/quotes/author/${authorSlug(author)}`),
-      }
-    },
-  )
-
-  return authorLinks
-})
-
-const references: Ref<TextLink[]> = computed(() => {
-  const references: Reference[] = quotes.value.map(
-    quote => quote.reference,
-  ).filter(
-    reference => reference !== undefined,
-  ).filter(
-    reference => reference.referenceName,
-  )
-
-  const referenceLinks = references.map(
-    (reference) => {
-      const slug = referenceSlug(reference.authorName, reference.referenceName as string)
-      const link: TextLink = {
-        text: reference.referenceName as string,
-        textSubtitle: reference.authorName ? `by ${reference.authorName}` : undefined,
-        onSelect: () => navigateTo(`/quotes/reference/${slug}`),
-      }
-
-      return link
-    },
-  )
-  const uniqueReferenceLinks = referenceLinks.filter((link, index, self) =>
-    index === self.findIndex(l => l.text === link.text && l.textSubtitle === link.textSubtitle),
-  )
-
-  return uniqueReferenceLinks.sort()
-})
-
 useSeoMeta({
   title: 'The Good Land — Quotes',
 })
@@ -86,7 +37,7 @@ useSeoMeta({
   <Container>
     <PageHeader heading="All Quotes" subtitle="Quotes" />
 
-    <StyledCard class="my-10" highlighted-state="active">
+    <StyledCard class="mt-10 mb-8" highlighted-state="active">
       <div class="p-4 md:p-8">
         <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
@@ -97,10 +48,7 @@ useSeoMeta({
       </div>
     </StyledCard>
 
-    <div class="mb-10 flex flex-wrap gap-3 flex-col sm:flex-row">
-      <ContentOverlayPanel button-text="Authors" :content-records="authors" />
-      <ContentOverlayPanel button-text="Literature" :content-records="references" />
-    </div>
+    <QuoteDropdownExplorer class="mb-8" />
 
     <ColumnView class="gap-6" :count="pageQuotes.length">
       <div v-for="(quote, idx) in pageQuotes" :key="idx" class="inline-block mb-6">
