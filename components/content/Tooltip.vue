@@ -8,7 +8,7 @@ defineProps<{ text: string, content: string }>()
 
     <template #content>
       <RefTagger>
-        <div class="p-4 bg-neutral-900 max-w-[500px] rounded border border-neutral-600">
+        <div class="p-4 bg-neutral-900 rounded border border-neutral-600 max-w-[min(500px,90vw)]">
           {{ content }}
         </div>
       </RefTagger>
