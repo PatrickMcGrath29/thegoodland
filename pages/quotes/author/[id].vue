@@ -39,7 +39,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
+    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
 
     <MoreByPills :quotes="quotesForAuthor" />
 

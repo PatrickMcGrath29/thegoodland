@@ -28,7 +28,7 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?
     <div v-if="subtitle" class="text-xl border-neutral-500 font-light text-neutral-500 hidden md:block border-r pr-4">
       {{ subtitle }}
     </div>
-    <div class="pt-1 md:pl-4 md:pt-0 text-center md:text-left">
+    <div class="text-center md:text-left" :class="{ 'pt-1 md:pl-4 md:pt-0': subtitle }">
       <h1 class="text-4xl font-bold">
         {{ heading }}
       </h1>

@@ -35,7 +35,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader heading="All Quotes" subtitle="Quotes" />
+    <PageHeader heading="All Quotes" />
 
     <StyledCard class="mt-10 mb-8" highlighted-state="active">
       <div class="p-4 md:p-8">

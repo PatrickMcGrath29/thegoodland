@@ -63,7 +63,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" subtitle="Quotes" />
+    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
 
     <StyledCard highlighted-state="active" class="my-10">
       <div class="p-6">

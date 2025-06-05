@@ -79,6 +79,7 @@ const groups = ref([
         }" :ui="{
           item: 'cursor-pointer',
           label: 'font-bold text-md pb-4',
+          close: 'text-lg',
         }"
       >
         <template #item="{ item }">
