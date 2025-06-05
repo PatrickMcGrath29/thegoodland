@@ -59,6 +59,8 @@ const dropdownItems = ref<NavigationMenuItem[]>([
     disable-pointer-leave-close
     :items="dropdownItems" :ui="{
       childList: 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
+      link: 'cursor-pointer',
+      linkTrailingIcon: 'cursor-default',
     }" popover
   />
 </template>
