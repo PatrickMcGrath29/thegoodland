@@ -12,6 +12,12 @@ text: >-
   analysis.
 
 
-  In comparison with this big world, the human heart is only a small thing. Though the world is so large, it is utterly unable to satisfy this tiny heart. Our ever growing soul and its capacities can be satisfied only in the infinite God. As water is restless until it reaches its level, so the soul has no peace until it rests in God.
+  In comparison with this big world, the human heart is only a small thing.
+  Though the world is so large, it is utterly unable to satisfy this tiny heart.
+  Our ever growing soul and its capacities can be satisfied only in the infinite
+  God. As water is restless until it reaches its level, so the soul has no peace
+  until it rests in God.
 referenceId: pgr0g8t0pk
+createdDate: '2024-08-30T00:34:54.540Z'
 ---
+

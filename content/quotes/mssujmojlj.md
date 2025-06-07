@@ -6,9 +6,12 @@ text: >-
   that it is what is in Adam that manifests itself in me.
 
 
-  If I would know in experience all that is in Christ, then I must learn to live in the Spirit.
+  If I would know in experience all that is in Christ, then I must learn to live
+  in the Spirit.
 referenceId: aIfAndk4Ds
 categories:
   - Conformity to Christ
   - Christ Our Life
+createdDate: '2024-08-30T00:34:54.553Z'
 ---
+

@@ -10,10 +10,19 @@ text: >-
   attractive ways as to increase and elicit their affections towards Himself.
 
 
-  It follows from what has been said that the state of our souls may be discerned by the effect produced upon us by the name of Jesus. If our hearts are careless and irresponsive when He is the subject of conversation or presentation, we cannot be in communion with the heart of God. Why even the name of a beloved object on earth will produce pleasurable emotions. How much more should the name of Christ, the object of God's heart — and also of ours if we know Him — awaken within us holy feelings of delight, which can only be expressed in praise and adoration!
+  It follows from what has been said that the state of our souls may be
+  discerned by the effect produced upon us by the name of Jesus. If our hearts
+  are careless and irresponsive when He is the subject of conversation or
+  presentation, we cannot be in communion with the heart of God. Why even the
+  name of a beloved object on earth will produce pleasurable emotions. How much
+  more should the name of Christ, the object of God's heart — and also of ours
+  if we know Him — awaken within us holy feelings of delight, which can only be
+  expressed in praise and adoration!
 referenceId: ihdftuszx1
 categories:
   - Consecration
   - Love
-link: ""
+link: ''
+createdDate: '2024-11-14T17:35:32.963Z'
 ---
+

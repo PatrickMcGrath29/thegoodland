@@ -7,8 +7,14 @@ text: >-
   you of your need of humbling, and to help you to it.
 
 
-  Consider humility to be the mother-virtue, your very first duty before God, the one constant safeguard of the soul, and set your heart on it as the source of all blessing. The promise is divine and sure. He that humbles himself will be exalted. Be sure you do the one thing God asks, and humble yourself. God will be faithful to do the one thing He promised.
+  Consider humility to be the mother-virtue, your very first duty before God,
+  the one constant safeguard of the soul, and set your heart on it as the source
+  of all blessing. The promise is divine and sure. He that humbles himself will
+  be exalted. Be sure you do the one thing God asks, and humble yourself. God
+  will be faithful to do the one thing He promised.
 referenceId: bcx9hafsa4
 categories:
   - Humility
+createdDate: '2024-08-30T00:34:54.539Z'
 ---
+

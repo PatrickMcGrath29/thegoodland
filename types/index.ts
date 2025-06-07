@@ -6,6 +6,7 @@ export interface RawQuote extends ParsedContent {
   referenceId: string
   categories: string[]
   link?: string
+  createdDate?: string
 }
 
 export interface RawReference extends ParsedContent {
@@ -43,6 +44,7 @@ export interface Quote {
   categories?: string[]
   link?: string
   slug: string
+  createdDate?: string
 }
 
 export interface Reference {

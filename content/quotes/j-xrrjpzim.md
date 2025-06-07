@@ -7,10 +7,15 @@ text: >-
   crucifies all manifestations of the fleshly life.
 
 
-  All those who are progressing in the pursuit of the Lord and who live in the world should have no other compelling purpose but to receive constantly the power of resurrection life and to live out before men the life of the Cross. This is what gives the Lord full satisfaction and is so well-pleasing to Him.
+  All those who are progressing in the pursuit of the Lord and who live in the
+  world should have no other compelling purpose but to receive constantly the
+  power of resurrection life and to live out before men the life of the Cross.
+  This is what gives the Lord full satisfaction and is so well-pleasing to Him.
 referenceId: kui4hcgvfh
 categories:
   - Christ Our Life
   - Conformity to Christ
   - The Cross
+createdDate: '2024-08-30T00:34:54.550Z'
 ---
+

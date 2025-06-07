@@ -1,6 +1,7 @@
 ---
 uuid: 0Ga1zdUNdj
-text: This is definitely not the hour when men take kindly to an exhortation to
+text: >-
+  This is definitely not the hour when men take kindly to an exhortation to
   listen, for listening is not today a part of popular religion. We are at the
   opposite end of the pole from there. Religion has accepted the monstrous
   heresy that noise, size, activity and bluster make a man dear to God. But we
@@ -10,4 +11,6 @@ text: This is definitely not the hour when men take kindly to an exhortation to
 referenceId: a4BdZxBRz7
 categories:
   - Simplicity
+createdDate: '2024-08-30T00:34:54.533Z'
 ---
+
