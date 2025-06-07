@@ -188,7 +188,7 @@ useSeoMeta({
       <template #content>
         <div
           v-if="selectedQuote"
-          class="p-8 bg-neutral-800 border border-neutral-700 rounded-lg relative shadow-2xl"
+          class="p-8 bg-neutral-800 rounded-lg relative shadow-2xl"
         >
           <button
             class="absolute top-4 right-4 text-neutral-300 hover:text-white text-xl bg-neutral-800 hover:bg-neutral-700 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
