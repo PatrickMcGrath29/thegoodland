@@ -205,6 +205,16 @@ collections:
         required: false
         hint: 'A link associated with this quote, for further reading. If there is a link associated with the resource for this quote then this will take precedence over it.'
 
+      - label: Created Date
+        name: createdDate
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: HH:mm
+        format: YYYY-MM-DDTHH:mm:ssZ
+        picker_utc: true
+        default: ''
+        hint: 'The timestamp when this quote was added to the collection.'
+
   - name: references
     label: Quote Reference
     folder: content/references

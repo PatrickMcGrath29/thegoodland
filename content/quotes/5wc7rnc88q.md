@@ -11,11 +11,15 @@ text: >-
   we cannot see his glory.
 
 
-  "Go forth, O daughters of Zion, and see King Solomon with the crown with which his mother crowned him on the day of his wedding, the day of the gladness of his heart."
+  "Go forth, O daughters of Zion, and see King Solomon with the crown with which
+  his mother crowned him on the day of his wedding, the day of the gladness of
+  his heart."
 
   Song of Solomon 3:11
 referenceId: ZEJvDSyAST
 categories:
   - The Beauty of the Lord
   - Looking to Jesus
+createdDate: '2024-08-30T00:34:54.535Z'
 ---
+

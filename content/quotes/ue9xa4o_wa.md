@@ -9,10 +9,14 @@ text: >-
   will."
 
 
-  Not until we take the place of a servant can He take His place as Lord. He is not calling us to devote ourselves to His cause: He is asking us to yield ourselves unconditionally to His will. Are you prepared for that?
+  Not until we take the place of a servant can He take His place as Lord. He is
+  not calling us to devote ourselves to His cause: He is asking us to yield
+  ourselves unconditionally to His will. Are you prepared for that?
 referenceId: aIfAndk4Ds
 categories:
   - Consecration
   - The Headship of Christ
-link: https://thegoodland.io/posts/2023-05-07-the-indwelling-and-lordship-of-christ
+link: 'https://thegoodland.io/posts/2023-05-07-the-indwelling-and-lordship-of-christ'
+createdDate: '2025-05-12T01:56:17.407Z'
 ---
+

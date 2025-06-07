@@ -6,9 +6,14 @@ text: >-
   surrender. To live, we must die. To receive, we must give!
 
 
-  Oh, the joy of such a life! There is nothing like it. All the success in the world cannot compensate for it. Friends can never mean so much. Even loved ones disappoint. Money brings its burdens, and fame its bitterness. But He satisfies!
+  Oh, the joy of such a life! There is nothing like it. All the success in the
+  world cannot compensate for it. Friends can never mean so much. Even loved
+  ones disappoint. Money brings its burdens, and fame its bitterness. But He
+  satisfies!
 referenceId: ykpkkgop6o
 categories:
   - The Headship of Christ
   - Consecration
+createdDate: '2024-08-30T00:34:54.534Z'
 ---
+

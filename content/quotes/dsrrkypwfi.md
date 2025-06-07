@@ -11,8 +11,15 @@ text: >-
   and to know that Jesus Christ lives His life through you.
 
 
-  What are the limits? What are the possibilities? This is the place where you quit begging and start praising God. You need not come, cap in hand, asking God for this and asking God for that. You only have to know that at any given moment Jesus Christ has the right of way in your life and you’re in the place where God wants you. You don’t have to beg for blessing. You thank Him in anticipation. It is inevitable.
+  What are the limits? What are the possibilities? This is the place where you
+  quit begging and start praising God. You need not come, cap in hand, asking
+  God for this and asking God for that. You only have to know that at any given
+  moment Jesus Christ has the right of way in your life and you’re in the place
+  where God wants you. You don’t have to beg for blessing. You thank Him in
+  anticipation. It is inevitable.
 referenceId: wnxuuimqqw
 categories:
   - Christ Our Life
+createdDate: '2024-08-30T00:34:54.544Z'
 ---
+

@@ -60,9 +60,16 @@ const quotesByCategory = computed(() => {
     .slice(0, 6) // Show top 6 categories
 })
 
-// Recent quotes (last 20 quotes, assuming they're ordered)
+// Recent quotes (sorted by createdDate, most recent first)
 const recentQuotes = computed(() => {
-  return quotes.value.slice(-20).reverse()
+  return quotes.value
+    .filter(quote => quote.createdDate) // Only include quotes with timestamps
+    .sort((a, b) => {
+      const dateA = new Date(a.createdDate!).getTime()
+      const dateB = new Date(b.createdDate!).getTime()
+      return dateB - dateA // Most recent first
+    })
+    .slice(0, 20) // Take the 20 most recent
 })
 
 // Modal state for quote popup
