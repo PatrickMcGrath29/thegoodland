@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Quote, Reference, TextLink } from '~/types'
 import { getHighlightedQuote } from '~/shared/quotes'
-import { authorSlug, referenceSlug, slugify, smartEllipsis } from '~/shared/utils'
+import { authorSlug, referenceSlug, slugify } from '~/shared/utils'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
@@ -65,6 +65,20 @@ const recentQuotes = computed(() => {
   return quotes.value.slice(-20).reverse()
 })
 
+// Modal state for quote popup
+const isQuoteModalOpen = ref(false)
+const selectedQuote = ref<Quote | null>(null)
+
+function openQuoteModal(quote: Quote) {
+  selectedQuote.value = quote
+  isQuoteModalOpen.value = true
+}
+
+function closeQuoteModal() {
+  isQuoteModalOpen.value = false
+  selectedQuote.value = null
+}
+
 useSeoMeta({
   title: 'The Good Land — Quotes',
 })
@@ -100,19 +114,12 @@ useSeoMeta({
         </NuxtLink>
       </div>
       <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <div
+        <QuoteCard
           v-for="(quote, idx) in recentQuotes.slice(0, 10)"
           :key="idx"
-          class="flex-none w-80 h-48"
-        >
-          <StyledCard class="h-full">
-            <div class="p-4 h-full flex flex-col">
-              <div class="flex-grow overflow-y-auto">
-                <QuoteText :quote="quote" />
-              </div>
-            </div>
-          </StyledCard>
-        </div>
+          :quote="quote"
+          @click="openQuoteModal"
+        />
       </div>
     </section>
 
@@ -131,19 +138,12 @@ useSeoMeta({
         </NuxtLink>
       </div>
       <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <div
+        <QuoteCard
           v-for="(quote, idx) in authorGroup.quotes"
           :key="idx"
-          class="flex-none w-80 h-48"
-        >
-          <StyledCard class="h-full">
-            <div class="p-4 h-full flex flex-col">
-              <div class="flex-grow overflow-y-auto">
-                <QuoteText :quote="quote" />
-              </div>
-            </div>
-          </StyledCard>
-        </div>
+          :quote="quote"
+          @click="openQuoteModal"
+        />
       </div>
     </section>
 
@@ -161,19 +161,12 @@ useSeoMeta({
         </NuxtLink>
       </div>
       <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <div
+        <QuoteCard
           v-for="(quote, idx) in categoryGroup.quotes"
           :key="idx"
-          class="flex-none w-80 h-48"
-        >
-          <StyledCard class="h-full">
-            <div class="p-4 h-full flex flex-col">
-              <div class="flex-grow overflow-y-auto">
-                <QuoteText :quote="quote" />
-              </div>
-            </div>
-          </StyledCard>
-        </div>
+          :quote="quote"
+          @click="openQuoteModal"
+        />
       </div>
     </section>
 
@@ -183,6 +176,50 @@ useSeoMeta({
         Browse All Quotes
       </NuxtLink>
     </div>
+
+    <!-- Quote Modal -->
+    <UModal
+      v-model:open="isQuoteModalOpen"
+      class="max-w-3xl"
+      :ui="{
+        overlay: 'bg-black/40 backdrop-blur-xs',
+      }"
+    >
+      <template #content>
+        <div
+          v-if="selectedQuote"
+          class="p-8 bg-neutral-800 border border-neutral-700 rounded-lg relative shadow-2xl"
+        >
+          <button
+            class="absolute top-4 right-4 text-neutral-300 hover:text-white text-xl bg-neutral-800 hover:bg-neutral-700 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
+            @click="closeQuoteModal"
+          >
+            ✕
+          </button>
+          <div class="mb-6 pr-8">
+            <QuoteText :quote="selectedQuote" />
+          </div>
+          <div class="flex justify-between items-center text-sm text-neutral-400">
+            <div v-if="selectedQuote.categories && selectedQuote.categories.length > 0" class="flex gap-2">
+              <span
+                v-for="category in selectedQuote.categories"
+                :key="category"
+                class="px-2 py-1 bg-neutral-700 rounded text-xs"
+              >
+                {{ category }}
+              </span>
+            </div>
+            <NuxtLink
+              v-if="selectedQuote.uuid"
+              :to="`/quotes/${selectedQuote.uuid}/${selectedQuote.slug}`"
+              class="text-accent hover:text-accent/80 text-xs font-medium"
+            >
+              View Full Page →
+            </NuxtLink>
+          </div>
+        </div>
+      </template>
+    </UModal>
   </Container>
 </template>
 
@@ -193,20 +230,5 @@ useSeoMeta({
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
-}
-
-/* Style the quote text containers to have better scrolling */
-.overflow-y-auto::-webkit-scrollbar {
-  width: 4px;
-}
-.overflow-y-auto::-webkit-scrollbar-track {
-  background: transparent;
-}
-.overflow-y-auto::-webkit-scrollbar-thumb {
-  background-color: rgba(156, 163, 175, 0.3);
-  border-radius: 2px;
-}
-.overflow-y-auto::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(156, 163, 175, 0.5);
 }
 </style>
