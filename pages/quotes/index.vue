@@ -193,38 +193,7 @@ useSeoMeta({
       }"
     >
       <template #content>
-        <div
-          v-if="selectedQuote"
-          class="p-8 bg-neutral-800 rounded-lg relative shadow-2xl"
-        >
-          <button
-            class="absolute top-4 right-4 text-neutral-300 hover:text-white text-xl bg-neutral-800 hover:bg-neutral-700 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
-            @click="closeQuoteModal"
-          >
-            ✕
-          </button>
-          <div class="mb-6 pr-8">
-            <QuoteText :quote="selectedQuote" />
-          </div>
-          <div class="flex justify-between items-center text-sm text-neutral-400">
-            <div v-if="selectedQuote.categories && selectedQuote.categories.length > 0" class="flex gap-2">
-              <span
-                v-for="category in selectedQuote.categories"
-                :key="category"
-                class="px-2 py-1 bg-neutral-700 rounded text-xs"
-              >
-                {{ category }}
-              </span>
-            </div>
-            <NuxtLink
-              v-if="selectedQuote.uuid"
-              :to="`/quotes/${selectedQuote.uuid}/${selectedQuote.slug}`"
-              class="text-accent hover:text-accent/80 text-xs font-medium"
-            >
-              View Full Page →
-            </NuxtLink>
-          </div>
-        </div>
+        <QuoteModal :quote="selectedQuote" @close="closeQuoteModal" />
       </template>
     </UModal>
   </Container>
