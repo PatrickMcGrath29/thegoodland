@@ -9,6 +9,11 @@ author: Freda Hanbury Allen
 createdDate: 2025-06-14
 slug: not-as-the-world-giveth
 ---
+> "Peace I leave with you, My peace I give to you; not as the world gives do I give to you. Let not your heart be troubled, neither let it be afraid."\
+> —John 14:27
+
+
+
 ::center
 How gives the world?\
 Its best wine when the feast is scarce begun,\
