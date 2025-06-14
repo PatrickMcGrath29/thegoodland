@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import type { Quote, Reference, TextLink } from '~/types'
+import type { Quote } from '~/types'
 import { getHighlightedQuote } from '~/shared/quotes'
-import { authorSlug, referenceSlug, slugify } from '~/shared/utils'
+import { slugify } from '~/shared/utils'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
+
+const isSmallScreen = useIsSmallScreen()
 
 const highlightedQuote = computed(() => {
   return getHighlightedQuote(quotes)
@@ -76,6 +78,18 @@ const recentQuotes = computed(() => {
 const isQuoteModalOpen = ref(false)
 const selectedQuote = ref<Quote | null>(null)
 
+const selectedQuoteTitle = computed(() => {
+  if (!selectedQuote.value)
+    return ''
+
+  const reference = selectedQuote.value.reference
+
+  if (reference?.authorName && reference?.referenceName)
+    return `${reference.authorName} — ${reference.referenceName}`
+
+  return reference?.authorName || reference?.referenceName || ''
+})
+
 function openQuoteModal(quote: Quote) {
   selectedQuote.value = quote
   isQuoteModalOpen.value = true
@@ -111,17 +125,11 @@ useSeoMeta({
     <QuoteDropdownExplorer class="mb-12" />
 
     <!-- Recent Quotes Section -->
-    <QuoteSection
-      title="Recently Added"
-      :quotes="recentQuotes.slice(0, 10)"
-      @quote-click="openQuoteModal"
-    />
+    <QuoteSection title="Recently Added" :quotes="recentQuotes.slice(0, 10)" @quote-click="openQuoteModal" />
 
     <!-- Quotes by Author Sections -->
     <QuoteSection
-      v-for="authorGroup in quotesByAuthor"
-      :key="authorGroup.author"
-      :title="authorGroup.author"
+      v-for="authorGroup in quotesByAuthor" :key="authorGroup.author" :title="authorGroup.author"
       :quotes="authorGroup.quotes"
       :view-all-link="authorGroup.authorSlug ? `/quotes/author/${authorGroup.authorSlug}` : undefined"
       @quote-click="openQuoteModal"
@@ -129,12 +137,9 @@ useSeoMeta({
 
     <!-- Quotes by Category Sections -->
     <QuoteSection
-      v-for="categoryGroup in quotesByCategory"
-      :key="categoryGroup.category"
-      :title="categoryGroup.category"
-      :quotes="categoryGroup.quotes"
-      :view-all-link="`/quotes/category/${slugify(categoryGroup.category)}`"
-      @quote-click="openQuoteModal"
+      v-for="categoryGroup in quotesByCategory" :key="categoryGroup.category"
+      :title="categoryGroup.category" :quotes="categoryGroup.quotes"
+      :view-all-link="`/quotes/category/${slugify(categoryGroup.category)}`" @quote-click="openQuoteModal"
     />
 
     <!-- View All Link -->
@@ -146,13 +151,21 @@ useSeoMeta({
 
     <!-- Quote Modal -->
     <UModal
-      v-model:open="isQuoteModalOpen"
-      class="max-w-3xl"
-      :ui="{
-        overlay: 'bg-black/40 backdrop-blur-xs',
-      }"
+      v-model:open="isQuoteModalOpen" class="max-w-3xl" :title="selectedQuoteTitle" :ui="{
+        overlay: 'backdrop-blur-xs',
+      }" :fullscreen="isSmallScreen" overlay
     >
-      <template #content>
+      <template #header>
+        <div class="flex justify-between items-center w-full">
+          <div class="text-toned">
+            {{ selectedQuoteTitle }}
+          </div>
+          <UButton variant="ghost" size="sm" color="neutral" @click="closeQuoteModal">
+            <Icon name="mdi:close" class="text-2xl" />
+          </UButton>
+        </div>
+      </template>
+      <template #body>
         <QuoteModal v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
       </template>
     </UModal>
