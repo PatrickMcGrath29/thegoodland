@@ -20,5 +20,6 @@ posts:
   - post: 2024-12-20-guidance
   - post: not-as-the-world-giveth
   - post: the-everlasting-god
+  - post: 2025-06-14-the-secret-of-rest
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
