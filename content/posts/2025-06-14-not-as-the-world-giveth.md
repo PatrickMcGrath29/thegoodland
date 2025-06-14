@@ -15,7 +15,7 @@ Its best wine when the feast is scarce begun,\
 But bitter dregs ere life’s short race is run:\
 A smiling circle, many an open door,\
 So long as thou art rich in earthly store.\
-Waters which /ook so cool, but tasted, prove\
+Waters which look so cool, but tasted, prove\
 Never can’st thou thy soul’s deep thirst remove\
 With these ; thou mayest drink and drink again,\
 Still quenchless shall that burning thirst remain.\
