@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: 2nywov7e3p
 title: The Secret of Rest
-isBlogPost: true
+isBlogPost: false
 author: Freda Hanbury Allen
 createdDate: 2025-06-14
 slug: 2025-06-14-the-secret-of-rest
