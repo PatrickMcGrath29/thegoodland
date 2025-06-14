@@ -3,6 +3,10 @@ import type { Quote } from '~/types'
 import { getHighlightedQuote } from '~/shared/quotes'
 import { slugify } from '~/shared/utils'
 
+const NUM_CATEGORIES_TO_SHOW = 6
+const NUM_AUTHORS_TO_SHOW = 8
+const NUM_QUOTES_PER_SECTION = 8
+
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
@@ -30,11 +34,11 @@ const quotesByAuthor = computed(() => {
   return Array.from(grouped.entries())
     .map(([author, authorQuotes]) => ({
       author,
-      quotes: authorQuotes.slice(0, 6), // Show max 6 quotes per author
+      quotes: authorQuotes.slice(0, NUM_QUOTES_PER_SECTION), // Show max 6 quotes per author
       authorSlug: authorQuotes[0]?.reference?.authorSlug,
     }))
     .sort((a, b) => b.quotes.length - a.quotes.length)
-    .slice(0, 8) // Show top 8 authors
+    .slice(0, NUM_AUTHORS_TO_SHOW) // Show top 8 authors
 })
 
 // Group quotes by category
@@ -56,10 +60,10 @@ const quotesByCategory = computed(() => {
   return Array.from(grouped.entries())
     .map(([category, categoryQuotes]) => ({
       category,
-      quotes: categoryQuotes.slice(0, 8), // Show max 8 quotes per category
+      quotes: categoryQuotes.slice(0, NUM_QUOTES_PER_SECTION), // Show max 8 quotes per category
     }))
     .sort((a, b) => b.quotes.length - a.quotes.length)
-    .slice(0, 6) // Show top 6 categories
+    .slice(0, NUM_CATEGORIES_TO_SHOW) // Show top 6 categories
 })
 
 // Recent quotes (sorted by createdDate, most recent first)
@@ -71,7 +75,7 @@ const recentQuotes = computed(() => {
       const dateB = new Date(b.createdDate!).getTime()
       return dateB - dateA // Most recent first
     })
-    .slice(0, 20) // Take the 20 most recent
+    .slice(0, NUM_QUOTES_PER_SECTION)
 })
 
 // Modal state for quote popup
@@ -116,7 +120,7 @@ useSeoMeta({
           Quote of the Day
         </h2>
         <ClientOnly>
-          <QuoteText :quote="highlightedQuote" />
+          <QuoteTextWithCategories :quote="highlightedQuote" />
         </ClientOnly>
       </div>
     </StyledCard>
@@ -125,7 +129,7 @@ useSeoMeta({
     <QuoteDropdownExplorer class="mb-12" />
 
     <!-- Recent Quotes Section -->
-    <QuoteSection title="Recently Added" :quotes="recentQuotes.slice(0, 10)" @quote-click="openQuoteModal" />
+    <QuoteSection title="Recently Added" :quotes="recentQuotes" @quote-click="openQuoteModal" />
 
     <!-- Quotes by Author Sections -->
     <QuoteSection
@@ -161,12 +165,12 @@ useSeoMeta({
             {{ selectedQuoteTitle }}
           </div>
           <UButton variant="ghost" size="sm" color="neutral" @click="closeQuoteModal">
-            <Icon name="mdi:close" class="text-2xl" />
+            <Icon name="i-lucide-x" class="text-2xl" />
           </UButton>
         </div>
       </template>
       <template #body>
-        <QuoteModal v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
+        <QuoteTextWithCategories v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
       </template>
     </UModal>
   </Container>

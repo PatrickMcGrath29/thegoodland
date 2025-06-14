@@ -1,23 +1,16 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 
-interface Props {
+defineProps<{
   quote: Quote
-}
-
-interface Emits {
-  (event: 'close'): void
-}
-
-defineProps<Props>()
-defineEmits<Emits>()
+}>()
 </script>
 
 <template>
   <div class="mb-6 pr-8">
     <QuoteText :quote="quote" :show-perma-link="false" />
   </div>
-  <div class="flex flex-col md:flex-row gap-3 items-start justify-between text-sm text-neutral-400 w-full">
+  <div class="flex flex-col md:flex-row gap-5 items-start justify-between text-sm text-neutral-400 w-full">
     <div class="flex gap-2">
       <span
         v-for="category in quote.categories"

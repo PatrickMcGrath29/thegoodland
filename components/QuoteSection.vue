@@ -27,7 +27,7 @@ defineEmits<{
       </NuxtLink>
     </div>
     <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide snap-x snap-mandatory scroll-px-1">
-      <QuoteCard
+      <QuotePreview
         v-for="(quote, idx) in quotes"
         :key="idx"
         :quote="quote"

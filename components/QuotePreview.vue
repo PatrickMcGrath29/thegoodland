@@ -11,8 +11,8 @@ defineEmits<{
 </script>
 
 <template>
-  <div class="flex-none w-full md:w-96 h-80 m-0.5 transition-all duration-500" @click="$emit('click', quote)">
-    <StyledCard class="h-full cursor-pointer hover:shadow-xl transition-all duration-300">
+  <div class="flex-none w-[calc(100%-2rem)] md:w-96 h-80 m-0.5" @click="$emit('click', quote)">
+    <StyledCard class="h-full cursor-pointer">
       <div class="p-5 h-full flex flex-col">
         <div class="flex-grow overflow-hidden">
           <p class="text-base leading-relaxed line-clamp-8">
