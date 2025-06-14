@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { BreadCrumb } from '~/types'
 
-const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?: string, subtitle: string, breadCrumbs?: BreadCrumb[] }>()
+const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?: string, subtitle?: string, breadCrumbs?: BreadCrumb[] }>()
 </script>
 
 <template>

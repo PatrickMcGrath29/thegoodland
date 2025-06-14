@@ -12,14 +12,33 @@ text: >-
   thrilling story told by a religious adventurer lately returned from afar.
 
 
-  The tragic results of this spirit are all about us. Shallow lives, hollow religious philosophies, the preponderance of the element of fun in gospel meetings, the glorification of men, trust in religious externalities, quasi-religious fellowships, salesmanship methods, the mistaking of dynamic personality for the power of the Spirit: these and such as these are the symptoms of an evil disease, a deep and serious malady of the soul.
+  The tragic results of this spirit are all about us. Shallow lives, hollow
+  religious philosophies, the preponderance of the element of fun in gospel
+  meetings, the glorification of men, trust in religious externalities,
+  quasi-religious fellowships, salesmanship methods, the mistaking of dynamic
+  personality for the power of the Spirit: these and such as these are the
+  symptoms of an evil disease, a deep and serious malady of the soul.
 
 
-  For this great sickness that is upon us no one person is responsible, and no Christian is wholly free from blame. We have all contributed, directly or indirectly, to this sad state of affairs. We have been too blind to see, or too timid to speak out, or too self-satisfied to desire anything better than the poor average diet with which others appear satisfied. To put it differently, we have accepted one another's notions, copied one another's lives and made one another's experiences the model for our own. And for a generation the trend has been downward. Now we have reached a low place of sand and burnt wire grass and, worst of all, we have made the Word of Truth conform to our experience and accepted this low plane as the very pasture of the blessed.
+  For this great sickness that is upon us no one person is responsible, and no
+  Christian is wholly free from blame. We have all contributed, directly or
+  indirectly, to this sad state of affairs. We have been too blind to see, or
+  too timid to speak out, or too self-satisfied to desire anything better than
+  the poor average diet with which others appear satisfied. To put it
+  differently, we have accepted one another's notions, copied one another's
+  lives and made one another's experiences the model for our own. And for a
+  generation the trend has been downward. Now we have reached a low place of
+  sand and burnt wire grass and, worst of all, we have made the Word of Truth
+  conform to our experience and accepted this low plane as the very pasture of
+  the blessed.
 
 
-  It will require a determined heart and more than a little courage to wrench ourselves loose from the grip of our times and return to Biblical ways. But it can be done.
+  It will require a determined heart and more than a little courage to wrench
+  ourselves loose from the grip of our times and return to Biblical ways. But it
+  can be done.
 referenceId: a4BdZxBRz7
 categories:
   - Consecration
+createdDate: '2024-08-30T00:50:52.996Z'
 ---
+

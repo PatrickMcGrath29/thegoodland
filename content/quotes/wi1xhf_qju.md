@@ -1,6 +1,7 @@
 ---
 uuid: wI1Xhf_QJu
-text: God will not give me humility or patience or holiness or love as separate
+text: >-
+  God will not give me humility or patience or holiness or love as separate
   gifts of His grace. He's not a retailer dispensing grace to us in doses,
   measuring our some patience to the impatient, some love to the unloving, some
   meekness to the proud, in quantities that we take and work on as a kind of
@@ -15,4 +16,6 @@ categories:
   - Humility
   - Christ Our Life
   - Abiding in Christ
+createdDate: '2024-08-30T00:34:54.567Z'
 ---
+

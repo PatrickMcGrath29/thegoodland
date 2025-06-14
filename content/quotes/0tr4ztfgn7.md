@@ -10,6 +10,10 @@ text: >-
   to live with him forever and ever.
 
 
-  Surely if thus thou believest, and livest, thy life is comfortable, and thy death will be sweet; if there be any heaven upon earth, thou wilt find it in the practice and exercise of this gospel duty, in "Looking unto Jesus."
+  Surely if thus thou believest, and livest, thy life is comfortable, and thy
+  death will be sweet; if there be any heaven upon earth, thou wilt find it in
+  the practice and exercise of this gospel duty, in "Looking unto Jesus."
 referenceId: ZEJvDSyAST
+createdDate: '2025-03-29T04:14:18.357Z'
 ---
+

@@ -10,12 +10,19 @@ text: >-
   learn the power of Jehovah, because we feel the littleness of man. 
 
 
-  Thank God, then, if you have been led by a rough road: it is this which has given you your experience of God’s greatness and lovingkindness... Praise God that you have not been left to the darkness and ignorance which continued prosperity might have involved, but that in the great fight of affliction, you have been capacitated for the outshinings of his glory in his wonderful dealings with you.
+  Thank God, then, if you have been led by a rough road: it is this which has
+  given you your experience of God’s greatness and lovingkindness... Praise God
+  that you have not been left to the darkness and ignorance which continued
+  prosperity might have involved, but that in the great fight of affliction, you
+  have been capacitated for the outshinings of his glory in his wonderful
+  dealings with you.
 referenceId: ks5iuakskj
 categories:
   - Trials
   - Suffering
   - Humility
   - The Cross
-link: https://www.ccel.org/ccel/spurgeon/morneve.d0719am.html
+link: 'https://www.ccel.org/ccel/spurgeon/morneve.d0719am.html'
+createdDate: '2024-08-30T00:34:54.536Z'
 ---
+

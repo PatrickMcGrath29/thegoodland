@@ -13,8 +13,19 @@ text: >-
   simply "not I." 
 
 
-  "Change" is never God's way; His way is always "exchange." All these years I have not been able to change myself, yet God has exchanged me. This is holiness, this is perfection, this is victory, and this is the life of God's Son! Hallelujah! Henceforth the gentleness of Christ is my gentleness; the holiness of Christ is my holiness; the prayer life of Christ is my prayer life; the communion of Christ with God is now my communion with God. No sin is too big that I cannot overcome. No temptation is too severe that I cannot prevail. For the life that wins is Christ, not I. Will Christ ever be fearful of a big sin? Will He be afraid of a great temptation? Praise God, I no longer fear because hereafter it is Christ and not I.
+  "Change" is never God's way; His way is always "exchange." All these years I
+  have not been able to change myself, yet God has exchanged me. This is
+  holiness, this is perfection, this is victory, and this is the life of God's
+  Son! Hallelujah! Henceforth the gentleness of Christ is my gentleness; the
+  holiness of Christ is my holiness; the prayer life of Christ is my prayer
+  life; the communion of Christ with God is now my communion with God. No sin is
+  too big that I cannot overcome. No temptation is too severe that I cannot
+  prevail. For the life that wins is Christ, not I. Will Christ ever be fearful
+  of a big sin? Will He be afraid of a great temptation? Praise God, I no longer
+  fear because hereafter it is Christ and not I.
 referenceId: z4x8hwc5uv
 categories:
   - Exchanged Life
+createdDate: '2025-02-14T14:56:33.668Z'
 ---
+

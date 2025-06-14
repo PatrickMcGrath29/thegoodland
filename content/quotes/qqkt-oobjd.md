@@ -8,6 +8,9 @@ text: >-
   honey from the flowers...
 
 
-  You will enjoy God only as much as you train your understanding and affections sincerely on Him.
+  You will enjoy God only as much as you train your understanding and affections
+  sincerely on Him.
 referenceId: 4nghk37z6c
+createdDate: '2024-08-30T00:50:52.997Z'
 ---
+

@@ -9,8 +9,14 @@ text: >-
   lose the only power by which to answer them.
 
 
-  The devil did not openly present himself and say, "I am the devil, the enemy of God, and I am come to traduce him, and ruin you." This would not be serpent-like; and, yet, he really did all this, by raising questions in the mind of the creature. To admit the question, "hath God said?" when I know that God has spoken, is positive infidelity...
+  The devil did not openly present himself and say, "I am the devil, the enemy
+  of God, and I am come to traduce him, and ruin you." This would not be
+  serpent-like; and, yet, he really did all this, by raising questions in the
+  mind of the creature. To admit the question, "hath God said?" when I know that
+  God has spoken, is positive infidelity...
 referenceId: e5wp5mym08
 categories:
   - The Word
+createdDate: '2025-05-12T01:56:17.397Z'
 ---
+

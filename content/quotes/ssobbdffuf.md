@@ -11,9 +11,19 @@ text: >-
   pressing on toward the mark, keen and strong. Which?
 
 
-  Christ is preparing your place. He is, to that end, watching your course on earth. The sons of Zebedee demanded to sit on the right and left of the King Himself. Do not follow the other disciples in their anger at this request. It is well to aim high. It is contemptible to seek merely to “get saved.” But remember our Lord’s reply to the disciples, “Can ye drink of My cup, and be baptized with My baptism?” Ah, that is it! We are carving out our own destiny every moment. The Judgment Seat of Christ will settle all. There will be no respect of persons there. But the faithful servant will take a higher place and portion, and the slothful and worldly will be saved, that is all.
+  Christ is preparing your place. He is, to that end, watching your course on
+  earth. The sons of Zebedee demanded to sit on the right and left of the King
+  Himself. Do not follow the other disciples in their anger at this request. It
+  is well to aim high. It is contemptible to seek merely to “get saved.” But
+  remember our Lord’s reply to the disciples, “Can ye drink of My cup, and be
+  baptized with My baptism?” Ah, that is it! We are carving out our own destiny
+  every moment. The Judgment Seat of Christ will settle all. There will be no
+  respect of persons there. But the faithful servant will take a higher place
+  and portion, and the slothful and worldly will be saved, that is all.
 referenceId: yosoms1rzf
 categories:
   - Consecration
   - Service
+createdDate: '2025-01-12T22:24:53.394Z'
 ---
+

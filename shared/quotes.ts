@@ -7,6 +7,7 @@ function parseQuote(rawQuote: RawQuote): RawQuote {
     ...rawQuote,
     uuid: rawQuote.uuid?.toLowerCase(),
     referenceId: rawQuote.referenceId?.toLowerCase(),
+    createdDate: rawQuote.createdDate,
   }
 }
 

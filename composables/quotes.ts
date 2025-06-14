@@ -3,7 +3,7 @@ import { hydrateQuotes } from '~/shared/quotes'
 
 async function useRawQuotes(): Promise<RawQuote[]> {
   return await queryContent<RawQuote>('/quotes')
-    .sort({ uuid: 1 })
+    .sort({ createdDate: -1, uuid: 1 })
     .find()
 }
 
