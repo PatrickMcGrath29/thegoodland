@@ -107,7 +107,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader heading="All Quotes" subtitle="Quotes" />
+    <PageHeader heading="All Quotes" />
 
     <!-- Quote of the Day Section -->
     <StyledCard class="mt-10 mb-12" highlighted-state="active">
