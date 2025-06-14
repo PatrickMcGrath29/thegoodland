@@ -9,13 +9,20 @@ author: Freda Hanbury Allen
 createdDate: 2025-06-14
 slug: the-everlasting-god
 ---
-> "He loves with an 'everlasting love'" (Jeremiah 31:3)\
-> "He saves with an 'everlasting salvation'" (Isaiah 45:17)\
-> "He assures by an 'everlasting covenant'" (Hebrews 13:20)\
-> Trusting Him we "receive an 'everlasting life'" (John 3:16)\
-> "Rejoice with an 'everlasting joy'" (Isaiah 35:10)\
-> "Rest on the 'everlasting arms'" (Deuteronomy 33:27)\
-> "Reflect the 'everlasting light'" (Isaiah 60:19-20)
+> "He loves with an 'everlasting love'"\
+> — Jeremiah 31:3\
+> "He saves with an 'everlasting salvation'"\
+> — Isaiah 45:17\
+> "He assures by an 'everlasting covenant'"\
+> — Hebrews 13:20\
+> Trusting Him we "receive an 'everlasting life'"\
+> — John 3:16\
+> "Rejoice with an 'everlasting joy'"\
+> — Isaiah 35:10\
+> "Rest on the 'everlasting arms'"\
+> — Deuteronomy 33:27\
+> "Reflect the 'everlasting light'"\
+> — Isaiah 60:19-20
 
 ::center
 Mid the restless, ceaseless changes\
