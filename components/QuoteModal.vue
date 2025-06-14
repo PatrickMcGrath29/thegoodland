@@ -14,11 +14,11 @@ defineEmits<Emits>()
 </script>
 
 <template>
-  <StyledCard class="p-6">
+  <StyledCard class="p-6 overflow-auto" highlighted-state="active">
     <div class="mb-6 pr-8">
-      <QuoteText :quote="quote" />
+      <QuoteText :quote="quote" :show-perma-link="false" />
     </div>
-    <div class="flex justify-between items-center text-sm text-neutral-400 w-full">
+    <div class="flex flex-col md:flex-row gap-3 items-start justify-between text-sm text-neutral-400 w-full">
       <div class="flex gap-2">
         <span
           v-for="category in quote.categories"

@@ -111,71 +111,31 @@ useSeoMeta({
     <QuoteDropdownExplorer class="mb-12" />
 
     <!-- Recent Quotes Section -->
-    <section class="mb-12">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-bold">
-          Recently Added
-        </h2>
-        <NuxtLink to="/quotes/browse" class="text-accent hover:text-accent/80 text-sm font-medium">
-          View All →
-        </NuxtLink>
-      </div>
-      <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <QuoteCard
-          v-for="(quote, idx) in recentQuotes.slice(0, 10)"
-          :key="idx"
-          :quote="quote"
-          @click="openQuoteModal"
-        />
-      </div>
-    </section>
+    <QuoteSection
+      title="Recently Added"
+      :quotes="recentQuotes.slice(0, 10)"
+      @quote-click="openQuoteModal"
+    />
 
     <!-- Quotes by Author Sections -->
-    <section v-for="authorGroup in quotesByAuthor" :key="authorGroup.author" class="mb-12">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-bold">
-          {{ authorGroup.author }}
-        </h2>
-        <NuxtLink
-          v-if="authorGroup.authorSlug"
-          :to="`/quotes/author/${authorGroup.authorSlug}`"
-          class="text-accent hover:text-accent/80 text-sm font-medium"
-        >
-          View All →
-        </NuxtLink>
-      </div>
-      <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <QuoteCard
-          v-for="(quote, idx) in authorGroup.quotes"
-          :key="idx"
-          :quote="quote"
-          @click="openQuoteModal"
-        />
-      </div>
-    </section>
+    <QuoteSection
+      v-for="authorGroup in quotesByAuthor"
+      :key="authorGroup.author"
+      :title="authorGroup.author"
+      :quotes="authorGroup.quotes"
+      :view-all-link="authorGroup.authorSlug ? `/quotes/author/${authorGroup.authorSlug}` : undefined"
+      @quote-click="openQuoteModal"
+    />
 
     <!-- Quotes by Category Sections -->
-    <section v-for="categoryGroup in quotesByCategory" :key="categoryGroup.category" class="mb-12">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-bold">
-          {{ categoryGroup.category }}
-        </h2>
-        <NuxtLink
-          :to="`/quotes/category/${slugify(categoryGroup.category)}`"
-          class="text-accent hover:text-accent/80 text-sm font-medium"
-        >
-          View All →
-        </NuxtLink>
-      </div>
-      <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-        <QuoteCard
-          v-for="(quote, idx) in categoryGroup.quotes"
-          :key="idx"
-          :quote="quote"
-          @click="openQuoteModal"
-        />
-      </div>
-    </section>
+    <QuoteSection
+      v-for="categoryGroup in quotesByCategory"
+      :key="categoryGroup.category"
+      :title="categoryGroup.category"
+      :quotes="categoryGroup.quotes"
+      :view-all-link="`/quotes/category/${slugify(categoryGroup.category)}`"
+      @quote-click="openQuoteModal"
+    />
 
     <!-- View All Link -->
     <div class="text-center mt-16">
@@ -193,18 +153,8 @@ useSeoMeta({
       }"
     >
       <template #content>
-        <QuoteModal :quote="selectedQuote" @close="closeQuoteModal" />
+        <QuoteModal v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
       </template>
     </UModal>
   </Container>
 </template>
-
-<style scoped>
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-</style>
