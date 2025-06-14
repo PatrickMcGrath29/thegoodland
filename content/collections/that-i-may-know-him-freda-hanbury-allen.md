@@ -12,5 +12,6 @@ posts:
   - post: 2024-12-19-my-prayer
   - post: 2024-12-19-his-witnesses
   - post: 2024-12-20-guidance
+  - post: not-as-the-world-giveth
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
