@@ -20,13 +20,13 @@ const quotesForReference = computed(() => {
 
 const reference = computed(() => quotesForReference.value[0].reference)
 const heading = computed(() => {
-  return `${reference.value.referenceName} Quotes`
+  return `${reference.value?.referenceName} Quotes`
 })
 const subheading = computed(() => {
-  if (!reference.value.authorName)
+  if (!reference.value?.authorName)
     return undefined
 
-  return `by ${reference.value.authorName}`
+  return `by ${reference.value?.authorName}`
 })
 
 const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
@@ -49,6 +49,8 @@ useSeoMeta({
 <template>
   <Container>
     <PageHeader :heading="heading" :subheading="subheading" :bread-crumbs="breadCrumbs" />
+
+    <QuoteDropdownExplorer class="mb-8" />
 
     <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">

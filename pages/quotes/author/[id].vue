@@ -41,7 +41,7 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
 
-    <MoreByPills :quotes="quotesForAuthor" />
+    <QuoteDropdownExplorer class="mb-8" />
 
     <ColumnView class="gap-6" :count="quotesForAuthor.length">
       <div v-for="(quote, idx) in quotesForAuthor" :key="idx" class="inline-block mb-6">

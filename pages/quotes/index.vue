@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
+import { UButton } from '#components'
 import { getHighlightedQuote } from '~/shared/quotes'
 import { slugify } from '~/shared/utils'
 
@@ -147,10 +148,10 @@ useSeoMeta({
     />
 
     <!-- View All Link -->
-    <div class="text-center mt-16">
-      <NuxtLink to="/quotes/browse" class="btn btn-outline btn-lg">
+    <div class="text-center my-16">
+      <UButton to="/quotes/browse" variant="outline" size="lg" color="neutral">
         Browse All Quotes
-      </NuxtLink>
+      </UButton>
     </div>
 
     <!-- Quote Modal -->

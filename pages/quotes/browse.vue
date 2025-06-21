@@ -14,7 +14,6 @@ useSeoMeta({
   <Container>
     <PageHeader
       heading="Browse All Quotes"
-      subtitle="Quotes"
     />
 
     <QuoteDropdownExplorer class="mb-8" />

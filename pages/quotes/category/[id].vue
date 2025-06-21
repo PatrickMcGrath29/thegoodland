@@ -23,27 +23,28 @@ const category = computed(() => {
   return quotesForCategory.value[0].categories?.find(c => slugify(c) === id)
 })
 const heading = computed(() => {
-  return `${category.value} Quotes`
+  return `Quotes About ${category.value}`
 })
 
 const breadCrumbs = computed(() => {
   return [
     { text: 'Quotes', link: '/quotes' },
-    { text: 'Categories' },
     { text: category.value },
   ] as BreadCrumb[]
 })
 
 useSeoMeta({
-  title: `${category.value} Quotes`,
-  description: `${category.value} Quotes`,
-  ogDescription: `${category.value} Quotes`,
+  title: heading,
+  description: heading,
+  ogDescription: heading,
 })
 </script>
 
 <template>
   <Container>
     <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
+
+    <QuoteDropdownExplorer class="mb-8" />
 
     <ColumnView class="gap-6" :count="quotesForCategory.length">
       <div v-for="(quote, idx) in quotesForCategory" :key="idx" class="inline-block mb-6">
