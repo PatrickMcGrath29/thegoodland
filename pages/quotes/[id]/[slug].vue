@@ -65,7 +65,7 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
 
-    <QuoteDropdownExplorer class="mb-8" />
+    <QuoteDropdownExplorer class="mb-4" />
 
     <StyledCard highlighted-state="active" class="mb-10">
       <div class="p-6">

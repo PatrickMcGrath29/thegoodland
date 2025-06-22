@@ -44,7 +44,7 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
 
-    <QuoteDropdownExplorer class="mb-8" />
+    <QuoteDropdownExplorer class="mb-4" />
 
     <ColumnView class="gap-6" :count="quotesForCategory.length">
       <div v-for="(quote, idx) in quotesForCategory" :key="idx" class="inline-block mb-6">

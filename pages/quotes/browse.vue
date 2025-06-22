@@ -16,7 +16,7 @@ useSeoMeta({
       heading="Browse All Quotes"
     />
 
-    <QuoteDropdownExplorer class="mb-8" />
+    <QuoteDropdownExplorer class="mb-4" />
 
     <ColumnView class="gap-6" :count="quotes.length">
       <div v-for="(quote, idx) in quotes" :key="idx" class="inline-block mb-6">
