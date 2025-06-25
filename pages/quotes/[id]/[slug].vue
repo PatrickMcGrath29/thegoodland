@@ -18,6 +18,9 @@ const matchingQuote = computed(() => {
   return foundQuote
 })
 
+// Ensure we have the quote data before proceeding
+const currentQuote = matchingQuote.value
+
 const additionalQuotesForAuthor = computed(() => {
   return quotes.value.filter((quote) => {
     return quote.reference?.authorSlug === matchingQuote.value.reference?.authorSlug
@@ -58,6 +61,17 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
+})
+
+// Define OG Image for individual quote pages
+// Use our custom component with actual quote data
+defineOgImage({
+  component: 'OgImageQuote',
+  props: {
+    quote: currentQuote.text,
+    author: currentQuote.reference?.authorName,
+    reference: currentQuote.reference?.referenceName,
+  }
 })
 </script>
 

@@ -52,6 +52,7 @@ export default defineNuxtConfig({
     'nuxt-schema-org',
     '@sentry/nuxt/module',
     '@nuxt/ui',
+    'nuxt-og-image',
   ],
 
   $production: {

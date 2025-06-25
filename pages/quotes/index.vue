@@ -108,6 +108,17 @@ function closeQuoteModal() {
 useSeoMeta({
   title: 'The Good Land — Quotes',
 })
+
+// Define OG Image for quotes index page
+// Use our custom component with the highlighted quote
+defineOgImage({
+  component: 'OgImageQuote',
+  props: {
+    quote: highlightedQuote.value?.text || 'Discover inspiring quotes from Christian authors and thinkers.',
+    author: highlightedQuote.value?.reference?.authorName,
+    reference: highlightedQuote.value?.reference?.referenceName,
+  },
+})
 </script>
 
 <template>
