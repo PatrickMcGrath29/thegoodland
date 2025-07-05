@@ -12,6 +12,8 @@ text: There are large numbers of people in the Christian Church who seem to
   hunger and thirst after righteousness. We must not put blessedness or
   happiness or experience in the first place.
 referenceId: m1wgg0yl3v
-categories: []
-createdDate: 2025-07-05T19:47:00Z
+categories:
+  - Will of God
+  - Conformity to Christ
+createdDate: 2025-07-05T19:47:00.000Z
 ---
