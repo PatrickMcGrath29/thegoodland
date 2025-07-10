@@ -2,14 +2,14 @@
 slugFields:
   - createdDate
   - title
-title: Entering into the Joy of the Lord, Our Bridegroom
-summary: If we want to live a full and victorious life in Christ, in this age so
-  full of distractions and sin, it is necessary for us to enter into and remain
-  in the joy of the Lord.
+title: "Enter Into the Joy of Your Lord: Knowing the Heart of the Bridegroom"
+summary: Knowing His heart leads us to share in His joy. When we align our
+  hearts with His, His joy becomes our strength, empowering us to live fully for
+  Him.
 slug: 2024-11-24-entering-into-the-joy-of-the-lord-our-bridegroom
 uuid: 6ebvibn_mn
 isBlogPost: true
-featuredImage: /uploads/entering_in.jpg
+featuredImage: /uploads/sunrise_nature.jpg
 createdDate: 2024-11-24
 ---
 > “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’"
