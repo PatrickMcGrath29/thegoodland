@@ -15,9 +15,7 @@ createdDate: 2024-11-24
 > “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’"
 >
 > — Matthew 25:6
-
-
-
+>
 > "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’
 >
 > — Matthew 25:23
@@ -28,7 +26,7 @@ Our Bridegroom, the Lord Jesus, wants to bring us into His joy. As shown in Matt
 
 If we want to live a full and victorious life in Christ, in this age so full of distractions and sin, it is necessary for us to enter into and remain in the joy of the Lord. The joy of the Lord truly is a mighty force that will strengthen us through life’s circumstances. In Nehemiah 8:10 it says that “the joy of the Lord is your strength”. This is true, brothers and sisters. The joy of the Lord is our strength! 
 
-### What Is His Joy?
+### Knowing the Heart of the Bridegroom
 
 In order to enter into the joy of the Lord, we first need to look at His heart to understand what delights Him, what pleases Him, and what brings Him joy. What is the joy of the Lord?
 
@@ -44,7 +42,7 @@ The joy of the Lord is His people—His bride. In Hebrews 12:2, it says that it 
 
 A brother named T. Austin-Sparks once said, "The joy of the Lord is having a people, be it ever so small, so despised, so weak, nevertheless, whose heart is set upon that which is according to His heart."
 
-If we want to enter into His joy, we must know what His joy is. Oh Lord, may You open Your heart to us. Lord, reveal Your perfect and holy will to us!
+If we want to enter into His joy we must know His heart. Oh Lord, may You open Your heart to us. Show us Lord, where Your delight is!
 
 ### Our Need for Transformation
 
