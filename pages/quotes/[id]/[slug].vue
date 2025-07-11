@@ -53,7 +53,7 @@ useSeoMeta({
 
     <StyledCard highlighted-state="active" class="mb-10">
       <div class="p-6">
-        <QuoteText :quote="matchingQuote" :show-perma-link="false" />
+        <QuoteTextWithCategories :quote="matchingQuote" :show-full-page-link="false" />
       </div>
     </StyledCard>
 
@@ -74,7 +74,7 @@ useSeoMeta({
       <div v-for="(quote, idx) in additionalQuotesForAuthor" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-4">
-            <QuoteText :quote="quote" />
+            <QuoteTextWithCategories :quote="quote" />
           </div>
         </StyledCard>
       </div>

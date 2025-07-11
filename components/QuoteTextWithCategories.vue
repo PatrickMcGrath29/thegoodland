@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 
-defineProps<{
+const { quote, showFullPageLink = true } = defineProps<{
   quote: Quote
+  showFullPageLink?: boolean
 }>()
 </script>
 
@@ -18,7 +19,7 @@ defineProps<{
     </div>
     <div>
       <UButton
-        v-if="quote.uuid" :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right"
+        v-if="showFullPageLink" :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right"
         variant="ghost" color="primary" size="sm"
       >
         View Full Page
