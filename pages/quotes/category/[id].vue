@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BreadCrumb, Quote } from '~/types'
+import type { Quote } from '~/types'
 import { slugify } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
@@ -26,13 +26,6 @@ const heading = computed(() => {
   return `Quotes About ${category.value}`
 })
 
-const breadCrumbs = computed(() => {
-  return [
-    { text: 'Quotes', link: '/quotes' },
-    { text: category.value },
-  ] as BreadCrumb[]
-})
-
 useSeoMeta({
   title: heading,
   description: heading,
@@ -42,7 +35,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="heading" subtitle="Quotes" />
 
     <QuoteDropdownExplorer class="mb-4" />
 

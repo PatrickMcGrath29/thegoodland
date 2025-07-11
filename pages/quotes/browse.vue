@@ -12,9 +12,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader
-      heading="Browse All Quotes"
-    />
+    <PageHeader heading="Browse All Quotes" subtitle="Quotes" />
 
     <QuoteDropdownExplorer class="mb-4" />
 

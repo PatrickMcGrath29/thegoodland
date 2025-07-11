@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BreadCrumb, Quote } from '~/types'
+import type { Quote } from '~/types'
 import { smartEllipsis } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
@@ -25,22 +25,6 @@ const additionalQuotesForAuthor = computed(() => {
   })
 }) as Ref<Quote[]>
 
-const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
-  const crumbs = [
-    { text: 'Quotes', link: '/quotes' },
-  ] as BreadCrumb[]
-
-  if (matchingQuote.value.reference?.authorName) {
-    const authorCrumb = {
-      text: matchingQuote.value.reference?.authorName,
-      link: `/quotes/author/${matchingQuote.value.reference?.authorSlug}`,
-    }
-    crumbs.push(authorCrumb)
-  }
-
-  return crumbs
-})
-
 const heading = computed(() => {
   return `${matchingQuote.value.reference?.authorName || matchingQuote.value.reference?.referenceName} Quotes`
 })
@@ -63,7 +47,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="heading" subtitle="Quotes" />
 
     <QuoteDropdownExplorer class="mb-4" />
 

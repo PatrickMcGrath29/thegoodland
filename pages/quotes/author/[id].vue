@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BreadCrumb, Quote } from '~/types'
+import type { Quote } from '~/types'
 
 const { params: { id } } = useRoute()
 const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
@@ -23,13 +23,6 @@ const heading = computed(() => {
   return `${author.value} Quotes`
 })
 
-const breadCrumbs = computed(() => {
-  return [
-    { text: 'Quotes', link: '/quotes' },
-    { text: author.value },
-  ] as BreadCrumb[]
-})
-
 useSeoMeta({
   title: `${author.value} Quotes`,
   description: `Quotes by ${author.value}`,
@@ -39,7 +32,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="heading" subtitle="Quotes" />
 
     <QuoteDropdownExplorer class="mb-4" />
 

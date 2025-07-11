@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BreadCrumb, Quote } from '~/types'
+import type { Quote } from '~/types'
 
 const { params: { id } } = useRoute()
 const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
@@ -29,14 +29,6 @@ const subheading = computed(() => {
   return `by ${reference.value?.authorName}`
 })
 
-const breadCrumbs: Ref<BreadCrumb[]> = computed(() => {
-  return [
-    { text: 'Quotes', link: '/quotes' },
-    { text: reference.value?.authorName, link: `/quotes/author/${reference.value?.authorSlug}` },
-    { text: reference.value?.referenceName },
-  ] as BreadCrumb[]
-})
-
 const title = computed(() => `${reference.value?.referenceName} Quotes by ${reference.value?.authorName}`)
 
 useSeoMeta({
@@ -48,7 +40,7 @@ useSeoMeta({
 
 <template>
   <Container>
-    <PageHeader :heading="heading" :subheading="subheading" :bread-crumbs="breadCrumbs" />
+    <PageHeader :heading="heading" :subheading="subheading" subtitle="Quotes" />
 
     <QuoteDropdownExplorer class="mb-4" />
 
