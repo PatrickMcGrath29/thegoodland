@@ -11,8 +11,8 @@ const { quote, showFullPageLink = true } = defineProps<{
   <div class="mb-6 pr-8">
     <QuoteText :quote="quote" :show-perma-link="false" />
   </div>
-  <div class="flex flex-col md:flex-row gap-5 md:items-center justify-between w-full">
-    <div class="flex gap-2">
+  <div class="flex flex-wrap gap-5 items-center justify-between w-full">
+    <div class="flex flex-wrap gap-2">
       <span v-for="category in quote.categories" :key="category" class="px-2 py-1 bg-neutral-700 rounded text-xs text-toned">
         {{ category }}
       </span>
