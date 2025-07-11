@@ -9,7 +9,7 @@ summary: Knowing His heart leads us to share in His joy. When we align our
 slug: 2024-11-24-entering-into-the-joy-of-the-lord-our-bridegroom
 uuid: 6ebvibn_mn
 isBlogPost: true
-featuredImage: /uploads/sunrise_nature.jpg
+featuredImage: /uploads/sunrise_mountains.jpg
 createdDate: 2024-11-24
 ---
 > “And at midnight a cry was heard: ‘Behold, the bridegroom is coming; go out to meet him!’"
