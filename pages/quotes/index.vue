@@ -90,7 +90,7 @@ const selectedQuoteTitle = computed(() => {
   const reference = selectedQuote.value.reference
 
   if (reference?.authorName && reference?.referenceName)
-    return `${reference.authorName} — ${reference.referenceName}`
+    return `${reference.referenceName}, by ${reference.authorName}`
 
   return reference?.authorName || reference?.referenceName || ''
 })
@@ -162,10 +162,10 @@ useSeoMeta({
     >
       <template #header>
         <div class="flex justify-between items-center w-full">
-          <div class="text-toned">
-            {{ selectedQuoteTitle }}
+          <div class="text-muted">
+            Quotes — {{ selectedQuoteTitle }}
           </div>
-          <UButton variant="ghost" size="sm" color="neutral" @click="closeQuoteModal">
+          <UButton variant="ghost" size="sm" color="neutral" class="cursor-pointer" @click="closeQuoteModal">
             <Icon name="i-lucide-x" class="text-2xl" />
           </UButton>
         </div>
