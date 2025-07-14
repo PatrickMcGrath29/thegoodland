@@ -2,8 +2,8 @@
 slugFields:
   - createdDate
   - title
-title: Christ, Our True Jubilee
-summary: Christ is our True Jubilee—He sets captives free, restores what was
+title: "The Favorable Year of the Lord: Christ Our True Jubilee"
+summary: Christ is our true Jubilee—He sets captives free, restores what was
   lost, and proclaims the favorable year of the Lord. In Him, we find true
   liberty and rest.
 slug: 2025-07-14-christ-our-true-jubilee
@@ -16,19 +16,6 @@ createdDate: 2025-07-14
 > <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
 > — Leviticus 25:10
 
-> <sup> **1** </sup>“The Spirit of the Lord GOD <i>is</i> upon Me, Because the LORD has anointed Me To preach good tidings to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives, And the opening of the prison to <i>those</i> <i>who</i> <i>are</i> bound;
-> <sup> **2** </sup>To proclaim the acceptable year of the LORD, And the day of vengeance of our God;  To comfort all who mourn,
-> <sup> **3** </sup>To console those who mourn in Zion,  To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness,  The planting of the LORD, that He may be glorified.”\
-> — Isaiah 61:1-3
-
-> <sup> **16** </sup>So He came to Nazareth, where He had been brought up. And as His custom was, He went into the synagogue on the Sabbath day, and stood up to read.
-> <sup> **17** </sup>And He was handed the book of the prophet Isaiah. And when He had opened the book, He found the place where it was written:
-> <sup> **18** </sup>“The  Spirit of the LORD <i>is</i> upon Me, Because He has anointed Me To preach the gospel to <i>the</i> poor; He has sent Me to heal the brokenhearted, To proclaim liberty to <i>the</i> captives And recovery of sight to <i>the</i> blind, <i>To</i> set at liberty those who are oppressed;
-> <sup> **19** </sup>To proclaim the acceptable year of the <i>LORD</i>.”
-> <sup> **20** </sup>Then He closed the book, and gave <i>it</i> back to the attendant and sat down. And the eyes of all who were in the synagogue were fixed on Him.
-> <sup> **21** </sup>And He began to say to them, “Today this Scripture is  fulfilled in your hearing.”\
-> — Luke 4:16-21
-
 The year of Jubilee represents the release from captivity and the restoration of what was lost. The commandment concerning the Jubilee was given by God. The Israelites were to observe it every 50 years. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was also a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
 
 The commandment concerning the year of Jubilee was delivered to Moses in Leviticus 25. This was the last time that God spoke to Moses from the top of Mt. Sinai. After this, the Lord would speak to Moses in the tent of meeting. The fact that this was the last time God spoke to Moses from the top of Mt. Sinai indicates that there is something weighty, something concluding, about what was being said.
@@ -39,11 +26,26 @@ The year of Jubilee is something very consequential, something very meaningful, 
 
 In Isaiah chapter 61 we find a passage that relates directly to the year of Jubilee.
 
+> <sup> **1** </sup>“The Spirit of the Lord GOD is upon Me, Because the LORD has anointed Me To preach good tidings to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives, And the opening of the prison to those who are bound;
+> <sup> **2** </sup>To proclaim the favorable year of the LORD, And the day of vengeance of our God;  To comfort all who mourn,
+> <sup> **3** </sup>To console those who mourn in Zion,  To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness,  The planting of the LORD, that He may be glorified.”\
+> — Isaiah 61:1-3
+
 The passage speaks about the "favorable year of the Lord", or in other words, about the year of Jubilee. It speaks of One who has been anointed by God to proclaim good tidings to the poor, healing to the brokenhearted, and liberty to the captives.
 
 The year of Jubilee in the Old Testament was a shadow of something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free, and to proclaim the favorable year of the Lord!
 
-As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah. He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
+As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah.
+
+> <sup> **16** </sup>So He came to Nazareth, where He had been brought up. And as His custom was, He went into the synagogue on the Sabbath day, and stood up to read.
+> <sup> **17** </sup>And He was handed the book of the prophet Isaiah. And when He had opened the book, He found the place where it was written:
+> <sup> **18** </sup>“The  Spirit of the LORD is upon Me, Because He has anointed Me To preach the gospel to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives And recovery of sight to the blind, To set at liberty those who are oppressed;
+> <sup> **19** </sup>To proclaim the favorable year of the LORD.”
+> <sup> **20** </sup>Then He closed the book, and gave it back to the attendant and sat down. And the eyes of all who were in the synagogue were fixed on Him.
+> <sup> **21** </sup>And He began to say to them, “Today this Scripture is  fulfilled in your hearing.”\
+> — Luke 4:16-21
+
+He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
 
 The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the way, the truth, and the life" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. He declared, "if the Son makes you free, you shall be free indeed" (John 8:36).
 
