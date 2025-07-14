@@ -23,7 +23,9 @@ logs
 .env.*
 !.env.example
 
-.yarn/install-state.gz
+# pnpm
+.pnpm-debug.log*
+.pnpm-state
 
 # Sentry Config File
 .env.sentry-build-plugin

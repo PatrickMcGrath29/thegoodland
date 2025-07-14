@@ -5,6 +5,13 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    preset: 'netlify_edge',
+    prerender: {
+      routes: ['/sitemap.xml'],
+    },
+  },
+
   experimental: {
     buildCache: true,
     viewTransition: true,
@@ -41,6 +48,12 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
 
+  icon: {
+    serverBundle: {
+      externalizeIconsJson: true,
+    },
+  },
+
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
@@ -64,13 +77,7 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
-  },
-
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml'],
-    },
+    provider: 'netlify',
   },
 
   routeRules: {
