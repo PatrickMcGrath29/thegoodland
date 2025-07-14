@@ -7,7 +7,7 @@ title: Christ, Our True Jubilee
 isBlogPost: false
 featuredImage: /uploads/sheep_sunrise.jpg
 createdDate: 2025-07-14
-slug: christ-our-true-jubilee
+slug: 2025-07-14-christ-our-true-jubilee
 ---
 
 > <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
@@ -56,7 +56,7 @@ The heart of the Lord is not pleased with having a people that are in captivity.
 
 We see this principle again after the temple in Jerusalem was destroyed and the Israelites were taken out of their land into captivity in Babylon. In Psalm 137:3-4 it says, "For there those who carried us away captive asked of us a song... How shall we sing the LORD’s song In a foreign land?" They had continually disobeyed the Lord, and as a result they were taken out of the land that He had prepared for them, and brought into captivity. But the Lord could not be praised acceptably while they were in that captivity.
 
-The Lord desires to bring His people out of every bondage. He proclaims good tidings to the poor, liberty to the captives, the opening of the prison to those who are bound—the favorable year of the Lord. And He does all of this that we might be free to worship Him acceptably! This is where His heart is. This is what He longs for. 
+The Lord desires to bring His people out of every bondage. He proclaims good tidings to the poor, liberty to the captives, the opening of the prison to those who are bound—the favorable year of the Lord. And He does all of this that we might be free to worship Him acceptably! This is where His heart is. This is what He longs for.
 
 Brothers and sisters, this is the year of Jubilee. He longs to bring us forth from the bondage of sin, from the encumbrance of every weight, from the enslavement to entertainment, and into the "glorious liberty of the children of God". He is breaking down every high place and every idol in the hearts of His people (2 Corinthians 10:4-5). He is working together every circumstance for our good, to bring us in conformity with His own beloved Son (Romans 8:28-29). And He is doing all of this because He longs to have a people, a bride, for Himself, that is without "spot or wrinkle or any such thing, but that she should be holy and without blemish" (Ephesians 5:27).
 
@@ -68,7 +68,7 @@ The purpose of the Jubilee is first and foremost for the Lord God Himself! Let u
 
 When the Lord was instructing Moses concerning the Jubilee He commanded that the Jubilee would begin with the sounding of the rams horn, throughout all of the land, on the day of Atonement (Leviticus 25:9).
 
-The day of Atonement in the Old Testament represents the finished work of the Lord Jesus Christ on the cross. On the day of Atonement, described in Leviticus 16, the high priest would perform ceremonial acts on behalf of all of the Israelites. The high priest acted as a mediator between God and the people, serving as a picture of the true Mediator between God and man, the Lord Jesus Christ. 1 Timothy 2:5 tells us that "there is one God and one Mediator between God and men, the man Christ Jesus, who gave Himself a ransom for all". 
+The day of Atonement in the Old Testament represents the finished work of the Lord Jesus Christ on the cross. On the day of Atonement, described in Leviticus 16, the high priest would perform ceremonial acts on behalf of all of the Israelites. The high priest acted as a mediator between God and the people, serving as a picture of the true Mediator between God and man, the Lord Jesus Christ. 1 Timothy 2:5 tells us that "there is one God and one Mediator between God and men, the man Christ Jesus, who gave Himself a ransom for all".
 
 The high priest would take two goats. One of the goats would be killed as a sin offering on behalf of the people. This picture represents the satisfaction of righteous judgement of God on sin, where the judgement of God fell on another—the animal being killed. We know that the Lord Jesus Christ is the One true offering for sin, the "lamb of God who takes away the sin of the world!"
 
@@ -78,7 +78,7 @@ It is crucially important for us to see that the year of Jubilee began on the da
 
 If we are not standing on the finished and complete work of the Lord Jesus Christ, then any of our effort in moving forward in the Christian life will be based in the working of our flesh. We will try to please God in our flesh. We will try to move forward in our own strength. But this only takes us out of liberty and into bondage.
 
-In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. We need to stand on the finished work of the Lord Jesus Christ. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God". 
+In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. We need to stand on the finished work of the Lord Jesus Christ. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God".
 
 Let us enter into His rest. Let us cease for all of our own working!
 
