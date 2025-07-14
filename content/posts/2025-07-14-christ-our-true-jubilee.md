@@ -2,12 +2,15 @@
 slugFields:
   - createdDate
   - title
-uuid: g45aqhsrts
 title: Christ, Our True Jubilee
-isBlogPost: false
+summary: Christ is our True Jubilee—He sets captives free, restores what was
+  lost, and proclaims the favorable year of the Lord. In Him, we find true
+  liberty and rest.
+slug: 2025-07-14-christ-our-true-jubilee
+uuid: g45aqhsrts
+isBlogPost: true
 featuredImage: /uploads/sheep_sunrise.jpg
 createdDate: 2025-07-14
-slug: 2025-07-14-christ-our-true-jubilee
 ---
 
 > <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
