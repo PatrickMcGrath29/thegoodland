@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "functions": [
+    {
+      "path": "/*",
+      "excludedPath": [
+        "/.netlify/*",
+        "/_nuxt/builds/meta/*",
+        "/_nuxt/builds/*",
+        "/_fonts/*",
+        "/_scripts/*",
+        "/_nuxt/*"
+      ],
+      "name": "edge server handler",
+      "function": "server",
+      "generator": "nuxt@3.17.6",
+      "cache": "manual"
+    }
+  ]
+}
