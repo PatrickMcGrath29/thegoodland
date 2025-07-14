@@ -38,9 +38,9 @@ In Isaiah chapter 61 we find a passage that relates directly to the year of Jubi
 
 The passage speaks about the "favorable year of the Lord", or in other words, about the year of Jubilee. It speaks of One who has been anointed by God to proclaim good tidings to the poor, healing to the brokenhearted, and liberty to the captives.
 
-The year of Jubilee in the Old Testament was a shadow of something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the one who came to set the captives free, and to proclaim the favorable year of the Lord!
+The year of Jubilee in the Old Testament was a shadow of something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free, and to proclaim the favorable year of the Lord!
 
-As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah. He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
+As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah. He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
 
 The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the way, the truth, and the life" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. He declared, "if the Son makes you free, you shall be free indeed" (John 8:36).
 
@@ -50,7 +50,7 @@ May we know Christ as our Jubilee! May we know Him as our liberty!
 
 ### The Jubilee is for the Lord
 
-When we speak of Jubilee and liberty in Christ we are quick to think about the benefit that we receive. We may think of the areas of brokenness, captivity, and bondage in our life, and look to the Lord Jesus to bring freedom and healing there. This is certainly okay, there is a great benefit for us when we enter into Christ as our Jubilee. But we must see that, above what we gain, the Jubilee is for ultimately for the Lord. We must look beyond the personal gain and see that there is something in the heart of the Lord that He longs to fulfill and accomplish.
+When we speak of Jubilee and liberty in Christ we are quick to think about the benefit that we receive. We may think of the areas of brokenness, captivity, and bondage in our life, and look to the Lord Jesus to bring freedom and healing there. This is certainly okay; there is a great benefit for us when we enter into Christ as our Jubilee. But we must see that, above what we gain, the Jubilee is ultimately for the Lord. We must look beyond the personal gain and see that there is something in the heart of the Lord that He longs to fulfill and accomplish.
 
 The heart of the Lord is not pleased with having a people that are in captivity. When the Israelites were held in captivity in Egypt, the Lord God spoke through Moses, saying, "Let my people go, that they may serve Me" (Exodus 8:1). God could not be served and worshiped acceptably by His people while they were in bondage.
 
@@ -70,7 +70,7 @@ When the Lord was instructing Moses concerning the Jubilee He commanded that the
 
 The day of Atonement in the Old Testament represents the finished work of the Lord Jesus Christ on the cross. On the day of Atonement, described in Leviticus 16, the high priest would perform ceremonial acts on behalf of all of the Israelites. The high priest acted as a mediator between God and the people, serving as a picture of the true Mediator between God and man, the Lord Jesus Christ. 1 Timothy 2:5 tells us that "there is one God and one Mediator between God and men, the man Christ Jesus, who gave Himself a ransom for all".
 
-The high priest would take two goats. One of the goats would be killed as a sin offering on behalf of the people. This picture represents the satisfaction of righteous judgement of God on sin, where the judgement of God fell on another—the animal being killed. We know that the Lord Jesus Christ is the One true offering for sin, the "lamb of God who takes away the sin of the world!"
+The high priest would take two goats. One of the goats would be killed as a sin offering on behalf of the people. This picture represents the satisfaction of righteous judgement of God on sin, where the judgement of God fell on another—the animal being killed. We know that the Lord Jesus Christ is the One true offering for sin, the "Lamb of God who takes away the sin of the world!"
 
 The high priest would then take the other goat and confess over it all of the sins of the people. In this picture the sin of all of the Israelites was removed from them and placed upon the goat. The goat would then be sent out of the camp, into the wilderness, representing how our sin is separated from us. This act represents how our sin ultimately fell on the Lord Jesus Christ. "For He made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him" (2 Corinthians 5:21).
 
@@ -80,7 +80,7 @@ If we are not standing on the finished and complete work of the Lord Jesus Chris
 
 In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. We need to stand on the finished work of the Lord Jesus Christ. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God".
 
-Let us enter into His rest. Let us cease for all of our own working!
+Let us enter into His rest. Let us cease from all of our own working!
 
 > "For he who has entered His rest has himself also ceased from his works as God did from His."\
 > — Hebrews 4:10
