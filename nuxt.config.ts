@@ -48,6 +48,12 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
 
+  icon: {
+    serverBundle: {
+      externalizeIconsJson: true,
+    },
+  },
+
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
