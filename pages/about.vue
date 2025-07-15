@@ -2,7 +2,7 @@
 import type { ParsedContent } from '@nuxt/content'
 
 const { data: aboutPageData } = await useAsyncData(() => {
-  return queryContent('pages/about').findOne()
+  return queryCollection('pages').where('stem', '=', 'about').first()
 })
 
 const aboutPage = aboutPageData as Ref<ParsedContent>
