@@ -2,7 +2,7 @@
 slugFields:
   - createdDate
   - title
-title: "The Favorable Year of the Lord: Christ Our True Jubilee"
+title: "The Favorable Year of the Lord: Christ, Our True Jubilee"
 summary: Christ is our true Jubilee—He sets captives free, restores what was
   lost, and proclaims the favorable year of the Lord. In Him, we find true
   liberty and rest.
@@ -12,8 +12,7 @@ isBlogPost: true
 featuredImage: /uploads/sheep_sunrise.jpg
 createdDate: 2025-07-14
 ---
-
-> <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
+> <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.
 > — Leviticus 25:10
 
 The year of Jubilee represents the release from captivity and the restoration of what was lost. The commandment concerning the Jubilee was given by God. The Israelites were to observe it every 50 years. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was also a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
@@ -27,8 +26,8 @@ The year of Jubilee is something very consequential, something very meaningful, 
 In Isaiah chapter 61 we find a passage that relates directly to the year of Jubilee.
 
 > <sup> **1** </sup>“The Spirit of the Lord GOD is upon Me, Because the LORD has anointed Me To preach good tidings to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives, And the opening of the prison to those who are bound;
-> <sup> **2** </sup>To proclaim the favorable year of the LORD, And the day of vengeance of our God;  To comfort all who mourn,
-> <sup> **3** </sup>To console those who mourn in Zion,  To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness,  The planting of the LORD, that He may be glorified.”\
+> <sup> **2** </sup>To proclaim the favorable year of the LORD, And the day of vengeance of our God; To comfort all who mourn,
+> <sup> **3** </sup>To console those who mourn in Zion, To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness, The planting of the LORD, that He may be glorified.”\
 > — Isaiah 61:1-3
 
 The passage speaks about the "favorable year of the Lord", or in other words, about the year of Jubilee. It speaks of One who has been anointed by God to proclaim good tidings to the poor, healing to the brokenhearted, and liberty to the captives.
@@ -39,10 +38,10 @@ As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and ope
 
 > <sup> **16** </sup>So He came to Nazareth, where He had been brought up. And as His custom was, He went into the synagogue on the Sabbath day, and stood up to read.
 > <sup> **17** </sup>And He was handed the book of the prophet Isaiah. And when He had opened the book, He found the place where it was written:
-> <sup> **18** </sup>“The  Spirit of the LORD is upon Me, Because He has anointed Me To preach the gospel to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives And recovery of sight to the blind, To set at liberty those who are oppressed;
+> <sup> **18** </sup>“The Spirit of the LORD is upon Me, Because He has anointed Me To preach the gospel to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives And recovery of sight to the blind, To set at liberty those who are oppressed;
 > <sup> **19** </sup>To proclaim the favorable year of the LORD.”
 > <sup> **20** </sup>Then He closed the book, and gave it back to the attendant and sat down. And the eyes of all who were in the synagogue were fixed on Him.
-> <sup> **21** </sup>And He began to say to them, “Today this Scripture is  fulfilled in your hearing.”\
+> <sup> **21** </sup>And He began to say to them, “Today this Scripture is fulfilled in your hearing.”\
 > — Luke 4:16-21
 
 He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
@@ -75,17 +74,40 @@ When the Lord was instructing Moses concerning the Jubilee He commanded that the
 
 The day of Atonement in the Old Testament represents the finished work of the Lord Jesus Christ on the cross. On the day of Atonement, described in Leviticus 16, the high priest would perform ceremonial acts on behalf of all of the Israelites. The high priest acted as a mediator between God and the people, serving as a picture of the true Mediator between God and man, the Lord Jesus Christ. 1 Timothy 2:5 tells us that "there is one God and one Mediator between God and men, the man Christ Jesus, who gave Himself a ransom for all".
 
-The high priest would take two goats. One of the goats would be killed as a sin offering on behalf of the people. This picture represents the satisfaction of righteous judgement of God on sin, where the judgement of God fell on another—the animal being killed. We know that the Lord Jesus Christ is the One true offering for sin, the "Lamb of God who takes away the sin of the world!"
+The high priest would take two goats. One of the goats would be killed as a sin offering on behalf of the people. This picture represents the satisfaction of the righteous judgement of God on sin, where the judgement of God fell on another—the animal being killed. We know that the Lord Jesus Christ is the One true offering for sin, the "Lamb of God who takes away the sin of the world!"
 
 The high priest would then take the other goat and confess over it all of the sins of the people. In this picture the sin of all of the Israelites was removed from them and placed upon the goat. The goat would then be sent out of the camp, into the wilderness, representing how our sin is separated from us. This act represents how our sin ultimately fell on the Lord Jesus Christ. "For He made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him" (2 Corinthians 5:21).
 
 It is crucially important for us to see that the year of Jubilee began on the day of Atonement. Our basis for entering into Jubilee—into liberty—is the finished work of the Lord Jesus Christ. We need to see what He has accomplished for us in His death on the cross and resurrection. And we need to stand upon that. We need to receive this free gift of His atoning work.
 
-If we are not standing on the finished and complete work of the Lord Jesus Christ, then any of our effort in moving forward in the Christian life will be based in the working of our flesh. We will try to please God in our flesh. We will try to move forward in our own strength. But this only takes us out of liberty and into bondage.
+If we haven't made the finished and complete work of the Lord Jesus the foundation for our life, then any of our effort in moving forward in the Christian life will be based in the working of our flesh. We will try to please God in our flesh. We will try to move forward in our own strength. But this only takes us out of liberty and into bondage. In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God". We are indeed so weak and so incapable. But Christ is so capable. 
 
-In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. We need to stand on the finished work of the Lord Jesus Christ. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God".
+In Galatians 2:20 the Apostle Paul says "I have been crucified with Christ; it is no longer I who live, but Christ lives in me". The judgement of God on our flesh was that it is only good to be crucified. This is Gods estimation of the worth of our flesh. It's only good to be crucified. Don't try and justify yourself in the presence of God through your own works. Instead, accept Gods estimation of it's worth, abandon all trust in yourself, and by faith receive the gift of God. As we begin to, by faith, stand upon the finished work of the Lord Jesus, we receive an indescribably empowerment. "It is no longer I who live, but Christ lives in me." The room that we have now vacated, Christ comes in to fill. He becomes our life. He lives in us. Where we could only fall short before, we start to see victory, as the Victorious One lives out His life within us.
 
-Let us enter into His rest. Let us cease from all of our own working!
+A brother named Watchman Nee wrote the following, in the book *The Life That Wins*.
 
-> "For he who has entered His rest has himself also ceased from his works as God did from His."\
-> — Hebrews 4:10
+> Have there been sufficient proofs of your inability? He wants you to see your inability so that you may at least confess, "O God, I am not able." For a person to be saved, he needs first to confess that he is not able to save himself. Likewise, for one to overcome, he must also first acknowledge his inability. And as soon as one comes to this point, God will immediately commence working.\
+> \
+> God gave the law to men for two thousand years. What was the purpose of God's giving the Ten Commandments to the children of Israel? He gave them these not for them to keep but for them to break. How is it so? Because God knew men could not keep these commandments; He knew they were all sinners. But men would not accept God's verdict until they had failed in their own eyes; only then would they confess that they were sinners.\
+> \
+> The book of Romans tells us that God gave the law not for men to keep but for them to violate. After they failed to keep the law, they had to accept God's verdict and capitulate. God used two thousand years of human history to cause men to know their inability before He could give Christ to men for them to accept Him and be saved.\
+> \
+> Do not fancy that you are able to change yourself to be a little better. Even after fifty years you will still be the same. Victory is Christ living in and for you. You may therefore say, Thank God, I cannot, but *Christ* can.
+
+When the Lord Jesus was dying on the cross He cried out "it is finished!" He went through this to lay a foundation—a glorious foundation—upon which all may find liberty and freedom. Is your life built upon this foundation?
+
+The Lord is inviting us into His rest. He says, "he who was entered His rest has himself also ceased from his works as God did from His" (Hebrews 4:10). Cease from your works and enter into His rest! The day of Atonement is here! See Christ ushering us into the year of Jubilee!
+
+See the heart of the Lord. He paid such a price on the cross, and performed such a great work, to give you liberty. Would you receive it? Would it be the most precious thing to you? The love of the Lord beckons you to receive Him into your life, and to make Him your foundation.
+
+> Not I, but Christ be honored, loved, exalted,\
+> Not I, but Christ be seen, be known, and heard;\
+> Not I, but Christ in every look and action,\
+> Not I, but Christ in every thought and word.\
+> \
+> Oh, to be saved from myself, dear Lord,\
+> Oh, to be lost in Thee,\
+> Oh, that it may be no more I,\
+> But Christ that lives in me.\
+> \
+> — A.B. Simpson
