@@ -1,6 +1,5 @@
-import { SitemapStream, streamToPromise } from 'sitemap'
 import { queryCollection } from '@nuxt/content/nitro'
-import type { RawQuote, RawReference } from '~/types'
+import { SitemapStream, streamToPromise } from 'sitemap'
 
 export default defineEventHandler(async (event) => {
   // Create a stream to write to
@@ -8,8 +7,8 @@ export default defineEventHandler(async (event) => {
     hostname: useRuntimeConfig().public.baseUrl,
   })
 
-  const rawReferences = await queryCollection('references').all() as RawReference[]
-  const rawQuotes = await queryCollection('quotes').all() as RawQuote[]
+  const rawReferences = await queryCollection(event, 'references').all()
+  const rawQuotes = await queryCollection(event, 'quotes').all()
 
   sitemap.write({
     url: '/',
@@ -26,8 +25,8 @@ export default defineEventHandler(async (event) => {
     changefreq: 'monthly',
   })
 
-  const posts = await queryCollection('posts').all()
-  const collections = await queryCollection('collections').all()
+  const posts = await queryCollection(event, 'posts').all()
+  const collections = await queryCollection(event, 'collections').all()
 
   // Add posts to sitemap
   for (const post of posts) {
