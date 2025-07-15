@@ -84,7 +84,7 @@ If we haven't made the finished and complete work of the Lord Jesus the foundati
 
 In Galatians 2:20 the Apostle Paul says "I have been crucified with Christ; it is no longer I who live, but Christ lives in me". The judgement of God on our flesh was that it's only good to be crucified. This is God's estimation of the worth of our flesh. It's only good to be crucified. Don't try and justify yourself in the presence of God through your own works. Instead, accept God's estimation of it's worth, abandon all trust in yourself, and by faith receive the gift of God. As we begin to, by faith, stand upon the finished work of the Lord Jesus, we receive an indescribable empowerment. "It is no longer I who live, but Christ lives in me." The room that we have now vacated, Christ comes in to fill. He becomes our life. He lives in us. Where we could only fall short before, we start to see victory, as the Victorious One lives out His life within us.
 
-In his book _The Life That Wins_ a brother named Watchman Nee wrote:
+In his book _The Life That Wins_ Watchman Nee wrote:
 
 > Have there been sufficient proofs of your inability? He wants you to see your inability so that you may at least confess, "O God, I am not able." For a person to be saved, he needs first to confess that he is not able to save himself. Likewise, for one to overcome, he must also first acknowledge his inability. And as soon as one comes to this point, God will immediately commence working.\
 > \
