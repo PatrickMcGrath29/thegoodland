@@ -8,7 +8,7 @@ function toPost(record: any): Post {
 }
 
 export async function useBlogPosts(limit: number | null = null): Promise<Post[]> {
-  let query = queryCollection<Post>('posts').where('isBlogPost', '=', true).sort({ createdDate: -1, $numeric: true })
+  let query = queryCollection('posts').where('isBlogPost', '=', true).order('createdDate', 'DESC')
 
   if (limit !== null)
     query = query.limit(limit)
@@ -18,13 +18,13 @@ export async function useBlogPosts(limit: number | null = null): Promise<Post[]>
 }
 
 export async function usePost(slug: string): Promise<Post> {
-  const post = await queryCollection<Post>('posts').where('slug', '=', slug).first()
+  const post = await queryCollection('posts').where('slug', '=', slug).first()
 
   return toPost(post)
 }
 
 export async function usePostsBySlug(slugs: string[]): Promise<Post[]> {
-  const posts = await queryCollection<Post>('posts').where('slug', 'IN', slugs).all()
+  const posts = await queryCollection('posts').where('slug', 'IN', slugs).all()
 
   // Reorder posts based on the ordering of slugs in the slugs argument
   posts.sort((a, b) => slugs.indexOf(a.slug) - slugs.indexOf(b.slug))

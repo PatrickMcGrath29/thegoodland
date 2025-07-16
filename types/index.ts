@@ -1,6 +1,4 @@
-import type { ParsedContent } from '@nuxt/content'
-
-export interface RawQuote extends ParsedContent {
+export interface RawQuote {
   uuid: string
   text: string
   referenceId: string
@@ -9,14 +7,14 @@ export interface RawQuote extends ParsedContent {
   createdDate?: string
 }
 
-export interface RawReference extends ParsedContent {
+export interface RawReference {
   uuid: string
   referenceName?: string
   authorName?: string
   link?: string
 }
 
-export interface Post extends ParsedContent {
+export interface Post {
   uuid: string
   slug: string
   title: string
@@ -27,7 +25,7 @@ export interface Post extends ParsedContent {
   author?: string
 }
 
-export interface Collection extends ParsedContent {
+export interface Collection {
   uuid: string
   slug: string
   name: string

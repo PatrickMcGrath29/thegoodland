@@ -3,7 +3,7 @@ import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 export default defineContentConfig({
   collections: {
     posts: defineCollection({
-      type: 'page',
+      type: 'data',
       source: 'posts/*.md',
       schema: z.object({
         slug: z.string(),
@@ -13,7 +13,9 @@ export default defineContentConfig({
         author: z.string().optional(),
         featuredImage: z.string().optional(),
         collections: z.array(z.string()).optional(),
-      })
+        uuid: z.string(),
+        summary: z.string().optional(),
+      }),
     }),
 
     quotes: defineCollection({
@@ -22,10 +24,10 @@ export default defineContentConfig({
       schema: z.object({
         uuid: z.string(),
         text: z.string(),
-        categories: z.array(z.string()).optional(),
-        reference: z.string().optional(),
-        createdDate: z.string().optional(),
-      })
+        referenceId: z.string(),
+        link: z.string().optional(),
+        createdDate: z.string(),
+      }),
     }),
 
     references: defineCollection({
@@ -33,47 +35,38 @@ export default defineContentConfig({
       source: 'references/*.md',
       schema: z.object({
         uuid: z.string(),
-        slug: z.string().optional(),
-        name: z.string().optional(),
-        author: z.string().optional(),
-        authorSlug: z.string().optional(),
-      })
+        referenceName: z.string().optional(),
+        authorName: z.string().optional(),
+      }),
     }),
 
     collections: defineCollection({
-      type: 'page',
+      type: 'data',
       source: 'collections/*.md',
       schema: z.object({
         slug: z.string(),
         name: z.string(),
-        posts: z.array(z.object({
-          post: z.string()
-        })).optional(),
+        author: z.string().optional(),
+        summary: z.string().optional(),
+        posts: z.array(z.object({ post: z.string() })),
         featuredImage: z.string().optional(),
-      })
+      }),
     }),
-
-    pages: defineCollection({
-      type: 'page',
-      source: 'pages/*.md'
-    }),
-
     authors: defineCollection({
       type: 'data',
       source: 'authors/*.md',
       schema: z.object({
-        slug: z.string(),
-        name: z.string().optional(),
-      })
+        uuid: z.string(),
+        name: z.string(),
+      }),
     }),
-
     categories: defineCollection({
       type: 'data',
       source: 'categories/*.md',
       schema: z.object({
         slug: z.string(),
         name: z.string().optional(),
-      })
-    })
-  }
+      }),
+    }),
+  },
 })

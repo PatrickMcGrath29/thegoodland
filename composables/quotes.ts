@@ -2,13 +2,14 @@ import type { Quote, RawQuote, RawReference } from '~/types'
 import { hydrateQuotes } from '~/shared/quotes'
 
 async function useRawQuotes(): Promise<RawQuote[]> {
-  return await queryCollection<RawQuote>('quotes')
-    .sort({ createdDate: -1, uuid: 1 })
+  return await queryCollection('quotes')
+    .order('createdDate', 'DESC')
+    .order('uuid', 'ASC')
     .all()
 }
 
 export async function useRawReferences(): Promise<RawReference[]> {
-  return await queryCollection<RawReference>('references')
+  return await queryCollection('references')
     .all()
 }
 
