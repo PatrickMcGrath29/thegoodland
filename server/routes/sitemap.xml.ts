@@ -1,4 +1,4 @@
-import type { Quote, RawQuote, RawReference } from '~/types'
+import type { Quote } from '~/types'
 import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { hydrateQuotes } from '~/shared/quotes'
@@ -13,7 +13,7 @@ async function getHydratedQuotes(event: any): Promise<Quote[]> {
   const rawReferences = await queryCollection(event, 'references').all()
   const rawQuotes = await queryCollection(event, 'quotes').all()
 
-  return hydrateQuotes(rawQuotes as RawQuote[], rawReferences as RawReference[])
+  return hydrateQuotes(rawQuotes, rawReferences)
 }
 
 function getQuotePaths(quotes: Quote[]) {

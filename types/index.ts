@@ -1,19 +1,3 @@
-export interface RawQuote {
-  uuid: string
-  text: string
-  referenceId: string
-  categories: string[]
-  link?: string
-  createdDate?: string
-}
-
-export interface RawReference {
-  uuid: string
-  referenceName?: string
-  authorName?: string
-  link?: string
-}
-
 export interface Post {
   uuid: string
   slug: string
