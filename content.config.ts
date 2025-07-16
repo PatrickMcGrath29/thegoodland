@@ -3,7 +3,7 @@ import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 export default defineContentConfig({
   collections: {
     posts: defineCollection({
-      type: 'data',
+      type: 'page',
       source: 'posts/*.md',
       schema: z.object({
         slug: z.string(),
