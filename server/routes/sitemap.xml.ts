@@ -1,73 +1,104 @@
-import { queryCollection } from '@nuxt/content/nitro'
+import type { Quote, RawQuote, RawReference } from '~/types'
+import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
+import { hydrateQuotes } from '~/shared/quotes'
 
-export default defineEventHandler(async (event) => {
-  // Create a stream to write to
-  const sitemap = new SitemapStream({
-    hostname: useRuntimeConfig().public.baseUrl,
+function getPDFs() {
+  return fs.readdirSync('public/uploads/').filter((file) => {
+    return file.endsWith('.pdf')
   })
+}
 
+async function getHydratedQuotes(event: any): Promise<Quote[]> {
   const rawReferences = await queryCollection(event, 'references').all()
   const rawQuotes = await queryCollection(event, 'quotes').all()
 
-  sitemap.write({
-    url: '/',
-    changefreq: 'monthly',
+  return hydrateQuotes(rawQuotes as RawQuote[], rawReferences as RawReference[])
+}
+
+function getQuotePaths(quotes: Quote[]) {
+  const authorSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.authorSlug).filter(Boolean)))
+  const referenceSlugs = Array.from(new Set(quotes.map(quote => quote.reference?.referenceSlug).filter(Boolean)))
+
+  return { authorSlugs, referenceSlugs }
+}
+
+export default defineEventHandler(async (event) => {
+  const posts = await queryCollection(event, 'posts').all()
+  const collections = await queryCollection(event, 'collections').all()
+
+  const hydratedQuotes = await getHydratedQuotes(event)
+  const { authorSlugs, referenceSlugs } = getQuotePaths(hydratedQuotes)
+
+  const pdfFiles = getPDFs()
+
+  const sitemap = new SitemapStream({
+    hostname: 'https://thegoodland.io',
   })
 
   sitemap.write({
-    url: '/quotes',
-    changefreq: 'monthly',
+    url: '/',
+    changefreq: 'daily',
   })
 
   sitemap.write({
     url: '/posts',
-    changefreq: 'monthly',
+    changefreq: 'daily',
   })
 
-  const posts = await queryCollection(event, 'posts').all()
-  const collections = await queryCollection(event, 'collections').all()
-
-  // Add posts to sitemap
   for (const post of posts) {
     sitemap.write({
-      url: post.path,
+      url: `/posts/${post.slug}`,
       changefreq: 'monthly',
     })
   }
 
-  // Add collections to sitemap
+  sitemap.write({
+    url: '/collections',
+    changefreq: 'daily',
+  })
+
   for (const collection of collections) {
     sitemap.write({
-      url: collection.path,
-      changefreq: 'monthly',
+      url: `/collections/${collection.slug}`,
+      changefreq: 'weekly',
     })
   }
 
-  const authors = rawReferences.map(ref => ref.slug).filter(Boolean)
-  const categories = [...new Set(rawQuotes.flatMap(quote => quote.categories || []))]
+  sitemap.write({
+    url: '/quotes',
+    changefreq: 'daily',
+  })
 
-  // Add author pages to sitemap
-  for (const author of authors) {
+  for (const authorSlug of authorSlugs) {
     sitemap.write({
-      url: `/quotes/author/${author}`,
+      url: `/quotes/author/${authorSlug}`,
       changefreq: 'monthly',
     })
   }
 
-  // Add category pages to sitemap
-  for (const category of categories) {
+  for (const referenceSlug of referenceSlugs) {
     sitemap.write({
-      url: `/quotes/category/${category}`,
+      url: `/quotes/reference/${referenceSlug}`,
       changefreq: 'monthly',
     })
   }
 
-  // Close sitemap stream
+  for (const quote of hydratedQuotes) {
+    sitemap.write({
+      url: `/quotes/${quote.uuid}/${quote.slug}`,
+      changefreq: 'monthly',
+    })
+  }
+
+  for (const pdf of pdfFiles) {
+    sitemap.write({
+      url: `/uploads/${pdf}`,
+      changefreq: 'monthly',
+    })
+  }
+
   sitemap.end()
 
-  const sitemapOutput = await streamToPromise(sitemap)
-
-  event.node.res.setHeader('content-type', 'application/xml')
-  event.node.res.end(sitemapOutput)
+  return streamToPromise(sitemap)
 })
