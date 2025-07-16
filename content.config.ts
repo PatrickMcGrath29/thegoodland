@@ -27,6 +27,7 @@ export default defineContentConfig({
         referenceId: z.string(),
         link: z.string().optional(),
         createdDate: z.string(),
+        categories: z.array(z.string()).optional(),
       }),
     }),
 
@@ -65,7 +66,7 @@ export default defineContentConfig({
       source: 'categories/*.md',
       schema: z.object({
         slug: z.string(),
-        name: z.string().optional(),
+        name: z.string(),
       }),
     }),
   },
