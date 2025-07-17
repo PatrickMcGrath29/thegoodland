@@ -126,7 +126,7 @@ See the heart of the Lord. He paid such a price on the cross, and performed such
 
 ### That He May Show Forth His Beautiful Glory
 
-The passage in Isaiah chapter 61, which the Lord Jesus Himself quoted, goes on to say "so they will be called oaks of righteousness, the planting of Yahweh, that He may show forth His beautiful glory." (Isaiah 61:3b LSB). Some other Bible translations end the verse by saying "that He may be glorified". The Hebrew word pa'ar expresses both meanings, to beautify and to glorify.
+The passage in Isaiah chapter 61, which the Lord Jesus Himself quoted, goes on to say "so they will be called oaks of righteousness, the planting of Yahweh, that He may show forth His beautiful glory." (Isaiah 61:3 LSB). Some other Bible translations end the verse by saying "that He may be glorified". The Hebrew word pa'ar expresses both meanings, to beautify and to glorify.
 
 The verse so wonderfully shows us the purpose of God in performing this great work of Jubilee among mankind. God shows forth His beauty by replicating His own beauty in the lives of His people.
 
