@@ -48,7 +48,7 @@ He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Script
 Today this Scripture is fulfilled in your hearing.
 ::
 
-The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the the ... truth" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. "If the Son makes you free, you shall be free indeed" (John 8:36).
+The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the... truth" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. "If the Son makes you free, you shall be free indeed" (John 8:36).
 
 See the liberty that is found in the Lord Jesus! Unlike the Israelites we don't need to wait up to 49 years to enter into the year of Jubilee. We may enter in now, today! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). The Lord Jesus is bringing us into the favorable year of the Lord. "For he says, 'In a favorable time I listened to you, and in a day of salvation I have helped you.' Behold, now is the favorable time; behold, now is the day of salvation." (2 Corinthians 6:2 ESV).
 
