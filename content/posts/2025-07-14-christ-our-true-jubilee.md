@@ -44,6 +44,10 @@ As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and ope
 
 He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
 
+::pullquote
+Today this Scripture is fulfilled in your hearing.
+::
+
 The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the the ... truth" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. "If the Son makes you free, you shall be free indeed" (John 8:36).
 
 See the liberty that is found in the Lord Jesus! Unlike the Israelites we don't need to wait up to 49 years to enter into the year of Jubilee. We may enter in now, today! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). The Lord Jesus is bringing us into the favorable year of the Lord. "For he says, 'In a favorable time I listened to you, and in a day of salvation I have helped you.' Behold, now is the favorable time; behold, now is the day of salvation." (2 Corinthians 6:2 ESV).
@@ -56,7 +60,11 @@ When we speak of Jubilee and liberty in Christ we are quick to think about the b
 
 The heart of the Lord is not pleased with having a people that are in captivity. When the Israelites were held in captivity in Egypt, the Lord God spoke through Moses, saying, "Let my people go, that they may serve Me" (Exodus 8:1). God could not be served and worshiped acceptably by His people while they were in bondage.
 
-We see this principle again after the temple in Jerusalem was destroyed and the Israelites were taken out of their land into captivity in Babylon. In Psalm 137:3-4 it says, "For there those who carried us away captive asked of us a song... How shall we sing the LORD’s song In a foreign land?" They had continually disobeyed the Lord, and as a result they were taken out of the land that He had prepared for them, and brought into captivity. But the Lord could not be praised acceptably while they were in that captivity.
+We see this principle again after the temple in Jerusalem was destroyed and the Israelites were taken out of their land into captivity in Babylon. In Psalm 137:3-4 it says, "For there those who carried us away captive asked of us a song... How shall we sing the LORD’s song in a foreign land?" They had continually disobeyed the Lord, and as a result they were taken out of the land that He had prepared for them, and brought into captivity. But the Lord could not be praised acceptably while they were in that captivity.
+
+::pullquote
+How shall we sing the LORD’s song in a foreign land?
+::
 
 The Lord desires to bring His people out of every bondage. He proclaims good tidings to the poor, liberty to the captives, the opening of the prison to those who are bound—the favorable year of the Lord. And He does all of this that we might be free to worship Him acceptably! This is where His heart is. This is what He longs for.
 
@@ -80,9 +88,13 @@ It is crucially important for us to see that the year of Jubilee began on the Da
 
 If we haven't made the finished and complete work of the Lord Jesus the foundation for our life then we will yet think that there are more works that we need to do of ourself. This is very problematic though, because as we look away from Christ, and to ourselves, we quickly leave the liberty of the Lord and enter into bondage. In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God". We are indeed so weak and so incapable. But Christ is so capable. Let our hearts rise, like the Apostle Paul, in saying "I thank God—through Jesus Christ our Lord!"
 
+::pullquote
+I thank God—through Jesus Christ our Lord!
+::
+
 In Galatians 2:20 the Apostle Paul says "I have been crucified with Christ; it is no longer I who live, but Christ lives in me". The judgement of God on our flesh was that it's only good to be crucified. This is God's estimation of the worth of our flesh. It's only good to be crucified. Don't try and justify yourself in the presence of God through your own works. Instead, accept God's estimation of it's worth, abandon all trust in yourself, and by faith receive the gift of God. As we begin to, by faith, stand upon the finished work of the Lord Jesus, we receive an indescribable empowerment. "It is no longer I who live, but Christ lives in me." The room that we have now vacated, Christ comes in to fill. He becomes our life. He lives in us. Where we could only fall short before, we start to see victory, as the Victorious One lives out His life within us.
 
-In his book _The Life That Wins_ Watchman Nee wrote:
+In his book *The Life That Wins* Watchman Nee wrote:
 
 > Have there been sufficient proofs of your inability? He wants you to see your inability so that you may at least confess, "O God, I am not able." For a person to be saved, he needs first to confess that he is not able to save himself. Likewise, for one to overcome, he must also first acknowledge his inability. And as soon as one comes to this point, God will immediately commence working.\
 > \
