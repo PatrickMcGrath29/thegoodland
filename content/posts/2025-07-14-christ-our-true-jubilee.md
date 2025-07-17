@@ -30,9 +30,7 @@ In Isaiah chapter 61 we find a passage that relates directly to the year of Jubi
 > <sup> **3** </sup>To console those who mourn in Zion, To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness, The planting of the LORD, that He may be glorified.”\
 > — Isaiah 61:1-3
 
-The passage speaks about the "favorable year of the Lord", or in other words, about the year of Jubilee. It speaks of One who has been anointed by God to proclaim good tidings to the poor, healing to the brokenhearted, and liberty to the captives.
-
-The year of Jubilee in the Old Testament was a shadow of something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free, and to proclaim the favorable year of the Lord!
+This passage speaks of One anointed by God to bring good news to the poor, healing to the brokenhearted, and liberty to the captives—One who came to proclaim "the favorable year of the Lord," the year of Jubilee. The Lord Jesus Himself is proclaiming liberty to us! "He came and preached peace to you who were far off and to those who were near" (Ephesians 2:17). The year of Jubilee in the Old Testament foreshadows something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free, and to proclaim the favorable year of the Lord!
 
 As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah.
 
@@ -46,11 +44,11 @@ As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and ope
 
 He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
 
-The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the way, the truth, and the life" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. He declared, "if the Son makes you free, you shall be free indeed" (John 8:36).
+The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the the ... truth" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. "If the Son makes you free, you shall be free indeed" (John 8:36).
 
-See the liberty that is found in the Lord Jesus! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). There is rest to be found in His presence!
+See the liberty that is found in the Lord Jesus! Unlike the Israelites we don't need to wait up to 49 years to enter into the year of Jubilee. We may enter in now, today! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). The Lord Jesus is bringing us into the favorable year of the Lord. "For he says, 'In a favorable time I listened to you, and in a day of salvation I have helped you.' Behold, now is the favorable time; behold, now is the day of salvation." (2 Corinthians 6:2 ESV).
 
-May we know Christ as our Jubilee! May we know Him as our liberty!
+May we know Christ as our Jubilee, as He daily brings about an even greater liberty in our lives.
 
 ### The Jubilee is for the Lord
 
