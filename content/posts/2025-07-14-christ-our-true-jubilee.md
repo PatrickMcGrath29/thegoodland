@@ -121,3 +121,13 @@ See the heart of the Lord. He paid such a price on the cross, and performed such
 > But Christ that lives in me.\
 > \
 > — A.B. Simpson
+
+### That He May Show Forth His Beautiful Glory
+
+The passage in Isaiah chapter 61, which the Lord Jesus Himself quoted, goes on to say "so they will be called oaks of righteousness, the planting of Yahweh, that He may show forth His beautiful glory." (Isaiah 61:3b LSB). Some other Bible translations end the verse by saying "that He may be glorified". The Hebrew word pa'ar expresses both meanings, to beautify and to glorify.
+
+The verse so wonderfully shows us the purpose of God in performing this great work of Jubilee among mankind. God shows forth His beauty by replicating His own beauty in the lives of His people.
+
+Consider this, that the Lord of glory would take on human flesh and humble Himself to the point of death, to redeem a sinful people for Himself. He would then give Himself to His people, daily living out His life within them, bringing them into an even greater experience of liberty. And He would then assure them of a perfect liberty, in a time to come when they shall be forever with Him.
+
+There can be nothing so great. We have a beautiful God, expressing His beauty among mankind. Let our hearts rise with praise and thanksgiving to Him. And let us commit ourselves yet even more to Him, that He may fulfill His great purpose among mankind.
