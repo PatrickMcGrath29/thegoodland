@@ -1,6 +1,5 @@
-import type { Quote, RawQuote, RawReference } from '~/types'
+import type { Quote } from '~/types'
 import fs from 'node:fs'
-import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { hydrateQuotes } from '~/shared/quotes'
 
@@ -11,8 +10,8 @@ function getPDFs() {
 }
 
 async function getHydratedQuotes(event: any): Promise<Quote[]> {
-  const rawReferences = await serverQueryContent<RawReference>(event, 'references').find()
-  const rawQuotes = await serverQueryContent<RawQuote>(event, 'quotes').find()
+  const rawReferences = await queryCollection(event, 'references').all()
+  const rawQuotes = await queryCollection(event, 'quotes').all()
 
   return hydrateQuotes(rawQuotes, rawReferences)
 }
@@ -25,8 +24,8 @@ function getQuotePaths(quotes: Quote[]) {
 }
 
 export default defineEventHandler(async (event) => {
-  const posts = await serverQueryContent(event, 'posts').find()
-  const collections = await serverQueryContent(event, 'collections').find()
+  const posts = await queryCollection(event, 'posts').all()
+  const collections = await queryCollection(event, 'collections').all()
 
   const hydratedQuotes = await getHydratedQuotes(event)
   const { authorSlugs, referenceSlugs } = getQuotePaths(hydratedQuotes)

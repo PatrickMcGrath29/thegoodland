@@ -1,16 +1,17 @@
-import type { Quote, RawQuote, RawReference } from '~/types'
+import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
+import type { Quote } from '~/types'
 import { hydrateQuotes } from '~/shared/quotes'
 
-async function useRawQuotes(): Promise<RawQuote[]> {
-  return await queryContent<RawQuote>('/quotes')
-    .sort({ createdDate: -1, uuid: 1 })
-    .find()
+async function useRawQuotes(): Promise<QuotesCollectionItem[]> {
+  return await queryCollection('quotes')
+    .order('createdDate', 'DESC')
+    .order('uuid', 'ASC')
+    .all()
 }
 
-export async function useRawReferences(): Promise<RawReference[]> {
-  return await queryContent<RawReference>('/references')
-    .sort({ uuid: 1 })
-    .find()
+export async function useRawReferences(): Promise<ReferencesCollectionItem[]> {
+  return await queryCollection('references')
+    .all()
 }
 
 export async function useQuotes(): Promise<Quote[]> {

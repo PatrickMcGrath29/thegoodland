@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import markdownParser from '@nuxt/content/transformers/markdown'
+import { parseMarkdown } from '@nuxtjs/mdc/runtime'
 
 declare global {
   interface Window {
@@ -21,11 +21,8 @@ const renderedMarkdown = computedAsync(async () => {
   if (!previewData.value)
     return
 
-  // @ts-expect-error markdownParser is valid
-  return await await markdownParser.parse(
-    `postBody`,
+  return await parseMarkdown(
     previewData.value.body,
-    {},
   )
 })
 

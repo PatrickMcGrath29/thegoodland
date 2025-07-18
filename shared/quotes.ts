@@ -1,8 +1,9 @@
+import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
 import type { Ref } from 'vue'
-import type { Quote, RawQuote, RawReference, Reference } from '../types'
+import type { Quote, Reference } from '../types'
 import { authorSlug, dayOfYear, referenceSlug, slugify, smartEllipsis } from './utils'
 
-function parseQuote(rawQuote: RawQuote): RawQuote {
+function parseQuote(rawQuote: QuotesCollectionItem): QuotesCollectionItem {
   return {
     ...rawQuote,
     uuid: rawQuote.uuid?.toLowerCase(),
@@ -11,7 +12,7 @@ function parseQuote(rawQuote: RawQuote): RawQuote {
   }
 }
 
-function parseReference(rawReference: RawReference): RawReference {
+function parseReference(rawReference: ReferencesCollectionItem): ReferencesCollectionItem {
   return {
     ...rawReference,
     uuid: rawReference.uuid?.toLowerCase(),
@@ -27,7 +28,7 @@ function quoteSlug(authorName: string | undefined, quoteText: string): string {
   return slugify(parts)
 }
 
-function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined): Quote {
+function buildQuote(rawQuote: QuotesCollectionItem, rawReference: ReferencesCollectionItem | undefined): Quote {
   const slugForQuote = quoteSlug(rawReference?.authorName, rawQuote.text)
 
   const quote: Quote = {
@@ -54,15 +55,15 @@ function buildQuote(rawQuote: RawQuote, rawReference: RawReference | undefined):
   }
 }
 
-export function hydrateQuotes(rawQuotes: RawQuote[], rawReferences: RawReference[]): Quote[] {
+export function hydrateQuotes(rawQuotes: QuotesCollectionItem[], rawReferences: ReferencesCollectionItem[]): Quote[] {
   const quotes = rawQuotes.map(parseQuote)
   const references = rawReferences.map(parseReference)
 
-  const referencesById: Map<string, RawReference> = new Map(
-    references.map((reference: RawReference) => [reference.uuid, reference]),
+  const referencesById: Map<string, ReferencesCollectionItem> = new Map(
+    references.map((reference: ReferencesCollectionItem) => [reference.uuid, reference]),
   )
 
-  return quotes.map((quote: RawQuote): Quote => {
+  return quotes.map((quote: QuotesCollectionItem): Quote => {
     const reference = referencesById.get(quote.referenceId)
     return buildQuote(quote, reference)
   })
