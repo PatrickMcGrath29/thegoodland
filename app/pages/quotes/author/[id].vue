@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 
 const { params: { id } } = useRoute()
 const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())

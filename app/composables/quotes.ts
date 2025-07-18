@@ -1,6 +1,6 @@
 import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
-import type { Quote } from '~/types'
-import { hydrateQuotes } from '~/shared/quotes'
+import type { Quote } from '~~/types'
+import { hydrateQuotes } from '~~/shared/quotes'
 
 async function useRawQuotes(): Promise<QuotesCollectionItem[]> {
   return await queryCollection('quotes')

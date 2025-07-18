@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
-import { smartEllipsis } from '~/shared/utils'
+import type { Quote } from '~~/types'
+import { smartEllipsis } from '~~/shared/utils'
 
 const { params: { id } } = useRoute()
 

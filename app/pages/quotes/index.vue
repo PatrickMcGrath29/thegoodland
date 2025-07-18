@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 import { UButton } from '#components'
-import { getHighlightedQuote } from '~/shared/quotes'
-import { slugify } from '~/shared/utils'
+import { getHighlightedQuote } from '~~/shared/quotes'
+import { slugify } from '~~/shared/utils'
 
 const NUM_CATEGORIES_TO_SHOW = 6
 const NUM_AUTHORS_TO_SHOW = 8

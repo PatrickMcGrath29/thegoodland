@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-import type { Quote } from '~/types'
-import { slugify } from '~/shared/utils'
+import type { Quote } from '~~/types'
+import { slugify } from '~~/shared/utils'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>

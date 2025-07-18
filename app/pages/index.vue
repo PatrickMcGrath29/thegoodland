@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Post } from '~/types'
+import type { Post } from '~~/types'
 
 const postData = await useAsyncData('homePostSample', () => useBlogPosts(10))
 

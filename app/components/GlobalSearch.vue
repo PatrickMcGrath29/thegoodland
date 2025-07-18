@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CommandPaletteItem } from '@nuxt/ui'
-import type { Quote } from '~/types'
-import { smartEllipsis } from '~/shared/utils'
+import type { Quote } from '~~/types'
+import { smartEllipsis } from '~~/shared/utils'
 
 const searchTerm = ref('')
 const route = useRoute()

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
-import { slugify } from '~/shared/utils'
+import type { Quote } from '~~/types'
+import { slugify } from '~~/shared/utils'
 
 const { params: { id } } = useRoute()
 const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 
 const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>

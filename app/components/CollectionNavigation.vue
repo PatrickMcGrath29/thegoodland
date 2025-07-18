@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Collection, Post } from '~/types'
+import type { Collection, Post } from '~~/types'
 
 const props = defineProps<{ collection: Collection, post: Post }>()
 

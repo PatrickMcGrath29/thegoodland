@@ -1,4 +1,4 @@
-import type { Post } from '~/types'
+import type { Post } from '~~/types'
 
 function toPost(record: any): Post {
   return {
