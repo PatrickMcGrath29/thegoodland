@@ -38,9 +38,9 @@ useSeoMeta({
           <VerticalPostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
         </div>
         <div class="text-center mt-10">
-          <NuxtLink to="/posts" class="btn btn-wide btn-outline">
+          <UButton to="/posts" variant="outline" size="lg" color="neutral">
             View All Posts
-          </NuxtLink>
+          </UButton>
         </div>
       </div>
     </div>
