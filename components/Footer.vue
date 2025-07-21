@@ -99,7 +99,7 @@ function showMessage(text: string, type: 'success' | 'error') {
 <template>
   <USeparator class="mt-30 mb-15" />
   <ContainerMedium class="mb-15">
-    <div class="flex justify-between flex-col md:flex-row gap-4">
+    <div class="flex justify-between flex-col md:flex-row gap-8">
       <div class="flex gap-2 justify-center items-center">
         <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
         <h3 class="normal-case font-semibold text-2xl flex justify-center">
@@ -107,7 +107,7 @@ function showMessage(text: string, type: 'success' | 'error') {
         </h3>
       </div>
       <div class="flex flex-col gap-2 justify-center">
-        <div class="text-sm font-medium text-toned">
+        <div class="text-sm text-medium text-toned text-center md:text-left">
           Sign up to receive our newsletter.
         </div>
         <div class="flex gap-2 justify-center">
