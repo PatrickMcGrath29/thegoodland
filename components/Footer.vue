@@ -97,8 +97,8 @@ function showMessage(text: string, type: 'success' | 'error') {
 </script>
 
 <template>
-  <USeparator class="mt-30 mb-15" />
-  <ContainerMedium class="mb-15">
+  <USeparator class="mt-30 mb-12" />
+  <ContainerMedium class="mb-12">
     <div class="flex justify-between flex-col md:flex-row gap-8">
       <div class="flex gap-2 justify-center items-center">
         <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
