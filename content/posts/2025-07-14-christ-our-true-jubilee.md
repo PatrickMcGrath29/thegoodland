@@ -15,9 +15,9 @@ createdDate: 2025-07-14
 > <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
 > — Leviticus 25:10
 
-Every 50 years the Israelites would blow a rams horn, throughout all of the land, and proclaim the year of Jubilee. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
+Every 50 years the Israelites would blow a ram's horn, throughout all of the land, and proclaim the year of Jubilee. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
 
-The year of Jubilee is something very consequential and meaningful in the heart of God. The observance of the Jubilee year wasn't a suggestion from God. It was a commandment. In fact, it was one of the last commandments He gave to Moses on the top of Mount Sinai. He was commanding His people that they would observe this year of release and restoration. In this commandment we see the heart of our Father. He is One who desires to bring His people into liberty. He desires to set His people free from oppression and captivity.
+The year of Jubilee is something very consequential and meaningful in the heart of God. The observance of the Jubilee year wasn't a suggestion from God—it was a command. In fact, it was one of the last commandments He gave to Moses on the top of Mount Sinai. He was commanding His people that they would observe this year of release and restoration. In this commandment we see the heart of our Father. He is One who desires to bring His people into liberty. He desires to set His people free from oppression and captivity.
 
 ### Christ is our True Jubilee
 
@@ -28,7 +28,7 @@ In Isaiah chapter 61 we find a passage that relates directly to the year of Jubi
 > <sup> **3** </sup>To console those who mourn in Zion, To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness, The planting of the LORD, that He may be glorified.”\
 > — Isaiah 61:1-3
 
-This passage speaks of One anointed by God to bring good news to the poor, healing to the brokenhearted, and liberty to the captives—One who came to proclaim "the favorable year of the Lord," the year of Jubilee. The Lord Jesus Himself is proclaiming liberty to us! "He came and preached peace to you who were far off and to those who were near" (Ephesians 2:17). The year of Jubilee in the Old Testament foreshadows something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free, and to proclaim the favorable year of the Lord!
+This passage speaks of One anointed by God to bring good news to the poor, healing to the brokenhearted, and liberty to the captives—One who came to proclaim "the favorable year of the Lord," the year of Jubilee. The Lord Jesus Himself is proclaiming liberty to us! "He came and preached peace to you who were far off and to those who were near" (Ephesians 2:17). The year of Jubilee in the Old Testament foreshadows something to come, the reality of which is Jesus Christ (Colossians 2:16-17). The Lord Jesus Himself is the true Jubilee—the One who came to set the captives free and to proclaim the favorable year of the Lord!
 
 As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and opened the scroll of Isaiah.
 
@@ -40,7 +40,7 @@ As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and ope
 > <sup> **21** </sup>And He began to say to them, “Today this Scripture is fulfilled in your hearing.”\
 > — Luke 4:16-21
 
-He read Isaiah 61:1-2 out loud, and after reading it He said, "today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
+He read Isaiah 61:1-2 out loud, and after reading it, He said, "Today this Scripture is fulfilled in your hearing". He was declaring plainly that He is the One of whom this was spoken. He is the Anointed One of God, who has come to proclaim to us the true favorable year of the Lord. This favorable year of the Lord is the year of Christ, the age of Christ, when all may enter into Him and receive Him as their true liberty.
 
 ::pullquote
 Today this Scripture is fulfilled in your hearing.
@@ -48,7 +48,7 @@ Today this Scripture is fulfilled in your hearing.
 
 The Lord Jesus said, "you shall know the truth, and the truth shall make you free" (John 8:32). He then went on to say, "I am the... truth" (John 14:6). We find our freedom, our healing, and our restoration in knowing the Lord Jesus. "If the Son makes you free, you shall be free indeed" (John 8:36).
 
-See the liberty that is found in the Lord Jesus! Unlike the Israelites we don't need to wait up to 49 years to enter into the year of Jubilee. We may enter in now, today! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). The Lord Jesus is bringing us into the favorable year of the Lord. "For he says, 'In a favorable time I listened to you, and in a day of salvation I have helped you.' Behold, now is the favorable time; behold, now is the day of salvation." (2 Corinthians 6:2 ESV).
+See the liberty that is found in the Lord Jesus! Unlike the Israelites we don't need to wait up to 49 years to enter into the year of Jubilee. We may enter in now, today! Determine in your heart to come before Him, and to enter in! He extends such a warm invitation, saying "come to Me all who labor and are heavy burdened, and I will give you rest" (Matthew 11:28). The Lord Jesus is bringing us into the favorable year of the Lord. "For He says, 'In a favorable time I listened to you, and in a day of salvation I have helped you.' Behold, now is the favorable time; behold, now is the day of salvation." (2 Corinthians 6:2 ESV).
 
 May we know Christ as our Jubilee, as He daily brings about an even greater liberty in our lives.
 
