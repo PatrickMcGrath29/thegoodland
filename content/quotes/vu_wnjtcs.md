@@ -5,7 +5,7 @@ text: >-
   creature, and finds its joy in the sufficiency of an Almighty Saviour, that
   makes the soul strong and glad. It gives itself up to be led by the Holy
   Spirit into an ever deeper appreciation of that wonderful Saviour whom God
-  hath given us--the Infinite Immanuel.
+  hath given us—the Infinite Immanuel.
 referenceId: UUreff0UOd
 categories:
   - Faith

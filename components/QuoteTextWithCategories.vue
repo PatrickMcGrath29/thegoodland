@@ -8,7 +8,7 @@ const { quote, showFullPageLink = true } = defineProps<{
 </script>
 
 <template>
-  <div class="mb-6 pr-8">
+  <div class="mb-6">
     <QuoteText :quote="quote" :show-perma-link="false" />
   </div>
   <div class="flex flex-wrap gap-5 items-center justify-between w-full">
