@@ -3,9 +3,10 @@ slugFields:
   - createdDate
   - title
 title: "The Favorable Year of the Lord: Christ, Our True Jubilee"
-summary: Christ is our true Jubilee—He sets captives free, restores what was
-  lost, and proclaims the favorable year of the Lord. In Him, we find true
-  liberty and rest.
+summary: Christ is our true Jubilee—the One who proclaims liberty to the
+  captives, healing to the brokenhearted, and the favorable year of the Lord! As
+  we yield to Him and believe in Him He daily unfolds a greater liberty in our
+  life.
 slug: 2025-07-14-christ-our-true-jubilee
 uuid: g45aqhsrts
 isBlogPost: true
@@ -15,11 +16,9 @@ createdDate: 2025-07-14
 > <sup> **10** </sup>And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.\
 > — Leviticus 25:10
 
-The year of Jubilee represents the release from captivity and the restoration of what was lost. The commandment concerning the Jubilee was given by God, and the Israelites were to observe it every 50 years. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was also a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
+Every 50 years the Israelites would blow a rams horn, throughout all of the land, and proclaim the year of Jubilee. On the year of Jubilee all of the slaves were to be set free, and everyone who had sold their land was to have it returned to them. The year of Jubilee was a Sabbath year, during which the Israelites were not to work, but instead rest in the provision of God towards them.
 
-The commandment concerning the year of Jubilee was delivered to Moses in Leviticus 25. This was the last time that God spoke to Moses from the top of Mt. Sinai. After this, the Lord would speak to Moses in the tent of meeting. The fact that this was the last time God spoke to Moses from the top of Mt. Sinai indicates that there is something weighty and concluding about what was being said.
-
-The year of Jubilee is something very consequential, something very meaningful, in the heart of God. The observance of the Jubilee year wasn't a suggestion from God. It was a commandment. He was commanding His people that they would observe this year of release and restoration. In this commandment we see the heart of our Father. He is One who desires to bring His people into liberty. He desires to set His people free from oppression and captivity.
+The year of Jubilee is something very consequential and meaningful in the heart of God. The observance of the Jubilee year wasn't a suggestion from God. It was a commandment. In fact, it was one of the last commandments He gave to Moses on the top of Mount Sinai. He was commanding His people that they would observe this year of release and restoration. In this commandment we see the heart of our Father. He is One who desires to bring His people into liberty. He desires to set His people free from oppression and captivity.
 
 ### Christ is our True Jubilee
 
@@ -36,8 +35,8 @@ As recounted in the gospel of Luke, the Lord Jesus entered the Synagogue and ope
 
 > <sup> **16** </sup>So He came to Nazareth, where He had been brought up. And as His custom was, He went into the synagogue on the Sabbath day, and stood up to read.
 > <sup> **17** </sup>And He was handed the book of the prophet Isaiah. And when He had opened the book, He found the place where it was written:
-> <sup> **18** </sup>“The Spirit of the LORD is upon Me, Because He has anointed Me To preach the gospel to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives And recovery of sight to the blind, To set at liberty those who are oppressed;
-> <sup> **19** </sup>To proclaim the favorable year of the LORD.”
+> <sup> **18** </sup>“The Spirit of the LORD is upon Me, because He has anointed Me to preach the gospel to the poor; He has sent Me to heal the brokenhearted, to proclaim liberty to the captives and recovery of sight to the blind, to set at liberty those who are oppressed;
+> <sup> **19** </sup>to proclaim the favorable year of the LORD.”
 > <sup> **20** </sup>Then He closed the book, and gave it back to the attendant and sat down. And the eyes of all who were in the synagogue were fixed on Him.
 > <sup> **21** </sup>And He began to say to them, “Today this Scripture is fulfilled in your hearing.”\
 > — Luke 4:16-21
@@ -86,6 +85,8 @@ The high priest would then take the other goat and confess over it all of the si
 
 It is crucially important for us to see that the year of Jubilee began on the Day of Atonement. Our basis for entering into Jubilee—into liberty—is the finished work of the Lord Jesus Christ. We need to see what He has accomplished for us in His death on the cross and resurrection. And we need to stand upon that.
 
+The Lord Jesus is inviting us into to lay aside our own attempts to justify ourselves or save ourselves, and enter into His rest. He says, "he who was entered His rest has himself also ceased from his works as God did from His" (Hebrews 4:10). Cease from your works and enter into His rest! The Day of Atonement is here! See Christ ushering us into the year of Jubilee!
+
 The finished work of the Lord Jesus is the basis for our initial salvation. It is also the basis upon which we may move forward in the Christian life. As we read in Romans 6:4, Romans 6:6-8, and Galatians 2:20, the Apostle Paul is speaking of things which have already happened for us, in Christ. "I _have been_ crucified with Christ", "our old man _was_ crucified with Him", "he who has died _has been_ freed from sin". Just as the Lord secured our initial salvation, He also secured the path for our daily growth and victory. And just as we receive salvation through yielding to the Lord and believing in Him, so also we secure victory by yielding to the Lord and by faith entering into what He has already accomplished for us. In both cases we realize that indeed we cannot do it ourselves, and that we need another. We need the Lord Jesus as our salvation, and we need the Lord Jesus as our victory.
 
 If we're not resting on the foundation of the the finished and complete work of the Lord Jesus then we will yet think that there are more works that we need to do of ourself. This is problematic though, because as we look away from Christ, and to ourselves, we quickly leave the liberty of the Lord and enter into bondage. In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God". We are indeed so weak and so incapable. But Christ is so capable. Let our hearts rise, like the Apostle Paul, in saying "I thank God—through Jesus Christ our Lord!"
@@ -108,8 +109,6 @@ In his book *The Life That Wins* Watchman Nee wrote:
 
 When the Lord Jesus was dying on the cross He cried out "it is finished!" He went through this to lay a foundation—a glorious foundation—upon which all may find liberty and freedom. Is your life built upon this foundation?
 
-The Lord is inviting us into His rest. He says, "he who was entered His rest has himself also ceased from his works as God did from His" (Hebrews 4:10). Cease from your works and enter into His rest! The Day of Atonement is here! See Christ ushering us into the year of Jubilee!
-
 See the heart of the Lord. He paid such a price on the cross, and performed such a great work, to give you liberty. Would you receive it? Would it be the most precious thing to you? The love of the Lord beckons you to receive Him into your life, and to make Him your foundation.
 
 > Not I, but Christ be honored, loved, exalted,\
@@ -128,7 +127,7 @@ See the heart of the Lord. He paid such a price on the cross, and performed such
 
 The passage in Isaiah chapter 61, which the Lord Jesus Himself quoted, goes on to say "so they will be called oaks of righteousness, the planting of Yahweh, that He may show forth His beautiful glory." (Isaiah 61:3 LSB). Some other Bible translations end the verse by saying "that He may be glorified". The Hebrew word expresses both meanings, to beautify and to glorify.
 
-The verse so wonderfully shows us the purpose of God in performing this great work of Jubilee among mankind. God shows forth His beauty by freeing us from every bondage and replicating His own beauty in the lives of His people.
+The verse so wonderfully shows us the purpose of God in performing this great work of Jubilee among mankind. God shows forth His beauty by reproducing His own beauty in the lives of His people!
 
 Consider this, that the Lord of glory would take on human flesh and humble Himself to the point of death, to redeem a sinful people for Himself. He would then give Himself to His people, daily living out His life within them, bringing them into an even greater experience of liberty. And He would then assure them of a perfect liberty, in a time to come when they shall be forever with Him.
 
