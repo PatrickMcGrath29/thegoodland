@@ -4,9 +4,8 @@ slugFields:
   - title
 title: "The Favorable Year of the Lord: Christ, Our True Jubilee"
 summary: Christ is our true Jubilee—the One who proclaims liberty to the
-  captives, healing to the brokenhearted, and the favorable year of the Lord! As
-  we yield to Him and believe in Him, He daily unfolds a greater liberty in our
-  lives.
+  captives and healing to the brokenhearted! As we yield to Him and believe in
+  Him, He daily unfolds a greater liberty in our lives.
 slug: 2025-07-14-christ-our-true-jubilee
 uuid: g45aqhsrts
 isBlogPost: true
