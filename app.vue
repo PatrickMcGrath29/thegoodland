@@ -18,7 +18,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp>
+  <UApp :toaster="{ position: 'bottom-left' }">
     <NuxtLoadingIndicator color="#ffbf00" :height="1" />
     <NuxtLayout>
       <NuxtPage />
