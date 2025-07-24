@@ -43,7 +43,7 @@ async function submitSubscriptionForm(event: FormSubmitEvent<SubscriptionSchema>
   <ContainerMedium class="mb-12">
     <div class="flex justify-between flex-col md:flex-row gap-12">
       <div class="flex flex-col gap-3 items-center">
-        <div class="flex gap-2">
+        <div class="flex gap-2 items-center">
           <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
           <h3 class="font-semibold text-2xl flex justify-center">
             The Good Land
