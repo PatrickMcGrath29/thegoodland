@@ -21,5 +21,6 @@ posts:
   - post: not-as-the-world-giveth
   - post: the-everlasting-god
   - post: 2025-06-14-the-secret-of-rest
+  - post: no-longer-i
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
