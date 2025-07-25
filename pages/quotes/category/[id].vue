@@ -37,12 +37,12 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" subtitle="Quotes" />
 
-    <QuoteDropdownExplorer class="mb-4" />
+    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-4" />
 
     <ColumnView class="gap-6" :count="quotesForCategory.length">
       <div v-for="(quote, idx) in quotesForCategory" :key="idx" class="inline-block mb-6">
         <StyledCard>
-          <div class="p-4">
+          <div class="p-3 sm:p-4">
             <QuoteTextWithCategories :quote="quote" />
           </div>
         </StyledCard>
