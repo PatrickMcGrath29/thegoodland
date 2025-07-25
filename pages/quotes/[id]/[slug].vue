@@ -49,10 +49,10 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" subtitle="Quotes" />
 
-    <QuoteDropdownExplorer class="mb-4" />
+    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-4" />
 
-    <StyledCard highlighted-state="active" class="mb-10">
-      <div class="p-6">
+    <StyledCard class="mb-10">
+      <div class="p-3 sm:p-4">
         <QuoteTextWithCategories :quote="matchingQuote" :show-full-page-link="false" />
       </div>
     </StyledCard>
@@ -73,7 +73,7 @@ useSeoMeta({
     <ColumnView v-if="additionalQuotesForAuthor.length > 0" class="gap-6" :count="additionalQuotesForAuthor.length">
       <div v-for="(quote, idx) in additionalQuotesForAuthor" :key="idx" class="inline-block mb-6">
         <StyledCard>
-          <div class="p-4">
+          <div class="p-3 sm:p-4">
             <QuoteTextWithCategories :quote="quote" />
           </div>
         </StyledCard>

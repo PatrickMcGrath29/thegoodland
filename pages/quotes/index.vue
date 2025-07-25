@@ -115,7 +115,7 @@ useSeoMeta({
     <PageHeader heading="All Quotes" subtitle="Quotes" />
 
     <!-- Quote of the Day Section -->
-    <StyledCard class="mt-10 mb-8" highlighted-state="active">
+    <StyledCard class="mt-10 mb-8">
       <div class="p-3 sm:p-4 md:p-8">
         <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
@@ -127,7 +127,7 @@ useSeoMeta({
     </StyledCard>
 
     <!-- Quick Explorer -->
-    <QuoteDropdownExplorer class="mb-8" />
+    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-8" />
 
     <!-- Recent Quotes Section -->
     <QuoteSection title="Recently Added" :quotes="recentQuotes" @quote-click="openQuoteModal" />

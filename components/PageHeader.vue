@@ -22,13 +22,13 @@ const { heading, breadCrumbs = [] } = defineProps<{ heading: string, subheading?
   </div>
 
   <div
-    class="flex items-center flex-col md:flex-row"
+    class="flex md:items-center flex-col md:flex-row"
     :class="{ 'my-10 md:my-12': breadCrumbs.length === 0, 'mb-10 md:mb-12': breadCrumbs.length > 0 }"
   >
     <div v-if="subtitle" class="text-xl border-neutral-500 font-light text-neutral-500 hidden md:block border-r pr-4">
       {{ subtitle }}
     </div>
-    <div class="text-center md:text-left" :class="{ 'pt-1 md:pl-4 md:pt-0': subtitle }">
+    <div class="mx-2 md:mx-0" :class="{ 'pt-1 md:pl-4 md:pt-0': subtitle }">
       <h1 class="text-4xl font-bold">
         {{ heading }}
       </h1>
