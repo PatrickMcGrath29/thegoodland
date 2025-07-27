@@ -3,13 +3,13 @@ slugFields:
   - createdDate
   - title
 uuid: jwsjhdfckt
-title: "The Surrendered Life: Exposed to the Circumstances of His Choice"
+title: "Accepting the Circumstances of His Choice"
 isBlogPost: true
 author: John L. Bird
 summary: Pressed beyond measure? Trust God just where you are. Accept the
   circumstances of His choice, for nothing enters your day apart from His
   permissive will—and He means to teach you to trust when you can't see.
-slug: 2025-07-10-the-surrendered-life-exposed-to-the-circumstances-of-his-choice
+slug: 2025-07-10-accepting-the-circumstances-of-his-choice
 featuredImage: /uploads/crashing_waves.jpg
 createdDate: 2025-07-10
 ---
