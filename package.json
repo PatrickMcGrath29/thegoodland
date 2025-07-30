@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@nuxt/ui": "^3.3.0",
-    "@sentry/nuxt": "^9.41.0",
+    "@sentry/nuxt": "^9.43.0",
     "better-sqlite3": "^12.2.0"
   },
   "devDependencies": {
@@ -26,14 +26,14 @@
     "@iconify-json/ph": "^1.2.2",
     "@nuxt/content": "^3.6.3",
     "@nuxt/icon": "^1.15.0",
-    "@nuxt/image": "^1.10.0",
+    "@nuxt/image": "^1.11.0",
     "@nuxt/scripts": "^0.11.10",
     "@pinia/nuxt": "0.11.2",
     "@unhead/vue": "^2.0.12",
-    "@vueuse/nuxt": "^13.5.0",
-    "eslint": "^9.31.0",
+    "@vueuse/nuxt": "^13.6.0",
+    "eslint": "^9.32.0",
     "gray-matter": "^4.0.3",
-    "nuxt": "^3.17.7",
+    "nuxt": "^3.18.0",
     "nuxt-link-checker": "^4.3.1",
     "nuxt-schema-org": "^5.0.6",
     "pinia": "^3.0.3",
