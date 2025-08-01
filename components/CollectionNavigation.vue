@@ -17,17 +17,17 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
 </script>
 
 <template>
-  <div v-if="surroundingPosts" class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-16">
+  <div v-if="surroundingPosts" class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
     <div>
       <UButton
         v-if="surroundingPosts[0]"
         block
         color="neutral"
-        variant="ghost" class="w-full h-full text-center"
+        variant="soft" class="w-full h-full text-center"
         :to="`/posts/${surroundingPosts[0].slug}`"
       >
         <div class="py-2">
-          <div class="text-xm font-light text-neutral-400 mb-3">
+          <div class="text-xs font-light text-neutral-400 mb-2">
             Previous in Series
           </div>
           {{ surroundingPosts[0].title }}
@@ -35,7 +35,7 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
       </UButton>
     </div>
     <div>
-      <UButton color="neutral" variant="ghost" block :to="`/collections/${collection.slug}`" class="w-full h-full text-center">
+      <UButton color="neutral" variant="soft" block :to="`/collections/${collection.slug}`" class="w-full h-full text-center">
         <div class="py-2">
           Table of Contents
         </div>
@@ -47,11 +47,11 @@ const { data: surroundingPosts } = await useAsyncData(`surroundingPosts/${props.
         v-if="surroundingPosts[1]"
         color="neutral"
         block
-        variant="ghost" class="w-full h-full text-center"
+        variant="soft" class="w-full h-full text-center"
         :to="`/posts/${surroundingPosts[1].slug}`"
       >
         <div class="py-2">
-          <div class="text-xm font-light text-neutral-400 mb-3">
+          <div class="text-xs font-light text-neutral-400 mb-2">
             Next in Series
           </div>
           {{ surroundingPosts[1].title }}

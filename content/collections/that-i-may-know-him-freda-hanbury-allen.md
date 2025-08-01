@@ -22,5 +22,7 @@ posts:
   - post: the-everlasting-god
   - post: 2025-06-14-the-secret-of-rest
   - post: no-longer-i
+  - post: walking-with-god
+  - post: the-longing-soul
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---

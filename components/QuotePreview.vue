@@ -13,15 +13,18 @@ defineEmits<{
 <template>
   <div class="flex-none w-[calc(100%-2rem)] md:w-96 h-80 m-0.5" @click="$emit('click', quote)">
     <StyledCard class="h-full cursor-pointer">
-      <div class="p-5 h-full flex flex-col">
+      <div class="p-3 h-full flex flex-col">
         <div class="flex-grow overflow-hidden">
           <p class="text-base leading-relaxed line-clamp-8">
             {{ quote.text }}
           </p>
+          <p class="text-sm text-muted mt-1">
+            Continue Reading...
+          </p>
         </div>
         <div
           v-if="quote.reference"
-          class="text-sm text-neutral-400 mt-4 pt-3 border-t border-neutral-700 h-12"
+          class="text-sm text-neutral-400 mt-3 pt-3 border-t border-neutral-700 h-12"
         >
           <div v-if="quote.reference.authorName" class="font-medium">
             {{ quote.reference.authorName }}
