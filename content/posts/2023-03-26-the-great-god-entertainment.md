@@ -37,7 +37,7 @@ For this she got herself abused roundly by the sons of this world. But of late s
 
 - - -
 
-A.W. Tozer wrote these words almost 70 years ago. How much more relevant are they now, though? One could only imagine what he might say if he saw the overwhelming obsession with entertainment that exists in our society now. We live with endless distractions available to us at our fingertips.Televisions are in virtually every home, and are continually streaming carefully crafted content to masses. People spend hours endlessly scrolling through FaceBook, Instagram, and TikTok posts, hoping that it'll bring some temporary excitement or distraction to life.
+A.W. Tozer wrote these words almost 70 years ago. How much more relevant are they now though? One could only imagine what he might say if he saw the overwhelming obsession with entertainment that exists in our society now. We live with endless distractions available to us at our fingertips. Televisions are in virtually every home, and are continually streaming carefully crafted content to masses. People spend hours endlessly scrolling through Facebook, Instagram, and TikTok posts, hoping that it'll bring some temporary excitement or distraction to life.
 
 The state of internal emptiness seems to progress hand in hand with the growing addiction to entertainment found in our society. In fact they perpetuate each other, forming a downward cycle. The boredom, emptiness, and desire for distraction lead us to turn to life-less entertainment, but the entertainment doesn’t quite satisfy us, and so it only makes the problem worse. And so we come back to it again, seeking the very thing that it failed to provide to us the first time around.
 
