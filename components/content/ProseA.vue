@@ -19,7 +19,7 @@ const parsedUrl = computed(() => {
   let href = props.href
 
   // A link to an anchor on the same page
-  if (isAnchor)
+  if (isAnchor.value)
     return href
 
   if (href.startsWith('http'))
@@ -33,10 +33,10 @@ const parsedUrl = computed(() => {
 </script>
 
 <template>
-  <a v-if="isAnchor" :href="parsedUrl" class="link text-blue-500">
+  <a v-if="isAnchor" :href="parsedUrl" class="text-blue-500">
     <slot />
   </a>
-  <NuxtLink v-else :to="parsedUrl" target="_blank" class="link">
+  <ULink v-else :to="parsedUrl" target="_blank">
     <slot />
-  </NuxtLink>
+  </ULink>
 </template>
