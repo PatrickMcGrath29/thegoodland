@@ -3,14 +3,14 @@ slugFields:
   - createdDate
   - title
 uuid: k3huhjbexg
-title: "The Unveiling of Jesus Christ: Seeing Him as He Is"
+title: The Unveiling of Jesus Christ
 isBlogPost: true
 author: T. Austin-Sparks
 summary: If we are knowing adversity and trial; if the clouds seem to be
   gathering, how will we get through? Only by getting away, and seeking,
   pursuing in prayer a new heart revelation, a new unveiling, of Jesus Christ.
 slug: 2025-08-04-the-unveiling-of-jesus-christ-seeing-him-as-he-is
-featuredImage: /uploads/unveiling_of_christ.jpg
+featuredImage: /uploads/unveiling_of_jesus_christ.jpg
 createdDate: 2025-08-04
 ---
 > "The Revelation of Jesus Christ, which God gave unto Him, to shew unto His servants things which must shortly come to pass; and He sent and signified it by His angel unto His servant John"\
@@ -19,6 +19,10 @@ createdDate: 2025-08-04
 At the beginning of the Book of the Revelation, we find, on the one hand, a situation of spiritual loss and failure, weakness, and many other conditions and features which even the Lord Himself, in all His grace, has to deplore. Through His servant John He sends a series of letters to seven representative churches, aimed at securing the renewing of the life of His people, and the restoring of those primary and primal values of their beginnings. Then, it was a situation of many difficulties - sufferings and trials and adversities from various quarters and of various kinds. The Christians at that time were both actually in a time of much adversity, and were moving yet more deeply into suffering. To one of these churches the Lord said that they were *ABOUT* to suffer; they were *ABOUT* to be cast into prison; they were going to have tribulation for a specified time (2:10). It was a time when Christians both actually needed real help and stimulus, and needed to be prepared for further battles, further conflicts and further sufferings. These were the two main aspects of the general situation.
 
 In the light of those facts, we stand back and ask: How did the Lord, and how does the Lord, meet that need? Indeed, we might say: How does the Lord ever meet a great need? What is that which alone will supply the need, and be the key to the problem, the answer to the demand, and the assured ground, both of recovery and renewal, and of fortification for the suffering? And the answer has ever been, and always is: A new revelation - an unveiling - of the greatness of Jesus Christ. That is the very platform, we might say, upon which and from which the Lord moves into these situations, and into all the situations that follow in this book. He prefaces everything with this fresh revelation or unveiling of His own personal greatness.
+
+::pullquote
+How did the Lord, and how does the Lord, meet that need? A new revelation - an unveiling - of the greatness of Jesus Christ.
+::
 
 That has ever been the way. Abraham was called upon to take tremendous decisions, to make immense sacrifices. In his native country and city, with its marvellous and rich civilization, he had a very full life indeed; and, without assurance that his movement would be justified, he was called upon to move under sealed orders. 'Get thee out... unto a land which I will show thee.' 'I will show... when you get there!' It was a tremendous move, very costly, and very testing. But if you have wondered how it was that Abraham went through, met all the tests, and at last survived, you have, I think, the answer in these words: "The God of glory appeared unto our father Abraham, when he was in Mesopotamia" (Acts 7:2). If ever that happens, you have got something to move on; you have got a background; you have something that will again and again come to your rescue in a time of difficulty.
 
@@ -39,6 +43,10 @@ The Lord took up a man - we do not know now exactly who it was; some say one and
 And then we come to this book of the Revelation, and again we are in the presence of these things: on the one side, spiritual declension, failure, breakdown, loss; on the other side, suffering, growing suffering, terrible afflictions for the Church. How will the one be remedied and recovery take place? What is the key to a renewing of spiritual life when it has reached a low ebb? How shall they go on through the tribulation and the tribulations, and come out in victory in the City of God? The Lord's only answer, His one answer, which has always been successful, and is the only one which will be successful in any situation of need, is a new unveiling of the greatness of the Lord Jesus.
 
 But oh, these are but words! When we have said these things - and we would all agree that they are true - we are still so helpless, because it is the *THING* that matters - not talking about it! If only, by the Holy Spirit - and there is no other way, no other means - we could catch a new glimpse of His greatness, how many problems that would solve, questions that would answer, needs that would meet! How *OVERWHELMING* it would be! - and when I say 'overwhelming', I mean, how much would be overwhelmed! A mighty tidal wave, making all these rocks, upon which we threaten to founder, as nothing; they are sunk beneath it, disappear from view.
+
+::pullquote
+If only, by the Holy Spirit... we could catch a new glimpse of His greatness, how many problems that would solve, questions that would answer, needs that would meet!
+::
 
 Now that is not just language. Look - who is writing this? It is the Apostle John. The Apostle John? Yes, that man who walked with Jesus of Nazareth, listened to Him, watched Him at work, and, at supper, and at other times, sat next to Him, and put his head upon His shoulder - the most familiar picture of a man alongside of a Man, in close, devoted, affectionate association. John always called himself 'the disciple whom Jesus loved': it showed that there was a sacred, holy familiarity between John and Jesus, marked by very human terms and language.
 
@@ -68,11 +76,16 @@ And here, in this book, as the other side of His official greatness, we have His
 
 To sum up: I believe we would have very much better converts if they were presented with a very much greater Christ. To anyone who does not know in their own life and experience salvation in Jesus Christ, what it really means to be born again - to be really a 'child of God', and *TO KNOW IT* - to be able to join in heartily with this apostle John when he said, 'Beloved, now are we the children of God... Behold what manner of love the Father hath bestowed upon us, that we should be called children of God, and such we are!' - to any such I would say this. While Jesus would be your Saviour, the Forgiver of your sins, and many other things to you, He is far, far greater than anything you can imagine. Salvation takes its greatness from the measure of the Saviour. If you want a great salvation, see what a great Saviour He is. And remember that because of what He is, you need have no fears in putting your trust in Him; you need not fear that you may not be able to 'keep it up'! No, you won't, but He will; He will be able to keep you up - He is great enough! We need an unveiling of the greatness of Jesus Christ, to get a better kind of Christian.
 
+::pullquote
+While Jesus would be your Saviour, the Forgiver of your sins, and many other things to you, He is far, far greater than anything you can imagine.
+::
+
 For the recovery from our spiritual losses and declensions and failures, and deliverance from all these things which are so abhorrent to us and to Him, there is only one way, and that is, really to see His greatness. If we do that, we cannot live on a 'little' level. I recently went to the Planetarium in London. The thing that was with me, while listening to the lecture, and afterward, was, how ever can anyone be 'little' when they are dealing with these things all the time! I suppose it is possible even for a Fellow of the Astronomical Society to be a 'little' man in character (I am not implying this about this man, but it is possible!) but it is not possible to have a revelation of the greatness of Jesus Christ and remain a little person! Oh, for our enlargement, our ennoblement, our deliverance from our pettinesses, and all this which is so despicable! What is the answer? A new grasp of His greatness - that is all!
 
 And then, if we are suffering; if we are knowing adversity and trial; if the clouds seem to be gathering, and increasing, how will we get through? *Only by getting away, and asking, seeking, pursuing in prayer a new heart revelation, a new unveiling, of Jesus Christ, and that will surely do it.*
 
----
+- - -
+
 ::center
 In keeping with T. Austin-Sparks' wishes that what was freely received should be freely given and not sold for profit, and that his messages be reproduced word for word, we ask if you choose to share these messages with others, to please respect his wishes and offer them freely - free of any changes, free of any charge (except necessary distribution costs) and with this statement included.
 ::
