@@ -9,7 +9,7 @@ author: T. Austin-Sparks
 summary: If we are knowing adversity and trial; if the clouds seem to be
   gathering, how will we get through? Only by getting away, and seeking,
   pursuing in prayer a new heart revelation, a new unveiling, of Jesus Christ.
-slug: 2025-08-04-the-unveiling-of-jesus-christ-seeing-him-as-he-is
+slug: 2025-08-04-the-unveiling-of-jesus-christ
 featuredImage: /uploads/unveiling_of_jesus_christ.jpg
 createdDate: 2025-08-04
 ---
