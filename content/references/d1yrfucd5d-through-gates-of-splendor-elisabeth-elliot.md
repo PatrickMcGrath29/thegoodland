@@ -1,5 +1,5 @@
 ---
 uuid: d1YrfUcD5d
-referenceName: Through Gates of Splendor
+referenceName: ""
 authorName: Elisabeth Elliot
 ---
