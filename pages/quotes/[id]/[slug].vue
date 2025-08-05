@@ -4,7 +4,7 @@ import { smartEllipsis } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
 
-const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
+const { data } = await useAsyncData('useQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 const matchingQuote = computed(() => {

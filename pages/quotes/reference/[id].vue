@@ -2,7 +2,7 @@
 import type { Quote } from '~/types'
 
 const { params: { id } } = useRoute()
-const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
+const { data: quotes } = await useAsyncData('useQuotes', () => useQuotes())
 
 const quotesForReference = computed(() => {
   if (!quotes.value)

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 
-const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
+const { data } = await useAsyncData('useQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 useSeoMeta({
