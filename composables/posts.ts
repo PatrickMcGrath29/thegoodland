@@ -7,6 +7,16 @@ function toPost(record: any): Post {
   }
 }
 
+export async function useAllPosts(limit: number | null = null): Promise<Post[]> {
+  let query = queryCollection('posts').order('createdDate', 'DESC')
+
+  if (limit !== null)
+    query = query.limit(limit)
+
+  const posts = await query.all()
+  return posts.map(toPost)
+}
+
 export async function useBlogPosts(limit: number | null = null): Promise<Post[]> {
   let query = queryCollection('posts').where('isBlogPost', '=', true).order('createdDate', 'DESC')
 

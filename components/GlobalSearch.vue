@@ -9,8 +9,8 @@ const route = useRoute()
 const settingsStore = useSettingsStore()
 const isSmallScreen = useIsSmallScreen()
 
-const { data: posts } = await useAsyncData('allPosts', () => useBlogPosts())
-const { data: quotes } = await useAsyncData('fetchQuotes', () => useQuotes())
+const { data: posts } = await useAsyncData('useAllPosts', () => useAllPosts())
+const { data: quotes } = await useAsyncData('useQuotes', () => useQuotes())
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
@@ -69,24 +69,33 @@ const groups = ref([
 </script>
 
 <template>
-  <UModal v-model:open="settingsStore.searchOpen" class="max-w-4xl" :class="{ 'h-130': !isSmallScreen }" :fullscreen="isSmallScreen">
+  <UModal
+    v-model:open="settingsStore.searchOpen" class="max-w-4xl" :class="{ 'h-130': !isSmallScreen }"
+    :fullscreen="isSmallScreen"
+  >
     <template #content>
       <UCommandPalette
         v-model:search-term="searchTerm" :groups="groups" placeholder="Search..." :close="{
           onClick: () => {
             settingsStore.searchOpen = false
           },
-        }" :ui="{
+        }" :fuse="{ fuseOptions: { includeMatches: true }, resultLimit: 40 }" :ui="{
           item: 'cursor-pointer',
           label: 'font-bold text-md pb-4',
           close: 'text-lg',
         }"
       >
         <template #item="{ item }">
-          <div class="text-left py-0.5 ">
-            <div>
-              <span>{{ smartEllipsis(item.label || '', 100) }}</span>
+          <div class="text-left p-0.5 w-full">
+            <div
+              v-if="item.labelHtml"
+              class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent"
+              v-html="item.labelHtml"
+            />
+            <div v-else class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent">
+              {{ item.label }}
             </div>
+
             <div class="text-sm text-dimmed">
               {{ item.suffix }}
             </div>

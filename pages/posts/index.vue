@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData('allPosts', () => useBlogPosts())
+const { data: posts } = await useAsyncData('useBlogPosts', () => useBlogPosts())
 
 const description = 'Blog posts that highlight the richness of life found in Jesus Christ.'
 

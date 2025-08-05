@@ -8,7 +8,7 @@ const NUM_CATEGORIES_TO_SHOW = 6
 const NUM_AUTHORS_TO_SHOW = 8
 const NUM_QUOTES_PER_SECTION = 8
 
-const { data } = await useAsyncData('fetchQuotes', () => useQuotes())
+const { data } = await useAsyncData('useQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 const isSmallScreen = useIsSmallScreen()
