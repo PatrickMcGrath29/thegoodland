@@ -15,7 +15,7 @@ defineEmits<{
     <StyledCard class="h-full cursor-pointer">
       <div class="p-3 h-full flex flex-col">
         <div class="flex-grow overflow-hidden">
-          <p class="text-base leading-relaxed line-clamp-8">
+          <p class="text-base leading-relaxed line-clamp-8 whitespace-pre-line">
             {{ quote.text }}
           </p>
           <p class="text-sm text-muted mt-1">
