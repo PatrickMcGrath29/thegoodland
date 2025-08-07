@@ -20,24 +20,19 @@ const quotesForCategory = computed(() => {
 }) as ComputedRef<[Quote, ...Quote[]]>
 
 const category = computed(() => {
-  return quotesForCategory.value[0].categories?.find(c => slugify(c) === id)
-})
-const heading = computed(() => {
-  return `Quotes About ${category.value}`
+  return quotesForCategory.value[0].categories?.find(c => slugify(c) === id) as string
 })
 
 useSeoMeta({
-  title: heading,
-  description: heading,
-  ogDescription: heading,
+  title: `Quotes About ${category.value}`,
+  description: `Quotes About ${category.value}`,
+  ogDescription: `Quotes About ${category.value}`,
 })
 </script>
 
 <template>
   <Container>
-    <PageHeader :heading="heading" subtitle="Quotes" />
-
-    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-4" />
+    <PageHeader :heading="category" subtitle="Quotes" />
 
     <ColumnView class="gap-6" :count="quotesForCategory.length">
       <div v-for="(quote, idx) in quotesForCategory" :key="idx" class="inline-block mb-6">

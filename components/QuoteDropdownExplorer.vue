@@ -1,37 +1,30 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
 import type { Quote } from '~/types'
-import { slugify } from '~/shared/utils'
 
 const { data } = await useAsyncData('useQuotes', () => useQuotes())
 const quotes = data as Ref<Quote[]>
 
 const authors = computed(() => {
-  const authorSlugs = [...new Set(quotes.value.map(quote => quote.reference?.authorSlug))]
-
-  return authorSlugs.map(authorSlug => ({
-    label: quotes.value.find(quote => quote.reference?.authorSlug === authorSlug)?.reference?.authorName ?? 'Unknown',
-    to: `/quotes/author/${authorSlug}`,
-  })).sort((a, b) => (a.label ?? '').localeCompare(b.label ?? ''))
+  return useQuoteAuthors(quotes.value).map(author => ({
+    label: `${author.name} (${author.count})`,
+    to: author.slug,
+  }))
 })
 
 const references = computed(() => {
-  const referenceSlugs = [...new Set(quotes.value.filter(quote => quote.reference?.referenceSlug).map(quote => quote.reference?.referenceSlug))]
-
-  return referenceSlugs.map(referenceSlug => ({
-    label: quotes.value.find(quote => quote.reference?.referenceSlug === referenceSlug)?.reference?.referenceName,
-    description: quotes.value.find(quote => quote.reference?.referenceSlug === referenceSlug)?.reference?.authorName,
-    to: `/quotes/reference/${referenceSlug}`,
-  })).sort((a, b) => (a.label ?? '').localeCompare(b.label ?? ''))
+  return useQuoteReferences(quotes.value).map(reference => ({
+    label: `${reference.referenceName} (${reference.count})`,
+    description: reference.authorName,
+    to: reference.slug,
+  }))
 })
 
 const categories = computed(() => {
-  const categories = [...new Set(quotes.value.flatMap(quote => quote.categories))].filter(Boolean)
-
-  return categories.map(category => ({
-    label: category,
-    to: `/quotes/category/${slugify(category)}`,
-  })).sort((a, b) => (a.label ?? '').localeCompare(b.label ?? ''))
+  return useQuoteCategories(quotes.value).map(category => ({
+    label: `${category.name} (${category.count})`,
+    to: category.slug,
+  }))
 })
 
 const dropdownItems = ref<NavigationMenuItem[]>([
@@ -61,6 +54,7 @@ const dropdownItems = ref<NavigationMenuItem[]>([
       childList: 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
       link: 'cursor-pointer',
       linkTrailingIcon: 'cursor-default',
-    }" popover
+      content: 'max-h-[80vh]',
+    }"
   />
 </template>

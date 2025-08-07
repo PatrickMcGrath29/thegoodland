@@ -49,8 +49,6 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" subtitle="Quotes" />
 
-    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-4" />
-
     <StyledCard class="mb-10">
       <div class="p-3 sm:p-4">
         <QuoteTextWithCategories :quote="matchingQuote" :show-full-page-link="false" />
