@@ -118,82 +118,10 @@ const desktopNavItems = computed(() => {
       <GlobalSearch />
     </Container>
 
-    <div v-if="isPostRoute" class="mt-3">
-      <Container>
-        <div class="flex justify-around sm:justify-start gap-3 bg-neutral-800 rounded-lg px-3 py-1.5 shadow-lg p-4">
-          <div>
-            <UPopover :content="{ side: 'bottom', align: 'start' }">
-              <UButton icon="ph:user-duotone" label="Authors" color="neutral" variant="link" class="cursor-pointer" />
-
-              <template #content>
-                <UCommandPalette
-                  placeholder="Search Authors" :groups="groups"
-                  :ui="{ input: '[&>input]:h-8 [&>input]:text-sm' }"
-                />
-              </template>
-            </UPopover>
-          </div>
-
-          <div>
-            <UPopover :content="{ side: 'bottom', align: 'start' }">
-              <UButton icon="ph:tag-duotone" label="Categories" color="neutral" variant="link" class="cursor-pointer" />
-
-              <template #content>
-                <UCommandPalette
-                  placeholder="Search Categories" :groups="groups"
-                  :ui="{ input: '[&>input]:h-8 [&>input]:text-sm' }"
-                />
-              </template>
-            </UPopover>
-          </div>
-        </div>
-      </Container>
-    </div>
-
     <div v-if="isQuoteRoute" class="mt-3">
       <Container>
-        <div class="flex justify-around sm:justify-start gap-3 bg-neutral-800 rounded-lg px-3 py-1.5 shadow-lg p-4">
-          <div>
-            <UPopover :content="{ side: 'bottom', align: 'start' }">
-              <UButton icon="ph:user-duotone" label="Authors" color="neutral" variant="link" class="cursor-pointer" />
-
-              <template #content>
-                <UCommandPalette
-                  placeholder="Search Authors" :groups="groups"
-                  :ui="{ input: '[&>input]:h-8 [&>input]:text-sm' }"
-                />
-              </template>
-            </UPopover>
-          </div>
-
-          <div>
-            <UPopover :content="{ side: 'bottom', align: 'start' }">
-              <UButton
-                icon="ph:book-bookmark-duotone" label="Literature" color="neutral" variant="link"
-                class="cursor-pointer"
-              />
-
-              <template #content>
-                <UCommandPalette
-                  placeholder="Search Literature" :groups="groups"
-                  :ui="{ input: '[&>input]:h-8 [&>input]:text-sm' }"
-                />
-              </template>
-            </UPopover>
-          </div>
-
-          <div>
-            <UPopover :content="{ side: 'bottom', align: 'start' }">
-              <UButton icon="ph:tag-duotone" label="Categories" color="neutral" variant="link" class="cursor-pointer" />
-
-              <template #content>
-                <UCommandPalette
-                  placeholder="Search Categories" :groups="groups"
-                  :ui="{ input: '[&>input]:h-8 [&>input]:text-sm' }"
-                />
-              </template>
-            </UPopover>
-          </div>
+        <div class="flex justify-around sm:justify-start bg-neutral-800 rounded-lg shadow-lg sm:px-1">
+          <QuoteDropdownExplorer class="w-full flex justify-center sm:justify-start" />
         </div>
       </Container>
     </div>

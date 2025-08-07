@@ -48,3 +48,22 @@ export interface BreadCrumb {
   text: string
   link?: string
 }
+
+export interface QuoteCategoryMetadata {
+  name: string
+  slug: string
+  count: number
+}
+
+export interface QuoteAuthorMetadata {
+  name: string
+  slug: string
+  count: number
+}
+
+export interface QuoteReferenceMetadata {
+  referenceName: string
+  authorName: string
+  slug: string
+  count: number
+}
