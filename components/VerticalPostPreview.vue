@@ -28,7 +28,7 @@ const postPath = `/posts/${props.post.slug}`
           {{ post.title }}
         </h2>
         <p v-if="post.summary">
-          {{ smartEllipsis(post.summary, 220) }}
+          {{ smartEllipsis(post.summary, 230) }}
         </p>
         <div class="mt-5 flex-grow flex flex-col justify-end">
           <div v-if="post.author" class="text-sm font-bold mb-1">
