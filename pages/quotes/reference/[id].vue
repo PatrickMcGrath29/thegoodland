@@ -42,8 +42,6 @@ useSeoMeta({
   <Container>
     <PageHeader :heading="heading" :subheading="subheading" subtitle="Quotes" />
 
-    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-4" />
-
     <ColumnView class="gap-6" :count="quotesForReference.length">
       <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">
         <StyledCard>

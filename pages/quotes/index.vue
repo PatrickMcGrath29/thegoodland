@@ -126,9 +126,6 @@ useSeoMeta({
       </div>
     </StyledCard>
 
-    <!-- Quick Explorer -->
-    <QuoteDropdownExplorer class="flex justify-center sm:justify-start mb-8" />
-
     <!-- Recent Quotes Section -->
     <QuoteSection title="Recently Added" :quotes="recentQuotes" @quote-click="openQuoteModal" />
 
