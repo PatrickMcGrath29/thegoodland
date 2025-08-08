@@ -54,7 +54,6 @@ const dropdownItems = ref<NavigationMenuItem[]>([
       childList: 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4',
       link: 'cursor-pointer',
       linkTrailingIcon: 'cursor-default',
-      content: 'max-h-[80vh]',
     }"
   />
 </template>

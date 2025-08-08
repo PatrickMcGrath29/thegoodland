@@ -82,7 +82,7 @@ const desktopNavItems = computed(() => {
 <template>
   <header class="my-3">
     <Container>
-      <div class="flex bg-neutral-800 rounded-lg justify-between px-3 py-1.5 shadow-lg">
+      <div class="flex bg-neutral-800 rounded-lg justify-between px-3 py-1.5 shadow-md">
         <div class="navbar-start">
           <UButton to="/" variant="ghost" class="text-neutral hover:bg-neutral-700 active:bg-neutral-700">
             <LogoIcon class="size-9 fill-accent mr-0.5 bg-neutral-700 p-1.5 rounded-md" />
@@ -120,7 +120,7 @@ const desktopNavItems = computed(() => {
 
     <div v-if="isQuoteRoute" class="mt-3">
       <Container>
-        <div class="flex justify-around sm:justify-start bg-neutral-800 rounded-lg shadow-lg sm:px-1">
+        <div class="flex justify-around sm:justify-start bg-neutral-800 rounded-lg shadow-md sm:px-1">
           <QuoteDropdownExplorer class="w-full flex justify-center sm:justify-start" />
         </div>
       </Container>
