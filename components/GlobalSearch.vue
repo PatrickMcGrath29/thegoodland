@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { CommandPaletteItem } from '@nuxt/ui'
 import type { Quote } from '~/types'
-import { smartEllipsis } from '~/shared/utils'
 
 const searchTerm = ref('')
 const route = useRoute()
@@ -86,20 +85,7 @@ const groups = ref([
         }"
       >
         <template #item="{ item }">
-          <div class="text-left p-0.5 w-full">
-            <div
-              v-if="item.labelHtml"
-              class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent"
-              v-html="item.labelHtml"
-            />
-            <div v-else class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent">
-              {{ item.label }}
-            </div>
-
-            <div class="text-sm text-dimmed">
-              {{ item.suffix }}
-            </div>
-          </div>
+          <GlobalSearchEntry :item="item" :search-term="searchTerm" />
         </template>
       </UCommandPalette>
     </template>
