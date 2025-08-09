@@ -25,12 +25,12 @@ const suffix = computed(() => {
 </script>
 
 <template>
-  <div class="text-left p-0.5 w-full">
+  <div class="text-left p-0.5 w-full [&_mark]:bg-accent">
     <div
-      v-if="item.labelHtml" class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent"
+      v-if="item.labelHtml" class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden"
       v-html="item.labelHtml"
     />
-    <div v-else class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden [&>mark]:bg-accent">
+    <div v-else class="overflow-ellipsis max-w-[100ch] text-nowrap overflow-hidden">
       {{ item.label }}
     </div>
 
