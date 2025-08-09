@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
+import { slugify } from '~/shared/utils'
 
 const { quote, showFullPageLink = true } = defineProps<{
   quote: Quote
@@ -13,9 +14,13 @@ const { quote, showFullPageLink = true } = defineProps<{
   </div>
   <div class="flex flex-wrap gap-5 items-center justify-between w-full">
     <div class="flex flex-wrap gap-2">
-      <span v-for="category in quote.categories" :key="category" class="px-2 py-1 bg-neutral-700 rounded text-xs text-toned">
+      <UButton
+        v-for="category in quote.categories" :key="category"
+        size="xs" variant="soft" color="neutral" class="bg-neutral-700"
+        :to="`/quotes/category/${slugify(category)}`"
+      >
         {{ category }}
-      </span>
+      </UButton>
     </div>
     <div>
       <UButton
