@@ -11,7 +11,11 @@ defineEmits<{
 </script>
 
 <template>
-  <div class="flex-none w-[calc(100%-2rem)] md:w-96 h-80 m-0.5" @click="$emit('click', quote)">
+  <StyledCard class="p-3 cursor-pointer w-[calc(100%-2rem)] md:w-96 flex-none" @click="$emit('click', quote)">
+    <QuoteTextWithCategories :quote="quote" preview-mode />
+  </StyledCard>
+
+  <!-- <div class="flex-none w-[calc(100%-2rem)] md:w-96 h-80 m-0.5" @click="$emit('click', quote)">
     <StyledCard class="h-full cursor-pointer">
       <div class="p-3 h-full flex flex-col">
         <div class="flex-grow overflow-hidden">
@@ -35,5 +39,5 @@ defineEmits<{
         </div>
       </div>
     </StyledCard>
-  </div>
+  </div> -->
 </template>
