@@ -26,7 +26,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
         <NuxtLink
           v-if="quote.reference?.referenceName"
           class="text-base font-semibold hover:underline decoration-neutral-400 flex items-center gap-1.5 w-fit"
-          :to="`/quotes/reference/${quote.reference?.referenceSlug}`"
+          :to="`/quotes/reference/${quote.reference?.referenceSlug}`" @click.stop
         >
           <Icon name="ph:bookmark-simple-duotone" size="15px" class="text-accent text-opacity-40" />
           {{ quote.reference.referenceName }}
@@ -36,7 +36,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
       <div>
         <NuxtLink
           class="text-sm italic hover:underline decoration-neutral-400 flex items-center gap-1.5 w-fit"
-          :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''"
+          :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''" @click.stop
         >
           <Icon name="ph:pen-nib-duotone" size="15px" class="text-accent text-opacity-40" />
           by {{ quote.reference?.authorName || "Anonymous" }}
@@ -45,7 +45,10 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
 
       <!-- Continue Reading -->
       <div v-if="!previewMode && (quote.link || quote.reference?.link)" class="text-sm text-blue-300 flex gap-3 mt-3">
-        <a :href="quote.link || quote.reference?.link" class="flex items-center gap-1 hover:underline" nofollow>
+        <a
+          :href="quote.link || quote.reference?.link" class="flex items-center gap-1 hover:underline" nofollow
+          @click.stop
+        >
           <Icon name="ci:external-link" />
           Continue Reading
         </a>
@@ -63,8 +66,9 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
         </div>
         <div v-if="!previewMode">
           <UButton
-            v-if="showFullPageLink" :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right"
-            variant="ghost" color="primary" size="sm"
+            v-if="showFullPageLink"
+            :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right" variant="ghost"
+            color="primary" size="sm" @click.stop
           >
             View Full Page
           </UButton>
