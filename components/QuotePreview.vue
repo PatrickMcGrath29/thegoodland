@@ -11,8 +11,11 @@ defineEmits<{
 </script>
 
 <template>
-  <StyledCard class="p-3 cursor-pointer w-[calc(100%-2rem)] md:w-96 flex-none" @click="$emit('click', quote)">
-    <QuoteTextWithCategories :quote="quote" preview-mode />
+  <StyledCard class="m-0.5 p-3 cursor-pointer" @click="$emit('click', quote)">
+    <QuoteTextWithCategories
+      :quote="quote" preview-mode class="w-[calc(100%-2rem)] md:w-96 grid auto-rows-auto"
+      :show-full-page-link="false"
+    />
   </StyledCard>
 
   <!-- <div class="flex-none w-[calc(100%-2rem)] md:w-96 h-80 m-0.5" @click="$emit('click', quote)">

@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 
-const { quote, showPermaLink = true, previewMode = false } = defineProps<{
+const { quote, showPermaLink = true } = defineProps<{
   quote: Quote
   showPermaLink?: boolean
-  previewMode?: boolean
 }>()
 </script>
 
@@ -13,13 +12,13 @@ const { quote, showPermaLink = true, previewMode = false } = defineProps<{
     <RefTagger class="[&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2">
       <template v-if="showPermaLink">
         <NuxtLink :to="`/quotes/${quote.uuid}/${quote.slug}`">
-          <p class="whitespace-pre-wrap text-base" :class="{ 'line-clamp-7': previewMode }">
+          <p class="whitespace-pre-wrap text-base">
             {{ quote.text }}
           </p>
         </NuxtLink>
       </template>
       <template v-else>
-        <p class="whitespace-pre-wrap text-base" :class="{ 'line-clamp-7': previewMode }">
+        <p class="whitespace-pre-wrap text-base">
           {{ quote.text }}
         </p>
       </template>
@@ -47,7 +46,7 @@ const { quote, showPermaLink = true, previewMode = false } = defineProps<{
       </div>
     </div>
 
-    <div v-if="!previewMode && (quote.link || quote.reference?.link)" class="text-sm text-blue-300 pt-1 mt-3 flex gap-3">
+    <div v-if="quote.link || quote.reference?.link" class="text-sm text-blue-300 pt-1 mt-3 flex gap-3">
       <a :href="quote.link || quote.reference?.link" class="flex items-center gap-1 hover:underline" nofollow>
         <Icon name="ci:external-link" />
         Continue Reading
