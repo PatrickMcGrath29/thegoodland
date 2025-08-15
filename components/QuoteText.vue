@@ -20,7 +20,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
     </RefTagger>
 
     <!-- Reference Name -->
-    <div class="min-h-lh">
+    <div :class="{ 'min-h-lh': previewMode }">
       <NuxtLink
         v-if="quote.reference?.referenceName"
         class="text-base font-semibold underline decoration-neutral-500 hover:text-accent flex items-center gap-1.5 w-fit"
@@ -30,6 +30,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
         {{ quote.reference.referenceName }}
       </NuxtLink>
     </div>
+
     <!-- Author Name -->
     <div>
       <NuxtLink

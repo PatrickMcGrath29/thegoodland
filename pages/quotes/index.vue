@@ -121,7 +121,7 @@ useSeoMeta({
           Quote of the Day
         </h2>
         <ClientOnly>
-          <QuoteTextWithCategories :quote="highlightedQuote" />
+          <QuoteText :quote="highlightedQuote" />
         </ClientOnly>
       </div>
     </StyledCard>
@@ -168,7 +168,7 @@ useSeoMeta({
         </div>
       </template>
       <template #body>
-        <QuoteTextWithCategories v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
+        <QuoteText v-if="selectedQuote" :quote="selectedQuote" @close="closeQuoteModal" />
       </template>
     </UModal>
   </Container>

@@ -9,8 +9,9 @@ text: I once saw a picture of the Constitution of the United States, very
   Scriptures and understand the thoughts of God, to see in them the face of
   love, shining through and through; not ideas, nor doctrines, but Jesus Himself
   as the Life and Source and sustaining Presence of all our life.”
-referenceId: pvlpq31h0n
+referenceId: hbj3u5wq53
 categories:
   - The Word
-createdDate: 2025-08-08T01:53:00Z
+link: https://thegoodland.io/posts/2025-08-06-himself
+createdDate: 2025-08-08T01:53:00.000Z
 ---

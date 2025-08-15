@@ -18,22 +18,21 @@ defineEmits<{
       <h2 class="text-2xl font-bold">
         {{ title }}
       </h2>
-      <NuxtLink
-        v-if="viewAllLink"
-        :to="viewAllLink"
-        class="text-accent hover:text-accent/80 text-sm font-medium"
+      <UButton
+        v-if="viewAllLink" :to="viewAllLink" trailing-icon="ph:arrow-right"
+        variant="ghost" color="primary"
       >
-        View All →
-      </NuxtLink>
+        View All
+      </UButton>
     </div>
     <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide snap-x snap-mandatory scroll-px-1">
-      <QuotePreview
-        v-for="(quote, idx) in quotes"
-        :key="idx"
-        :quote="quote"
-        class="snap-start"
+      <StyledCard
+        v-for="(quote, idx) in quotes" :key="idx"
+        class="m-0.5 p-3 cursor-pointer flex-none w-[calc(100%-2rem)] md:w-96 snap-start"
         @click="$emit('quoteClick', quote)"
-      />
+      >
+        <QuoteText :quote="quote" preview-mode :show-full-page-link="false" />
+      </StyledCard>
     </div>
   </section>
 </template>

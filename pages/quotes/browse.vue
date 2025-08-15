@@ -18,7 +18,7 @@ useSeoMeta({
       <div v-for="(quote, idx) in quotes" :key="idx" class="inline-block mb-6">
         <StyledCard>
           <div class="p-3 sm:p-4">
-            <QuoteTextWithCategories :quote="quote" />
+            <QuoteText :quote="quote" />
           </div>
         </StyledCard>
       </div>
