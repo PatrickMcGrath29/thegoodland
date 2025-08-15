@@ -23,7 +23,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
     <div class="min-h-lh">
       <NuxtLink
         v-if="quote.reference?.referenceName"
-        class="text-base font-semibold hover:underline decoration-neutral-400 flex items-center gap-1.5 w-fit"
+        class="text-base font-semibold underline decoration-neutral-500 hover:text-accent flex items-center gap-1.5 w-fit"
         :to="`/quotes/reference/${quote.reference?.referenceSlug}`" @click.stop
       >
         <Icon name="ph:bookmark-simple-duotone" size="15px" class="text-accent text-opacity-40" />
@@ -33,7 +33,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
     <!-- Author Name -->
     <div>
       <NuxtLink
-        class="text-sm italic hover:underline decoration-neutral-400 flex items-center gap-1.5 w-fit"
+        class="text-sm italic underline decoration-neutral-500 hover:text-accent flex items-center gap-1.5 w-fit"
         :to="quote.reference?.authorName ? `/quotes/author/${quote.reference?.authorSlug}` : ''" @click.stop
       >
         <Icon name="ph:pen-nib-duotone" size="15px" class="text-accent text-opacity-40" />
@@ -64,9 +64,8 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
       </div>
       <div v-if="!previewMode">
         <UButton
-          v-if="showFullPageLink"
-          :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right" variant="ghost"
-          color="primary" size="sm" @click.stop
+          v-if="showFullPageLink" :to="`/quotes/${quote.uuid}/${quote.slug}`" trailing-icon="ph:arrow-right"
+          variant="ghost" color="primary" size="sm" @click.stop
         >
           View Full Page
         </UButton>
