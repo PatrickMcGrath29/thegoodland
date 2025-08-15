@@ -10,7 +10,7 @@ const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
 </script>
 
 <template>
-  <div class="grid auto-cols-auto h-full">
+  <div class="flex flex-col h-full">
     <RefTagger
       class="[&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2 mb-4"
     >
