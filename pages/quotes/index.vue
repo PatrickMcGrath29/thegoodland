@@ -105,14 +105,18 @@ function closeQuoteModal() {
   selectedQuote.value = null
 }
 
+const description = 'Quotes, Excerpts & Poems Displaying the Richness of Jesus'
+
 useSeoMeta({
   title: 'The Good Land — Quotes',
+  description,
+  ogDescription: description,
 })
 </script>
 
 <template>
   <Container>
-    <PageHeader heading="All Quotes" subtitle="Quotes" />
+    <PageHeader heading="All Quotes" :subheading="description" />
 
     <!-- Quote of the Day Section -->
     <StyledCard class="mt-10 mb-8">
