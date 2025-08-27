@@ -11,8 +11,11 @@ text: >-
 
 
   So it is that the human being can know about God, can know about Christ's dying for him, can even write songs and books, can be the head of religious organizations and hold important church offices—and still never have come to the vital, personal knowledge of God at all. Only by the Holy Spirit can he know God.
+
+
+  Again, it is my contention that as a consequence of this kind of error, we really have two Christs. We have the Christ of history, the Christ of the creeds. On the other hand, there is the Christ whom only the Spirit can reveal.
 referenceId: fcvvjumjto
 categories:
   - Knowing the Lord
-createdDate: 2025-08-27T07:15:00Z
+createdDate: 2025-08-27T07:15:00.000Z
 ---
