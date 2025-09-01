@@ -86,7 +86,7 @@ It is crucially important for us to see that the year of Jubilee began on the Da
 
 The Lord Jesus is inviting us to lay aside our own attempts to justify or save ourselves, and to enter into His rest. He says, "he who has entered His rest has himself also ceased from his works as God did from His" (Hebrews 4:10). Cease from your works and enter into His rest! The Day of Atonement is here! See Christ ushering us into the year of Jubilee!
 
-The finished work of the Lord Jesus is the basis for our initial salvation. It is also the basis upon which we may move forward in the Christian life. As we read in Romans 6:4, Romans 6:6-8, and Galatians 2:20, the Apostle Paul is speaking of things which have already happened for us, in Christ. "I _have been_ crucified with Christ", "our old man _was_ crucified with Him", "he who has died _has been_ freed from sin". Just as the Lord secured our initial salvation, He also secured the path for our daily growth and victory. And just as we receive salvation through yielding to the Lord and believing in Him, so also we secure victory by yielding to the Lord and by faith entering into what He has already accomplished for us. In both cases we realize that indeed we cannot do it ourselves, and that we need another. We need the Lord Jesus as our salvation, and we need the Lord Jesus as our victory.
+The finished work of the Lord Jesus is the basis for our initial salvation. It is also the basis upon which we may move forward in the Christian life. As we read in Romans 6:4, Romans 6:6-8, and Galatians 2:20, the Apostle Paul is speaking of things which have already happened for us, in Christ. "I *have been* crucified with Christ", "our old man *was* crucified with Him", "he who has died *has been* freed from sin". Just as the Lord secured our initial salvation, He also secured the path for our daily growth and victory. And just as we receive salvation through yielding to the Lord and believing in Him, so also we secure victory by yielding to the Lord and by faith entering into what He has already accomplished for us. In both cases we realize that indeed we cannot do it ourselves, and that we need another. We need the Lord Jesus as our salvation, and we need the Lord Jesus as our victory.
 
 If we're not resting on the foundation of the finished and complete work of the Lord Jesus then we will yet think that there are more works that we need to do of ourself. This is problematic though, because as we look away from Christ, and to ourselves, we quickly leave the liberty of the Lord and enter into bondage. In Romans 7 the Apostle Paul speaks of a Christian trying to move forward in their own strength. He is in despair, saying "the good that I will to do, I do not do; but the evil I will not to do, that I practice." He longs to do what is good, but finds no power to do it—"for to will is present with me, but how to perform what is good I do not find." He ends by declaring, "O wretched man that I am! Who will deliver me from this body of death?" Brothers and sisters, we need to see that attempting to progress in the Christian life according to our flesh will only bring us into bondage. When the Apostle Paul cried out "who will deliver me...!", we need to see the Lord Jesus standing in that place—the One who came to fully deliver us out of all bondage, and bring us into the "glorious liberty of the children of God". We are indeed so weak and so incapable. But Christ is so capable. Let our hearts rise, like the Apostle Paul, in saying "I thank God—through Jesus Christ our Lord!"
 
@@ -118,9 +118,7 @@ See the heart of the Lord. He paid such a price on the cross, and performed such
 > Oh, to be saved from myself, dear Lord,\
 > Oh, to be lost in Thee,\
 > Oh, that it may be no more I,\
-> But Christ that lives in me.\
-> \
-> — A.B. Simpson
+> But Christ that lives in me.
 
 ### That He May Show Forth His Beautiful Glory
 
