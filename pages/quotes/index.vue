@@ -116,7 +116,6 @@ useSeoMeta({
 <template>
   <Container>
     <PageHeader heading="All Quotes" :subheading="description" />
-    {{ quotes.length }}
 
     <!-- Quote of the Day Section -->
     <StyledCard class="mt-10 mb-8">
