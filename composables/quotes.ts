@@ -1,7 +1,7 @@
 import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
 import type { Quote, QuoteAuthorMetadata, QuoteCategoryMetadata, QuoteReferenceMetadata } from '~/types'
 import { hydrateQuotes } from '~/shared/quotes'
-import { slugify } from '~/shared/utils'
+import { dayOfYear, slugify } from '~/shared/utils'
 
 async function useRawQuotes(): Promise<QuotesCollectionItem[]> {
   return await queryCollection('quotes')
@@ -76,4 +76,14 @@ export function useQuoteReferences(quotes: Quote[]): QuoteReferenceMetadata[] {
       ).length,
     }
   }).sort((a, b) => a.referenceName.localeCompare(b.referenceName))
+}
+
+export async function getQuoteOfDay(quotes: Ref<Quote[]>): Promise<Quote> {
+  return await consistentHash(
+    quotes.value as [Quote, ...Quote[]],
+    (quote: Quote) => {
+      return quote.uuid
+    },
+    dayOfYear(),
+  )
 }

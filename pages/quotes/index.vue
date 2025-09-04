@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 import { UButton } from '#components'
-import { getHighlightedQuote } from '~/shared/quotes'
 import { slugify } from '~/shared/utils'
 
 const NUM_CATEGORIES_TO_SHOW = 6
@@ -13,8 +12,8 @@ const quotes = data as Ref<Quote[]>
 
 const isSmallScreen = useIsSmallScreen()
 
-const highlightedQuote = computed(() => {
-  return getHighlightedQuote(quotes)
+const highlightedQuote = asyncComputed(async () => {
+  return await getQuoteOfDay(quotes)
 })
 
 // Group quotes by author
@@ -105,7 +104,7 @@ function closeQuoteModal() {
   selectedQuote.value = null
 }
 
-const description = 'Quotes, Excerpts & Poems Displaying the Richness of Jesus'
+const description = 'Quotes, Excerpts & Poetry Highlighting the Richness of Jesus'
 
 useSeoMeta({
   title: 'The Good Land — Quotes',
@@ -117,6 +116,7 @@ useSeoMeta({
 <template>
   <Container>
     <PageHeader heading="All Quotes" :subheading="description" />
+    {{ quotes.length }}
 
     <!-- Quote of the Day Section -->
     <StyledCard class="mt-10 mb-8">
@@ -124,8 +124,9 @@ useSeoMeta({
         <h2 class="text-xl mb-7 text-center font-semibold">
           Quote of the Day
         </h2>
+
         <ClientOnly>
-          <QuoteText :quote="highlightedQuote" />
+          <QuoteText v-if="highlightedQuote" :quote="highlightedQuote" />
         </ClientOnly>
       </div>
     </StyledCard>

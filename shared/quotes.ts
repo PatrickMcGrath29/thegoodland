@@ -1,7 +1,6 @@
 import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
-import type { Ref } from 'vue'
 import type { Quote, Reference } from '../types'
-import { authorSlug, dayOfYear, referenceSlug, slugify, smartEllipsis } from './utils'
+import { authorSlug, referenceSlug, slugify, smartEllipsis } from './utils'
 
 function parseQuote(rawQuote: QuotesCollectionItem): QuotesCollectionItem {
   return {
@@ -67,10 +66,4 @@ export function hydrateQuotes(rawQuotes: QuotesCollectionItem[], rawReferences: 
     const reference = referencesById.get(quote.referenceId)
     return buildQuote(quote, reference)
   })
-}
-
-export function getHighlightedQuote(quotes: Ref<Quote[]>) {
-  const higlightedQuoteIdx = dayOfYear() % quotes.value.length
-
-  return quotes.value[higlightedQuoteIdx]
 }
