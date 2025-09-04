@@ -1820,7 +1820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/ui@npm:^3.3.0":
+"@nuxt/ui@npm:^3.3.3":
   version: 3.3.3
   resolution: "@nuxt/ui@npm:3.3.3"
   dependencies:
@@ -13041,7 +13041,7 @@ __metadata:
     "@nuxt/icon": "npm:^1.15.0"
     "@nuxt/image": "npm:^1.11.0"
     "@nuxt/scripts": "npm:^0.11.13"
-    "@nuxt/ui": "npm:^3.3.0"
+    "@nuxt/ui": "npm:^3.3.3"
     "@pinia/nuxt": "npm:0.11.2"
     "@sentry/nuxt": "npm:^10.9.0"
     "@unhead/vue": "npm:^2.0.14"

@@ -39,6 +39,7 @@ export async function consistentHash<T>(
     const hashedRecordKey = await hashString(recordKeyFn(rec))
     return Math.abs(stringToNumber(hashedRecordKey) - stringToNumber(hashedKey))
   }
+
   let currentMin: T = records[0]
   let currentMinDelta = await computeDelta(records[0])
 

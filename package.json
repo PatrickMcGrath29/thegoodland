@@ -16,7 +16,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/ui": "^3.3.0",
+    "@nuxt/ui": "^3.3.3",
     "@sentry/nuxt": "^10.9.0",
     "better-sqlite3": "^12.2.0"
   },
