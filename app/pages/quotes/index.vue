@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
 import { UButton } from '#components'
-import { slugify } from '~/shared/utils'
+import { slugify } from '~~/shared/utils'
 
 const NUM_CATEGORIES_TO_SHOW = 6
 const NUM_AUTHORS_TO_SHOW = 8
