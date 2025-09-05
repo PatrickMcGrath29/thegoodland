@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { CommandPaletteItem } from '@nuxt/ui'
-import { highlight } from '~~/shared/utils'
+import { highlight } from '~/shared/utils'
 
 const props = defineProps<{
   item: CommandPaletteItem

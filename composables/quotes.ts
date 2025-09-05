@@ -1,7 +1,7 @@
 import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
 import type { Quote, QuoteAuthorMetadata, QuoteCategoryMetadata, QuoteReferenceMetadata } from '~/types'
-import { hydrateQuotes } from '~~/shared/quotes'
-import { dayOfYear, slugify } from '~~/shared/utils'
+import { hydrateQuotes } from '~/shared/quotes'
+import { dayOfYear, slugify } from '~/shared/utils'
 
 async function useRawQuotes(): Promise<QuotesCollectionItem[]> {
   return await queryCollection('quotes')

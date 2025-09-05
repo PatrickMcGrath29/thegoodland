@@ -1,7 +1,7 @@
-import type { Quote } from '~~/types'
+import type { Quote } from '~/types'
 import fs from 'node:fs'
 import { SitemapStream, streamToPromise } from 'sitemap'
-import { hydrateQuotes } from '~~/shared/quotes'
+import { hydrateQuotes } from '~/shared/quotes'
 
 function getPDFs() {
   return fs.readdirSync('public/uploads/').filter((file) => {

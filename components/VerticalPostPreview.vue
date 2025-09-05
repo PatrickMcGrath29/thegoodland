@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Post } from '@/types'
-import { formatDate, smartEllipsis } from '~~/shared/utils'
+import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const props = defineProps<{ post: Post, isFeatured?: boolean }>()
 const postPath = `/posts/${props.post.slug}`

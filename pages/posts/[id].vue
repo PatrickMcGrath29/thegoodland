@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Post } from '~/types'
 import PostDetail from '~/components/PostDetail.vue'
-import { formatDate, smartEllipsis } from '~~/shared/utils'
+import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const { params: { id: slug } } = useRoute()
 const { data: postData, error } = await useAsyncData(`post/${slug}`, () => usePost(slug as string))
