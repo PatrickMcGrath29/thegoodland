@@ -3,13 +3,13 @@ import type { Quote } from '~/types'
 import { slugify } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
-const { data: quotes } = await useAsyncData('useQuotes', () => useQuotes())
+const quotes = await useQuotes()
 
 const quotesForCategory = computed(() => {
-  if (!quotes.value)
+  if (!quotes)
     throw createError({ statusCode: 404, statusMessage: 'Quotes not found.' })
 
-  const foundQuotes = quotes.value.filter((quote) => {
+  const foundQuotes = quotes.filter((quote) => {
     return quote.categories?.map(q => slugify(q)).includes(id as string)
   })
 

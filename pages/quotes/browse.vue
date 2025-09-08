@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
-
-const { data } = await useAsyncData('useQuotes', () => useQuotes())
-const quotes = data as Ref<Quote[]>
+const quotes = await useQuotes()
 
 useSeoMeta({
   title: 'Browse All Quotes — The Good Land',

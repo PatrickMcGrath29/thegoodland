@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: collections } = await useAsyncData('allCollections', () => useCollections())
+const collections = await useCollections()
 </script>
 
 <template>

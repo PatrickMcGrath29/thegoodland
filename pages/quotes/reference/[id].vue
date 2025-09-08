@@ -2,13 +2,13 @@
 import type { Quote } from '~/types'
 
 const { params: { id } } = useRoute()
-const { data: quotes } = await useAsyncData('useQuotes', () => useQuotes())
+const quotes = await useQuotes()
 
 const quotesForReference = computed(() => {
-  if (!quotes.value)
+  if (!quotes)
     throw createError({ statusCode: 404, statusMessage: 'Quotes Not Found.' })
 
-  const foundQuotes = quotes.value.filter((quote) => {
+  const foundQuotes = quotes.filter((quote) => {
     return quote.reference?.referenceSlug === id
   })
 

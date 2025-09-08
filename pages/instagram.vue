@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: posts } = await useAsyncData('useBlogPosts', () => useBlogPosts())
+const posts = await useBlogPosts()
 
 const description = 'Literature that highlights the richness of life found in Jesus Christ.'
 
@@ -14,10 +14,10 @@ const highlightedPostSlugs = [
 ]
 
 const highlightedPosts = computed(() => {
-  if (!posts.value)
+  if (!posts)
     return []
 
-  return posts.value.filter(p => highlightedPostSlugs.includes(p.slug))
+  return posts.filter(p => highlightedPostSlugs.includes(p.slug))
 })
 </script>
 

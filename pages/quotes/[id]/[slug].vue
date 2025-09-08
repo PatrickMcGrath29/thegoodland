@@ -4,11 +4,10 @@ import { smartEllipsis } from '~/shared/utils'
 
 const { params: { id } } = useRoute()
 
-const { data } = await useAsyncData('useQuotes', () => useQuotes())
-const quotes = data as Ref<Quote[]>
+const quotes = await useQuotes()
 
 const matchingQuote = computed(() => {
-  const foundQuote = quotes.value.find((quote) => {
+  const foundQuote = quotes.find((quote) => {
     return quote.uuid === id
   })
 
@@ -19,7 +18,7 @@ const matchingQuote = computed(() => {
 })
 
 const additionalQuotesForAuthor = computed(() => {
-  return quotes.value.filter((quote) => {
+  return quotes.filter((quote) => {
     return quote.reference?.authorSlug === matchingQuote.value.reference?.authorSlug
       && quote.uuid !== matchingQuote.value.uuid
   })

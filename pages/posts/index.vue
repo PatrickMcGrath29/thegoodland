@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TabsItem } from '@nuxt/ui'
 
-const { data: posts } = await useAsyncData('useBlogPosts', () => useBlogPosts())
+const posts = await useBlogPosts()
 const route = useRoute()
 const router = useRouter()
 
@@ -29,7 +29,7 @@ const postTabs = ref<TabsItem[]>([
 const postsByAuthor = computed(() => {
   const grouped = new Map<string, any[]>()
 
-  ;(posts.value || []).forEach((post: any) => {
+  ;(posts || []).forEach((post: any) => {
     const author = post.author
     if (!author)
       return
