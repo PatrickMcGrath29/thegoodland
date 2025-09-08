@@ -1,40 +1,16 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
 
-const { data: collections } = await useAsyncData('collections', () => useCollections())
+const collections = await useCollections()
 
 const route = useRoute()
 
 const mobileMenuOpen = ref(false)
 const settingsStore = useSettingsStore()
 
-const isPostRoute = computed(() => {
-  return route.path === '/posts'
-})
-
 const isQuoteRoute = computed(() => {
   return route.path.startsWith('/quotes')
 })
-
-const groups = ref([
-  {
-    id: 'apps',
-    items: [
-      {
-        label: 'Calendar',
-        icon: 'i-lucide-calendar',
-      },
-      {
-        label: 'Music',
-        icon: 'i-lucide-music',
-      },
-      {
-        label: 'Maps',
-        icon: 'i-lucide-map',
-      },
-    ],
-  },
-])
 
 watch(route, () => {
   mobileMenuOpen.value = false
@@ -51,7 +27,7 @@ const navItems = computed(() => {
       label: 'Collections',
       to: '/collections',
       defaultOpen: true,
-      children: collections.value?.map(collection => ({
+      children: collections?.map(collection => ({
         label: collection.name,
         to: `/collections/${collection.slug}`,
         description: collection.author ? `by ${collection.author}` : undefined,

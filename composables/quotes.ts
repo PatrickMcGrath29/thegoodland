@@ -78,9 +78,9 @@ export function useQuoteReferences(quotes: Quote[]): QuoteReferenceMetadata[] {
   }).sort((a, b) => a.referenceName.localeCompare(b.referenceName))
 }
 
-export async function getQuoteOfDay(quotes: Ref<Quote[]>): Promise<Quote> {
+export async function getQuoteOfDay(quotes: Quote[]): Promise<Quote> {
   return await consistentHash(
-    quotes.value as [Quote, ...Quote[]],
+    quotes as [Quote, ...Quote[]],
     (quote: Quote) => {
       return quote.uuid
     },

@@ -1,10 +1,7 @@
 <script setup lang="ts">
-import type { Post } from '~/types'
+const posts = await useBlogPosts(10)
 
-const postData = await useAsyncData('homePostSample', () => useBlogPosts(10))
-
-const posts = postData.data as Ref<Post[]>
-const [featuredPost, ...recentPosts] = posts.value
+const [featuredPost, ...recentPosts] = posts
 
 const description = 'The Good Land Blog is a collection of Biblical Christian resources that aim to highlight the richness of life found in Jesus Christ.'
 

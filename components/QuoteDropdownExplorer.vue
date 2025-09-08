@@ -2,18 +2,17 @@
 import type { NavigationMenuItem } from '@nuxt/ui'
 import type { Quote } from '~/types'
 
-const { data } = await useAsyncData('useQuotes', () => useQuotes())
-const quotes = data as Ref<Quote[]>
+const quotes = await useQuotes()
 
 const authors = computed(() => {
-  return useQuoteAuthors(quotes.value).map(author => ({
+  return useQuoteAuthors(quotes).map(author => ({
     label: `${author.name} (${author.count})`,
     to: author.slug,
   }))
 })
 
 const references = computed(() => {
-  return useQuoteReferences(quotes.value).map(reference => ({
+  return useQuoteReferences(quotes).map(reference => ({
     label: `${reference.referenceName} (${reference.count})`,
     description: reference.authorName,
     to: reference.slug,
@@ -21,7 +20,7 @@ const references = computed(() => {
 })
 
 const categories = computed(() => {
-  return useQuoteCategories(quotes.value).map(category => ({
+  return useQuoteCategories(quotes).map(category => ({
     label: `${category.name} (${category.count})`,
     to: category.slug,
   }))

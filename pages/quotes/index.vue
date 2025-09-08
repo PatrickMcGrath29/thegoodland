@@ -7,8 +7,7 @@ const NUM_CATEGORIES_TO_SHOW = 6
 const NUM_AUTHORS_TO_SHOW = 8
 const NUM_QUOTES_PER_SECTION = 8
 
-const { data } = await useAsyncData('useQuotes', () => useQuotes())
-const quotes = data as Ref<Quote[]>
+const quotes = await useQuotes()
 
 const isSmallScreen = useIsSmallScreen()
 
@@ -20,7 +19,7 @@ const highlightedQuote = asyncComputed(async () => {
 const quotesByAuthor = computed(() => {
   const grouped = new Map<string, Quote[]>()
 
-  quotes.value.forEach((quote) => {
+  quotes.forEach((quote) => {
     if (quote.reference?.authorName) {
       const authorName = quote.reference.authorName
       if (!grouped.has(authorName)) {
@@ -45,7 +44,7 @@ const quotesByAuthor = computed(() => {
 const quotesByCategory = computed(() => {
   const grouped = new Map<string, Quote[]>()
 
-  quotes.value.forEach((quote) => {
+  quotes.forEach((quote) => {
     if (quote.categories && quote.categories.length > 0) {
       quote.categories.forEach((category) => {
         if (!grouped.has(category)) {
@@ -68,7 +67,7 @@ const quotesByCategory = computed(() => {
 
 // Recent quotes (sorted by createdDate, most recent first)
 const recentQuotes = computed(() => {
-  return quotes.value
+  return quotes
     .filter(quote => quote.createdDate) // Only include quotes with timestamps
     .sort((a, b) => {
       const dateA = new Date(a.createdDate!).getTime()

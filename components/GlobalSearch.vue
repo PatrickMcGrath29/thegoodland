@@ -8,8 +8,8 @@ const route = useRoute()
 const settingsStore = useSettingsStore()
 const isSmallScreen = useIsSmallScreen()
 
-const { data: posts } = await useAsyncData('useAllPosts', () => useAllPosts())
-const { data: quotes } = await useAsyncData('useQuotes', () => useQuotes())
+const posts = await useAllPosts()
+const quotes = await useQuotes()
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
@@ -34,7 +34,7 @@ const matchingQuotes = computed(() => {
       : `by ${quote.reference?.authorName}`
   }
 
-  return quotes.value?.map(quote => ({
+  return quotes?.map(quote => ({
     label: quote.text,
     suffix: quoteSuffix(quote),
     onSelect: () => {
@@ -44,7 +44,7 @@ const matchingQuotes = computed(() => {
 })
 
 const matchingPosts = computed(() => {
-  return posts.value?.map(post => ({
+  return posts?.map(post => ({
     label: post.title,
     suffix: post.author ? `by ${post.author}` : undefined,
     onSelect: () => {

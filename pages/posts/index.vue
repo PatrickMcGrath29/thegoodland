@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TabsItem } from '@nuxt/ui'
 
-const { data: posts } = await useAsyncData('useBlogPosts', () => useBlogPosts())
+const posts = await useBlogPosts()
 const route = useRoute()
 const router = useRouter()
 
@@ -29,7 +29,7 @@ const postTabs = ref<TabsItem[]>([
 const postsByAuthor = computed(() => {
   const grouped = new Map<string, any[]>()
 
-  ;(posts.value || []).forEach((post: any) => {
+  ;(posts || []).forEach((post: any) => {
     const author = post.author
     if (!author)
       return
@@ -48,17 +48,21 @@ const postsByAuthor = computed(() => {
     .sort((a, b) => a.author.localeCompare(b.author))
 })
 
-const active = computed({
-  get() {
-    return (route.query.view as string) || summaryTab
-  },
-  set(tab) {
-    router.push({
-      path: '/posts',
-      query: { view: tab },
-    })
-  },
+const active = computed(() => {
+  return summaryTab
 })
+
+// const active = computed({
+//   get() {
+//     return (route.query.view as string) || summaryTab
+//   },
+//   set(tab) {
+//     router.push({
+//       path: '/posts',
+//       query: { view: tab },
+//     })
+//   },
+// })
 
 useSeoMeta({
   title: 'The Good Land Blog — Posts',
@@ -71,7 +75,7 @@ useSeoMeta({
   <Container>
     <PageHeader heading="All Blog Posts" subtitle="Blog" />
 
-    <UTabs v-model="active" :items="postTabs" variant="link" class="mb-6" />
+    <!-- <UTabs v-model="active" :items="postTabs" variant="link" class="mb-6" /> -->
 
     <div v-if="active === summaryTab" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 mb-10 px-2">
       <VerticalPostPreview v-for="post in posts" :key="post.slug" :post="post" />
