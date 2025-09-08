@@ -69,13 +69,18 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml'],
+      routes: [
+        '/sitemap.xml',
+        '/posts?view=summary',
+        '/posts?view=list',
+        '/posts?view=author',
+      ],
     },
   },
 
   routeRules: {
     '/posts/2025-07-10-the-surrendered-life-exposed-to-the-circumstances-of-his-choice': {
-      redirect: '/posts/2025-07-10-accepting-the-circumstances-of-his-choice'
+      redirect: '/posts/2025-07-10-accepting-the-circumstances-of-his-choice',
     },
     '/2021/08/23/entering-into-the-good-land': { redirect: '/posts/2021-08-23-entering-into-the-good-land' },
     '/2021/09/28/lord-shine-your-light': { redirect: '/posts/2021-09-28-lord-shine-your-light' },
