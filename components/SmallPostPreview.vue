@@ -7,21 +7,27 @@ const postPath = `/posts/${props.post.slug}`
 </script>
 
 <template>
-  <NuxtLink :to="postPath" class="rounded-md bg-neutral-800 p-3">
-    <div class="flex flex-col h-full">
-      <div class="grow">
-        {{ post.title }}
+  <StyledCard>
+    <NuxtLink :to="postPath" class="rounded bg-neutral-800 grid grid-cols-5 h-full">
+      <div class="aspect-16/9 overflow-hidden h-full w-full rounded-l col-span-2">
+        <NuxtImg :src="post.featuredImage" class="w-full h-full object-cover" width="150px" placeholder />
       </div>
-      <div class="pt-2 justify-end">
-        <div v-if="post.author" class="text-muted text-sm pt-2">
-          by {{ post.author }}
+
+      <div class="flex flex-col h-full p-3 col-span-3">
+        <div class="grow">
+          {{ post.title }}
         </div>
-        <div class="pt-2">
-          <div class="font-bold text-xs text-neutral-500 uppercase">
-            {{ formatDate(post.createdDate) }}
+        <div class="pt-3 justify-end">
+          <div v-if="post.author" class="text-muted font-bold text-xs pt-2">
+            by {{ post.author }}
+          </div>
+          <div class="pt-1">
+            <div class="font-semibold text-xs text-neutral-500">
+              {{ formatDate(post.createdDate) }}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </NuxtLink>
+    </NuxtLink>
+  </StyledCard>
 </template>

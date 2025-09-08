@@ -19,7 +19,7 @@ const postPath = `/posts/${props.post.slug}`
           </span>
         </div>
         <NuxtImg
-          :src="post.featuredImage" width="500px" placeholder class="w-full h-72 object-cover rounded-t"
+          :src="post.featuredImage" width="400px" placeholder class="w-full h-72 object-cover rounded-t"
           :alt="`Preview image for ${post.title}`"
         />
       </div>
