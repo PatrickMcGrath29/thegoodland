@@ -17,10 +17,6 @@ const postTabs = ref<TabsItem[]>([
     value: 'list',
   },
   {
-    label: 'By Category',
-    value: 'category',
-  },
-  {
     label: 'By Author',
     value: 'author',
   },
@@ -48,33 +44,6 @@ const postsByAuthor = computed(() => {
     .map(([author, authorPosts]) => ({
       author,
       posts: authorPosts.slice(0, NUM_POSTS_PER_GROUP),
-    }))
-    .sort((a, b) => b.posts.length - a.posts.length)
-    .slice(0, NUM_GROUPS_TO_SHOW)
-})
-
-// Group posts by category (if frontmatter contains categories: string[])
-const postsByCategory = computed(() => {
-  const grouped = new Map<string, any[]>()
-
-  ;(posts.value || []).forEach((post: any) => {
-    const categories = (post.categories || []) as string[]
-    if (!Array.isArray(categories) || categories.length === 0)
-      return
-
-    categories.forEach((category) => {
-      if (!category)
-        return
-      if (!grouped.has(category))
-        grouped.set(category, [])
-      grouped.get(category)?.push(post)
-    })
-  })
-
-  return Array.from(grouped.entries())
-    .map(([category, categoryPosts]) => ({
-      category,
-      posts: categoryPosts.slice(0, NUM_POSTS_PER_GROUP),
     }))
     .sort((a, b) => b.posts.length - a.posts.length)
     .slice(0, NUM_GROUPS_TO_SHOW)
@@ -109,14 +78,9 @@ useSeoMeta({
       <VerticalPostPreview v-for="post in posts" :key="post.slug" :post="post" />
     </div>
 
-    <div v-else-if="active === 'category'" class="space-y-10 mb-10 px-2">
-      <div v-for="categoryGroup in postsByCategory" :key="categoryGroup.category">
-        <h2 class="text-xl font-semibold mb-4">
-          {{ categoryGroup.category }}
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
-          <VerticalPostPreview v-for="post in categoryGroup.posts" :key="post.slug" :post="post" />
-        </div>
+    <div v-else-if="active === 'list'">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
+        <SmallPostPreview v-for="post in posts" :key="post.slug" :post="post" />
       </div>
     </div>
 
@@ -126,7 +90,7 @@ useSeoMeta({
           {{ authorGroup.author }}
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
-          <VerticalPostPreview v-for="post in authorGroup.posts" :key="post.slug" :post="post" />
+          <SmallPostPreview v-for="post in authorGroup.posts" :key="post.slug" :post="post" />
         </div>
       </div>
     </div>
