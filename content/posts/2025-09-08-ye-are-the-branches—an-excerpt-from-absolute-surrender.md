@@ -7,9 +7,8 @@ title: Ye are the Branches—An Excerpt from Absolute Surrender
 isBlogPost: true
 author: Andrew Murray
 summary: Everything depends on our being right ourselves in Christ. If I want
-  good apples, I must have a good apple tree; and if I care for the health of
-  the apple tree, the apple tree will give me good apples. And it is just so
-  with our Christian life and work.
+  good apples, I must have a good apple tree... And it is just so
+  with our Christian life and work. If our life with Christ be right, all will come right.
 slug: 2025-09-08-ye-are-the-branches-an-excerpt-from-absolute-surrender
 featuredImage: /uploads/ye_are_the_branches.jpg
 createdDate: 2025-09-08
