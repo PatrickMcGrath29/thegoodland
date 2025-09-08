@@ -21,5 +21,6 @@ text: What a simple thing it is to be a branch, the branch of a tree, or the
 referenceId: -rrgvpy5pn
 categories:
   - Abiding in Christ
-createdDate: 2025-09-08T12:42:00Z
+  - Dependence on Christ
+createdDate: 2025-09-08T12:42:00.000Z
 ---
