@@ -24,5 +24,6 @@ posts:
   - post: no-longer-i
   - post: walking-with-god
   - post: the-longing-soul
+  - post: how-shall-he-not
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
