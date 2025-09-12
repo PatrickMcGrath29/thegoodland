@@ -9,6 +9,11 @@ author: Freda Hanbury Allen
 createdDate: 2025-09-12
 slug: how-shall-he-not
 ---
+> "He who did not spare His own Son, but delivered Him up for us all, how shall He not with Him also freely give us all things?"\
+> — Romans 8:32
+
+
+
 "How shall He not?" How often hast thou questioned,\
 How shall He give this gift and that to me?\
 How shall He satisfy my soul’s deep hunger?\
