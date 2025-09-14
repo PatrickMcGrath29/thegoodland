@@ -96,7 +96,7 @@ const desktopNavItems = computed(() => {
 
     <div v-if="isQuoteRoute" class="mt-3">
       <Container>
-        <div class="flex justify-around sm:justify-start bg-neutral-800 rounded-lg shadow-md sm:px-1">
+        <div class="flex justify-around sm:justify-start bg-neutral-800 rounded-lg shadow-md">
           <QuoteDropdownExplorer class="w-full flex justify-center sm:justify-start" />
         </div>
       </Container>
