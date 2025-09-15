@@ -23,7 +23,7 @@ text: >-
   Many of us are too much occupied with our work. As with Martha, the very
   service we want to render the Master separates from Him; it is neither
   pleasing to Him nor profitable to ourselves. The more work, the more need of
-  waiting upon God; the doing of Hid's will would then, instead of exhausting,
+  waiting upon God; the doing of His will would then, instead of exhausting,
   be our meat and drink, nourishment and refreshment and strength.
 
 
