@@ -67,3 +67,11 @@ export interface QuoteReferenceMetadata {
   slug: string
   count: number
 }
+
+export interface Author {
+  uuid: string
+  name: string
+  bio?: string
+  born?: string
+  died?: string
+}

@@ -59,6 +59,9 @@ export default defineContentConfig({
       schema: z.object({
         uuid: z.string(),
         name: z.string(),
+        bio: z.string().optional(),
+        born: z.string().optional(),
+        died: z.string().optional(),
       }),
     }),
     categories: defineCollection({

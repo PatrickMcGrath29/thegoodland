@@ -1,4 +1,4 @@
-import type { Post } from '~/types'
+import type { Author, Post } from '~/types'
 
 function toPost(record: any): Post {
   return {
@@ -40,4 +40,13 @@ export async function usePostsBySlug(slugs: string[]): Promise<Post[]> {
   posts.sort((a, b) => slugs.indexOf(a.slug) - slugs.indexOf(b.slug))
 
   return posts.map(toPost)
+}
+
+export async function useAuthorByName(name: string): Promise<Author | null> {
+  const author = await queryCollection('authors').where('name', '=', name).first()
+
+  if (!author)
+    return null
+
+  return author as Author
 }
