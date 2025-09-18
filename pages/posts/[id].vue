@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Post } from '~/types'
-import PostDetail from '~/components/PostDetail.vue'
 import { formatDate, smartEllipsis } from '~/shared/utils'
 
 const { params: { id: slug } } = useRoute()
@@ -62,6 +61,16 @@ useSchemaOrg([
 ])
 
 const postElementRef = ref<HTMLElement>()
+
+async function fetchAuthor() {
+  if (!post.value.author)
+    return null
+
+  return await useAuthorByName(post.value.author)
+}
+
+const author = await fetchAuthor()
+const showAuthorBlurb = author && author.bio
 </script>
 
 <template>
@@ -90,6 +99,8 @@ const postElementRef = ref<HTMLElement>()
             <PostDetail v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name" :to="`/collections/${primaryCollection.slug}`" />
           </div>
         </div>
+
+        <AuthorBlurb v-if="showAuthorBlurb" :author="author" />
 
         <div ref="postElementRef" class="mt-10 text-lg">
           <RefTagger>
