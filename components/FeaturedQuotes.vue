@@ -42,20 +42,31 @@ const tabItems: TabsItem[] = [
           <UTabs v-model="activeTab" :items="tabItems" variant="link" size="sm" />
         </div>
 
-        <div v-if="activeTab === 'categories'" class="space-x-2 space-y-2">
-          <UButton v-for="(category, idx) in featuredCategories" :key="idx" variant="soft" :to="category.slug">
-            {{ category.name }}
-          </UButton>
-        </div>
-        <div v-else-if="activeTab === 'authors'" class="space-x-2 space-y-2">
-          <UButton v-for="(author, idx) in featuredAuthors" :key="idx" variant="soft" :to="author.slug">
-            {{ author.name }}
-          </UButton>
-        </div>
-        <div v-else-if="activeTab === 'references'" class="space-x-2 space-y-2">
-          <UButton v-for="(reference, idx) in featuredReferences" :key="idx" variant="soft" :to="reference.slug">
-            {{ reference.referenceName }}
-          </UButton>
+        <div class="space-x-2 space-y-2">
+          <template v-if="activeTab === 'categories'">
+            <UButton
+              v-for="(category, idx) in featuredCategories" :key="idx" variant="soft" color="neutral"
+              :to="category.slug"
+            >
+              {{ category.name }}
+            </UButton>
+          </template>
+          <template v-else-if="activeTab === 'authors'">
+            <UButton
+              v-for="(author, idx) in featuredAuthors" :key="idx" variant="soft" color="neutral"
+              :to="author.slug"
+            >
+              {{ author.name }}
+            </UButton>
+          </template>
+          <template v-else-if="activeTab === 'references'">
+            <UButton
+              v-for="(reference, idx) in featuredReferences" :key="idx" variant="soft" color="neutral"
+              :to="reference.slug"
+            >
+              {{ reference.referenceName }}
+            </UButton>
+          </template>
         </div>
       </div>
 
