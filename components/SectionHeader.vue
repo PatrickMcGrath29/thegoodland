@@ -12,12 +12,9 @@ defineProps<{
   </h2>
 
   <div class="mb-12">
-    <NuxtLink
-      class="text-md flex items-center w-fit hover:text-accent transition-all font-semibold hover:gap-1"
-      :to="link"
-    >
+    <NuxtLink class="text-md flex items-center w-fit hover:text-accent transition-all font-semibold" :to="link">
       {{ subheading }}
-      <Icon name="mdi:chevron-right" class="text-accent size-5" />
+      <Icon name="ph:arrow-right-bold" size="15px" class="text-accent ml-1.5" />
     </NuxtLink>
   </div>
 </template>
