@@ -16,20 +16,11 @@ useSeoMeta({
   <Container>
     <div class="px-2">
       <Hero :featured-post="featuredPost" class="my-8" />
-      <div class="my-8 gap-5 ">
-        <h2 class="text-4xl font-semibold mb-2">
-          Recent Posts
-        </h2>
 
-        <div class="mb-12">
-          <NuxtLink
-            class="text-md flex items-center w-fit hover:text-accent transition-all font-semibold hover:gap-1"
-            to="/posts"
-          >
-            See All
-            <Icon name="mdi:chevron-right" class="text-accent size-5" />
-          </NuxtLink>
-        </div>
+      <FeaturedQuotes />
+
+      <div class="my-8 gap-5 ">
+        <SectionHeader heading="Recent Posts" subheading="See All" link="/posts" />
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
           <VerticalPostPreview v-for="post in recentPosts" :key="post.slug" :post="post" />
