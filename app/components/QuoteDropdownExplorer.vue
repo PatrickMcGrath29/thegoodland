@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 
 const quotes = await useQuotes()
 

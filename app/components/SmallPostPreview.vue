@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Post } from '~/types'
+import type { Post } from '~~/types'
 import { formatDate } from '~~/shared/utils'
 
 const props = defineProps<{ post: Post }>()

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 
 defineProps<{
   title: string

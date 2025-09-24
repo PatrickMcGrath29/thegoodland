@@ -1,5 +1,5 @@
 import type { QuotesCollectionItem, ReferencesCollectionItem } from '@nuxt/content'
-import type { Quote, QuoteAuthorMetadata, QuoteCategoryMetadata, QuoteReferenceMetadata } from '~/types'
+import type { Quote, QuoteAuthorMetadata, QuoteCategoryMetadata, QuoteReferenceMetadata } from '~~/types'
 import { hydrateQuotes } from '~~/shared/quotes'
 import { dayOfYear, slugify } from '~~/shared/utils'
 

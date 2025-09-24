@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 import { UButton } from '#components'
 import { slugify } from '~~/shared/utils'
 

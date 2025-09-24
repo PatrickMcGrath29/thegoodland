@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Post } from '~/types'
+import type { Post } from '~~/types'
 import PostDetail from '~/components/PostDetail.vue'
 import { formatDate, smartEllipsis } from '~~/shared/utils'
 

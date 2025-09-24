@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { CommandPaletteItem } from '@nuxt/ui'
-import type { Quote } from '~/types'
+import type { Quote } from '~~/types'
 
 const searchTerm = ref('')
 const route = useRoute()
