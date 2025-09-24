@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Quote } from '~/types'
-import { slugify } from '~/shared/utils'
+import { slugify } from '~~/shared/utils'
 
 const { quote, showFullPageLink = true, previewMode = false } = defineProps<{
   quote: Quote

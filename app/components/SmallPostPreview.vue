@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Post } from '~/types'
-import { formatDate } from '~/shared/utils'
+import { formatDate } from '~~/shared/utils'
 
 const props = defineProps<{ post: Post }>()
 const postPath = `/posts/${props.post.slug}`
