@@ -64,10 +64,11 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
+    provider: 'netlify',
   },
 
   nitro: {
+    preset: 'netlify_edge',
     prerender: {
       routes: [
         '/sitemap.xml',
