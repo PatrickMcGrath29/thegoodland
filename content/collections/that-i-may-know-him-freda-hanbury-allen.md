@@ -26,5 +26,6 @@ posts:
   - post: the-longing-soul
   - post: how-shall-he-not
   - post: only-a-branch
+  - post: 2025-09-30-if-it-die
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
