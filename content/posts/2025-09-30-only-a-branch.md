@@ -9,6 +9,9 @@ author: Freda Hanbury Allen
 createdDate: 2025-09-30
 slug: only-a-branch
 ---
+> I am the vine, ye are the branches...\
+> —John 15:5
+
 Tis only a little branch,\
 A thing so helpless and weak,\
 But that little branch hath a message true\
