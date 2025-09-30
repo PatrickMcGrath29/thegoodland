@@ -25,5 +25,6 @@ posts:
   - post: walking-with-god
   - post: the-longing-soul
   - post: how-shall-he-not
+  - post: only-a-branch
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
