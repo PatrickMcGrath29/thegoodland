@@ -27,5 +27,6 @@ posts:
   - post: how-shall-he-not
   - post: only-a-branch
   - post: if-it-die
+  - post: others
 featuredImage: /uploads/that_i_may_know_him.jpg
 ---
