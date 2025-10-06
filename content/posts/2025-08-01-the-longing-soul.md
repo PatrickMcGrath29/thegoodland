@@ -10,7 +10,6 @@ createdDate: 2025-08-01
 slug: the-longing-soul
 ---
 ::center
-
 Lord, Thou knowest all the hunger\
 Of the heart that seeks Thee now,\
 How my soul hath long been craving\

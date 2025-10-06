@@ -12,6 +12,7 @@ slug: only-a-branch
 > I am the vine, ye are the branches...\
 > —John 15:5
 
+::center
 Tis only a little branch,\
 A thing so helpless and weak,\
 But that little branch hath a message true\
@@ -66,3 +67,4 @@ For His Spirit’s fruit is love,\
 And love shall thy life become,\
 And for evermore in His heart of love\
 Thy spirit shall have her home.
+::

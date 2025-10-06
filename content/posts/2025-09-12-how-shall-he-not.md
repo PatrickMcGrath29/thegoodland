@@ -12,8 +12,7 @@ slug: how-shall-he-not
 > "He who did not spare His own Son, but delivered Him up for us all, how shall He not with Him also freely give us all things?"\
 > — Romans 8:32
 
-
-
+::center
 "How shall He not?" How often hast thou questioned,\
 How shall He give this gift and that to me?\
 How shall He satisfy my soul’s deep hunger?\
@@ -58,3 +57,4 @@ Nay, soul, He yearns His very best to give thee,\
 To do His highest, deepest work in thee,\
 Henceforth live thou upon His love unbounded,\
 And all His fulness shall thy portion be.
+::

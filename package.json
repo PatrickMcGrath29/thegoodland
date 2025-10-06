@@ -16,8 +16,8 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.0.0",
-    "@sentry/nuxt": "^10.14.0",
+    "@nuxt/ui": "^4.0.1",
+    "@sentry/nuxt": "^10.17.0",
     "better-sqlite3": "^12.4.1"
   },
   "devDependencies": {
@@ -27,20 +27,20 @@
     "@nuxt/content": "^3.7.1",
     "@nuxt/icon": "^2.0.0",
     "@nuxt/image": "^1.11.0",
-    "@nuxt/scripts": "^0.11.13",
+    "@nuxt/scripts": "^0.12.1",
     "@pinia/nuxt": "0.11.2",
     "@unhead/vue": "^2.0.17",
     "@vueuse/nuxt": "^13.9.0",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "gray-matter": "^4.0.3",
     "nuxt": "^4.1.2",
-    "nuxt-link-checker": "^4.3.2",
+    "nuxt-link-checker": "^4.3.4",
     "nuxt-schema-org": "^5.0.9",
     "pinia": "^3.0.3",
     "sass": "^1.93.2",
     "sharp": "^0.34.4",
     "sitemap": "^8.0.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "resolutions": {
     "@vercel/nft": "^0.27.4"
