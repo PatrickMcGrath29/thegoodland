@@ -12,18 +12,27 @@ const quotes = await useQuotes()
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
+interface MiniSearchResult {
+  id: string
+  indexedTitle: string | undefined
+  title: string | undefined
+  content: string
+  author: string
+}
+
 const miniSearch = new MiniSearch({
-  fields: ['title', 'content', 'author', 'categories'],
-  storeFields: ['title', 'content', 'author', 'type', 'url'],
+  fields: ['indexedTitle', 'title', 'content', 'author', 'categories'],
+  storeFields: ['indexedTitle', 'title', 'content', 'author', 'type', 'url'],
   // Tokenization options for better text processing
   tokenize: (text: string) => text.toLowerCase().split(/[\s\-.,;!?]+/),
   // Process search terms the same way
   processTerm: (term: string) => term.toLowerCase().trim(),
 })
 
-const quotesForMiniSearch = quotes.map(quote => ({
+const quotesForMiniSearch: MiniSearchResult[] = quotes.map(quote => ({
   id: `quote-${quote.uuid}`,
-  title: quote.text.slice(0, 100), // Use first 100 chars of quote as title for better matching
+  indexedTitle: undefined,
+  title: quote.text.slice(0, 100),
   content: quote.text,
   author: quote.reference?.authorName || '',
   categories: quote.categories?.join(' ') || '',
@@ -33,7 +42,8 @@ const quotesForMiniSearch = quotes.map(quote => ({
 
 const postsForMiniSearch = posts.map((post: any) => ({
   id: `post-${post.uuid}`,
-  title: post.title,
+  indexedTitle: post.title,
+  title: undefined,
   content: post.body ? extractTextFromAst(toHast(post.body)).slice(0, 5000) : post.summary || '',
   author: post.author || '',
   categories: '',
@@ -54,7 +64,7 @@ const searchResults = computed(() => {
     fuzzy: 0.2, // Allow fuzzy matching for typos
     prefix: true, // Allow prefix matching for partial words
     boost: { // Apply field-specific boosts at search time
-      title: 3,
+      indexedTitle: 3,
       author: 2,
       categories: 1.5,
     },
@@ -77,7 +87,10 @@ onMounted(() => {
   })
 })
 
-// Removed unused search computed properties - using new search results display instead
+function navigateToPage(url: string) {
+  settingsStore.searchOpen = false
+  navigateTo(url)
+}
 </script>
 
 <template>
@@ -99,7 +112,7 @@ onMounted(() => {
             v-for="result in searchResults"
             :key="result.id"
             class="p-3 rounded-lg cursor-pointer hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
-            @click="navigateTo(result.url)"
+            @click="navigateToPage(result.url)"
           >
             <div class="flex items-start justify-between gap-2">
               <div class="flex-1 min-w-0">
@@ -113,7 +126,7 @@ onMounted(() => {
 
                 <!-- Title/Content -->
                 <div class="font-medium text-sm line-clamp-2">
-                  {{ result.title }}
+                  {{ result.indexedTitle || result.title }}
                 </div>
 
                 <!-- Author if available -->
