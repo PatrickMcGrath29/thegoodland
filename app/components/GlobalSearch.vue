@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { SearchResult } from 'minisearch'
 import { toHast } from 'minimark/hast'
 import MiniSearch from 'minisearch'
 
@@ -12,12 +13,16 @@ const quotes = await useQuotes()
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
-interface MiniSearchResult {
+interface SearchInput {
   id: string
   indexedTitle: string | undefined
   title: string | undefined
   content: string
   author: string
+}
+
+interface SearchResultWithHints extends SearchResult {
+  hints: Record<string, string>
 }
 
 const miniSearch = new MiniSearch({
@@ -29,7 +34,7 @@ const miniSearch = new MiniSearch({
   processTerm: (term: string) => term.toLowerCase().trim(),
 })
 
-const quotesForMiniSearch: MiniSearchResult[] = quotes.map(quote => ({
+const quotesForMiniSearch: SearchInput[] = quotes.map(quote => ({
   id: `quote-${quote.uuid}`,
   indexedTitle: undefined,
   title: quote.text.slice(0, 100),
@@ -40,7 +45,7 @@ const quotesForMiniSearch: MiniSearchResult[] = quotes.map(quote => ({
   url: `/quotes/${quote.uuid}/${quote.slug}`,
 }))
 
-const postsForMiniSearch = posts.map((post: any) => ({
+const postsForMiniSearch: SearchInput[] = posts.map((post: any) => ({
   id: `post-${post.uuid}`,
   indexedTitle: post.title,
   title: undefined,
@@ -71,10 +76,13 @@ const searchResults = computed(() => {
     combineWith: 'OR', // Match any field, not all fields
   })
 
+  function addHints(r: SearchResult): SearchResultWithHints {
+    r.hints = markHints(r)
+    return r as SearchResultWithHints
+  }
+
   // Sort by score (best matches first) and limit to top 20 results
-  return results
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 20)
+  return results.map(addHints).sort((a, b) => b.score - a.score).slice(0, 20)
 })
 
 onMounted(() => {
@@ -128,6 +136,8 @@ function navigateToPage(url: string) {
                 <div class="font-medium text-sm line-clamp-2">
                   {{ result.indexedTitle || result.title }}
                 </div>
+
+                {{ result.hints }}
 
                 <!-- Author if available -->
                 <div v-if="result.author" class="text-xs text-neutral-500 mt-1">
