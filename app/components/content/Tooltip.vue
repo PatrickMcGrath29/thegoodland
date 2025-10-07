@@ -4,7 +4,7 @@ defineProps<{ text: string, content: string }>()
 
 <template>
   <UPopover>
-    <UButton :label="text" color="info" variant="ghost" class="cursor-pointer" />
+    <UButton :label="text" color="info" variant="ghost" class="cursor-pointer" size="xs" />
 
     <template #content>
       <RefTagger>
