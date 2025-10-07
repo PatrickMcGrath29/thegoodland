@@ -9,8 +9,6 @@ author: Andrew Murray
 createdDate: 2025-10-07
 slug: the-new-life-18-stumblings
 ---
-
-
 > **“For we all stumble in many ways.” — James 3:2** 
 
 This word of God through James describes what man is — even the Christian — when he is not kept by grace. It reminds us to put away all confidence in ourselves.
@@ -21,12 +19,10 @@ This word of God through James describes what man is — even the Christian — 
 This word from Jude points us to the One who can keep us from falling, stirring our hearts to ascribe to Him the honor and the power. It strengthens our hope in God.
  *(2 Corinthians 1:9; 1 Thessalonians 5:24; 2 Thessalonians 2:16–17; 3:3)*
 
-**“Therefore, brethren, be all the more diligent to make certain about His calling and choosing you; for as long as you practice these things, you will never stumble.” — 2 Peter 1:10** 
+**“Therefore, brethren, be all the more diligent to make your calling and election sure; for as long as you practice these things, you will never stumble.” — 2 Peter 1:10** 
 
 This word from Peter teaches us the way to partake in God’s keeping power: by confirming our calling and election through a godly walk (see vv. 4, 8, 11). It calls us to diligence and careful watchfulness.
  *(Matthew 26:41; Luke 12:35; 1 Peter 1:13; 5:8–10)*
-
-
 
 ### **How Should a Young Christian Think About Stumblings?**
 
@@ -40,8 +36,6 @@ Others take it **too lightly**. They think it cannot be otherwise, pay little at
 
 Let us take these words of God to teach us how we should think about our stumblings. There are three lessons.
 
-
-
 ### **1. Let No Stumbling Discourage You**
 
 You are called to maturity, to perfection — yet this does not happen all at once. Time and patience are needed for growth. Therefore James says:
@@ -51,8 +45,6 @@ You are called to maturity, to perfection — yet this does not happen all at on
 *(Matthew 5:48; 2 Timothy 3:17; Hebrews 13:20–21; 1 Peter 5:10)*
 
 Do not think your surrender was insincere; simply acknowledge how weak you still are. And do not think you must go on stumbling; acknowledge how strong your Savior is.
-
-
 
 ### **2. Let Stumbling Drive You to Faith in the Mighty Keeper**
 
@@ -70,8 +62,6 @@ Confess your failure and receive His forgiveness. Confess it and commit your wea
 
 “To Him who is mighty to keep you, be the glory!”
 
-
-
 ### **3. Let Stumbling Make You Watchful and Wise**
 
 **“How blessed is the man who fears the Lord always, but he who hardens his heart will fall into calamity.” — Proverbs 28:14**
@@ -82,13 +72,9 @@ By faith, strive and overcome. In the strength of your Keeper, and in the joy an
 
 Doing this, God’s word assures you, **you will never stumble.**
 
-
-
 ### **A Prayer**
 
-Lord Jesus, a sinner ready to stumble at every moment would give glory to You, who are mighty to keep from stumbling. Yours is the power and the strength. I take You as my Keeper. I rest in Your love which has chosen me, and wait for the fulfillment of Your promise: “You will never stumble.” Amen.
-
-
+> Lord Jesus, a sinner ready to stumble at every moment would give glory to You, who are mighty to keep from stumbling. Yours is the power and the strength. I take You as my Keeper. I rest in Your love which has chosen me, and wait for the fulfillment of Your promise: “You will never stumble.” Amen.
 
 ### **Practical Reflections**
 
