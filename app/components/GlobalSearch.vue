@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import type { SearchResult } from 'minisearch'
+import type { Options, SearchOptions, SearchResult } from 'minisearch'
+import type { Post } from '~~/types'
 import { toHast } from 'minimark/hast'
 import MiniSearch from 'minisearch'
+import { smartEllipsis } from '~~/shared/utils'
 
 const searchTerm = ref('')
 
@@ -13,6 +15,24 @@ const quotes = await useQuotes()
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
+const MINISEARCH_OPTIONS: Options = {
+  fields: ['indexedTitle', 'title', 'content', 'author', 'categories'],
+  storeFields: ['indexedTitle', 'title', 'content', 'author', 'type', 'url'],
+  tokenize: (text: string) => text.toLowerCase().split(/[\s\-.,;!?]+/),
+  processTerm: (term: string) => term.toLowerCase().trim(),
+}
+
+const SEARCH_SETTINGS: SearchOptions = {
+  fuzzy: 0.2,
+  prefix: true,
+  boost: {
+    indexedTitle: 3,
+    author: 2,
+    categories: 1.5,
+  },
+  combineWith: 'OR',
+}
+
 interface SearchInput {
   id: string
   indexedTitle: string | undefined
@@ -21,23 +41,27 @@ interface SearchInput {
   author: string
 }
 
-interface SearchResultWithHints extends SearchResult {
-  hints: Record<string, string>
-}
+const miniSearch = new MiniSearch(MINISEARCH_OPTIONS)
 
-const miniSearch = new MiniSearch({
-  fields: ['indexedTitle', 'title', 'content', 'author', 'categories'],
-  storeFields: ['indexedTitle', 'title', 'content', 'author', 'type', 'url'],
-  // Tokenization options for better text processing
-  tokenize: (text: string) => text.toLowerCase().split(/[\s\-.,;!?]+/),
-  // Process search terms the same way
-  processTerm: (term: string) => term.toLowerCase().trim(),
-})
+const recentPosts: SearchResult[] = posts
+  .filter(post => post.isBlogPost)
+  .sort((a, b) => new Date(b.createdDate).getTime() - new Date(a.createdDate).getTime())
+  .slice(0, 10)
+  .map(post => ({
+    id: `post-${post.uuid}`,
+    indexedTitle: post.title,
+    author: post.author || '',
+    terms: [],
+    queryTerms: [],
+    score: 0,
+    match: {},
+    url: `/posts/${post.slug}`,
+  }))
 
 const quotesForMiniSearch: SearchInput[] = quotes.map(quote => ({
   id: `quote-${quote.uuid}`,
   indexedTitle: undefined,
-  title: quote.text.slice(0, 100),
+  title: smartEllipsis(quote.text, 150),
   content: quote.text,
   author: quote.reference?.authorName || '',
   categories: quote.categories?.join(' ') || '',
@@ -45,11 +69,11 @@ const quotesForMiniSearch: SearchInput[] = quotes.map(quote => ({
   url: `/quotes/${quote.uuid}/${quote.slug}`,
 }))
 
-const postsForMiniSearch: SearchInput[] = posts.map((post: any) => ({
+const postsForMiniSearch: SearchInput[] = posts.map((post: Post) => ({
   id: `post-${post.uuid}`,
   indexedTitle: post.title,
   title: undefined,
-  content: post.body ? extractTextFromAst(toHast(post.body)).slice(0, 5000) : post.summary || '',
+  content: post.body ? extractTextFromAst(toHast(post.body)) : post.summary || '',
   author: post.author || '',
   categories: '',
   type: 'post',
@@ -61,28 +85,12 @@ miniSearch.addAll([...postsForMiniSearch, ...quotesForMiniSearch])
 
 const searchResults = computed(() => {
   if (!searchTerm.value || searchTerm.value.trim().length < 2) {
-    return []
+    return recentPosts
   }
 
-  // Use advanced search options for better results
-  const results = miniSearch.search(searchTerm.value, {
-    fuzzy: 0.2, // Allow fuzzy matching for typos
-    prefix: true, // Allow prefix matching for partial words
-    boost: { // Apply field-specific boosts at search time
-      indexedTitle: 3,
-      author: 2,
-      categories: 1.5,
-    },
-    combineWith: 'OR', // Match any field, not all fields
-  })
+  const results = miniSearch.search(searchTerm.value, SEARCH_SETTINGS)
 
-  function addHints(r: SearchResult): SearchResultWithHints {
-    r.hints = markHints(r)
-    return r as SearchResultWithHints
-  }
-
-  // Sort by score (best matches first) and limit to top 20 results
-  return results.map(addHints).sort((a, b) => b.score - a.score).slice(0, 20)
+  return results.sort((a, b) => b.score - a.score).slice(0, 40)
 })
 
 onMounted(() => {
@@ -103,62 +111,47 @@ function navigateToPage(url: string) {
 
 <template>
   <UModal
-    v-model:open="settingsStore.searchOpen" class="max-w-4xl" :class="{ 'h-130': !isSmallScreen }"
-    :fullscreen="isSmallScreen"
+    v-model:open="settingsStore.searchOpen" class="max-w-4xl" :fullscreen="isSmallScreen"
+    :class="{ 'h-130': !isSmallScreen }"
   >
     <template #content>
       <div class="p-4">
         <UInput
-          v-model:model-value="searchTerm"
-          placeholder="Search quotes, posts, authors..."
-          class="mb-4"
-          autofocus
-        />
+          v-model:model-value="searchTerm" variant="soft" placeholder="Search quotes, posts, authors..."
+          class="w-full" autofocus
+        >
+          <template #trailing>
+            <UButton
+              color="neutral" variant="link" icon="ph:x-bold" size="xl"
+              @click="settingsStore.searchOpen = false"
+            />
+          </template>
+        </UInput>
+      </div>
 
-        <div v-if="searchResults.length > 0" class="space-y-2 max-h-96 overflow-y-auto">
+      <div class="p-4 h-full overflow-y-scroll">
+        <div v-if="searchResults.length > 0" class="">
           <div
-            v-for="result in searchResults"
-            :key="result.id"
+            v-for="result in searchResults" :key="result.id"
             class="p-3 rounded-lg cursor-pointer hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             @click="navigateToPage(result.url)"
           >
             <div class="flex items-start justify-between gap-2">
               <div class="flex-1 min-w-0">
-                <!-- Type badge -->
-                <span
-                  class="inline-block px-2 py-0.5 text-xs rounded-full mb-1"
-                  :class="result.type === 'quote' ? 'bg-accent/10 text-accent' : 'bg-blue-500/10 text-blue-500'"
-                >
-                  {{ result.type === 'quote' ? 'Quote' : 'Post' }}
-                </span>
+                <div class="font-medium text-sm line-clamp-2 flex items-center gap-1">
+                  <span class="font-medium text-xs" :class="result.type === 'quote' ? 'text-accent' : 'text-blue-500'">
+                    {{ result.type === 'quote' ? 'Quote' : 'Post' }}
+                  </span>
+                  <Icon name="ph:caret-right-bold" class="text-neutral-500" size="12.5px" />
 
-                <!-- Title/Content -->
-                <div class="font-medium text-sm line-clamp-2">
                   {{ result.indexedTitle || result.title }}
                 </div>
-
-                {{ result.hints }}
-
-                <!-- Author if available -->
                 <div v-if="result.author" class="text-xs text-neutral-500 mt-1">
                   by {{ result.author }}
                 </div>
               </div>
-
-              <!-- Score indicator for debugging (remove in production) -->
-              <div class="text-xs text-neutral-400">
-                {{ (result.score * 100).toFixed(0) }}%
-              </div>
             </div>
           </div>
-        </div>
-
-        <div v-else-if="searchTerm.length >= 2" class="text-center py-8 text-neutral-500">
-          No results found for "{{ searchTerm }}"
-        </div>
-
-        <div v-else class="text-center py-8 text-neutral-500">
-          Type at least 2 characters to search
         </div>
       </div>
     </template>
