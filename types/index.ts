@@ -1,4 +1,6 @@
-export interface Post {
+import type { PostsCollectionItem } from '@nuxt/content'
+
+export interface Post extends Omit<PostsCollectionItem, 'createdDate'> {
   uuid: string
   slug: string
   title: string

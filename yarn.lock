@@ -9958,6 +9958,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minisearch@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "minisearch@npm:7.2.0"
+  checksum: 10c0/64efaf30ead2acb19eb8be49c78352c527812dd2927a0981c9d666339d5d206d132b83038d2bfa756f5161cae5d98f15b07cc7e7b7be6b8278d35d2ecdc2628c
+  languageName: node
+  linkType: hard
+
 "minizlib@npm:^3.0.1, minizlib@npm:^3.1.0":
   version: 3.1.0
   resolution: "minizlib@npm:3.1.0"
@@ -13272,6 +13279,7 @@ __metadata:
     better-sqlite3: "npm:^12.4.1"
     eslint: "npm:^9.37.0"
     gray-matter: "npm:^4.0.3"
+    minisearch: "npm:^7.2.0"
     nuxt: "npm:^4.1.2"
     nuxt-link-checker: "npm:^4.3.4"
     nuxt-schema-org: "npm:^5.0.9"
