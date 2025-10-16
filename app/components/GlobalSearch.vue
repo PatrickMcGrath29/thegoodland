@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import type { Options, SearchOptions, SearchResult } from 'minisearch'
+import type { FuseResult } from 'fuse.js'
 import type { Post } from '~~/types'
+import { refDebounced } from '@vueuse/core'
+import { useFuse } from '@vueuse/integrations/useFuse'
 import { toHast } from 'minimark/hast'
-import MiniSearch from 'minisearch'
-import { smartEllipsis } from '~~/shared/utils'
+import { highlight } from '~~/shared/utils'
 
 interface SearchFields {
+  id: string
+  truncateTitle: boolean
   indexedTitle: string | undefined
   title: string | undefined
   author: string
@@ -15,26 +18,10 @@ interface SearchFields {
   url: string
 }
 
-const INDEX_FIELDS: (keyof SearchFields)[] = [
-  'indexedTitle',
-  'title',
-  'content',
-  'author',
-  'categories',
-]
-
-const STORE_FIELDS: (keyof SearchFields)[] = [
-  'indexedTitle',
-  'title',
-  'categories',
-  'author',
-  'type',
-  'url',
-]
-
-export interface SearchDocument extends SearchResult, SearchFields {}
+export interface SearchDocument extends SearchFields {}
 
 const searchTerm = ref('')
+const debouncedSearchTerm = refDebounced(searchTerm, 75)
 
 const settingsStore = useSettingsStore()
 const isSmallScreen = useIsSmallScreen()
@@ -46,49 +33,11 @@ const activeIdx = ref(0)
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
-const MINISEARCH_OPTIONS: Options = {
-  fields: INDEX_FIELDS,
-  storeFields: STORE_FIELDS,
-  tokenize: (text: string) => text.toLowerCase().split(/[\s\-.,;!?]+/),
-  processTerm: (term: string) => term.toLowerCase().trim(),
-}
-
-const SEARCH_SETTINGS: SearchOptions = {
-  fuzzy: 0.2,
-  prefix: true,
-  boost: {
-    indexedTitle: 3,
-    author: 2,
-    categories: 1.5,
-  },
-  combineWith: 'OR',
-}
-
-const miniSearch = new MiniSearch(MINISEARCH_OPTIONS)
-
-const recentPosts: SearchDocument[] = posts
-  .filter(post => post.isBlogPost)
-  .sort((a, b) => new Date(b.createdDate).getTime() - new Date(a.createdDate).getTime())
-  .slice(0, 10)
-  .map(post => ({
-    id: `post-${post.uuid}`,
-    indexedTitle: post.title,
-    title: undefined,
-    author: post.author || '',
-    content: '',
-    categories: '',
-    type: 'post',
-    url: `/posts/${post.slug}`,
-    score: 0,
-    terms: [],
-    queryTerms: [],
-    match: {},
-  }))
-
-const quotesForMiniSearch: SearchFields[] = quotes.map(quote => ({
-  id: `post-${quote.uuid}`,
+const quotesForSearch: SearchFields[] = quotes.map(quote => ({
+  id: `quote-${quote.uuid}`,
+  truncateTitle: true,
   indexedTitle: undefined,
-  title: smartEllipsis(quote.text, 100),
+  title: quote.text,
   content: quote.text,
   author: quote.reference?.authorName || '',
   categories: quote.categories?.join(' ') || '',
@@ -96,8 +45,9 @@ const quotesForMiniSearch: SearchFields[] = quotes.map(quote => ({
   url: `/quotes/${quote.uuid}/${quote.slug}`,
 }))
 
-const postsForMiniSearch: SearchFields[] = posts.map((post: Post) => ({
+const postsForSearch: SearchFields[] = posts.map((post: Post) => ({
   id: `post-${post.uuid}`,
+  truncateTitle: false,
   indexedTitle: post.title,
   title: undefined,
   content: post.body ? extractTextFromAst(toHast(post.body)) : post.summary || '',
@@ -107,15 +57,27 @@ const postsForMiniSearch: SearchFields[] = posts.map((post: Post) => ({
   url: `/posts/${post.slug}`,
 }))
 
-miniSearch.addAll([...postsForMiniSearch, ...quotesForMiniSearch])
+const allSearchDocuments = [...postsForSearch, ...quotesForSearch]
 
-const searchResults = computed(() => {
-  if (!searchTerm.value || searchTerm.value.trim().length < 2) {
-    return recentPosts
-  }
-
-  const results = miniSearch.search(searchTerm.value, SEARCH_SETTINGS) as SearchDocument[]
-  return results.sort((a, b) => b.score - a.score).slice(0, 40)
+const { results: searchResults } = useFuse(debouncedSearchTerm, allSearchDocuments, {
+  matchAllWhenSearchEmpty: true,
+  resultLimit: 40,
+  fuseOptions: {
+    keys: [
+      { name: 'indexedTitle', weight: 3 },
+      { name: 'title', weight: 2.5 },
+      { name: 'author', weight: 2 },
+      { name: 'categories', weight: 1.5 },
+      { name: 'content', weight: 1 },
+    ],
+    threshold: 0.3,
+    includeScore: true,
+    includeMatches: true,
+    minMatchCharLength: 2,
+    shouldSort: true,
+    findAllMatches: false,
+    ignoreLocation: true,
+  },
 })
 
 watch(searchTerm, () => {
@@ -137,7 +99,7 @@ onKeyStroke('ArrowUp', () => {
 })
 
 onKeyStroke('Enter', () => {
-  const selectedItem = searchResults.value[activeIdx.value]
+  const selectedItem = searchResults.value[activeIdx.value]?.item
 
   if (selectedItem === undefined)
     return
@@ -159,6 +121,39 @@ function navigateToPage(url: string) {
   settingsStore.searchOpen = false
 
   navigateTo(url)
+}
+
+// Helper function to get highlighted title
+function getHighlightedTitle(result: FuseResult<SearchDocument>) {
+  // Try to get highlighted text for title or indexedTitle
+  const titleField = result.item.indexedTitle ? 'indexedTitle' : 'title'
+  const highlighted = highlight({
+    item: { ...result.item, matches: result.matches },
+    searchTerm: searchTerm.value,
+    forceKey: titleField,
+    truncate: result.item.truncateTitle,
+  })
+
+  // If we have a highlight, return it, otherwise return the plain text
+  if (highlighted && searchTerm.value.trim()) {
+    return highlighted
+  }
+  return result.item.indexedTitle || result.item.title || ''
+}
+
+// Helper function to get highlighted author
+function getHighlightedAuthor(result: FuseResult<SearchDocument>) {
+  const highlighted = highlight({
+    item: { ...result.item, matches: result.matches },
+    searchTerm: searchTerm.value,
+    forceKey: 'author',
+    truncate: false,
+  })
+
+  if (highlighted && searchTerm.value.trim()) {
+    return highlighted
+  }
+  return result.item.author || ''
 }
 </script>
 
@@ -185,25 +180,28 @@ function navigateToPage(url: string) {
       <div class="p-4 h-full overflow-y-scroll">
         <div v-if="searchResults.length > 0" class="">
           <div
-            v-for="(result, idx) in searchResults" :key="result.id"
+            v-for="(result, idx) in searchResults" :key="result.item.id"
             class="p-3 rounded-md cursor-pointer transition-colors" :class="{ 'bg-neutral-800': idx === activeIdx }"
-            @click="navigateToPage(result.url)" @mousemove="activeIdx = idx"
+            @click="navigateToPage(result.item.url)" @mousemove="activeIdx = idx"
           >
-            <div class="flex items-start justify-between gap-2">
+            <div class="flex items-start justify-between gap-2 [&_mark]:bg-accent">
               <div class="flex-1 min-w-0">
-                <div class="font-medium text-sm flex items-center gap-1">
-                  <span class="font-medium text-xs" :class="result.type === 'quote' ? 'text-accent' : 'text-blue-500'">
-                    {{ result.type === 'quote' ? 'Quote' : 'Post' }}
+                <div class="font-medium text-sm flex items-center gap-1 w-full">
+                  <span
+                    class="font-medium text-xs"
+                    :class="result.item.type === 'quote' ? 'text-accent' : 'text-blue-500'"
+                  >
+                    {{ result.item.type === 'quote' ? 'Quote' : 'Post' }}
                   </span>
-                  <Icon name="ph:caret-right-bold" class="text-neutral-500" size="12.5px" />
 
-                  <span class="line-clamp-1 overflow-ellipsis">
-                    {{ result.indexedTitle || result.title }}
-
+                  <span>
+                    <Icon name="ph:caret-right-bold" class="text-neutral-500" size="12.5px" />
                   </span>
+
+                  <span class="line-clamp-1 overflow-ellipsis" v-html="getHighlightedTitle(result)" />
                 </div>
-                <div v-if="result.author" class="text-xs text-neutral-500 mt-1">
-                  by {{ result.author }}
+                <div v-if="result.item.author" class="text-xs text-neutral-500 mt-1">
+                  by <span v-html="getHighlightedAuthor(result)" />
                 </div>
               </div>
             </div>
