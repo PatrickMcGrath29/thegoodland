@@ -193,6 +193,7 @@ function getHighlightedAuthor(result: FuseResult<SearchDocument>) {
                   >
                     {{ result.item.type === 'quote' ? 'Quote' : 'Post' }}
                   </span>
+
                   <span>
                     <Icon name="ph:caret-right-bold" class="text-neutral-500" size="12.5px" />
                   </span>
