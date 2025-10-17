@@ -1,9 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
   repo: PatrickMcGrath29/thegoodland
   squash_merges: true
   use_graphql: true
+  site_domain: https://thegoodland.io
+  base_url: https://thegoodland.io
+  auth_endpoint: /api/auth
 
 site_url: https://thegoodland.io
 display_url: https://thegoodland.io
@@ -213,7 +216,7 @@ collections:
         format: YYYY-MM-DDTHH:mm:ssZ
         picker_utc: true
         default: ''
-        hint: 'The timestamp when this quote was added to the collection.'
+        hint: The timestamp when this quote was added to the collection.
 
   - name: references
     label: Quote Reference
