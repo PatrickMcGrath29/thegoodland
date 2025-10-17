@@ -4,12 +4,12 @@ backend:
   repo: PatrickMcGrath29/thegoodland
   squash_merges: true
   use_graphql: true
-  site_domain: https://deploy-preview-51--rad-caramel-b8641b.netlify.app
-  base_url: https://deploy-preview-51--rad-caramel-b8641b.netlify.app
+  site_domain: https://thegoodland.vercel.app
+  base_url: https://thegoodland.vercel.app
   auth_endpoint: /api/auth
 
-site_url: https://deploy-preview-51--rad-caramel-b8641b.netlify.app
-display_url: https://deploy-preview-51--rad-caramel-b8641b.netlify.app
+site_url: https://thegoodland.vercel.app
+display_url: https://thegoodland.vercel.app
 
 media_folder: public/uploads
 public_folder: /uploads
