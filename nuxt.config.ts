@@ -66,7 +66,6 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
   },
 
   nitro: {
