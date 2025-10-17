@@ -11,6 +11,9 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
+    GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID || '',
+    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET || '',
+
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
       baseUrl: process.env.URL || 'http://localhost:3000',
@@ -71,9 +74,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/sitemap.xml',
-        '/posts?view=summary',
-        '/posts?view=list',
-        '/posts?view=author',
+        '/',
       ],
     },
   },
