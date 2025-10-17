@@ -66,12 +66,6 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    modifiers: {
-      placeholder: 'blur',
-      blur: 40,
-      quality: 20,
-      width: 20,
-    },
   },
 
   nitro: {
