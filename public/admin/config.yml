@@ -6,6 +6,7 @@ backend:
   use_graphql: true
 
 site_url: https://thegoodland.io
+base_url: https://thegoodland.io
 display_url: https://thegoodland.io
 
 media_folder: public/uploads
@@ -213,7 +214,7 @@ collections:
         format: YYYY-MM-DDTHH:mm:ssZ
         picker_utc: true
         default: ''
-        hint: 'The timestamp when this quote was added to the collection.'
+        hint: The timestamp when this quote was added to the collection.
 
   - name: references
     label: Quote Reference
