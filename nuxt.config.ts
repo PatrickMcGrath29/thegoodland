@@ -78,12 +78,19 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/sitemap.xml',
-        '/',
       ],
     },
   },
 
   routeRules: {
+    '/': { prerender: true },
+    '/posts': { prerender: true },
+    '/posts/**': { prerender: true },
+    '/quotes': { prerender: true },
+    '/quotes/**': { prerender: true },
+    '/collections': { prerender: true },
+    '/collections/**': { prerender: true },
+
     '/posts/2025-07-10-the-surrendered-life-exposed-to-the-circumstances-of-his-choice': {
       redirect: '/posts/2025-07-10-accepting-the-circumstances-of-his-choice',
     },
