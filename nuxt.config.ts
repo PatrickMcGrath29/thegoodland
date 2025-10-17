@@ -53,7 +53,6 @@ export default defineNuxtConfig({
     'nuxt-link-checker',
     '@nuxt/scripts',
     'nuxt-schema-org',
-    '@sentry/nuxt/module',
     '@nuxt/ui',
   ],
 

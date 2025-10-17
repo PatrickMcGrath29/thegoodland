@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@nuxt/ui": "^4.0.1",
-    "@sentry/nuxt": "^10.17.0",
     "better-sqlite3": "^12.4.1"
   },
   "devDependencies": {
