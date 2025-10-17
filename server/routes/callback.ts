@@ -37,6 +37,7 @@ export default defineEventHandler(async (event) => {
         body: JSON.stringify({ client_id, client_secret, code }),
       },
     )
+
     const result = await response.json()
     if (result.error) {
       return new Response(renderBody('error', result), {
