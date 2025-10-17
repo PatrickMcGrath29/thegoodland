@@ -4,12 +4,12 @@ backend:
   repo: PatrickMcGrath29/thegoodland
   squash_merges: true
   use_graphql: true
-  site_domain: thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
-  base_url: thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
+  site_domain: https://thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
+  base_url: https://thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
   auth_endpoint: /api/auth
 
-site_url: thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
-display_url: thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
+site_url: https://thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
+display_url: https://thegoodland-git-prm1016getcmsworking-patrickmcgrath29s-projects.vercel.app
 
 media_folder: public/uploads
 public_folder: /uploads
