@@ -64,16 +64,12 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
   },
 
   nitro: {
     prerender: {
       routes: [
         '/sitemap.xml',
-        '/posts?view=summary',
-        '/posts?view=list',
-        '/posts?view=author',
       ],
     },
   },
