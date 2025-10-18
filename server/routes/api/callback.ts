@@ -23,8 +23,9 @@ export default defineEventHandler(async (event) => {
   const client_secret = config.GITHUB_CLIENT_SECRET
 
   try {
-    const url = new URL(event.node.req.url as string)
-    const code = url.searchParams.get('code')
+    const urlData = getRequestURL(event)
+
+    const code = urlData.searchParams.get('code')
     const response = await fetch(
       'https://github.com/login/oauth/access_token',
       {
@@ -37,6 +38,7 @@ export default defineEventHandler(async (event) => {
         body: JSON.stringify({ client_id, client_secret, code }),
       },
     )
+
     const result = await response.json()
     if (result.error) {
       return new Response(renderBody('error', result), {

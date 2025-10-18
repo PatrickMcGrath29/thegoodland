@@ -4,10 +4,11 @@ export default defineEventHandler(async (event) => {
   const client_id = config.GITHUB_CLIENT_ID
 
   try {
-    const url = new URL(event.node.req.url as string)
+    const urlData = getRequestURL(event)
+
     const redirectUrl = new URL('https://github.com/login/oauth/authorize')
     redirectUrl.searchParams.set('client_id', client_id)
-    redirectUrl.searchParams.set('redirect_uri', `${url.origin}/api/callback`)
+    redirectUrl.searchParams.set('redirect_uri', `${urlData.origin}/api/callback`)
     redirectUrl.searchParams.set('scope', 'repo user')
     redirectUrl.searchParams.set(
       'state',

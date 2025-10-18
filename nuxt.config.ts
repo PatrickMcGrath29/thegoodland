@@ -6,11 +6,13 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    buildCache: true,
     viewTransition: true,
   },
 
   runtimeConfig: {
+    GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID || '',
+    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET || '',
+
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
       baseUrl: process.env.URL || 'http://localhost:3000',
@@ -49,8 +51,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-link-checker',
     '@nuxt/scripts',
-    'nuxt-schema-org',
     '@sentry/nuxt/module',
+    'nuxt-schema-org',
     '@nuxt/ui',
   ],
 
@@ -64,21 +66,26 @@ export default defineNuxtConfig({
 
   image: {
     quality: 80,
-    provider: 'ipx',
   },
 
   nitro: {
     prerender: {
+      crawlLinks: true,
       routes: [
         '/sitemap.xml',
-        '/posts?view=summary',
-        '/posts?view=list',
-        '/posts?view=author',
       ],
     },
   },
 
   routeRules: {
+    '/': { prerender: true },
+    '/posts': { prerender: true },
+    '/posts/**': { prerender: true },
+    '/quotes': { prerender: true },
+    '/quotes/**': { prerender: true },
+    '/collections': { prerender: true },
+    '/collections/**': { prerender: true },
+
     '/posts/2025-07-10-the-surrendered-life-exposed-to-the-circumstances-of-his-choice': {
       redirect: '/posts/2025-07-10-accepting-the-circumstances-of-his-choice',
     },
