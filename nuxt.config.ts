@@ -51,6 +51,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-link-checker',
     '@nuxt/scripts',
+    '@sentry/nuxt/module',
     'nuxt-schema-org',
     '@nuxt/ui',
   ],
