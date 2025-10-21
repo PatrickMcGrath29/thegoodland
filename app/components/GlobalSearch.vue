@@ -21,7 +21,7 @@ interface SearchFields {
 export interface SearchDocument extends SearchFields {}
 
 const searchTerm = ref('')
-const debouncedSearchTerm = refDebounced(searchTerm, 75)
+const debouncedSearchTerm = refDebounced(searchTerm, 30)
 
 const settingsStore = useSettingsStore()
 const isSmallScreen = useIsSmallScreen()
@@ -30,6 +30,7 @@ const posts = await useAllPosts()
 const quotes = await useQuotes()
 
 const activeIdx = ref(0)
+const resultRefs = ref<HTMLElement[]>([])
 
 const { Command_K, Ctrl_K } = useMagicKeys()
 
@@ -84,11 +85,23 @@ watch(searchTerm, () => {
   activeIdx.value = 0
 })
 
+function scrollToActiveItem() {
+  const activeItem = searchResults.value[activeIdx.value]?.item
+
+  if (activeItem && resultRefs.value[activeIdx.value]) {
+    resultRefs.value[activeIdx.value]?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    })
+  }
+}
+
 onKeyStroke('ArrowDown', () => {
   if (activeIdx.value === searchResults.value.length - 1)
     return
 
   activeIdx.value += 1
+  scrollToActiveItem()
 })
 
 onKeyStroke('ArrowUp', () => {
@@ -96,6 +109,7 @@ onKeyStroke('ArrowUp', () => {
     return
 
   activeIdx.value -= 1
+  scrollToActiveItem()
 })
 
 onKeyStroke('Enter', () => {
@@ -165,8 +179,8 @@ function getHighlightedAuthor(result: FuseResult<SearchDocument>) {
     <template #content>
       <div class="p-4">
         <UInput
-          v-model:model-value="searchTerm" variant="soft" placeholder="Search quotes, posts, authors..."
-          class="w-full" autofocus
+          v-model:model-value="searchTerm" variant="none" placeholder="Search quotes, posts, authors..."
+          class="w-full" autofocus icon="ph:magnifying-glass-duotone"
         >
           <template #trailing>
             <UButton
@@ -181,7 +195,8 @@ function getHighlightedAuthor(result: FuseResult<SearchDocument>) {
         <div v-if="searchResults.length > 0" class="">
           <div
             v-for="(result, idx) in searchResults" :key="result.item.id"
-            class="p-3 rounded-md cursor-pointer transition-colors" :class="{ 'bg-neutral-800': idx === activeIdx }"
+            :ref="(el) => { if (el) resultRefs[idx] = el as HTMLElement }"
+            class="p-3 rounded cursor-pointer transition-colors" :class="{ 'bg-neutral-800': idx === activeIdx }"
             @click="navigateToPage(result.item.url)" @mousemove="activeIdx = idx"
           >
             <div class="flex items-start justify-between gap-2 [&_mark]:bg-accent">
