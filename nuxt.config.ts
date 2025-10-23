@@ -1,3 +1,11 @@
+function getBaseUrl() {
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  }
+
+  return 'http://localhost:3000'
+}
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -15,7 +23,7 @@ export default defineNuxtConfig({
 
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
-      baseUrl: process.env.VERCEL_PROJECT_PRODUCTION_URL || 'http://localhost:3000',
+      baseUrl: getBaseUrl(),
       scripts: {
         cloudflareWebAnalytics: {
           token: process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || '',
