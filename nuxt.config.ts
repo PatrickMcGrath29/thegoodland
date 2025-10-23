@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
     public: {
       sentryDSN: process.env.SENTRY_DSN || '',
-      baseUrl: process.env.URL || 'http://localhost:3000',
+      baseUrl: process.env.VERCEL_PROJECT_PRODUCTION_URL || 'http://localhost:3000',
       scripts: {
         cloudflareWebAnalytics: {
           token: process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN || '',
