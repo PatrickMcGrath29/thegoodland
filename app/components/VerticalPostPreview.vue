@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Post } from '@/types'
+import type { Post } from '~~/types'
 import { formatDate, smartEllipsis } from '~~/shared/utils'
 
 const props = defineProps<{ post: Post, isFeatured?: boolean }>()
@@ -20,7 +20,7 @@ const postPath = `/posts/${props.post.slug}`
         </div>
         <NuxtImg
           :src="post.featuredImage" width="400px" placeholder class="w-full h-72 object-cover rounded-t"
-          :alt="`Preview image for ${post.title}`"
+          :alt="`Preview image for ${post.title}`" loading="lazy"
         />
       </div>
       <div class="px-6 pt-0 flex flex-col h-full mb-8">

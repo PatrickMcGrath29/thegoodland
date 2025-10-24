@@ -48,21 +48,17 @@ const postsByAuthor = computed(() => {
     .sort((a, b) => a.author.localeCompare(b.author))
 })
 
-const active = computed(() => {
-  return summaryTab
+const active = computed({
+  get() {
+    return (route.query.view as string) || summaryTab
+  },
+  set(tab) {
+    router.push({
+      path: '/posts',
+      query: { view: tab },
+    })
+  },
 })
-
-// const active = computed({
-//   get() {
-//     return (route.query.view as string) || summaryTab
-//   },
-//   set(tab) {
-//     router.push({
-//       path: '/posts',
-//       query: { view: tab },
-//     })
-//   },
-// })
 
 useSeoMeta({
   title: 'The Good Land Blog — Posts',
@@ -75,27 +71,31 @@ useSeoMeta({
   <Container>
     <PageHeader heading="All Blog Posts" subtitle="Blog" />
 
-    <!-- <UTabs v-model="active" :items="postTabs" variant="link" class="mb-6" /> -->
+    <UTabs v-model="active" :items="postTabs" variant="link" class="mb-6" />
 
-    <div v-if="active === summaryTab" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 mb-10 px-2">
-      <VerticalPostPreview v-for="post in posts" :key="post.slug" :post="post" />
-    </div>
+    <template v-if="active === summaryTab">
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 mb-10 px-2">
+        <VerticalPostPreview v-for="post in posts" :key="post.slug" :post="post" />
+      </div>
+    </template>
 
-    <div v-else-if="active === listViewTab">
+    <template v-else-if="active === listViewTab">
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
         <SmallPostPreview v-for="post in posts" :key="post.slug" :post="post" />
       </div>
-    </div>
+    </template>
 
-    <div v-else-if="active === authorTab" class="space-y-10 mb-10 px-2">
-      <div v-for="authorGroup in postsByAuthor" :key="authorGroup.author">
-        <h2 class="text-xl font-semibold mb-4">
-          {{ authorGroup.author }}
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
-          <SmallPostPreview v-for="post in authorGroup.posts" :key="post.slug" :post="post" />
+    <template v-else-if="active === authorTab">
+      <div class="space-y-10 mb-10 px-2">
+        <div v-for="authorGroup in postsByAuthor" :key="authorGroup.author">
+          <h2 class="text-xl font-semibold mb-4">
+            {{ authorGroup.author }}
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
+            <SmallPostPreview v-for="post in authorGroup.posts" :key="post.slug" :post="post" />
+          </div>
         </div>
       </div>
-    </div>
+    </template>
   </Container>
 </template>
