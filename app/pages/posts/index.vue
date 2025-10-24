@@ -2,8 +2,6 @@
 import type { TabsItem } from '@nuxt/ui'
 
 const posts = await useBlogPosts()
-const route = useRoute()
-const router = useRouter()
 
 const description = 'Blog posts that highlight the richness of life found in Jesus Christ.'
 
@@ -25,6 +23,8 @@ const postTabs = ref<TabsItem[]>([
     value: authorTab,
   },
 ])
+
+const activePage = ref<string>(summaryTab)
 
 const postsByAuthor = computed(() => {
   const grouped = new Map<string, any[]>()
@@ -48,18 +48,6 @@ const postsByAuthor = computed(() => {
     .sort((a, b) => a.author.localeCompare(b.author))
 })
 
-const active = computed({
-  get() {
-    return (route.query.view as string) || summaryTab
-  },
-  set(tab) {
-    router.push({
-      path: '/posts',
-      query: { view: tab },
-    })
-  },
-})
-
 useSeoMeta({
   title: 'The Good Land Blog — Posts',
   description,
@@ -71,21 +59,21 @@ useSeoMeta({
   <Container>
     <PageHeader heading="All Blog Posts" subtitle="Blog" />
 
-    <UTabs v-model="active" :items="postTabs" variant="link" class="mb-6" />
+    <UTabs v-model="activePage" :items="postTabs" variant="link" class="mb-6" />
 
-    <template v-if="active === summaryTab">
+    <template v-if="activePage === summaryTab">
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 mb-10 px-2">
         <VerticalPostPreview v-for="post in posts" :key="post.slug" :post="post" />
       </div>
     </template>
 
-    <template v-else-if="active === listViewTab">
+    <template v-else-if="activePage === listViewTab">
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
         <SmallPostPreview v-for="post in posts" :key="post.slug" :post="post" />
       </div>
     </template>
 
-    <template v-else-if="active === authorTab">
+    <template v-else-if="activePage === authorTab">
       <div class="space-y-10 mb-10 px-2">
         <div v-for="authorGroup in postsByAuthor" :key="authorGroup.author">
           <h2 class="text-xl font-semibold mb-4">
