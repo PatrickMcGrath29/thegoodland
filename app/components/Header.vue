@@ -91,7 +91,9 @@ const desktopNavItems = computed(() => {
           </UPopover>
         </ul>
       </div>
-      <GlobalSearch />
+      <ClientOnly>
+        <GlobalSearch />
+      </ClientOnly>
     </Container>
 
     <div v-if="isQuoteRoute" class="mt-3">
