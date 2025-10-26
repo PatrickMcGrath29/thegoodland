@@ -10,11 +10,14 @@ const postPath = `/posts/${props.post.slug}`
   <StyledCard>
     <NuxtLink :to="postPath" class="rounded bg-neutral-800 grid grid-cols-5 h-full">
       <div class="aspect-16/9 overflow-hidden h-full w-full rounded-l col-span-2">
-        <NuxtImg :src="post.featuredImage" class="w-full h-full object-cover" width="150px" placeholder />
+        <NuxtImg
+          :src="post.featuredImage" class="w-full h-full object-cover" width="150px" placeholder
+          loading="lazy"
+        />
       </div>
 
       <div class="flex flex-col h-full p-3 col-span-3">
-        <div class="grow">
+        <div class="grow font-medium">
           {{ post.title }}
         </div>
         <div class="pt-3 justify-end">
