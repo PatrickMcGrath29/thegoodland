@@ -32,9 +32,9 @@ You also have surrendered yourself to the Lord, but perhaps not with the clear u
 
 Is there something that you cannot rightly control? Is it perhaps...
 
-... your heart, because it is too worldly;  (Psalm 31:6; Jeremiah 31:33)\
-... your tongue, because it is too idle;  (Psalm 51:15; 141:3)\
-... your temper, because it is too passionate;  (Psalm 119:165; Jeremiah 26:3–4; John 14:27; Philippians 4:6–7; 2 Thessalonians 3:16)\
+... your heart, because it is too worldly?  (Psalm 31:6; Jeremiah 31:33)\
+... your tongue, because it is too idle?  (Psalm 51:15; 141:3)\
+... your temper, because it is too passionate?  (Psalm 119:165; Jeremiah 26:3–4; John 14:27; Philippians 4:6–7; 2 Thessalonians 3:16)\
 ... your calling to confess the Lord, because you are too weak?  (Isaiah 50:7; Jeremiah 1:9; Matthew 10:19–20; Luke 21:15)
 
 Learn, then, to deposit it as a pledge for keeping with Jesus, that He may fulfill in you the promise of God concerning it. You often pray and strive in vain against a sin—it is because, although this is done with God’s help, you would still be the one who overcomes. No!—entrust the matter wholly to Jesus:
