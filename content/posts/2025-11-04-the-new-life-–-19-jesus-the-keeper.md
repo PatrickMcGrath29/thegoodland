@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: 4g33hk4xoi
 title: The New Life – 19. Jesus the Keeper
-isBlogPost: true
+isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-04
 slug: 2025-11-04-the-new-life-19-jesus-the-keeper
