@@ -41,6 +41,7 @@ posts:
   - post: the-new-life-17-humility
   - post: the-new-life-18-stumblings
   - post: the-new-life-19-jesus-the-keeper
+  - post: 20-power-and-weakness
   - post: the-new-life-42-baptism
 featuredImage: /uploads/hero.jpg
 ---
