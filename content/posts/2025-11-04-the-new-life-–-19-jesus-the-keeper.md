@@ -7,13 +7,15 @@ title: The New Life – 19. Jesus the Keeper
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-04
-slug: the-new-life-19-jesus-the-keeper
+slug: 2025-11-04-the-new-life-19-jesus-the-keeper
 ---
 > “The Lord is your keeper;
 >  The Lord shall preserve you from all evil;
 >  He shall preserve your soul.”
 >  — *Psalm 121:5,7 NKJV*
->
+
+ 
+
 > “For I know whom I have believed and am persuaded that He is able to keep what I have committed to Him until that Day.”
 >  — *2 Timothy 1:12 NKJV*
 
@@ -72,8 +74,8 @@ Young disciples of Christ, receive this word: “The Lord is your keeper.” For
 “The Lord shall preserve you from all evil.”
  (Joshua 1:9; Psalm 23:4; Romans 8:35–39)
 
-> **Prayer**
->
+**Prayer**
+
 > Dear Lord Jesus, I take You as my Keeper.
 >  Let Your name, “The Lord your Keeper,” sound as a song in my heart the whole day.
 >  Teach me in every need to deposit my case as a pledge with You,
