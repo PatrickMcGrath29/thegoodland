@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: js0ikkms4f
-title: 20. Power and Weakness
+title: The New Life – 20. Power and Weakness
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-05
