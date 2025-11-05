@@ -10,16 +10,16 @@ summary: >-
   Murray's books. One of them was Watchman Nee.
 
 
-  One of the many books Andrew Murray wrote was this little book of 52 short lessons for new believers in Christ. The lessons are short and simple, yet very important. Whether we are new believers or seasoned believers, these truths need to be engraved in our hearts and minds, not only for ourselves, but also to effectively help others.
+  One of the many books Andrew Murray wrote was this little book of 52 lessons for new believers in Christ. The lessons are short and simple, yet very comprehensive. Whether we are new believers or seasoned believers, these truths need to be engraved in our hearts and minds, not only for ourselves, but also to effectively help others.
 
 
-  The lessons are short, but there are many Scripture references for further study. If there is a single verse reference, you can hover over it and the verse will open. If there is a "References" notice in blue, you can click on it and it will open a list of related verse references. Then hover over each reference and the verse will open.
+  The lessons are short, but loaded with Scripture references for further study. If there is a single verse reference, you can hover over it and the verse will open. If there is a "References" notice in blue, you can click on it and it will open a list of related verse references. Then hover over each reference and the verse will open.
 
 
   May the Good Shepherd give each of His seekers the necessary "portion of food at the proper time." (Luke 12:42).
 
 
-  Note: The original 1800's language of these lessons contains some older English words and expressions. Some of the language has been updated, but not throughout all the text.
+  Note: The original 1800's language of these lessons contains some older English words and expressions. Some of the language has been updated, but not necessarily in a consistent way.
 posts:
   - post: the-new-life-0-preface
   - post: the-new-life-1-the-new-life
