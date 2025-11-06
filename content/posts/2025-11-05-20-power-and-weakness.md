@@ -17,7 +17,7 @@ The Father cannot demand of His child what he can certainly do independently. Th
 
 The error of this way of thinking is that people estimate their weakness, not too highly, but too lightly. They still imagine they can do something by the exercise of their own powers, with God’s help. They do not realize that they must be nothing before God.
 
-(Rom. 4:4–5; 11:6; 1 Cor. 1:27–28)
+(Rom. 4:4–5; 11:6; 1 Cor. 1:27-28)
 
 **True Weakness and Utter Inability**
 
