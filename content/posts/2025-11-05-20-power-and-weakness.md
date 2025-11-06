@@ -7,7 +7,7 @@ title: The New Life – 20. Power and Weakness
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-05
-slug: 20-power-and-weakness
+slug: the-new-life-20-power-and-weakness
 ---
 **“And He said to me, ‘My grace is sufficient for you, for My strength is made perfect in weakness.’ Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. Therefore I take pleasure in infirmities… For when I am weak, then I am strong.”** —  2 Cor. 12:9–10
 
@@ -79,7 +79,7 @@ The Christian is strong in his Lord—not sometimes strong and sometimes weak, b
 
 **Practical Lessons**
 
-1. As long as the Christian thinks of serving God or of sanctification as something hard and difficult, he will make no progress. He must see that this very thing is impossible for him. Then he will cease striving to do something and will surrender himself so that Christ may work all in him. 
+1. As long as the Christian thinks of serving God or of sanctification as something hard and difficult, he will make no progress. He must see that this very thing is impossible for him. Then he will cease striving to do something and will surrender himself so that Christ may work all in him.
 2. The complaint about weakness is often nothing more than an excuse for idleness. There is power to be obtained in Christ for those who will take the pains to seek it.
 3. **“Be strong in the Lord and in the power of His might.”** Remember this: I must abide in the Lord and in the power of His might, then I become strong. To have His power I must have Himself. The strength is His, and remains His; the weakness remains mine. He, the Strong, works in me, the weak; I, the weak, abide by faith in Him, the Strong—so that in the same moment I know myself to be both weak and strong.
 4. Strength is for work. He who would be strong simply to be pious will not be so. He who in his weakness begins to work for the Lord shall become strong.
