@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: c2glx8m1qzk
-title: 22. The Holy Spirit
+title: The New Life – 22. The Holy Spirit
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-06
