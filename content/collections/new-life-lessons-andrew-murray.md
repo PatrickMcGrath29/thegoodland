@@ -43,6 +43,7 @@ posts:
   - post: the-new-life-19-jesus-the-keeper
   - post: the-new-life-20-power-and-weakness
   - post: 21-the-life-of-feeling
+  - post: 22-the-holy-spirit
   - post: the-new-life-42-baptism
 featuredImage: /uploads/hero.jpg
 ---
