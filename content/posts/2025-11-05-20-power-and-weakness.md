@@ -7,7 +7,7 @@ title: The New Life – 20. Power and Weakness
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-05
-slug: 20-power-and-weakness
+slug: the-new-life-20-power-and-weakness
 ---
 **“And He said to me, ‘My grace is sufficient for you, for My strength is made perfect in weakness.’ Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me. Therefore I take pleasure in infirmities… For when I am weak, then I am strong.”** —  2 Cor. 12:9–10
 
