@@ -23,7 +23,7 @@ For young disciples of Christ who are still weak, there is no lesson more necess
 
  (Genesis 28:15)\
  (Deuteronomy 7:9; 32:10)\
- (Psalm 27:8; 89:33–34)\
+ (Psalm 27:8; 89:33-34)\
  (Romans 11:29)
 
 The lovely name “The Lord your Keeper” must for this purpose be carried in the heart until the assurance of an Almighty keeping becomes as strong with us as it was with Paul, when he spoke that glorious word: “I know whom I have believed, and am persuaded that He is able to keep what I have committed to Him until that Day.”
