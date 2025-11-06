@@ -3,7 +3,7 @@ slugFields:
   - createdDate
   - title
 uuid: wwdd5vsq67l
-title: 21. The Life of Feeling
+title: The New Life – 21. The Life of Feeling
 isBlogPost: false
 author: Andrew Murray
 createdDate: 2025-11-06
