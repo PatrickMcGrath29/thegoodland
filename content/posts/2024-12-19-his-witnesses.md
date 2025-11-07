@@ -13,7 +13,7 @@ slug: 2024-12-19-his-witnesses
 >
 > —Acts 22:14-15
 
-::center
+::poetry
 Chosen that thou shouldest know Him\
 And the fulness of His grace,\
 That, through all life's varied pathway,\

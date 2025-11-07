@@ -11,12 +11,12 @@ slug: within-the-veil
 ---
 > "Within the veil."\
 > — Hebrews 6:19
-> 
+>
 > \
 > "Reflecting—transformed."\
 > — 2 Corinthians 3:18
 
-::center
+::poetry
 "Within the Veil."—Be this, belov’d, thy portion,\
 Within the secret of thy Lord to dwell,\
 Beholding Him, until thy face His glory,\

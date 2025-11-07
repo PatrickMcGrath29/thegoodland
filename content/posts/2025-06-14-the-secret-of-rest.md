@@ -12,7 +12,7 @@ slug: 2025-06-14-the-secret-of-rest
 > "I will give you rest... and you will find rest for your souls"\
 > — Matthew 11:28-29
 
-::center
+::poetry
 Rest! Give me rest, dear Master. From my way\
 Remove those things that try me day by day—\
 The small annoyance, or the heavy care—\

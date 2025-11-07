@@ -24,7 +24,7 @@ slug: the-everlasting-god
 > "Reflect the 'everlasting light'"\
 > — Isaiah 60:19-20
 
-::center
+::poetry
 Mid the restless, ceaseless changes\
   Of all life below,\
 One there is "abideth ever,"\

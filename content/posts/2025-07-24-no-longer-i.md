@@ -13,7 +13,7 @@ slug: no-longer-i
 >
 > — Galatians 2:20
 
-::center
+::poetry
 "No longer I, but Christ." O precious Lord,\
 How shall I speak the sweetness of this word,\
 By which from bondage Thou hast set me free,\

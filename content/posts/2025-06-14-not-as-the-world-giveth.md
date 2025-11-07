@@ -14,7 +14,7 @@ slug: not-as-the-world-giveth
 
 
 
-::center
+::poetry
 How gives the world?\
 Its best wine when the feast is scarce begun,\
 But bitter dregs ere life’s short race is run:\

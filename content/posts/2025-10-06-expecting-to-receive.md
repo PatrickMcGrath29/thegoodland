@@ -16,7 +16,7 @@ slug: expecting-to-receive
 > "My expectation is from Him."\
 > — Psalm 62:5
 
-::center
+::poetry
 Soul, art thou really waiting\
 "Expecting to receive?"\
 The fulness of His faithful Word\

@@ -9,7 +9,7 @@ author: Freda Hanbury Allen
 createdDate: 2025-08-01
 slug: walking-with-god
 ---
-::center
+::poetry
 "'Jesus Himself drew near'—Lord, as of old,\
 Ere yet another New Year shall unfold,\
 Do Thou Thyself draw near to be my Guide,\
