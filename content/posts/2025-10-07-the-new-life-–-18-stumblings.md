@@ -80,12 +80,9 @@ Doing this, God’s word assures you, **you will never stumble.**
 
 1. Let your thoughts about what the grace of God can do for you come only from the Word of God. Our natural expectation — that we must always keep stumbling — is wrong. It is strengthened by several things:
 
-\-A hidden unwillingness to surrender all.
-
-\-The example of many careless Christians.
-
-\-Unbelief that doubts whether God will truly keep us.
-
-\-The discouragement of repeated failures when striving in our own strength.
+   1. A hidden unwillingness to surrender all.
+   2. The example of many careless Christians.
+   3. Unbelief that doubts whether God will truly keep us.
+   4. The discouragement of repeated failures when striving in our own strength.
 
 2. Let no stumbling be tolerated because it seems small or insignificant.
