@@ -16,14 +16,14 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.1.0",
-    "@sentry/nuxt": "^10.23.0",
-    "better-sqlite3": "^12.4.1"
+    "@nuxt/ui": "^4.2.1",
+    "@sentry/nuxt": "^10.26.0",
+    "better-sqlite3": "^12.4.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
     "@iconify-json/ph": "^1.2.2",
-    "@nuxt/content": "^3.8.0",
+    "@nuxt/content": "^3.8.2",
     "@nuxt/icon": "^2.1.0",
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "^0.13.0",
@@ -36,7 +36,7 @@
     "nuxt-link-checker": "^4.3.6",
     "nuxt-schema-org": "^5.0.9",
     "pinia": "^3.0.4",
-    "sass": "^1.93.3",
+    "sass": "^1.94.2",
     "sharp": "^0.34.5",
     "sitemap": "^9.0.0",
     "typescript": "^5.9.3"

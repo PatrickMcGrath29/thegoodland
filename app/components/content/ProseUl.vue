@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-inside list-disc mb-5">
+  <ul class="list-outside list-disc pl-5 mb-5">
     <slot />
   </ul>
 </template>
