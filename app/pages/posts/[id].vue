@@ -77,7 +77,7 @@ const postElementRef = ref<HTMLElement>()
 
     <ContainerMedium>
       <div class="my-10 px-2">
-        <div class="max-w-screen-md m-auto">
+        <div class="max-w-3xl m-auto">
           <h1 class="text-4xl font-semibold">
             {{ post.title }}
           </h1>
@@ -87,7 +87,10 @@ const postElementRef = ref<HTMLElement>()
               v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
               :text="postCreatedDate"
             />
-            <PostDetail v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name" :to="`/collections/${primaryCollection.slug}`" />
+            <PostDetail
+              v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name"
+              :to="`/collections/${primaryCollection.slug}`"
+            />
           </div>
         </div>
 
