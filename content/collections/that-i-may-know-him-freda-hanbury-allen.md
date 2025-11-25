@@ -25,6 +25,7 @@ posts:
   - post: walking-with-god
   - post: the-promised-presence
   - post: the-longing-soul
+  - post: a-song-of-victory
   - post: how-shall-he-not
   - post: only-a-branch
   - post: if-it-die
