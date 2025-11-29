@@ -26,6 +26,7 @@ posts:
   - post: the-promised-presence
   - post: the-longing-soul
   - post: a-song-of-victory
+  - post: life-abundant
   - post: how-shall-he-not
   - post: only-a-branch
   - post: if-it-die
