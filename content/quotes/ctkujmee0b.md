@@ -1,6 +1,6 @@
 ---
 uuid: ctkujmee0b
-text: God has one great desire - to have what may be termed a 'a people of His
+text: God has one great desire - to have what may be termed 'a people of His
   best'. Until He has such a people, He will never be wholly satisfied. There
   may be those who will accept His 'second-best' - for He surely often allows a
   second-best - but only a people set on His very best will truly satisfy His
@@ -13,5 +13,5 @@ categories:
   - Obedience
   - Consecration
 link: https://www.austin-sparks.net/english/books/000990.html
-createdDate: 2025-12-06T15:15:00Z
+createdDate: 2025-12-06T15:15:00.000Z
 ---
