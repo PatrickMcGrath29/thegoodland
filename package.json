@@ -18,7 +18,7 @@
   "dependencies": {
     "@nuxt/ui": "^4.2.1",
     "@sentry/nuxt": "^10.30.0",
-    "better-sqlite3": "^12.5.0"
+    "better-sqlite3": "^12.4.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.1",
