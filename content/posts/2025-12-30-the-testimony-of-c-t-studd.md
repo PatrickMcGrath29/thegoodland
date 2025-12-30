@@ -2,14 +2,15 @@
 slugFields:
   - createdDate
   - title
+uuid: 09xm2abjhn
 title: The Testimony of C.T. Studd
+isBlogPost: true
+author: C.T. Studd
 summary: I had known about Jesus Christ's dying for me, but I had never
   understood that if He had died for me, then I didn't belong to myself. When I
   came to see that Jesus Christ had died for me, it didn't seem hard to give up
   all to Him.
 slug: 2025-12-30-the-testimony-of-ct-studd
-uuid: 09xm2abjhn
-isBlogPost: true
 featuredImage: /uploads/ct_studd_testimony.jpg
 createdDate: 2025-12-30
 ---
