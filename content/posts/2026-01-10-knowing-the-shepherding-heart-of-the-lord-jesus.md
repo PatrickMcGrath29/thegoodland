@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: xgcsscs28e
 title: Knowing the Shepherding Heart of the Lord Jesus
-isBlogPost: true
+isBlogPost: false
 author: The Good Land
 createdDate: 2026-01-10
 slug: 2026-01-10-knowing-the-shepherding-heart-of-the-lord-jesus

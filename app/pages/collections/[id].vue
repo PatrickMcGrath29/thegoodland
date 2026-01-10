@@ -28,7 +28,7 @@ const seoTitle = computed(() => {
 })
 
 const seoDescription = computed(() => {
-  return smartEllipsis(collection.value.summary, 160)
+  return smartEllipsis(collection.value.summary || '', 160)
 })
 
 useSeoMeta({

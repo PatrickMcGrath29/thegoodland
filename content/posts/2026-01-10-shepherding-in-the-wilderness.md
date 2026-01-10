@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: r1kclwaakv
 title: Shepherding in the Wilderness
-isBlogPost: true
+isBlogPost: false
 author: The Good Land
 createdDate: 2026-01-10
 slug: 2026-01-10-shepherding-in-the-wilderness

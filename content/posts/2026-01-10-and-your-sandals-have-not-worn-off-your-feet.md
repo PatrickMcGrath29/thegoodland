@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: aj2qvrw9ii
 title: And Your Sandals Have Not Worn Off Your Feet
-isBlogPost: true
+isBlogPost: false
 author: The Good Land
 createdDate: 2026-01-10
 slug: 2026-01-10-and-your-sandals-have-not-worn-off-your-feet

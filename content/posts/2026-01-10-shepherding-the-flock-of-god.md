@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: ywqp5vhigqh
 title: Shepherding the Flock of God
-isBlogPost: true
+isBlogPost: false
 author: The Good Land
 createdDate: 2026-01-10
 slug: 2026-01-10-shepherding-the-flock-of-god

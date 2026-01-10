@@ -4,7 +4,7 @@ slugFields:
   - title
 uuid: 3oqgd7ii2y
 title: The Voice and Character of the Good Shepherd
-isBlogPost: true
+isBlogPost: false
 author: The Good Land
 createdDate: 2026-01-10
 slug: 2026-01-10-the-voice-and-character-of-the-good-shepherd
