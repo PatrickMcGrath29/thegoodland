@@ -103,7 +103,7 @@ function closeQuoteModal() {
   selectedQuote.value = null
 }
 
-const description = 'Quotes, Excerpts & Poetry Highlighting the Richness of Jesus'
+const description = 'Quotes, excerpts, and poetry, that highlight the richness of life found in Jesus Christ.'
 
 useSeoMeta({
   title: 'The Good Land — Quotes',
