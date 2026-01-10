@@ -13,4 +13,5 @@ posts:
   - post: 2026-01-10-shepherding-the-flock-of-god
   - post: 2026-01-10-surprising-shepherds
   - post: 2026-01-10-that-they-may-have-life-and-have-it-abundantly
+featuredImage: /uploads/shepherd_and_flock.jpg
 ---
