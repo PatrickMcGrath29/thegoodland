@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Post } from '~~/types'
 
-defineProps<{ featuredPost: Post }>()
+defineProps<{ latestPost: Post }>()
 </script>
 
 <template>
@@ -20,7 +20,7 @@ defineProps<{ featuredPost: Post }>()
         </h1>
       </div>
       <div class="basis-1/2">
-        <VerticalPostPreview :post="featuredPost" is-featured />
+        <VerticalPostPreview :post="latestPost" is-latest />
       </div>
     </div>
   </div>
