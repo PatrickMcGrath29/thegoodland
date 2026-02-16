@@ -16,7 +16,7 @@ export interface Collection {
   slug: string
   name: string
   author: string
-  summary: string
+  summary?: string
   posts: string[]
   featuredImage: string
 }
