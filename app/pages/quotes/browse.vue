@@ -12,7 +12,7 @@ useSeoMeta({
     <PageHeader heading="Browse All Quotes" subtitle="Quotes" />
 
     <ColumnView class="gap-6" :count="quotes.length">
-      <div v-for="(quote, idx) in quotes" :key="idx" class="inline-block mb-6">
+      <div v-for="(quote, idx) in quotes" :key="idx" class="inline-block w-full mb-6">
         <StyledCard>
           <div class="p-3 sm:p-4">
             <QuoteText :quote="quote" />

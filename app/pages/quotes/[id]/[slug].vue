@@ -68,7 +68,7 @@ useSeoMeta({
     </div>
 
     <ColumnView v-if="additionalQuotesForAuthor.length > 0" class="gap-6" :count="additionalQuotesForAuthor.length">
-      <div v-for="(quote, idx) in additionalQuotesForAuthor" :key="idx" class="inline-block mb-6">
+      <div v-for="(quote, idx) in additionalQuotesForAuthor" :key="idx" class="inline-block w-full mb-6">
         <StyledCard>
           <div class="p-3 sm:p-4">
             <QuoteText :quote="quote" />

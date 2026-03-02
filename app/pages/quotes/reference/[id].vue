@@ -43,7 +43,7 @@ useSeoMeta({
     <PageHeader :heading="heading" :subheading="subheading" subtitle="Quotes" />
 
     <ColumnView class="gap-6" :count="quotesForReference.length">
-      <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block mb-6">
+      <div v-for="(quote, idx) in quotesForReference" :key="idx" class="inline-block w-full mb-6">
         <StyledCard>
           <div class="p-3 sm:p-4">
             <QuoteText :quote="quote" />
