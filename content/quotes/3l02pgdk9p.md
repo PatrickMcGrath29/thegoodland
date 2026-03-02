@@ -21,7 +21,7 @@ text: |-
 referenceId: leouri7weg
 categories:
   - Poetry
-  - Suffering
+  - Trials
   - The Cross
-createdDate: 2026-02-26T02:44:00Z
+createdDate: 2026-02-26T02:44:00.000Z
 ---
