@@ -33,6 +33,7 @@ posts:
   - post: others
   - post: within-the-veil
   - post: expecting-to-receive
+  - post: waiting-on-god
   - post: life-in-heavenly-places
   - post: the-crowned-life
 featuredImage: /uploads/that_i_may_know_him.jpg
