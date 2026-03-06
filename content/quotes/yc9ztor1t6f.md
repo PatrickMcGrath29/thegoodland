@@ -11,5 +11,6 @@ text: >-
 referenceId: bmh03c7i62
 categories:
   - Evangelism
+  - The Word
 createdDate: 2025-10-06T03:46:00.000Z
 ---
