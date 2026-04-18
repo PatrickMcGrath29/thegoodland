@@ -5,7 +5,7 @@ slugFields:
 uuid: oj11e0xqab
 title: Looking Unto Jesus
 isBlogPost: true
-author: Theodore Monod
+author: Adolphe-Théodore Monod
 summary: '"looking unto Jesus, the author and finisher of our faith..." Only
   three words, but in these three words is the whole secret of spiritual life.
   Look unto Jesus in the Scriptures—to learn there... what He is, what He has
@@ -14,7 +14,7 @@ slug: 2022-12-28-looking-unto-jesus
 featuredImage: /uploads/hero.jpg
 createdDate: 2022-12-28
 ---
-*The following passage was written by Theodore Monod (1836-1921).*
+*The following passage was written by Adolphe-Théodore Monod (1836-1921).*
 
 - - -
 
@@ -82,7 +82,7 @@ Looking unto Jesus—to receive from Him the task and the cross for each day, wi
 **Looking unto Jesus**—and not to our brethren, not even to the best among them and the best beloved. In following a man—we run the risk of losing our way. In following Jesus—we are sure of never losing our way. Besides, in putting a man between Jesus and ourselves, it will come to pass that insensibly the man will increase, and Jesus will decrease; and soon we no longer know how to find Jesus when we cannot find the man, and if he fails us, all fails.
 
 ::pullquote
-In following a man—we run the risk of losing our way. In following Jesus—we are sure of never losing our way. 
+In following a man—we run the risk of losing our way. In following Jesus—we are sure of never losing our way.
 ::
 
 On the contrary, if Jesus is kept between us and our closest friend, our attachment to the person will be at the same time less enthralling, and more deep; less passionate, and more tender; less necessary, and more useful; an instrument of rich blessing in the hands of God, when He is pleased to make use of him; and whose absence will be a further blessing, when it may please God to dispense with him, to draw us even nearer to the only Friend who can be separated from us by "neither death nor life" (Romans 8:38, 39).

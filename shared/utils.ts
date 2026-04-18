@@ -1,7 +1,7 @@
 import type { FuseResult, FuseResultMatch } from 'fuse.js'
 
 export function slugify(str: string) {
-  return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '')
 }
 
 export function referenceSlug(authorName: string | undefined, referenceName: string): string | undefined {

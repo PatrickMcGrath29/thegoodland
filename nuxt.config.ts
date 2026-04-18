@@ -94,10 +94,15 @@ export default defineNuxtConfig({
     '/collections': { prerender: true },
     '/collections/**': { prerender: true },
 
+    // Slug Change Redirects
     '/posts/2025-07-10-the-surrendered-life-exposed-to-the-circumstances-of-his-choice': {
       redirect: '/posts/2025-07-10-accepting-the-circumstances-of-his-choice',
     },
     '/posts/2025-04-03-the-new-life-17-humility': { redirect: '/posts/the-new-life-17-humility' },
+    '/quotes/author/theodore-monod': { redirect: '/quotes/author/adolphe-theodore-monod' },
+    '/quotes/reference/theodore-monod-looking-unto-jesus': { redirect: '/quotes/reference/adolphe-theodore-monod-looking-unto-jesus' },
+
+    // WordPress Redirects
     '/2021/08/23/entering-into-the-good-land': { redirect: '/posts/2021-08-23-entering-into-the-good-land' },
     '/2021/09/28/lord-shine-your-light': { redirect: '/posts/2021-09-28-lord-shine-your-light' },
     '/2021/09/30/come-to-me': { redirect: '/posts/2021-09-30-come-to-me-learn-from-me' },
@@ -120,7 +125,7 @@ export default defineNuxtConfig({
     '/2024/02/09/motives-in-looking-unto-jesus': { redirect: '/posts/2024-02-10-motives-in-looking-unto-jesus' },
     '/wp-content/uploads/2023/05/the_practice_of_the_presence_of_god.pdf': { redirect: '/uploads/the_practice_of_the_presence_of_god.pdf' },
     '/wp-content/uploads/2023/05/abide_in_christ.pdf': { redirect: '/uploads/abide_in_christ.pdf' },
-    '/wp-content/uploads/2023/05/the_pursuit_of_god.pdf': { redirect: '/uploads/the_pursuit_of_god.pdf' },
+    '/wp-content/uploads/2023/05/the_pursuit_of_god.pdf': { redirect: '/uploads/the_pursuit_of_god.pdf' }
   },
 
   compatibilityDate: '2025-03-01',
