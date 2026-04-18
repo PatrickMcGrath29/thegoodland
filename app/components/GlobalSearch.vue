@@ -1,38 +1,38 @@
 <script setup lang="ts">
-import type { FuseResult } from 'fuse.js'
-import type { Post } from '~~/types'
-import { refDebounced } from '@vueuse/core'
-import { useFuse } from '@vueuse/integrations/useFuse'
-import { toHast } from 'minimark/hast'
-import { highlight } from '~~/shared/utils'
+import type { FuseResult } from 'fuse.js';
+import type { Post } from '~~/types';
+import { refDebounced } from '@vueuse/core';
+import { useFuse } from '@vueuse/integrations/useFuse';
+import { toHast } from 'minimark/hast';
+import { highlight } from '~~/shared/utils';
 
 interface SearchFields {
-  id: string
-  truncateTitle: boolean
-  indexedTitle: string | undefined
-  title: string | undefined
-  author: string
-  content: string
-  categories: string
-  type: string
-  url: string
+  id: string;
+  truncateTitle: boolean;
+  indexedTitle: string | undefined;
+  title: string | undefined;
+  author: string;
+  content: string;
+  categories: string;
+  type: string;
+  url: string;
 }
 
-export interface SearchDocument extends SearchFields {}
+export interface SearchDocument extends SearchFields { }
 
-const searchTerm = ref('')
-const debouncedSearchTerm = refDebounced(searchTerm, 30)
+const searchTerm = ref('');
+const debouncedSearchTerm = refDebounced(searchTerm, 30);
 
-const settingsStore = useSettingsStore()
-const isSmallScreen = useIsSmallScreen()
+const settingsStore = useSettingsStore();
+const isSmallScreen = useIsSmallScreen();
 
-const posts = await useAllPosts()
-const quotes = await useQuotes()
+const posts = await useAllPosts();
+const quotes = await useQuotes();
 
-const activeIdx = ref(0)
-const resultRefs = ref<HTMLElement[]>([])
+const activeIdx = ref(0);
+const resultRefs = ref<HTMLElement[]>([]);
 
-const { Command_K, Ctrl_K } = useMagicKeys()
+const { Command_K, Ctrl_K } = useMagicKeys();
 
 const quotesForSearch: SearchFields[] = quotes.map(quote => ({
   id: `quote-${quote.uuid}`,
@@ -44,7 +44,7 @@ const quotesForSearch: SearchFields[] = quotes.map(quote => ({
   categories: quote.categories?.join(' ') || '',
   type: 'quote',
   url: `/quotes/${quote.uuid}/${quote.slug}`,
-}))
+}));
 
 const postsForSearch: SearchFields[] = posts.map((post: Post) => ({
   id: `post-${post.uuid}`,
@@ -56,9 +56,9 @@ const postsForSearch: SearchFields[] = posts.map((post: Post) => ({
   categories: '',
   type: 'post',
   url: `/posts/${post.slug}`,
-}))
+}));
 
-const allSearchDocuments = [...postsForSearch, ...quotesForSearch]
+const allSearchDocuments = [...postsForSearch, ...quotesForSearch];
 
 const { results: searchResults } = useFuse(debouncedSearchTerm, allSearchDocuments, {
   matchAllWhenSearchEmpty: true,
@@ -79,80 +79,80 @@ const { results: searchResults } = useFuse(debouncedSearchTerm, allSearchDocumen
     findAllMatches: false,
     ignoreLocation: true,
   },
-})
+});
 
 watch(searchTerm, () => {
-  activeIdx.value = 0
-})
+  activeIdx.value = 0;
+});
 
 function scrollToActiveItem() {
-  const activeItem = searchResults.value[activeIdx.value]?.item
+  const activeItem = searchResults.value[activeIdx.value]?.item;
 
   if (activeItem && resultRefs.value[activeIdx.value]) {
     resultRefs.value[activeIdx.value]?.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
-    })
+    });
   }
 }
 
 onKeyStroke('ArrowDown', () => {
   if (activeIdx.value === searchResults.value.length - 1)
-    return
+    return;
 
-  activeIdx.value += 1
-  scrollToActiveItem()
-})
+  activeIdx.value += 1;
+  scrollToActiveItem();
+});
 
 onKeyStroke('ArrowUp', () => {
   if (activeIdx.value === 0)
-    return
+    return;
 
-  activeIdx.value -= 1
-  scrollToActiveItem()
-})
+  activeIdx.value -= 1;
+  scrollToActiveItem();
+});
 
 onKeyStroke('Enter', () => {
-  const selectedItem = searchResults.value[activeIdx.value]?.item
+  const selectedItem = searchResults.value[activeIdx.value]?.item;
 
   if (selectedItem === undefined)
-    return
+    return;
 
-  navigateToPage(selectedItem.url)
-})
+  navigateToPage(selectedItem.url);
+});
 
 onMounted(() => {
   watch([Command_K, Ctrl_K], (v) => {
     if (settingsStore.searchOpen)
-      return
+      return;
 
     if (v)
-      settingsStore.searchOpen = true
-  })
-})
+      settingsStore.searchOpen = true;
+  });
+});
 
 function navigateToPage(url: string) {
-  settingsStore.searchOpen = false
+  settingsStore.searchOpen = false;
 
-  navigateTo(url)
+  navigateTo(url);
 }
 
 // Helper function to get highlighted title
 function getHighlightedTitle(result: FuseResult<SearchDocument>) {
   // Try to get highlighted text for title or indexedTitle
-  const titleField = result.item.indexedTitle ? 'indexedTitle' : 'title'
+  const titleField = result.item.indexedTitle ? 'indexedTitle' : 'title';
   const highlighted = highlight({
     item: { ...result.item, matches: result.matches },
     searchTerm: searchTerm.value,
     forceKey: titleField,
     truncate: result.item.truncateTitle,
-  })
+  });
 
   // If we have a highlight, return it, otherwise return the plain text
   if (highlighted && searchTerm.value.trim()) {
-    return highlighted
+    return highlighted;
   }
-  return result.item.indexedTitle || result.item.title || ''
+  return result.item.indexedTitle || result.item.title || '';
 }
 
 // Helper function to get highlighted author
@@ -162,54 +162,44 @@ function getHighlightedAuthor(result: FuseResult<SearchDocument>) {
     searchTerm: searchTerm.value,
     forceKey: 'author',
     truncate: false,
-  })
+  });
 
   if (highlighted && searchTerm.value.trim()) {
-    return highlighted
+    return highlighted;
   }
-  return result.item.author || ''
+  return result.item.author || '';
 }
 </script>
 
 <template>
-  <UModal
-    v-model:open="settingsStore.searchOpen" class="max-w-4xl" :fullscreen="isSmallScreen"
-    :class="{ 'h-130': !isSmallScreen }"
-  >
+  <UModal v-model:open="settingsStore.searchOpen" class="max-w-4xl" :fullscreen="isSmallScreen"
+    :class="{ 'h-130': !isSmallScreen }">
     <template #content>
       <div class="p-4">
-        <UInput
-          v-model:model-value="searchTerm" variant="none" placeholder="Search quotes, posts, authors..."
-          class="w-full" autofocus icon="ph:magnifying-glass-duotone"
-        >
+        <UInput v-model:model-value="searchTerm" variant="none" placeholder="Search quotes, posts, authors..."
+          class="w-full" autofocus icon="ph:magnifying-glass-duotone">
           <template #trailing>
-            <UButton
-              color="neutral" variant="link" icon="ph:x-bold" size="xl"
-              @click="settingsStore.searchOpen = false"
-            />
+            <UButton color="neutral" variant="link" icon="ph:x-bold" size="xl"
+              @click="settingsStore.searchOpen = false" />
           </template>
         </UInput>
       </div>
 
       <div class="p-4 h-full overflow-y-scroll">
         <div v-if="searchResults.length > 0" class="">
-          <div
-            v-for="(result, idx) in searchResults" :key="result.item.id"
-            :ref="(el) => { if (el) resultRefs[idx] = el as HTMLElement }"
+          <div v-for="(result, idx) in searchResults" :key="result.item.id"
+            :ref="(el) => { if (el) resultRefs[idx] = el as HTMLElement; }"
             class="p-3 rounded cursor-pointer transition-colors" :class="{ 'bg-neutral-800': idx === activeIdx }"
-            @click="navigateToPage(result.item.url)" @mousemove="activeIdx = idx"
-          >
+            @click="navigateToPage(result.item.url)" @mousemove="activeIdx = idx">
             <div class="flex items-start justify-between gap-2 [&_mark]:bg-accent">
               <div class="flex-1 min-w-0">
                 <div class="font-medium text-sm flex items-center gap-1 w-full">
-                  <span
-                    class="font-medium text-xs"
-                    :class="result.item.type === 'quote' ? 'text-accent' : 'text-blue-500'"
-                  >
+                  <span class="font-medium text-xs"
+                    :class="result.item.type === 'quote' ? 'text-accent' : 'text-blue-500'">
                     {{ result.item.type === 'quote' ? 'Quote' : 'Post' }}
                   </span>
 
-                  <span>
+                  <span class="flex">
                     <Icon name="ph:caret-right-bold" class="text-neutral-500" size="12.5px" />
                   </span>
 
