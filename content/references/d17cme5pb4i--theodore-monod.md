@@ -1,4 +1,4 @@
 ---
 uuid: d17cme5pb4i
-authorName: Theodore Monod
+authorName: Adolphe-Théodore Monod
 ---
