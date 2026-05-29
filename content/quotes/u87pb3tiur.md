@@ -20,7 +20,8 @@ text: >-
 
   The Lord Jesus came to His baptism and His great committal, and as He came up out of the water the heavens opened and the Father's voice pronounced: "This is my beloved Son, in whom I am well pleased" (Matthew 3:17). God was WELL pleased. That was indeed a good foundation for starting His life work! God's satisfaction is the glory, and John says: "We beheld his glory."
 referenceId: 4vnn7cxuxd
-categories: []
+categories:
+  - Glory
 link: https://www.austin-sparks.net/english/books/001169.html
-createdDate: 2026-05-29T17:01:00Z
+createdDate: 2026-05-29T17:01:00.000Z
 ---
