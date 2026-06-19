@@ -7,6 +7,7 @@ title: Possessing Our Possessions
 isBlogPost: true
 createdDate: 2026-06-19
 slug: 2026-06-19-possessing-our-possessions
+author: Mary Geraldine Guinness (Mrs Howard Taylor)
 ---
 ::center
 A Message Given at the Young Women's Conference, Saturday Morning, July 20, 1901.
