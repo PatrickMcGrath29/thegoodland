@@ -5,9 +5,14 @@ slugFields:
 uuid: ng8f57a22o
 title: Possessing Our Possessions
 isBlogPost: true
-createdDate: 2026-06-19
-slug: 2026-06-19-possessing-our-possessions
 author: Mary Geraldine Guinness (Mrs Howard Taylor)
+summary: My heart goes out in deep longing, that we may not fail at least to
+  possess our possessions.  What a difference there is, an immeasurable
+  distance, between what we may have and ought to have and what we are actually
+  in possession of most of the time.
+slug: 2026-06-19-possessing-our-possessions
+featuredImage: /uploads/desert_stars.jpg
+createdDate: 2026-06-19
 ---
 ::center
 A Message Given at the Young Women's Conference, Saturday Morning, July 20, 1901.
