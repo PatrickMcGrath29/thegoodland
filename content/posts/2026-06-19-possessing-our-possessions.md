@@ -7,9 +7,9 @@ title: Possessing Our Possessions
 isBlogPost: true
 author: Mary Geraldine Guinness (Mrs Howard Taylor)
 summary: My heart goes out in deep longing, that we may not fail at least to
-  possess our possessions.  What a difference there is, an immeasurable
-  distance, between what we may have and ought to have and what we are actually
-  in possession of most of the time.
+  possess our possessions.  What a difference there is... between what we may
+  have and ought to have and what we are actually in possession of most of the
+  time.
 slug: 2026-06-19-possessing-our-possessions
 featuredImage: /uploads/desert_stars.jpg
 createdDate: 2026-06-19
@@ -18,7 +18,7 @@ createdDate: 2026-06-19
 A Message Given at the Young Women's Conference, Saturday Morning, July 20, 1901.
 ::
 
----
+- - -
 
 > "The house of Jacob shall possess their possessions."\
 > — Obadiah 17
@@ -29,13 +29,21 @@ But take the illustration given here, "the house of Jacob shall possess their po
 
 In this conference, great and glorious things which our God has promised, have been put before us. My heart goes out in deep longing, that we may not fail at least to possess our possessions.  What a difference there is, an immeasurable distance, between what we may have and ought to have and what we are actually in possession of most of the time.
 
+::pullquote
+What a difference there is, an immeasurable distance, between what we may have and ought to have and what we are actually in possession of most of the time.
+::
+
 I shall only mention two of our possessions.  We must possess the life of deeper fullness in Jesus Christ, that life of heart rest and satisfaction, that life of victory.  We are saints, we are sanctified; we must possess that fact, we must live it out.  What is the fact?  Of Jesus Christ, the Holy Spirit says, "In Him dwelleth all the fullness of the Godhead bodily; and in Him, ye are made full."  That is the fact; is that our experience?  We want to be honest with God and our own hearts.  Are we made full in Jesus Christ?  Are we ready to go back to face life in city and college and home, that we have faced before?  "In Him ye are made full."  And the experience of many of us is that we are very empty.   We all of us know that up-and-down life, sometimes full and rejoicing in the Lord, sometimes conscious of inner victory and power; sometime we know that power that enables us to bear personal witness and do personal work.  At other times, we are so dry in ourselves; we have nothing to give to anybody.  What can you pump out of an empty well to satisfy anybody's thirst? Do you not know that life; sometimes able to pray and enjoy the study of God's Word, and at other times, no desire for it at all, no joy in prayer or in the Bible—up and down, up and down, a changing, varying, unsatisfactory experience?  That is not our possession in Jesus Christ.  We must go beyond that and come to Him in Whom we are made full.
 
 Our Lord Himself knew all about that thirsty, unsatisfied longing of people's hearts.  He said, "He that cometh unto Me, shall never hunger; and He that believeth on Me, shall never thirst."  Have you come to the place where you never hunger and never thirst?  That is your possession in Christ Jesus; have you possessed it? or do you, day by day, stifle down that heart hunger that is not satisfied, to thirst and long and feel so dry and empty in your soul, and to go on continually like that?  Is it true as Jesus said that if you come to Him, you will never hunger and never thirst?  The meaning there is, "He that cometh continually to Me shall never hunger and never thirst."  Is that true?
 
 Mr. Hudson Taylor, the founder of the China Inland Mission, was a missionary many years before he came to see that this was his possession in Jesus Christ.  He had known that up-and-down life of which we have been speaking; he had known the hunger, the thirst, and he was at one time brought almost to despair, feeling that he could not go on as a missionary, preaching to others, unless he could get beyond that unsatisfactory experience.  It was then that the Holy Spirit brought this word home to his heart.  He read, "shall never hunger and never thirst," and thought, "That is just what I want."  He laid claim to the promise, possessed that possession, believed it, appropriated it, received it.  He looked to Christ and said, "O Lord, I thank Thee that my hungry days are all past, my thirsty days are all gone forever."  He knew that the Lord Jesus meant what He said. "Never" means "never," and "hunger" means "hunger," and "shall never hunger" means "shall never hunger."  Mr. Taylor said, "That is for me," and it has been his possession ever since.  Have we done that?  Have we possessed that fullness for our own hearts?
 
-But there is more than that. The Lord Jesus said directly after that, in the last day of the feast, "If any man thirst, let him come unto Me and drink; and He that believeth on Me, from within him, shall flow rivers of living water." They shall flow out, not for ourselves only, but for others.  Do the rivers flow?  In your college, in your place of business, it may be, in your association, in your home, do the rivers flow? That is what is wanted, rivers to flow from our lives, of living water to refresh other hearts away into the driest, darkest places of the world.  Jesus said, "If you will come to Me and drink, the rivers shall flow." This spake He of the Spirit.  You need those rivers to flow. That, too, is our possession in Christ.
+::pullquote
+He knew that the Lord Jesus meant what He said... Mr. Taylor said, 'That is for me,' and it has been his possession ever since.
+::
+
+But there is more than that.  The Lord Jesus said directly after that, in the last day of the feast, "If any man thirst, let him come unto Me and drink; and He that believeth on Me, from within him, shall flow rivers of living water."  They shall flow out, not for ourselves only, but for others.  Do the rivers flow?  In your college, in your place of business, it may be, in your association, in your home, do the rivers flow?  That is what is wanted, rivers to flow from our lives, of living water to refresh other hearts away into the driest, darkest places of the world.  Jesus said, "If you will come to Me and drink, the rivers shall flow." This spake He of the Spirit.  You need those rivers to flow.  That, too, is our possession in Christ.
 
 "This spake He of the Spirit."  That brings me to the last point about possessing our possessions. The fullness of the Holy Spirit in our hearts and lives is not a luxury for some eminent Christians to enjoy, for people who speak on platforms, and have missionary work to do; it is not a luxury that you can dispense with, but a necessity for your own heart life.  Some of you are going back to homes and circles where there is no one who will sympathize, and talk with you about these spiritual things, no one who will understand.  There cannot but be in our minds the thought, Will the blessing I have received, stay with me?  The secret of a steadfast life, of going on always to more and more fullness is this: the Holy Spirit.  He is our possession in Jesus Christ.
 
