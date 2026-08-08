@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Post } from '~~/types'
-import { formatDate, smartEllipsis } from '~~/shared/utils'
+import { formatDate, slugify, smartEllipsis } from '~~/shared/utils'
 import PostDetail from '~/components/PostDetail.vue'
 
 const { params: { id: slug } } = useRoute()
@@ -61,6 +61,19 @@ useSchemaOrg([
   }),
 ])
 
+const postLinks = computed(() => {
+  const links = post.value.body?.toc?.links
+
+  if (!links)
+    return []
+
+  return [{
+    text: post.value.title,
+    id: slugify(post.value.title),
+    depth: 0,
+  }, ...links]
+})
+
 const postElementRef = ref<HTMLElement>()
 </script>
 
@@ -75,36 +88,48 @@ const postElementRef = ref<HTMLElement>()
       </div>
     </Container>
 
-    <ContainerMedium>
-      <div class="my-10 px-2">
-        <div class="max-w-3xl m-auto">
-          <h1 class="text-4xl font-semibold">
-            {{ post.title }}
-          </h1>
-          <div v-if="post.author || post.createdDate" class="mt-3 flex gap-x-5 gap-y-2 flex-wrap">
-            <PostDetail v-if="post.author" icon-name="ph:user-duotone" :text="post.author" />
-            <PostDetail
-              v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
-              :text="postCreatedDate"
-            />
-            <PostDetail
-              v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name"
-              :to="`/collections/${primaryCollection.slug}`"
-            />
+    <!-- Main content area with TOC -->
+    <Container>
+      <div class="xl:grid xl:grid-cols-[200px_minmax(0,1fr)_200px] xl:gap-8">
+        <aside v-if="postLinks.length > 0">
+          <UContentToc :links="postLinks">
+            <template #bottom />
+          </UContentToc>
+        </aside>
+
+        <!-- Main Blog Content - Centered -->
+        <div class="w-full mx-auto px-4">
+          <div class="my-10 px-2">
+            <div>
+              <h1 :id="slugify(post.title)" class="text-4xl font-semibold">
+                {{ post.title }}
+              </h1>
+              <div v-if="post.author || post.createdDate" class="mt-3 flex gap-x-5 gap-y-2 flex-wrap">
+                <PostDetail v-if="post.author" icon-name="ph:user-duotone" :text="post.author" />
+                <PostDetail
+                  v-if="post.isBlogPost && post.createdDate" icon-name="ph:calendar-blank-duotone"
+                  :text="postCreatedDate"
+                />
+                <PostDetail
+                  v-if="primaryCollection" icon-name="ph:book-bookmark-duotone" :text="primaryCollection.name"
+                  :to="`/collections/${primaryCollection.slug}`"
+                />
+              </div>
+            </div>
+
+            <div ref="postElementRef" class="mt-10 text-lg">
+              <RefTagger>
+                <ContentRenderer
+                  :value="post"
+                  class="[&>section]:mt-10 [&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2"
+                />
+              </RefTagger>
+            </div>
+            <CollectionNavigation v-if="primaryCollection" :collection="primaryCollection" :post="post" />
           </div>
         </div>
-
-        <div ref="postElementRef" class="mt-10 text-lg">
-          <RefTagger>
-            <ContentRenderer
-              :value="post"
-              class="[&>*]:max-w-screen-md [&>*]:mx-auto [&>section]:mt-10 [&_a.rtBibleRef]:underline [&_a.rtBibleRef]:decoration-1 [&_a.rtBibleRef]:underline-offset-2"
-            />
-          </RefTagger>
-        </div>
-        <CollectionNavigation v-if="primaryCollection" :collection="primaryCollection" :post="post" />
       </div>
-    </ContainerMedium>
+    </Container>
   </article>
 </template>
 
